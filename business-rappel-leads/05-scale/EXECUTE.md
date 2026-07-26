@@ -1,28 +1,26 @@
-# Exécution scale — contrainte facteur puis plein temps
+# Exécution scale
 
 ## Entrée
-Phase 0 validée (1 close ou ≥8 démos douleur).  
-Calendrier : [objectifs-septembre.md](objectifs-septembre.md)  
-**Facteur jusqu’à mi-septembre 2026** → régime A puis B.
+Phase 0 OK.  
+Objectifs : [objectifs-septembre.md](objectifs-septembre.md) — **scoreboard ambitieux inchangé**.
 
 ## Boucle
-1. Quotas du jour selon régime (`../03-demarchage/daily-ritual.md`)
-2. Chaque close → `client-roster-20.csv` + onboarding 48h
-3. MRR dans `daily-tracker.csv`
-4. Upsells après J+14 (`upsells.md`)
-5. Fin de mois : [objectifs-mensuels.csv](objectifs-mensuels.csv)
+1. Intensité selon période (`daily-ritual.md`) : soirs+WE puis 90/j puis 70/j
+2. Close → roster + onboarding 48h
+3. Tracker MRR
+4. Upsells J+14
+5. CSV mensuel
 
-## Jalons
-| Date / jalon | Preuve |
+## Jalons (non baissés)
+| Date | Preuve |
 |---|---|
-| Avant mi-sept | MVP live + file appels |
-| 21 sept | 1 close **ou** 100 appels régime B |
-| 30 sept | **5 clients** / ~5k MRR |
-| 31 oct | **~15k MRR** |
-| 30 nov | **≥20k MRR** |
-| 31 déc | **≥27k MRR** |
+| 7 sept | 1 close |
+| 30 sept | **10 clients / ~10k** |
+| 31 oct | **≥20k MRR** |
+| 30 nov | ≥30k |
+| 31 déc | ≥35k |
 
-## Definition of Done (palier 20k)
-- [ ] MRR ≥ 19800 (cible calendaire : **fin novembre**)
+## DoD 20k
+- [ ] MRR ≥ 19800 pour **fin octobre**
 - [ ] Churn 30j < 15%
-- [ ] Cold call toujours actif (B)
+- [ ] Cold call actif
