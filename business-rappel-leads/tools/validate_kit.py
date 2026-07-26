@@ -40,6 +40,7 @@ REQUIRED = [
     ROOT / "05-scale" / "client-roster-20.csv",
     ROOT / "05-scale" / "EXECUTE.md",
     ROOT / "README.md",
+    ROOT / "LOUP.md",
 ]
 
 
