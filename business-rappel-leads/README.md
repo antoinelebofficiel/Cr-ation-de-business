@@ -2,6 +2,7 @@
 
 ## START ICI
 ### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse
+### → [03-demarchage/perso-volume.md](03-demarchage/perso-volume.md) ← perso 30s + volume
 
 Le reste = réserve. Tu n’y vas que si bloqué techniquement.
 
