@@ -13,53 +13,47 @@ Pas d’IA dans la bouche. Pas de slide. Pas de perfection.
 ## Règles du loup
 1. **Appeler > préparer**
 2. **Encaisser > polish**
-3. **Perso = 1 hook / 30 sec max** — puis tu décroches ([perso-volume.md](03-demarchage/perso-volume.md))
-3b. **Grande échelle** = séquence call→SMS→email→call avec le même hook ([grande-echelle-perso.md](03-demarchage/grande-echelle-perso.md)) — pas de spam sans hook
-4. **Une objection = une ligne de script**, pas une refonte
-5. Envie d’“améliorer le système” → **25 appels d’abord**
-6. Pas score ≥3 + tél → **skip 3 sec**
+3. **Perso = hook + fail + fix** (30–45 sec) — séquence black message-first
+4. **RDV > discours** — tu poses des créneaux, tu ne “présentes” pas
+5. Envie d’“améliorer le système” → **40 messages T0 d’abord**
+6. Pas score ≥3 + tél/mail → **skip 3 sec**
 7. Sam / dim comptent
+8. Black = asymétrique sur données publiques. **Pas** d’arnaque / usurpation / particuliers
 
 ---
 
 ## AUJOURD’HUI
 
-### Avant 18h (timer 25–45 min)
-- [ ] Ad Library → **20–40 fiches** + tél + **`hook`**
+### Chargeur (25–45 min)
+- [ ] 40 fiches Ad Library
+- [ ] Pour chacune : `hook` + `fail` + `fix` (voir [sequence-black.md](03-demarchage/sequence-black.md))
 - [ ] Score ≥3 sinon poubelle
-- [ ] Micro-bloc 15 min : emails/SMS **J2/J5** de la séquence (templates + hook)
-- [ ] Démo + lien paiement OK ? (45 min max polish puis STOP)
 
-### 18:00–19:15 — GUERRE (volume)
-- [ ] **25 appels** (steps call de la séquence)
-- [ ] Ouverture = **HOOK + question délai**
-- [ ] Non-joint → SMS perso **immédiat**
-- [ ] Douleur → démo **2 créneaux** → close 14j **le jour même**
+### FIRE (40–60 min ou 18h–19h)
+- [ ] **40–60 messages T0** (SMS/WA/email) — template black
+- [ ] Replies → RDV calé dans les 5 min (1 ou 2)
+- [ ] Soft replies → call de finition 3 min
 
-### 19:15–19:25 — DEBRIEF
-- [ ] Appels / décrochés / démos / closes / touches séquence
-- [ ] Objection #1 → 1 phrase
-- [ ] Demain : 25–40 numéros **hookés** + `next_touch` à jour
+### DEBRIEF (10 min)
+- [ ] envoyés / replies / RDV / closes
+- [ ] 1 phrase de copy corrigée
+- [ ] `next_touch` à jour (T1/T2/T4)
 
 ### Week-end
-- **Sam** : 40 hooks le matin → **80 appels**
-- **Dim** : **40 appels** sniper (score 5 + hooks précis) + closes
+- **Sam** : 80–100 T0 + closes RDV
+- **Dim** : 40 T0 + sniper score 5 + démos/closes
 
 ---
 
-## Script ultra-court
+## Script message (T0)
 
-**Perso-volume (15–20 sec)**  
-« [Prénom], vous poussez [HOOK: angle pub / ville / multi-créas] en ce moment. Lead à 10h : rappel en combien de temps ? »
+> {{entreprise}} — vu vos pubs {{hook}}.  
+> Fail : {{fail}}. Fix : {{fix}}.  
+> 12 min pour voir lead → rappel <5 min → RDV.  
+> {{crea1}} ou {{crea2}} ? 1 ou 2. Stop = stop.
 
-**Pivot**  
-« OK. On rappelle en <5 min, qualifié, RDV agenda. 12 min — 18h30 ou demain 9h ? »
-
-**Blindé**  
-« Je vous apporte pas plus de clients. Je sauve ceux que vous payez déjà. »
-
-**Close**  
-« Essai 14j. 490 setup + 990/mois. Lien maintenant. On branche demain. »
+**Reply 1/2** → lien visio dans la minute.  
+**Close** sur démo : essai 14j · 490 + 990 · lien paiement live.
 
 ---
 
