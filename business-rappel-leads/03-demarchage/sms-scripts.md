@@ -1,7 +1,10 @@
 # Scripts SMS / LinkedIn / email
 
-## SMS post non-décroché
-> [Prénom], suite à mon appel — on rappelle vos leads [PAC/clim] en <5 min et on pose le RDV dans l’agenda. Je vous montre en 12 min aujourd’hui 16h ou demain 9h ?
+## SMS post non-décroché (perso 1 hook)
+> [Prénom], j’ai vu vos pubs [HOOK: angle/ville/multi-créas]. On rappelle vos leads en <5 min et on pose le RDV. 12 min aujourd’hui 18h30 ou demain 9h ? — [Ton prénom]
+
+## SMS post non-décroché (fallback sans hook)
+> [Prénom], suite à mon appel — on rappelle vos leads [PAC/clim] en <5 min et on pose le RDV. 12 min aujourd’hui 18h30 ou demain 9h ?
 
 ## SMS J+1
 > [Prénom], petit rappel : vos pubs tournent, la question c’est juste la vitesse de rappel. 12 min de démo live aujourd’hui 11h30 ou 17h ?

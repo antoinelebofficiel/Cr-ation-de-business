@@ -13,94 +13,87 @@ Pas d’IA dans la bouche. Pas de slide. Pas de perfection.
 ## Règles du loup
 1. **Appeler > préparer**
 2. **Encaisser > polish**
-3. **Une objection = une ligne de script corrigée, pas une refonte**
-4. Si tu as envie de “améliorer le système” → **tu dois 25 appels d’abord**
-5. Si c’est pas score ≥3 avec un téléphone → **skip en 3 secondes**
-6. Dimanche compte. Samedi compte. Les excuses non.
+3. **Perso = 1 hook / 30 sec max** — puis tu décroches ([perso-volume.md](03-demarchage/perso-volume.md))
+4. **Une objection = une ligne de script**, pas une refonte
+5. Envie d’“améliorer le système” → **25 appels d’abord**
+6. Pas score ≥3 + tél → **skip 3 sec**
+7. Sam / dim comptent
 
 ---
 
-## AUJOURD’HUI (copie mentalement)
+## AUJOURD’HUI
 
-### Avant 18h (micro-blocs, timer 25 min max)
-- [ ] Ad Library → **20 fiches** avec tél (PAC/clim pubs actives)
-- [ ] Score vite (+2 pubs, +1 landing, +1 avis, +1 multi-ville) — appeler si ≥3
-- [ ] Lien paiement + démo prêts ? oui/non. Si non : 45 min max puis STOP polish
+### Avant 18h (timer 25 min)
+- [ ] Ad Library → **20 fiches** + tél
+- [ ] Pour chacune : colonne **`hook`** (6–10 mots) = angle pub / ville / multi-créas / form
+- [ ] Score ≥3 sinon poubelle
+- [ ] Démo + lien paiement OK ? (45 min max polish puis STOP)
 
-### 18:00–19:15 — GUERRE
+### 18:00–19:15 — GUERRE (volume)
 - [ ] **25 appels**
-- [ ] Ouverture :
-  > « Vous tournez des pubs PAC/clim. Un lead à 10h, vous le rappelez en combien de temps ? »
-- [ ] Douleur → démo **aujourd’hui ou demain**, 2 créneaux, point final
-- [ ] Démo → close essai 14j **le jour même**
+- [ ] Ouverture = **HOOK + question délai** :
+  > « Je vois que vous poussez [hook] en ce moment. Un lead à 10h, rappel en combien de temps ? »
+- [ ] Douleur → démo **2 créneaux** aujourd’hui/demain
+- [ ] Démo → close 14j **le jour même**
 
-### 19:15–19:25 — DEBRIEF LOUP
-- [ ] Combien d’appels / décrochés / démos / closes
-- [ ] Objection #1 du jour → 1 phrase de réponse
-- [ ] File de demain = 25 numéros déjà là
+### 19:15–19:25 — DEBRIEF
+- [ ] Appels / décrochés / démos / closes
+- [ ] Objection #1 → 1 phrase
+- [ ] Demain : 25 numéros **avec hooks déjà écrits**
 
 ### Week-end
-- **Sam 8:30–13:00 = 80 appels**
-- **Dim 9:00–12:00 = 40 appels** (sniper + closes)
+- **Sam** : 40 hooks le matin → **80 appels**
+- **Dim** : **40 appels** sniper (score 5 + hooks précis) + closes
 
 ---
 
-## Script ultra-court (à coller près du téléphone)
+## Script ultra-court
 
-**Ouverture (15 sec)**  
-« [Prénom], pubs PAC/clim : lead à 10h, rappel en combien de temps ? »
+**Perso-volume (15–20 sec)**  
+« [Prénom], vous poussez [HOOK: angle pub / ville / multi-créas] en ce moment. Lead à 10h : rappel en combien de temps ? »
 
-**Pivot douleur**  
-« OK. On les rappelle en <5 min, qualifiés, RDV dans votre agenda. 12 min pour voir le flow — 18h30 ou demain 9h ? »
+**Pivot**  
+« OK. On rappelle en <5 min, qualifié, RDV agenda. 12 min — 18h30 ou demain 9h ? »
 
 **Blindé**  
-« Parfait. Je vous apporte pas plus de clients. Je sauve ceux que vous payez déjà. »
-
-**IA ?**  
-« Standard automatisé. Je vous montre. »
+« Je vous apporte pas plus de clients. Je sauve ceux que vous payez déjà. »
 
 **Close**  
-« Essai 14 jours. Setup 490. Mois 990. Je vous envoie le lien maintenant. On branche demain. »
+« Essai 14j. 490 setup + 990/mois. Lien maintenant. On branche demain. »
 
 ---
 
-## Scoreboard août (non négociable)
-
-| Date | Tu dois avoir |
+## Scoreboard août
+| Date | Tu dois |
 |---|---|
-| 7 août | 1 client payant |
-| 15 août | 3 clients |
-| 31 août | **10 clients = MVP validé** |
-
-Pas 10 → pas de scale, pas de setter, pas de nouvelle idée. Tu recommences le mode validation.
+| 7 août | 1 payant |
+| 15 août | 3 |
+| 31 août | **10 = MVP validé** |
 
 ## Après 10
-Mi-sept plein temps → **90 appels/jour** → **20k MRR fin septembre**.
+Mi-sept → **90 appels/jour** → **20k MRR fin sept.**
 
 ---
 
-## Interdits TDAH (pièges connus)
-- Refaire le branding
-- Rebuild n8n “propre”
-- Chercher tous les 06 des gérants
-- Cold email “à grande échelle” avant 10 clients
-- Ramoneurs / vitres / autre business
-- Lire 12 markdowns au lieu d’appeler
+## Interdits
+- Branding / rebuild n8n / chercher tous les 06
+- Email “grande échelle” avant 10 clients
+- Perso LinkedIn 5 min / fiche
+- Autre business
 
 ## Autorisé
-- Sheet + téléphone + démo bancale qui marche
-- SMS après non-décroché
-- Prix 790 si le close bloque **après** vraie douleur
+- Hook Ad Library de 8 mots
+- MVP bancal qui rappelle
+- 790 € si douleur vraie + close bloqué
 
 ---
 
-## Ordre d’attaque cette semaine
-1. Ce soir : 25 appels (même MVP rustique)
-2. Demain : 25 appels + 1 démo close
-3. Samedi : 80
-4. Dimanche : 40
-5. Répéter jusqu’à 10 clients
+## Ordre d’attaque
+1. Batch **20 hooks**
+2. **25 appels** ce soir
+3. Sam 80 / Dim 40
+4. Jusqu’à 10 clients
 
-**Le dossier complet existe pour backup.**  
-**Toi tu vis ici.**  
-**Prochaine action : ouvrir Ad Library ou décrocher. Maintenant.**
+**Perso sans volume = artiste.**  
+**Volume sans perso = spam.**  
+**Toi = 30 sec de vrai + décroche.**

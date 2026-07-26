@@ -24,6 +24,7 @@ REQUIRED = [
     ROOT / "02-offre" / "mvp" / "workflow.n8n.json",
     ROOT / "02-offre" / "mvp" / "onboarding-checklist.md",
     ROOT / "03-demarchage" / "cold-call-script.md",
+    ROOT / "03-demarchage" / "perso-volume.md",
     ROOT / "03-demarchage" / "sms-scripts.md",
     ROOT / "03-demarchage" / "objections.md",
     ROOT / "03-demarchage" / "close-14j.md",
