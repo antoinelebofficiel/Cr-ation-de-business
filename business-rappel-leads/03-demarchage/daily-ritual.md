@@ -6,9 +6,12 @@ Page unique : [../LOUP.md](../LOUP.md)
 ## Lun–Ven (facteur)
 | Timer | Action |
 |---|---|
-| 25 min | 20 fiches Ad Library |
+| 25–45 min | 20–40 fiches + hooks Ad Library |
+| 15 min | Relances écrites séquence (SMS/email + hook) |
 | **18:00–19:15** | **25 appels — téléphone collé** |
-| 10 min | Log + 1 correction |
+| 10 min | Log + `next_touch` + 1 correction |
+
+Séquence complète : [grande-echelle-perso.md](grande-echelle-perso.md)
 
 ## Sam
 **80 appels** 8:30–13:00
