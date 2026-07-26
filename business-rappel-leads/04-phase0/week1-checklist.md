@@ -1,7 +1,9 @@
 # Phase 0 — J1 à J7
 
+Contrainte : facteur jusqu'à mi-septembre → si tu lances Phase 0 en régime A, étaler les 100 appels sur ~2 semaines de soirs (20/jour) au lieu d'exiger 60/jour dès J1.
+
 ## Objectifs
-- 100 appels ICP (score ≥ 3)
+- 100 appels ICP (score ≥ 3) — cumul A puis B si besoin
 - ≥10 décrochés qui admettent un délai de rappel pourri
 - ≥3 démos
 - **1 close payant** (setup encaissé)
@@ -11,11 +13,11 @@ Si 0 douleur sur 30 décrochés score ≥ 3 → basculer la liste vers `reno` / 
 ## J1 — Fondations
 - [ ] Importer `01-cible/icp-sheet.csv` dans Google Sheets
 - [ ] Vérifier Ad Library sur les 15 SEED
-- [ ] Remplir 40 fiches score ≥ 3 (voir `fill-slots.md`)
+- [ ] Remplir fiches score ≥ 3 (15/jour en A, 40/jour en B)
 - [ ] Coller prompt agent dans Vapi/Retell
 - [ ] Importer squelette n8n + credentials test
 - [ ] Démo interne OK (lead test → appel → calendar → SMS)
-- [ ] 30 appels minimum dès que démo montrable
+- [ ] Lancer les appels du régime en cours (20 soir **ou** 70 full)
 
 ## J2 — Volume
 - [ ] +40 fiches

@@ -1,27 +1,28 @@
-# Exécution scale 20 clients
+# Exécution scale — contrainte facteur puis plein temps
 
 ## Entrée
 Phase 0 validée (1 close ou ≥8 démos douleur).  
-Calendrier ambitieux : [objectifs-septembre.md](objectifs-septembre.md) (départ **1er sept. 2026**).
+Calendrier : [objectifs-septembre.md](objectifs-septembre.md)  
+**Facteur jusqu’à mi-septembre 2026** → régime A puis B.
 
 ## Boucle
-1. **70 appels/jour** + sniper 18h–19h (`../03-demarchage/daily-ritual.md` + objectifs sept.)
-2. Chaque close → ligne dans `client-roster-20.csv` + onboarding 48h
-3. Suivre MRR dans `daily-tracker.csv` colonne `mrr_cumule_eur`
-4. Upsells seulement après J+14 (`upsells.md`)
-5. Remplir [objectifs-mensuels.csv](objectifs-mensuels.csv) en fin de mois
+1. Quotas du jour selon régime (`../03-demarchage/daily-ritual.md`)
+2. Chaque close → `client-roster-20.csv` + onboarding 48h
+3. MRR dans `daily-tracker.csv`
+4. Upsells après J+14 (`upsells.md`)
+5. Fin de mois : [objectifs-mensuels.csv](objectifs-mensuels.csv)
 
 ## Jalons
 | Date / jalon | Preuve |
 |---|---|
-| 7 sept | 1 close payant |
-| 30 sept | 10 clients / ~10k MRR |
-| 31 oct | **≥20k MRR** |
-| 30 nov | ≥30k MRR |
-| 31 déc | ≥35k MRR |
+| Avant mi-sept | MVP live + file appels |
+| 21 sept | 1 close **ou** 100 appels régime B |
+| 30 sept | **5 clients** / ~5k MRR |
+| 31 oct | **~15k MRR** |
+| 30 nov | **≥20k MRR** |
+| 31 déc | **≥27k MRR** |
 
 ## Definition of Done (palier 20k)
-- [ ] Roster ≥ 20 clients ESSAI/CLIENT
-- [ ] Somme `mrr_eur` ≥ 19800 **ou** CA mois ≥ 20000
+- [ ] MRR ≥ 19800 (cible calendaire : **fin novembre**)
 - [ ] Churn 30j < 15%
-- [ ] Cold call toujours actif (pas d’arrêt prospection)
+- [ ] Cold call toujours actif (B)

@@ -30,7 +30,7 @@ Voir [upsells.md](upsells.md).
 Si un client consomme >3h/semaine de support sans upsell / sans case study → résilier ou relever le prix.
 
 ## Tableau de bord
-- [objectifs-septembre.md](objectifs-septembre.md) — objectifs ambitieux dès sept. 2026 + cold call permanent
+- [objectifs-septembre.md](objectifs-septembre.md) — **recalibré** : facteur → mi-sept (A), plein temps après (B), 20k en **novembre**
 - [objectifs-mensuels.csv](objectifs-mensuels.csv)
 - [client-roster-20.csv](client-roster-20.csv)
 - [../04-phase0/daily-tracker.csv](../04-phase0/daily-tracker.csv)

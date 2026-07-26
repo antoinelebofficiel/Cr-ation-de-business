@@ -1,25 +1,31 @@
-# Exécution Phase 0 (humain au téléphone)
+# Exécution Phase 0 — adaptée facteur
 
-Le kit est prêt. Cette phase se **joue au décroché**.
+Contrainte : **facteur jusqu’à mi-septembre** → Phase 0 en **régime A** (20 appels/soir), puis bascule **régime B**.
 
-## Setup (avant appels)
+## Setup (avant / pendant les soirs)
 1. `python3 business-rappel-leads/tools/validate_kit.py`
 2. Importer `01-cible/icp-sheet.csv` dans Google Sheets
-3. Remplir 40 fiches score ≥ 3 (Ad Library) — `fill-slots.md`
-4. `python3 business-rappel-leads/tools/score_and_filter.py` → ouvre `queue-a-appeler.csv`
-5. Brancher MVP (prompt + n8n) jusqu’à démo live OK
+3. Remplir fiches score ≥ 3 (15/jour en A) — `fill-slots.md`
+4. `python3 business-rappel-leads/tools/score_and_filter.py`
+5. Brancher MVP jusqu’à démo live OK **avant** d’exploser le volume B
 
 ## Boucle quotidienne
-1. Suivre `../03-demarchage/daily-ritual.md`
-2. Logger chaque appel dans `call-log-100.csv`
-3. Logger les totaux dans `daily-tracker.csv`
-4. Close selon `../03-demarchage/close-14j.md`
+- Suivre `../03-demarchage/daily-ritual.md` (**A** puis **B**)
+- Logger dans `call-log-100.csv` + `daily-tracker.csv`
+- Close : `../03-demarchage/close-14j.md`
 
 ## Definition of Done Phase 0
-- [ ] 100 lignes `call-log-100.csv` datées
-- [ ] Scorecard J7 remplie
+- [ ] ≥100 appels cumulés (peuvent s’étaler sur régime A + début B)
+- [ ] Scorecard remplie
 - [ ] 1 close payant **ou** ≥8 démos douleur
-- [ ] Décision go P1 / change vertical / kill
+- [ ] Décision go / change vertical / kill
+- [ ] Bascule mi-sept : file `A_APPELER` ≥ 3 jours d’avance
+
+## Calendrier réaliste
+| Fenêtre | Objectif Phase 0 |
+|---|---|
+| Jusqu’à mi-sept | MVP + ~100–200 appels A + 1er close si possible |
+| Semaine de bascule | Atteindre DoD Phase 0 si pas déjà fait, puis scale B |
 
 ## Interdit
-Reporter les appels pour « améliorer le produit » avant le 1er close.
+Reporter les appels du soir pour “parfaire le produit” sans démo montrable.

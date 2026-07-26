@@ -25,11 +25,13 @@ tools/           Validation + file d'appels
 ```
 
 ## Quotas
-- Dès sept. 2026 : **70 appels/jour** + bloc 18h–19h — voir [05-scale/objectifs-septembre.md](05-scale/objectifs-septembre.md)
-- Jalons : ~10k MRR fin sept. → **≥20k MRR fin oct.** → ~35k fin déc.
+- **Jusqu’à mi-sept 2026** (facteur) : **20 appels/soir** 18h–19h — régime A
+- **Dès mi-sept** : **70 appels/jour** + sniper 18h–19h — régime B
+- Détail : [05-scale/objectifs-septembre.md](05-scale/objectifs-septembre.md)
+- Jalons : ~5k MRR fin sept. → ~15k fin oct. → **≥20k fin nov.** → ~28k fin déc.
 - Ajustements autorisés : vertical habitat + prix 790–1490 €
 - Interdit avant 20k : ramoneurs, nettoyage, agence IA généraliste
-- Cold call **permanent** même après 20k
+- Cold call **permanent** (A puis B), même après 20k
 
 ## Conformité
 Lire [03-demarchage/compliance-b2b.md](03-demarchage/compliance-b2b.md) avant le 1er appel.

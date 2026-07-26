@@ -1,108 +1,128 @@
-# Objectifs ambitieux — départ 1er septembre 2026
+# Objectifs recalibrés — contrainte facteur jusqu’à mi-septembre 2026
 
-Hypothèses figées :
-- Offre **990 €/mois** (floor close 790 €)
-- Cold call **tous les jours ouvrés**, sans pause “produit”
-- Créneaux : matin/après-midi volume + **18h–19h sniper gérant**
-- 1 mois ≈ **22 jours ouvrés**
+Contrainte figée ([My History](../../My%20History)) :
+- **Facteur jusqu’à mi-septembre 2026** → dispo business limitée
+- **À partir de mi-septembre** → plein temps cold call
 
-## Non négociable — quotidien (permanent)
+Offre inchangée : **990 €/mois** (floor 790 €) + setup 490 €.
 
-| Métrique | Objectif | Floor (jour faible) |
+## Deux régimes (non négociables)
+
+### Régime A — jusqu’à mi-septembre (inclus prep août si tu démarres avant)
+Dispo typique : **18h–19h** jours ouvrés + samedi matin optionnel.
+
+| Métrique | Objectif / jour ouvré | Floor |
+|---|---|---|
+| Appels émis | **20** | 12 |
+| Fiches score ≥3 préparées | **15** (matin/pause/soir avant 18h) | 8 |
+| SMS / relances | **10** | 5 |
+| Démos | **1** (souvent posée le lendemain / week-end) | 0–1 |
+| Closes | viser **1 / semaine** | 1 / 2 semaines |
+
+Focus A : **MVP démontrable + file d’appels chaude + 1er close si possible**.  
+Interdit A : promettre 70 appels/jour, builder une usine email, diversifier l’offre.
+
+### Régime B — dès mi-septembre (plein temps)
+| Métrique | Objectif | Floor |
 |---|---|---|
 | Appels émis | **70** | 50 |
-| dont 18h–19h | **15–20** | 10 |
-| Relances J+1/J+3 | **20** | 10 |
+| dont 18h–19h sniper | **15–20** | 10 |
+| Relances | **20** | 10 |
 | SMS / mails post-appel | **15** | 8 |
 | Décrochés | **18+** | 12 |
-| Démos posées | **3** | 1 |
-| Closes | **0,5/jour** (≈ 2–3/semaine) | 1/semaine min |
-| Nouvelles fiches score ≥3 | **40** | 25 |
+| Démos | **3** | 1 |
+| Closes | **~0,5/jour** (2–3 / semaine) | 1 / semaine |
+| Nouvelles fiches ≥3 | **40** | 25 |
 
-Règle : pas de jour ouvré à 0 appel. Congé = anticipé, pas “j’ai pas le moral”.
+Règle B : 0 jour ouvré à 0 appel.
 
-## Hebdo (permanent)
+## Hebdo
 
-| Métrique | Objectif |
-|---|---|
-| Appels | **350** |
-| Démos | **12–15** |
-| Closes bruts | **3** |
-| Closes nets (après no-show paiement) | **2** |
-| Setups livrés ≤48h | 100% des closes |
-| Temps cold call | **≥20 h** |
+| Période | Appels / sem | Démos | Closes nets | Temps call |
+|---|---|---|---|---|
+| Jusqu’à mi-sept (A) | **100** | 3–5 | **1** | ~5–7 h |
+| Dès mi-sept (B) | **350** | 12–15 | **2–3** | ≥20 h |
 
-## Mensuel ambitieux → CA
+## Mensuel → CA (recalibré)
 
-| Mois | Appels | Closes nets | Clients fin mois | MRR cible | CA mois cible* |
-|---|---|---|---|---|---|
-| **Sept 2026** | 1 500 | **10** | **10** | **9 900 €** | **14 800 €** |
-| **Oct 2026** | 1 550 | **12** | **22** | **21 780 €** | **27 660 €** |
-| **Nov 2026** | 1 550 | **10** | **30** | **29 700 €** | **34 600 €** |
-| **Déc 2026** | 1 400 | **8** | **36** | **35 640 €** | **39 560 €** |
-| **Jan 2027** | 1 550 | **10** | **44** | **43 560 €** | **48 460 €** |
-| **Fév 2027** | 1 500 | **8** | **50** | **49 500 €** | **53 420 €** |
+| Mois | Régime | Appels | Closes nets | Clients fin mois | MRR cible | CA mois cible* |
+|---|---|---|---|---|---|---|
+| **Août 2026** | A (si démarrage) | 200–300 | **0–1** | 0–1 | 0–990 € | setup éventuel |
+| **Sept 2026** | A puis B (bascule ~15) | **~1 000** | **5** | **5** | **~4 950 €** | **~7 400 €** |
+| **Oct 2026** | B full | 1 550 | **10** | **15** | **~14 850 €** | **~19 750 €** |
+| **Nov 2026** | B full | 1 550 | **10** | **24** | **~23 760 €** | **~28 660 €** |
+| **Déc 2026** | B (−fêtes) | 1 200 | **6** | **28** | **~27 720 €** | **~30 660 €** |
+| **Jan 2027** | B full | 1 550 | **10** | **36** | **~35 640 €** | **~40 540 €** |
+| **Fév 2027** | B full | 1 500 | **8** | **42** | **~41 580 €** | **~45 500 €** |
 
-\*CA mois ≈ MRR encaissé + setups (490 € × closes) − churn du mois.  
-Hypothèse churn ambitieuse tenue : **≤8 % / mois** après octobre.
+\*CA ≈ MRR + setups − churn. Churn cible : ≤15 % jusqu’à oct., puis ≤8 %.
 
-### Jalons cash (go / no-go)
+### Jalons go / no-go
 
 | Date | Jalon | Si raté |
 |---|---|---|
-| **7 sept** | 100 appels + 1 close payant | Changer vertical (reno/solaire), même offre |
-| **30 sept** | 10 clients / ~10k MRR | Audit pitch 48h ; baisser à 790 € si douleur OK / close mort |
-| **31 oct** | **≥20k MRR** | Recruter 1 setter ; tu gardes le close |
-| **30 nov** | ≥30k MRR | Upsell nurture + multi-agences push |
-| **31 déc** | ≥35k MRR | Couper clients toxiques, figer process |
+| **Avant mi-sept** | MVP démo live OK + ≥80 fiches score ≥3 | Stop acquisition fancy ; finir le flow |
+| **Mi-sept (bascule)** | File `A_APPELER` ≥ 3 jours d’avance | Week-end liste only |
+| **21 sept** | 100 appels cumulés régime B **ou** 1 close payant | Changer vertical (reno/solaire), même offre |
+| **30 sept** | **5 clients** / ~5k MRR | Audit pitch 48h ; tester 790 € si douleur OK |
+| **31 oct** | **~15k MRR** | Setter si tu satures ; garder le close |
+| **30 nov** | **≥20k MRR** | Upsell nurture + multi-agences |
+| **31 déc** | **≥27k MRR** | Couper clients toxiques |
+
+Le jalon **20k** est décalé à **fin novembre** (pas fin octobre) à cause du mi-temps facteur.
 
 ## Roadmap septembre (semaine par semaine)
 
-| Semaine | Dates | Appels | Closes nets cumul | Clients | Focus |
-|---|---|---|---|---|---|
-| S1 | 1–7 sept | 350 | **1** | 1 | MVP démo + Phase 0 |
-| S2 | 8–14 sept | 350 | **3** | 3 | Pitch figé 990 € |
-| S3 | 15–21 sept | 400 | **6** | 6 | Volume + preuves 18h |
-| S4 | 22–30 sept | 400 | **10** | 10 | Close hard + onboarding machine |
+| Semaine | Dates | Régime | Appels | Closes cumul | Clients | Focus |
+|---|---|---|---|---|---|---|
+| S1 | 1–7 sept | **A** | ~100 | 0–1 | 0–1 | Sniper 18h + finir MVP |
+| S2 | 8–14 sept | **A** | ~100 | 1–2 | 1–2 | Close hard sur démos ; stock liste |
+| S3 | 15–21 sept | **B** | ~350 | 3–4 | 3–4 | Explosion volume plein temps |
+| S4 | 22–30 sept | **B** | ~450 | **5** | **5** | Machine close + onboarding |
 
-## Cold call en permanence — même après 20k
+## Cold call après 20k
 
-| Tranche MRR | Quota appels/jour | Qui appelle |
+| Tranche MRR | Quota appels/jour | Qui |
 |---|---|---|
-| 0 → 10k | 70 | Toi |
-| 10k → 20k | 70 | Toi (+ setter si saturé après 5 clients) |
-| 20k → 35k | 60 toi ou 40 toi + 40 setter | Toi close, setter ouvre |
-| 35k+ | 40 toi (sniper + close) + machine setter | Jamais 0 prospection |
+| 0 → 5k (jusqu’à mi-sept) | 20 | Toi (soir) |
+| 5k → 15k | 70 | Toi |
+| 15k → 25k | 70 ou 40+40 setter | Toi close |
+| 25k+ | 40 sniper + setter | Jamais 0 prospection |
 
-Interdit : “on arrête les appels pour scaler le produit”.  
-Produit : 17h–18h max / soir après les appels.
+## Mix créneaux
 
-## Mix créneaux du jour
-
+### Jusqu’à mi-septembre (A)
 | Plage | Rôle |
 |---|---|
-| 08:30–09:00 | Liste Ad Library (40 fiches) |
-| 09:00–12:00 | Volume cold call |
+| Avant 18h (micro-blocs) | Liste Ad Library, SMS, prep démo |
+| **18:00–19:00** | **Cold call sniper uniquement** |
+| 19:00–19:20 | Log + 1 correction pitch |
+| Samedi 9:00–11:00 | 30–40 appels OU setups clients |
+
+### Dès mi-septembre (B)
+| Plage | Rôle |
+|---|---|
+| 08:30–09:00 | Liste (40 fiches) |
+| 09:00–12:00 | Volume call |
 | 12:00–12:30 | Démos / closes |
-| 14:00–17:30 | Volume cold call |
-| 17:30–18:00 | Relances SMS / mails courts |
-| **18:00–19:00** | **Sniper gérants** (score 4–5 + non-joints) |
-| 19:00–19:30 | Log tracker + 1 correction pitch |
+| 14:00–17:30 | Volume call |
+| 17:30–18:00 | Relances SMS / mails |
+| **18:00–19:00** | Sniper gérants |
+| 19:00–19:30 | Log + pitch |
 
-## Objectifs qualité (pas que du volume)
+## Qualité (dès que volume B tourne)
 
-| Métrique | Cible dès S3 |
+| Métrique | Cible |
 |---|---|
 | Décroché / appels | ≥25 % |
 | Douleur / décroché ICP | ≥40 % |
 | Close / démo | ≥25 % |
 | Time-to-setup | ≤48 h |
-| Churn 30j | <15 % (puis <8 % à partir de nov.) |
 
-## Tableau de suivi
-- Mensuel : [objectifs-mensuels.csv](objectifs-mensuels.csv)
-- Quotidien : [../04-phase0/daily-tracker.csv](../04-phase0/daily-tracker.csv) (à remplir dès sept.)
-- Clients : [client-roster-20.csv](client-roster-20.csv) → étendre au-delà de 20 lignes dès octobre
+## Suivi
+- [objectifs-mensuels.csv](objectifs-mensuels.csv)
+- [../04-phase0/daily-tracker.csv](../04-phase0/daily-tracker.csv)
+- [client-roster-20.csv](client-roster-20.csv)
 
 ## Phrase de discipline
-> Septembre = machine d’appels. Octobre = 20k. Ensuite on n’arrête pas : on empile.
+> Jusqu’à mi-septembre : 1h qui compte. Après : machine 70 appels. 20k en novembre, pas en fantasme d’août.

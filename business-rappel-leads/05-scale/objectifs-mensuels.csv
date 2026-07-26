@@ -1,7 +1,8 @@
 mois,appels_cible,closes_nets_cible,clients_fin_mois,mrr_cible_eur,ca_mois_cible_eur,churn_max_pct,appels_jour_ouve,notes
-2026-09,1500,10,10,9900,14800,15,70,Phase0+P1+P2 — 1er close au 7 sept
-2026-10,1550,12,22,21780,27660,10,70,Jalon 20k MRR obligatoire
-2026-11,1550,10,30,29700,34600,8,70,Upsells + setter si besoin
-2026-12,1400,8,36,35640,39560,8,65,Volume un peu plus bas fêtes — sniper 18h prioritaire
-2027-01,1550,10,44,43560,48460,8,70,Reprise full volume
-2027-02,1500,8,50,49500,53420,8,70,Palier 50 clients / ~50k MRR
+2026-08,250,1,1,990,1480,20,20,Optionnel — régime A facteur ; MVP + 1er close si possible
+2026-09,1000,5,5,4950,7400,15,20puis70,Bascule mi-sept : A puis B — 5 clients fin mois
+2026-10,1550,10,15,14850,19750,12,70,Full time — viser ~15k MRR
+2026-11,1550,10,24,23760,28660,8,70,Jalon 20k MRR obligatoire
+2026-12,1200,6,28,27720,30660,8,60,Fêtes — sniper 18h prioritaire
+2027-01,1550,10,36,35640,40540,8,70,Reprise full volume
+2027-02,1500,8,42,41580,45500,8,70,Palier ~42 clients / ~42k MRR
