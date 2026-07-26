@@ -1,37 +1,23 @@
-# Rappel leads < 5 min → 20k € CA/mois
+# Rappel leads <5 min
 
-Kit opérationnel complet. Chemin unique verrouillé.
+## START ICI
+### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse
 
-## Offre
-**490 € setup + 990 €/mois** — rappel / qualification / RDV sur leads pub habitat (PAC, clim, reno, solaire).
+Le reste = réserve. Tu n’y vas que si bloqué techniquement.
 
-## Démarrage en 7 étapes
-1. Lire [02-offre/one-pager.md](02-offre/one-pager.md) + [02-offre/pricing.md](02-offre/pricing.md)
-2. Construire la liste : [01-cible/process-liste.md](01-cible/process-liste.md) + [01-cible/icp-sheet.csv](01-cible/icp-sheet.csv)
-3. Monter le MVP : [02-offre/mvp/](02-offre/mvp/)
-4. Apprendre les scripts : [03-demarchage/](03-demarchage/)
-5. Lancer Phase 0 : [04-phase0/EXECUTE.md](04-phase0/EXECUTE.md)
-6. Scaler : [05-scale/EXECUTE.md](05-scale/EXECUTE.md)
-7. Valider le kit : `python3 business-rappel-leads/tools/validate_kit.py`
+## En 4 lignes
+- **Août** : démarchage → **10 clients** (MVP validé)
+- **Sept** : growth → **20k MRR**
+- **Offre** : 490 + 990 €/mois — rappel leads &lt;5 min
+- **Facteur** jusqu’à mi-sept : 25/soir + 80 sam + 40 dim
 
-## Structure
-```
-01-cible/        ICP, scoring, sheet 200 lignes
-02-offre/        Offre figée + MVP technique
-03-demarchage/   Cold call, SMS, objections, close
-04-phase0/       100 appels, trackers, scorecard
-05-scale/        Playbook 20 clients / 20k
-tools/           Validation + file d'appels
-```
+## Backup si besoin
+| Besoin | Fichier |
+|---|---|
+| Liste | [01-cible/process-liste.md](01-cible/process-liste.md) |
+| Offre | [02-offre/one-pager.md](02-offre/one-pager.md) |
+| Scripts longs | [03-demarchage/](03-demarchage/) |
+| Objectifs détaillés | [05-scale/objectifs-septembre.md](05-scale/objectifs-septembre.md) |
+| MVP tech | [02-offre/mvp/](02-offre/mvp/) |
 
-## Quotas
-- **Août = démarchage** : valider le MVP avec **10 clients payants**
-- Puis growth : **≥20k MRR fin sept.** → ~30k fin oct. → ~35k+ fin nov.
-- Facteur jusqu’à mi-sept. = soirs 25 + samedi 80 + dimanche 40 ; dès mi-sept = 90/j puis 70
-- Détail : [05-scale/objectifs-septembre.md](05-scale/objectifs-septembre.md)
-- Ajustements autorisés : vertical habitat + prix 790–1490 €
-- Interdit avant 10 clients : ramoneurs, nettoyage, agence IA, scale fantôme
-- Cold call **permanent**
-
-## Conformité
-Lire [03-demarchage/compliance-b2b.md](03-demarchage/compliance-b2b.md) avant le 1er appel.
+`python3 business-rappel-leads/tools/validate_kit.py` une fois. Puis tu appelles.
