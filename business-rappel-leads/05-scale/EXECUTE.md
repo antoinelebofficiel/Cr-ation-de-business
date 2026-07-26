@@ -1,26 +1,27 @@
-# Exécution scale
+# Scale — après validation MVP (10 clients)
 
 ## Entrée
-Phase 0 OK.  
-Objectifs : [objectifs-septembre.md](objectifs-septembre.md) — **scoreboard ambitieux inchangé**.
+**MVP validé** = 10 clients payants (cible **31 août**).  
+Si <10 au 31 août : rester en mode validation, ne pas “scale théâtre”.
 
-## Boucle
-1. Intensité selon période (`daily-ritual.md`) : soirs+WE puis 90/j puis 70/j
+Calendrier : [objectifs-septembre.md](objectifs-septembre.md)
+
+## Boucle growth
+1. Quotas post-MVP (`daily-ritual.md`) — 90/j dès mi-sept puis 70
 2. Close → roster + onboarding 48h
-3. Tracker MRR
-4. Upsells J+14
+3. MRR tracker
+4. Upsells après J+14 **et** après les 10 premiers
 5. CSV mensuel
 
-## Jalons (non baissés)
+## Jalons
 | Date | Preuve |
 |---|---|
-| 7 sept | 1 close |
-| 30 sept | **10 clients / ~10k** |
-| 31 oct | **≥20k MRR** |
-| 30 nov | ≥30k |
-| 31 déc | ≥35k |
+| 31 août | **10 clients — MVP validé** |
+| 30 sept | **≥20k MRR** |
+| 31 oct | **≥30k MRR** |
+| 30 nov | **≥35k MRR** |
 
 ## DoD 20k
-- [ ] MRR ≥ 19800 pour **fin octobre**
-- [ ] Churn 30j < 15%
+- [ ] MRR ≥ 19800 (cible fin septembre post-validation août)
 - [ ] Cold call actif
+- [ ] Churn 30j < 15%

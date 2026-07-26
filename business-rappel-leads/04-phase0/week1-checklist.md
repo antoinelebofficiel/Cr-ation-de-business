@@ -1,55 +1,33 @@
-# Phase 0 — J1 à J7
+# Phase 0 / Août — semaine type validation
 
-Contrainte facteur : Phase 0 sur **soirs 25 appels + week-ends obligatoires** — les jalons (1 close, puis 10 clients fin sept.) **ne baissent pas**.
+Août = démarchage. Objectif mois : **10 clients = MVP validé**.
 
-## Objectifs
-- 100 appels ICP (score ≥ 3) vite (soirs + 1 WE)
-- ≥10 décrochés qui admettent un délai de rappel pourri
-- ≥3 démos
-- **1 close payant** (setup encaissé) — jalon **7 sept** si start 1er sept.
+## Objectifs période validation
+- Appels ICP score ≥ 3 (rythme 25/soir + WE)
+- Décrochés douleur + démos
+- **1er close dès S1 août**
+- **10 closes nets au 31 août**
 
-Si 0 douleur sur 30 décrochés score ≥ 3 → basculer la liste vers `reno` / `solaire` (même offre).
+## S1 (ex. 1–7 août)
+- [ ] Sheet ICP importée + file ≥3
+- [ ] Démo live OK
+- [ ] Lien paiement OK
+- [ ] 25 appels/soir + WE (~245)
+- [ ] **1 close payant**
 
-## J1 — Fondations
-- [ ] Importer `01-cible/icp-sheet.csv` dans Google Sheets
-- [ ] Vérifier Ad Library sur les 15 SEED
-- [ ] File ≥3 déjà stockée (idéalement 200 fiches depuis août)
-- [ ] Coller prompt agent dans Vapi/Retell
-- [ ] Importer squelette n8n + credentials test
-- [ ] Démo interne OK (lead test → appel → calendar → SMS)
-- [ ] **25 appels** le soir dès démo montrable
+## S2
+- [ ] ~245 appels
+- [ ] Pitch figé 990 €
+- [ ] **3 clients cumul**
 
+## S3
+- [ ] ~245 appels
+- [ ] Onboarding ≤48h nickel
+- [ ] **6 clients cumul**
 
-## J2 — Volume
-- [ ] +40 fiches
-- [ ] 60 appels
-- [ ] ≥1 démo
-- [ ] Tracker du jour rempli
+## S4
+- [ ] Volume jusqu’à **10 clients**
+- [ ] Preuve / témoignage
+- [ ] Go growth septembre **ou** prolonger validation si <10
 
-## J3 — Itération pitch
-- [ ] 60 appels
-- [ ] Corriger ouverture selon objection #1 de J1–J2
-- [ ] ≥1 démo
-- [ ] Point métriques (décroché, douleur, démo)
-
-## J4 — Close push
-- [ ] 60 appels
-- [ ] Toute démo → close 14j le jour même
-- [ ] Lien paiement prêt avant les appels
-
-## J5 — Livraison
-- [ ] 60 appels
-- [ ] Si close : onboarding 48h lancé
-- [ ] Si pas de close : 8 démos douleur documentées minimum cumulées sinon alerte angle
-
-## J6 — Relances
-- [ ] 40 neufs + 20 relances J+1/J+3
-- [ ] SMS séquence sur toutes démos non closes
-
-## J7 — Verdict
-- [ ] Cumul ≥100 appels
-- [ ] Remplir [scorecard.md](scorecard.md)
-- [ ] Décision : go Phase 1 / changer vertical / tuer
-
-## Critère de réussite J7
-1 client payant **ou** ≥8 démos avec douleur explicite documentée.
+Si 0 douleur sur 30 décrochés score ≥3 → vertical reno/solaire, même offre.

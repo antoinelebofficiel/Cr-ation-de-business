@@ -1,25 +1,34 @@
-# Exécution Phase 0
+# Phase 0 / Validation MVP — août démarchage
 
-Cibles globales **non baissées** : 1 close ASAP, puis trajectoire 10 clients fin sept.
+## Décision
+Août = **démarchage réel**.  
+MVP validé = **10 clients payants**, pas une démo technique seule.
 
-Contrainte facteur → Phase 0 sur **soirs + week-ends**, pas sur 7 jours full.
-
-## Setup
+## Setup (J1 août au plus tard)
 1. `python3 business-rappel-leads/tools/validate_kit.py`
-2. Sheet ICP + 200 fiches ≥3 **avant** le rush sept.
-3. MVP démo live OK
-4. `score_and_filter.py` → queue
+2. Sheet ICP + file score ≥3
+3. Démo live montrable **le jour même des premiers appels**
+4. Lien paiement prêt
 
-## Boucle
-- Rituel A/WE puis B : `../03-demarchage/daily-ritual.md`
+## Boucle août
+- Rituel validation : `../03-demarchage/daily-ritual.md`
 - Logs : `call-log-100.csv` + `daily-tracker.csv`
 - Close : `../03-demarchage/close-14j.md`
+- Roster : `../05-scale/client-roster-20.csv`
 
-## DoD Phase 0
-- [ ] ≥100 appels
-- [ ] Scorecard
-- [ ] **1 close payant** (jalon **7 sept** si lancement 1er sept.)
-- [ ] Go / change vertical / kill
+## Jalons août
+| Date | Preuve |
+|---|---|
+| 7 août | 1 close + démo live OK |
+| 15 août | 3 clients |
+| 31 août | **10 clients = MVP validé** |
+
+## DoD validation
+- [ ] 10 payants
+- [ ] Rappel <5 min fiable
+- [ ] Setups ≤48h
+- [ ] Au moins une preuve client utilisable en call
 
 ## Interdit
-Baisser les objectifs mensuels parce que facteur. Compenser en volume WE + 90/j dès mi-sept.
+- Reporter le démarchage à septembre pour “finir le produit”
+- Scaler (setter, nouvelle offre, ads) **avant** 10 clients

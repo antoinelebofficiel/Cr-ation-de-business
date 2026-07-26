@@ -1,142 +1,141 @@
-# Objectifs ambitieux — contrainte facteur, cibles NON baissées
+# Objectifs ambitieux — août = démarchage + validation 10 clients
 
 Contrainte ([My History](../../My%20History)) :
-- **Facteur jusqu’à mi-septembre 2026**
+- **Facteur jusqu’à mi-septembre 2026** → soirs + week-ends jusqu’à la bascule
 - **Plein temps dès mi-septembre**
-
-Les **cibles CA / clients restent ambitieuses** (inchangées vs plan d’origine).  
-Ce qui change : **comment** tu les atteins (intensité soir + week-ends + bascule explosive).
 
 Offre : **990 €/mois** (floor 790 €) + setup 490 €.
 
+## Décision verrouillée
+1. **Août = démarchage** (pas “prep sans appels”)
+2. **Valider le MVP avec 10 clients payants**
+3. **Ensuite seulement : grandir** (volume, setter, upsells)
+
+Le MVP n’est pas “validé” par une démo interne. Il est validé par **10 gens qui paient**.
+
 ---
 
-## Cibles mensuelles (AMBITIEUSES — non négociables)
+## Cibles mensuelles
 
-| Mois | Closes nets | Clients fin mois | MRR cible | CA mois cible* |
-|---|---|---|---|---|
-| **Sept 2026** | **10** | **10** | **9 900 €** | **14 800 €** |
-| **Oct 2026** | **12** | **22** | **21 780 €** | **27 660 €** |
-| **Nov 2026** | **10** | **30** | **29 700 €** | **34 600 €** |
-| **Déc 2026** | **8** | **36** | **35 640 €** | **39 560 €** |
-| **Jan 2027** | **10** | **44** | **43 560 €** | **48 460 €** |
-| **Fév 2027** | **8** | **50** | **49 500 €** | **53 420 €** |
+| Mois | Closes nets | Clients fin mois | MRR cible | CA mois cible* | Focus |
+|---|---|---|---|---|---|
+| **Août 2026** | **10** | **10** | **9 900 €** | **14 800 €** | **Démarchage + validation MVP** |
+| **Sept 2026** | **12** | **22** | **21 780 €** | **27 660 €** | Scale (bascule plein temps mi-sept) |
+| **Oct 2026** | **10** | **30** | **29 700 €** | **34 600 €** | Scale + upsells |
+| **Nov 2026** | **8** | **36** | **35 640 €** | **39 560 €** | Machine |
+| **Déc 2026** | **6** | **40** | **39 600 €** | **42 540 €** | Tenir + sniper fêtes |
+| **Jan 2027** | **10** | **48** | **47 520 €** | **52 420 €** | Reprise |
+| **Fév 2027** | **8** | **54** | **53 460 €** | **57 380 €** | Palier 50+ |
 
-\*CA ≈ MRR + setups − churn. Churn ≤8 %/mois après octobre.
+\*CA ≈ MRR + setups − churn. Churn ≤15 % en validation, ≤8 % après oct.
 
-### Jalons cash (inchangés)
+### Jalons cash
 
 | Date | Jalon | Si raté |
 |---|---|---|
-| **7 sept** | 1 close payant | Vertical reno/solaire, même offre |
-| **30 sept** | **10 clients / ~10k MRR** | Audit pitch 48h ; 790 € si douleur OK / close mort |
-| **31 oct** | **≥20k MRR** | Setter immédiat ; tu gardes le close |
-| **30 nov** | ≥30k MRR | Upsells hard |
-| **31 déc** | ≥35k MRR | Couper toxiques |
+| **7 août** | MVP démo live + 50 appels + file ≥80 fiches score ≥3 | Stop fancy ; finir flow + liste |
+| **15 août** | **3 clients payants** | Audit pitch 48h ; tester 790 € |
+| **31 août** | **10 clients = MVP validé** | Ne pas “scaler” ; prolonger mode validation sept. S1–S2 |
+| **30 sept** | **≥20k MRR** (≈22 clients) | 90 appels/jour + setter |
+| **31 oct** | **≥30k MRR** | Upsells hard |
+| **30 nov** | **≥35k MRR** | Couper toxiques |
 
 ---
 
-## Conséquence opérationnelle (ce qui change vraiment)
+## Août — plan de validation (démarchage)
 
-### 1. Août = préparation de guerre (obligatoire)
-Avant le 1er septembre tu dois avoir :
-- [ ] MVP démo live OK
-- [ ] **200 fiches score ≥ 3** prêtes
-- [ ] Scripts + lien paiement ready
-- [ ] 3–5 soirs de test d’appels (même 15–20) pour chauffer le pitch
+### Quotas (facteur = intensité soir/WE, scoreboard non baissé)
 
-Sans ça, les cibles sept. sont du théâtre.
-
-### 2. Jusqu’à mi-septembre : extraire le max du temps dispo
-Pas “20 appels et on baisse les goals”.  
-**Quota soir + week-end agressif** pour ne pas prendre de retard.
-
-| Jour | Quota appels | Notes |
+| Jour | Appels | Notes |
 |---|---|---|
-| Lun–Ven | **25** en **18h–19h15** (rythme serré) | Liste préchargée avant 18h |
-| **Samedi** | **80** | Demi-journée obligatoire |
-| **Dimanche** | **40** | Sniper + relances + démos |
+| Lun–Ven | **25** (18h–19h15) | Liste préchargée avant 18h |
+| **Samedi** | **80** | Obligatoire |
+| **Dimanche** | **40** | Obligatoire |
 
-**Hebdo jusqu’à mi-sept : ~245 appels** (25×5 + 80 + 40).  
-C’est le prix pour garder 10 clients fin septembre.
+**Hebdo août : ~245 appels.**  
+**Mois août (~4–5 semaines) : ~1 000–1 200 appels.**
 
-Avant 18h (micro-blocs) : **uniquement** liste + SMS + prep. Zéro “amélioration produit” sans démo déjà OK.
+### Semaines août
 
-### 3. Mi-septembre → 30 sept : rattrapage brutal (plein temps)
-Dès le 1er jour libre :
+| Semaine | Appels | Closes cumul | Clients | Focus |
+|---|---|---|---|---|
+| S1 (1–7 août) | ~245 | **1** | 1 | Go-live démo + 1er close |
+| S2 (8–14 août) | ~245 | **3** | 3 | Pitch figé 990 € |
+| S3 (15–21 août) | ~245 | **6** | 6 | Close hard + onboarding ≤48h |
+| S4 (22–31 août) | ~300 | **10** | **10** | Validation MVP complète |
 
-| Métrique | Objectif |
-|---|---|
-| Appels / jour ouvré | **90** (pas 70 — rattrapage) |
-| dont 18h–19h | 15–20 |
-| Samedi | 60 |
-| Closes / semaine | **4–5** |
+### Critères “MVP validé” (au 31 août)
+- [ ] 10 clients ont payé setup et/ou mois 1
+- [ ] Rappel <5 min tenu sur leads connectés (≥95 % dans horaires)
+- [ ] ≥1 témoignage / preuve chiffrée
+- [ ] Churn pendant essai 14j < 30 % sur ces 10
+- [ ] Time-to-setup ≤48h sur les 10
 
-Semaines S3–S4 septembre doivent porter **la majorité des 10 closes**.
-
-### 4. Roadmap septembre (cibles clients gardées)
-
-| Semaine | Contrainte | Appels | Closes nets cumul | Clients | Mode |
-|---|---|---|---|---|---|
-| S1 | 1–7 sept — facteur | ~245/sem rythme A+WE | **1** | 1 | Soir + WE + 1er close |
-| S2 | 8–14 sept — facteur | ~245 | **3** | 3 | Soir + WE ; pitch figé |
-| S3 | 15–21 sept — **plein temps** | **~500** | **7** | 7 | 90/jour + samedi |
-| S4 | 22–30 sept — plein temps | **~550** | **10** | 10 | Close hard |
-
-Volume sept. total cible : **~1 500+ appels** (WE + bascule 90/j), comme le plan ambitieux d’origine.
-
-### 5. Octobre+ : machine permanente
-| Métrique | Objectif |
-|---|---|
-| Appels / jour ouvré | **70** (90 si retard sur 20k) |
-| Closes nets / mois | voir tableau mensuel |
-| Setter | **dès 5 clients** ou si <3 closes/semaine après mi-sept |
+Si <10 clients au 31 août : **tu continues le mode validation** en septembre (même quotas intensifiés), tu n’embauchés pas, tu n’ouvres pas d’autre offre.
 
 ---
 
-## Quotas quotidiens selon période
+## Après validation — croissance
 
-### Jusqu’à mi-septembre (facteur)
-| Métrique | Lun–Ven | Samedi | Dimanche |
+### Mi-septembre (plein temps) → accélération
+Dès bascule facteur terminée :
+- **90 appels/jour** jusqu’au jalon 20k
+- puis **70/jour** en cruise
+- Setter dès **5 clients** seulement si tu satures **après** validation, ou dès mi-sept si 10 déjà là et volume bloque
+
+### Septembre (post-MVP)
+Objectif : passer de 10 → **22 clients** (~20k MRR) grâce au plein temps mi-mois + preuve sociale des 10.
+
+| Semaine sept | Mode | Clients cumul cible |
+|---|---|---|
+| 1–7 | Facteur encore (25+WE) | 12 |
+| 8–14 | Facteur + WE | 14 |
+| 15–21 | **Plein temps 90/j** | 18 |
+| 22–30 | Plein temps | **22** |
+
+---
+
+## Quotas quotidiens résumé
+
+### Août → mi-sept (validation / facteur)
+| Métrique | Lun–Ven | Sam | Dim |
 |---|---|---|---|
-| Appels | **25** | **80** | **40** |
-| Fiches ≥3 préparées | 20 (avant 18h) | 30 | 0 si appels |
+| Appels | 25 | 80 | 40 |
 | Démos | 1 | 3–4 | 2 |
-| Closes | pipeline | push | push |
+| Closes push | oui | oui | oui |
 
-### Dès mi-septembre (plein temps / rattrapage sept.)
-| Métrique | Objectif | Floor |
-|---|---|---|
-| Appels | **90** (puis 70 dès oct. si jalon sept. OK) | 70 |
-| Relances | 25 | 15 |
-| Démos | 4 | 2 |
-| Closes | 0,7/jour | 3/semaine min |
+### Dès mi-sept (growth)
+| Métrique | Objectif |
+|---|---|
+| Appels/jour | **90** jusqu’à 20k, puis 70 |
+| Démos | 4 |
+| Closes | 3–4 / semaine |
 
 ---
 
 ## Mix horaires
 
-### Facteur (jusqu’à mi-sept)
+### Facteur (août → mi-sept)
 | Plage | Rôle |
 |---|---|
-| Micro-blocs journée | Liste + SMS seulement |
-| **18:00–19:15** | **25 appels** |
-| Samedi 8:30–13:00 | Volume |
-| Dimanche 9:00–12:00 | Volume / démos / closes |
+| Micro-blocs journée | Liste + SMS |
+| **18:00–19:15** | **25 appels démarchage** |
+| Sam 8:30–13:00 | Volume |
+| Dim 9:00–12:00 | Volume / démos / closes / setups |
 
-### Plein temps (dès mi-sept)
+### Plein temps (growth)
 | Plage | Rôle |
 |---|---|
 | 08:30–09:00 | Liste |
 | 09:00–12:30 | Volume |
 | 12:30–13:00 | Démos / closes |
 | 14:00–18:00 | Volume |
-| 18:00–19:00 | Sniper gérants |
+| 18:00–19:00 | Sniper |
 | 19:00–19:30 | Log + pitch |
 
 ---
 
-## Qualité (inchangée)
+## Qualité
 | Métrique | Cible |
 |---|---|
 | Décroché / appels | ≥25 % |
@@ -150,4 +149,4 @@ Volume sept. total cible : **~1 500+ appels** (WE + bascule 90/j), comme le plan
 - [client-roster-20.csv](client-roster-20.csv)
 
 ## Phrase de discipline
-> La contrainte facteur change le **calendrier horaire**, pas le **scoreboard**. 10 clients fin sept. / 20k fin oct. — on compense avec les week-ends et 90 appels/jour dès mi-septembre.
+> Août on démarchage jusqu’à 10 clients. Ça valide le MVP. Ensuite on grandit — pas avant.

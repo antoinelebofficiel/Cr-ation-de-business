@@ -25,12 +25,12 @@ tools/           Validation + file d'appels
 ```
 
 ## Quotas
-- **Cibles ambitieuses inchangées** : 10 clients fin sept. → **≥20k MRR fin oct.** → ~35k fin déc.
-- Contrainte facteur jusqu’à mi-sept. = **soirs 25 appels + samedi 80 + dimanche 40**, puis **90/j** en rattrapage
+- **Août = démarchage** : valider le MVP avec **10 clients payants**
+- Puis growth : **≥20k MRR fin sept.** → ~30k fin oct. → ~35k+ fin nov.
+- Facteur jusqu’à mi-sept. = soirs 25 + samedi 80 + dimanche 40 ; dès mi-sept = 90/j puis 70
 - Détail : [05-scale/objectifs-septembre.md](05-scale/objectifs-septembre.md)
 - Ajustements autorisés : vertical habitat + prix 790–1490 €
-- Interdit avant 20k : ramoneurs, nettoyage, agence IA généraliste
-- Interdit : baisser le scoreboard parce que facteur
+- Interdit avant 10 clients : ramoneurs, nettoyage, agence IA, scale fantôme
 - Cold call **permanent**
 
 ## Conformité
