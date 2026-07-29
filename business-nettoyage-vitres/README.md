@@ -2,9 +2,12 @@
 
 ## START ICI
 ### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse
+### → [DECISION-LORIENT.md](DECISION-LORIENT.md) ← vitres vs rappel leads (arbitrage)
 ### → [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md) ← B2B commerces
 ### → [03-demarchage/meta-ads.md](03-demarchage/meta-ads.md) ← particuliers (ce qui a déjà marché)
 ### → [05-ops/modele-ops.md](05-ops/modele-ops.md) ← toi = vente, pas le balai
+
+**Zone :** Lorient Agglomération (25 km) — voir [01-cible/STATUS.md](01-cible/STATUS.md).
 
 Le reste = réserve. Tu n’y vas que si bloqué.
 

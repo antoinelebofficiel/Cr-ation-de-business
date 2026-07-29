@@ -19,7 +19,7 @@ Pas de perfection ops. Pas de recruter une équipe salariée. Pas de branding 3 
 5. Envie d’“améliorer le système” → **40 appels ou 50 € ads d’abord**
 6. Score < 3 → skip 3 sec
 7. Sam / dim comptent (ads + closes)
-8. Zone figée = **1 agglo**. Pas “toute la France”
+8. Zone figée = **Lorient Agglomération (25 km)**. Pas Vannes/Quimper avant 15 clients
 
 ---
 
