@@ -13,10 +13,11 @@ Choisir **une seule** agglo selon :
 | Vannes | Moyenne+ | — | ☐ backup plus tard |
 | Quimper | Moyenne+ | — | ☐ hors Phase 0 |
 
-**Zone verrouillée :** `Lorient Agglomération`  
+**Zone verrouillée (si LUCIDE activé) :** `Lorient Agglomération`  
 **Rayon :** `25` km (trajet presta depuis Lorient / Lanester)  
-**Date décision :** `2026-07-29`  
-**Détail arbitrage :** [DECISION-LORIENT.md](../DECISION-LORIENT.md)
+**Date décision zone :** `2026-07-29`  
+**Priorité business :** rappel leads France online — [DECISION-LORIENT.md](../DECISION-LORIENT.md)  
+**LUCIDE :** plan B local / backlog
 
 ### Rues / zones d’attaque Phase 0 (ordre)
 1. Centre-ville Lorient (cœur commerçant)
