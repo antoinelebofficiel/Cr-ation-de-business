@@ -1,5 +1,11 @@
 # Script cold call — LUCIDE vitres (style Bauché)
 
+## Règle d’or
+**Tu ne vends pas un RDV. Tu vends un passage.**  
+Le “oui” = date + heure d’intervention sur la vitrine. Tout le reste est du bruit.
+
+---
+
 ## Pourquoi ton angle habituel ne sort pas
 
 Ton pattern SaaS :
@@ -112,15 +118,18 @@ Prix si demandé :
 ---
 
 ## Close (non négociable)
+Tu vends le **passage**, pas un callback “pour en parler”.
+
 Tu raccroches seulement si tu as **un** de ces 3 résultats :
-1. **Créneau 1er passage posé** (date + heure)
-2. **SMS prix envoyé + rappel J+1 calé**
+1. **1er passage posé** (date + heure) ← le seul vrai close
+2. **SMS prix envoyé + rappel J+1 calé** (pour reposer un passage)
 3. **KO clair** (statut sheet)
 
-Pas de “je réfléchis” sans next step daté.
+Pas de “je réfléchis” sans next step daté.  
+Pas de “je vous rappelle pour convenir d’un rendez-vous”.
 
 ### Récap oral avant de raccrocher
-> Je récapitule : 1er passage [jour] [heure], [intérieur/extérieur], [prix].  
+> Je récapitule : **passage** [jour] [heure], [intérieur/extérieur], [prix].  
 > Je vous envoie un SMS, vous répondez OUI, on bloque le presta.
 
 ---

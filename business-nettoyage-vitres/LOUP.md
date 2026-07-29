@@ -42,7 +42,7 @@ Pas de perfection ops. Pas de recruter une équipe salariée. Pas de branding 3 
 - [ ] Close forfait ou intervention
 
 ### DEBRIEF (10 min)
-- [ ] appels / RDV / closes / CA encaissé
+- [ ] appels / passages posés / closes / CA encaissé
 - [ ] 1 phrase de pitch corrigée
 - [ ] Prestataires dispo cette semaine (oui/non)
 
