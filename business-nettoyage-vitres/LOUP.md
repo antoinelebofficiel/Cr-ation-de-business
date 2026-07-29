@@ -32,6 +32,7 @@ Pas de perfection ops. Pas de recruter une équipe salariée. Pas de branding 3 
 
 ### FIRE B2B (40–60 min ou 18h–19h)
 - [ ] **30–40 appels** commerces / restos / agences
+- [ ] Ouverture = hook + “interne ou presta ?” + **mardi/jeudi** (pas “15 min de RDV”)
 - [ ] Close = 1er passage sous 7j + contrat mensuel proposé
 - [ ] SMS après non-décroché
 
@@ -53,14 +54,15 @@ Pas de perfection ops. Pas de recruter une équipe salariée. Pas de branding 3 
 
 ## Script appel (T0 commerce)
 
-> Bonjour, je tombe sur [Commerce] — c’est pour l’entretien de vos vitrines.  
-> Qui gère ça aujourd’hui, le gérant ou un prestataire ?  
+> Bonjour Monsieur [Nom], Antoine Bauché à l’appareil.  
+> Je vous appelle pour vos vitrines [hook].  
+> C’est géré en interne ou vous avez déjà quelqu’un ?  
 > …  
-> On passe en créneau fixe, vitrines nickel avant ouverture, à partir de 89 €/mois.  
-> Je vous propose un 1er passage cette semaine — mardi matin ou jeudi matin ?
+> On passe en créneau fixe avant ouverture, dès 89 €/mois.  
+> Mardi 7h30 ou jeudi 7h30 ?
 
-**Close** : 1er passage + prélèvement / virement contrat.  
-**Pas de devis PDF de 4 pages.** Photo WhatsApp + prix oral + SMS récap.
+**Close** = 1er passage daté (pas un RDV de 15 min).  
+Script complet : [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)
 
 ---
 
