@@ -4,6 +4,7 @@
 ### → [DECISION-LORIENT.md](DECISION-LORIENT.md) ← **arbitrage à jour : online = rappel leads d’abord**
 ### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse (**si** tu actives LUCIDE)
 ### → [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md) ← B2B commerces
+### → [03-demarchage/3-entrepreneurs-vitesse.md](03-demarchage/3-entrepreneurs-vitesse.md) ← Hormozi / Musk / Rockefeller
 ### → [03-demarchage/meta-ads.md](03-demarchage/meta-ads.md) ← particuliers (ce qui a déjà marché)
 ### → [05-ops/modele-ops.md](05-ops/modele-ops.md) ← toi = vente, pas le balai
 
