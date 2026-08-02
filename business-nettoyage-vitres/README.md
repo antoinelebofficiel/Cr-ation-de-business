@@ -1,6 +1,7 @@
 # Clean&Pro — Nettoyage de vitres sous contrat
 
 ## START ICI
+### → [DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md) ← **#1 verrouillé (2 août)**
 ### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse
 ### → [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md) ← B2B commerces
 ### → [03-demarchage/80-20-gros-contrats.md](03-demarchage/80-20-gros-contrats.md) ← 80/20 + 10× (batch, pas 89 €)

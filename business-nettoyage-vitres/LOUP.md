@@ -2,9 +2,12 @@
 
 Lis ça. Ferme le reste. Exécute.
 
+**Décision :** Clean&Pro = **seul** business août — [DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md).
+
 ## Cible
 **15 clients payants en août** — priorité **packs batch** (syndics / multi-sites / parks), pas 15 boutiques à 89 €.  
-File active **60–80** gros comptes · **80–120 touches/sem** (call > mail > LI ; SMS = appoint).  
+File active **60–80** gros comptes · touches soir = **SMS/mail** · **FIRE call = samedi** (+ micro-fenêtres).  
+Meta B2C **30–50 €/j**.  
 Ensuite septembre → **12–15k CA**.  
 Voir [03-demarchage/80-20-gros-contrats.md](03-demarchage/80-20-gros-contrats.md).
 
