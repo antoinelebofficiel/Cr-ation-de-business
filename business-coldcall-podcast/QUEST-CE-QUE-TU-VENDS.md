@@ -4,13 +4,15 @@ Pas Clean&Pro. Pas un studio. Pas “du cold call”.
 
 ## La phrase (hauteur)
 
-> Tu vends des **conversations commerciales qualifiées** —  
-> un décideur joint, filtré, posé dans un agenda —  
+> Tu vends un **système** qui génère des **conversations commerciales qualifiées** —  
+> décideur joint, filtré, posé dans un agenda —  
 > pour des boîtes qui savent délivrer mais ne remplissent pas assez vite.
 
 En encore plus court :
 
-> **Tu vends de l’accès à des acheteurs.**
+> **Tu vends de l’accès à des acheteurs — livré par un système, pas par tes heures.**
+
+Voir [SYSTEME-PAS-TON-TEMPS.md](SYSTEME-PAS-TON-TEMPS.md).
 
 ---
 
