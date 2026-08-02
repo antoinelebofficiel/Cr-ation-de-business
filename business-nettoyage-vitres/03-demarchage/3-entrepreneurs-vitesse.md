@@ -66,7 +66,7 @@ L’automation suit le gagnant ; elle ne cherche pas le gagnant.
 2. Offre : *“Je te rachète ta tournée (clients récurrents) — 2 à 4 mois de CA — tu finis tranquille / tu restes presta payé à la vacation”*  
 3. Du jour au lendemain : **30–80 clients** sans cold call  
 4. Toi = ads + cold call + close par-dessus leur base  
-5. Les prestas gardent l’exécution ; tu gardes la relation et le branding LUCIDE
+5. Les prestas gardent l’exécution ; tu gardes la relation et le branding Clean&Pro
 
 ### Variante encore plus rapide (B2B2B)
 Un close = cinquante sites :

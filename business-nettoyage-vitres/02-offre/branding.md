@@ -1,7 +1,7 @@
-# Branding — LUCIDE
+# Branding — Clean&Pro
 
 ## Nom
-**LUCIDE**
+**Clean&Pro**
 
 ## Promesse de marque
 Vitres propres, sans y penser.
@@ -38,7 +38,7 @@ Prestataire local de nettoyage de vitres **sous contrat**, fiable, discret, orie
 
 ## Assets Phase 0 (minimum)
 1. Landing [landing/index.html](landing/index.html)
-2. Logo texte “LUCIDE” (SVG simple OK)
+2. Logo texte “Clean&Pro” (SVG simple OK)
 3. 6 photos réelles de vitrines avant/après (ton téléphone)
 4. Google Business Profile créé J1–J3
 

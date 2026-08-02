@@ -1,4 +1,4 @@
-# Offre — LUCIDE nettoyage de vitres
+# Offre — Clean&Pro nettoyage de vitres
 
 ## Promesse
 > Vos vitrines et vitres restent propres en créneaux fixes, sans que vous ayez à y penser — ou on ajuste jusqu’à ce que ce soit vrai.
@@ -22,7 +22,7 @@
 - Pas “on passe quand on peut”
 
 ## Marque
-**LUCIDE** — vitres propres, sans y penser.
+**Clean&Pro** — vitres propres, sans y penser.
 
 ## Offre commerciale (figée Phase 0)
 

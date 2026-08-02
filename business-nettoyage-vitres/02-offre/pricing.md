@@ -1,4 +1,4 @@
-# Pricing verrouillé — LUCIDE
+# Pricing verrouillé — Clean&Pro
 
 ## Principes
 1. Afficher un **prix d’entrée clair** (89 €/mois commerces)

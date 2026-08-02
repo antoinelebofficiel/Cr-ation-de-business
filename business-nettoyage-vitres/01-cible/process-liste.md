@@ -1,4 +1,4 @@
-# Machine de liste ICP — LUCIDE commerces
+# Machine de liste ICP — Clean&Pro commerces
 
 ## Objectif quotidien
 40 nouvelles fiches **score ≥ 3**, prêtes à appeler.

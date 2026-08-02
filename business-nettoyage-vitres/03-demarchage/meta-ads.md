@@ -26,11 +26,11 @@ Si CPA lead >20 € sur 5 jours → tuer la créa, pas “optimiser 2 semaines�
 |---|---|---|
 | A | Avant / après baie vitrée | Split photo réelle |
 | B | Soleil + traces | Vitre sale en contre-jour |
-| C | “Sans y penser” | Maison + texte LUCIDE |
+| C | “Sans y penser” | Maison + texte Clean&Pro |
 
 Copy courte :
 > Vitres de maison nickel. Devis en 24h. Créneau sous 5 jours.  
-> LUCIDE — à partir de 99 €.
+> Clean&Pro — à partir de 99 €.
 
 ## Formulaire
 Champs : nom · tel · ville · type (maison/appart) · urgence (cette semaine / plus tard)

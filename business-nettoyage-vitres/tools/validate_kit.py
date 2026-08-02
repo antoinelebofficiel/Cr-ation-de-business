@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valide que le kit LUCIDE est prêt pour Phase 0."""
+"""Valide que le kit Clean&Pro est prêt pour Phase 0."""
 
 from __future__ import annotations
 
@@ -92,10 +92,10 @@ def main() -> int:
     landing = ROOT / "02-offre" / "landing" / "index.html"
     if landing.exists():
         html = landing.read_text(encoding="utf-8")
-        if "LUCIDE" not in html:
-            errors.append("Landing missing brand LUCIDE")
+        if "Clean&Pro" not in html and "Clean&amp;Pro" not in html:
+            errors.append("Landing missing brand Clean&Pro")
 
-    print("=== Kit LUCIDE Nettoyage Vitres — validation ===")
+    print("=== Kit Clean&Pro Nettoyage Vitres — validation ===")
     print(
         f"Fichiers requis OK: "
         f"{len(REQUIRED) - len([e for e in errors if e.startswith('MISSING')])}/{len(REQUIRED)}"

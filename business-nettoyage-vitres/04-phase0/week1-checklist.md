@@ -6,7 +6,7 @@
 - [ ] Micro / activité lancée
 - [ ] RC pro demandée
 - [ ] Tel / WhatsApp Business
-- [ ] Landing publiée (Netlify/Cloudflare Pages/autre) OU Google Form + marque LUCIDE
+- [ ] Landing publiée (Netlify/Cloudflare Pages/autre) OU Google Form + marque Clean&Pro
 - [ ] 40 fiches score ≥3
 - [ ] 25 appels
 - [ ] Annonce prestataire postée

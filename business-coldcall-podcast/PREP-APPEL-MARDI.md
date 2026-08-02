@@ -118,6 +118,6 @@ Si “on réfléchit” :
 ---
 
 ## Lien avec ta stratégie
-Cet appel = **beaucoup plus proche** de tes compétences que LUCIDE.  
+Cet appel = **beaucoup plus proche** de tes compétences que Clean&Pro.  
 Si ça close : c’est une vertical “studio / média / podcast” de ton offre **prise de RDV / cold call délégué**.  
 Tu peux répliquer sur d’autres studios / agences / coaches ensuite.

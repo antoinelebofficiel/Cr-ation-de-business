@@ -2,7 +2,7 @@
 
 ## B2B (commerces, bureaux, syndics)
 - Appels B2B à froid : possibles dans le cadre prospection légitime
-- Se présenter clairement (LUCIDE / prénom)
+- Se présenter clairement (Clean&Pro / prénom)
 - Honorer les “non” et “ne plus appeler” → statut `KO_*`, stop
 - SMS : utile après tentative d’appel ; pas de spam quotidien
 

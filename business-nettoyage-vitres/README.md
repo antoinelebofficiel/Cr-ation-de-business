@@ -1,4 +1,4 @@
-# LUCIDE — Nettoyage de vitres sous contrat
+# Clean&Pro — Nettoyage de vitres sous contrat
 
 ## START ICI
 ### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse

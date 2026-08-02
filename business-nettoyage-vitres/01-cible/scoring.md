@@ -1,4 +1,4 @@
-# Scoring rapide — LUCIDE
+# Scoring rapide — Clean&Pro
 
 ## Score 0–5
 | Points | Signal |

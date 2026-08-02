@@ -1,4 +1,4 @@
-# Statut cible — LUCIDE
+# Statut cible — Clean&Pro
 
 ## Décision zone (figée)
 Choisir **une seule** agglo selon :

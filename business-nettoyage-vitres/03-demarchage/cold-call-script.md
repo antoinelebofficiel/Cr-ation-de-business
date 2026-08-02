@@ -1,4 +1,4 @@
-# Script cold call — LUCIDE vitres (style Bauché)
+# Script cold call — Clean&Pro vitres (style Bauché)
 
 ## Règle d’or
 **Tu ne vends pas un RDV. Tu vends un passage.**  

@@ -1,4 +1,4 @@
-# Objectifs — LUCIDE
+# Objectifs — Clean&Pro
 
 Contrainte ([My History](../../My%20History)) :
 - Facteur jusqu’à mi-septembre 2026 → soirs + WE

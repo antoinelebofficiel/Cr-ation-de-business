@@ -1,4 +1,4 @@
-# Phase 0 — Validation LUCIDE (août)
+# Phase 0 — Validation Clean&Pro (août)
 
 ## Décision
 Août = **encaissement réel**.  
