@@ -29,6 +29,7 @@ Tu as déjà validé le nettoyage via Facebook ads. Le frein était l’ops et l
 | Besoin | Fichier |
 |---|---|
 | Liste commerces | [01-cible/process-liste.md](01-cible/process-liste.md) |
+| Dirigeants mail + call | [01-cible/trouver-dirigeants-lorient.md](01-cible/trouver-dirigeants-lorient.md) |
 | Offre / prix | [02-offre/one-pager.md](02-offre/one-pager.md) · [pricing.md](02-offre/pricing.md) |
 | Landing ads | [02-offre/landing/index.html](02-offre/landing/index.html) |
 | Scripts | [03-demarchage/](03-demarchage/) |
