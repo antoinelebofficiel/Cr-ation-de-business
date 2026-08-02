@@ -4,6 +4,7 @@ Lis ça. Ferme le reste. Exécute.
 
 ## Cible
 **15 clients payants en août** — priorité **packs batch** (syndics / multi-sites / parks), pas 15 boutiques à 89 €.  
+File active **60–80** gros comptes · **80–120 touches/sem** (call > mail > LI ; SMS = appoint).  
 Ensuite septembre → **12–15k CA**.  
 Voir [03-demarchage/80-20-gros-contrats.md](03-demarchage/80-20-gros-contrats.md).
 

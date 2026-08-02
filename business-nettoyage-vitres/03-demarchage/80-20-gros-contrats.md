@@ -1,114 +1,128 @@
-# 80/20 + 10× — où va le CA (LUCIDE Lorient)
+# 80/20 + 10× — gros clients (recalibré)
 
-Tu es commercial. Temps limité. Pas d’appels magasins 17h30–19h.  
-Question : **gros contrats** ou **plein de petits** ?
-
-## Verdict
-
-**Gros / batch contracts. Pas la chasse aux 89 € boutique.**
-
-Les petits contrats commerces restent un **appoint** (preuve, cash, ads B2C), pas le moteur des 80 % du CA.
-
-| Voie | CA par close | Attempts / € | Fit ton agenda |
-|---|---|---|---|
-| Boutique 89–149 €/mois | Faible | Énorme | Mauvais (horaires) |
-| Showroom / grande vitrine 180–350 €/mois | Moyen | Moyen | OK |
-| **Syndic / multi-sites / ZAC / tournée rachetée** | **Fort** | **Faible** | **Meilleur** |
-
-**Math 80/20 :**  
-10 contrats boutique à 120 € = 1 200 €/mois.  
-**1 syndic** à 8–15 sites × 150–250 € = **1 200–3 750 €/mois** — un close.
+## Corrections
+1. **15 fiches/jour = trop petit** pour une logique volume.  
+2. **Async seul = trop faible** sur syndic / multi-sites / facility. SMS = appoint, pas le fer de lance.
 
 ---
 
-## Les 20 % d’actions (et seulement ça)
+## Verdict inchangé
+**Gros / batch.** Pas la mitraille boutique 89 €.
 
-### Action 1 — File “batch” uniquement (10× sur la liste)
-Prospects autorisés cette phase :
-1. **Syndics de copro** Lorient agglo  
-2. **Gestionnaires / property managers**  
-3. **Multi-magasins locaux** (même gérant, 2+ points de vente)  
-4. **Showrooms / retail park** grosse surface vitrée (Valentin, Noblessa, etc.)  
-5. **Hôtels / bureaux / galeries** (un décideur, beaucoup de verre)
+## Ce qui change
 
-**Interdit dans le FIRE 10× :** optique solo, petite coiffure, “tous les commerces Maps” sans filtre surface.
-
-Quota liste : **15 fiches batch/jour**, pas 40 boutiques.
-
-### Action 2 — Une offre batch (prix par site, close pack)
-> « On prend vos [N] sites / halls en créneaux fixes.  
-> Prix pack : [X] €/mois pour [N] interventions.  
-> Passage pilote sur **1 site** à [Y] € cette semaine — mardi ou jeudi.  
-> Si OK, on bascule le lot. »
-
-Tu ne vends pas 15 closes. Tu vends **1 pilote → 1 lot**.
-
-### Action 3 — Canal async 10× (soir)
-Sur ces 15 fiches seulement :
-- **SMS/WA** au décideur (nom Pappers / gérant)  
-- **Mail** si email nominatif  
-- Pas d’appel magasin 18h  
-- Appels : **8h–9h / 11h–12h / samedi matin** uniquement sur la file batch
-
-Volume 10× = **×5 attempts sur 15 cibles batch**, pas ×5 cibles boutique.
-
-### Action 4 — Un coup batch / 14 jours
-Choisir **un** :
-- **Street Takeover** 1 retail park (5 prestas, 1 matinée, film, close pack)  
-- **OU** 10 rendez-vous/appels syndics  
-- **OU** 3 laveurs à racheter (tournée)
-
-Sans ce coup, tu redescend en mode artisan.
-
----
-
-## Ce que tu fais concrètement cette semaine
-
-| Jour | 20 % actions |
+| Avant (trop soft) | Maintenant |
 |---|---|
-| Lun | 15 syndics/gestionnaires Maps+Pappers (dirigeant + tél) |
-| Mar | 30 SMS/mails sur cette file + 10 appels créneau matin si possible |
-| Mer | 15 showrooms / multi-sites (même enrichissement) |
-| Jeu | Relances J+1 + closes pilote (passage payant) |
-| Ven | Prep samedi OR liste 5 cibles rachat tournée |
-| Sam | FIRE : 40 attempts **batch only** OU Street Takeover park |
-| Dim | Debrief : € pipeline pack, pas “nombre de boutiques jointes” |
-
-**Métrique unique :**  
-`€ MRR pack signé` + `€ pilotes encaissés`  
-Pas : nombre d’appels boutique.
+| 15 fiches batch/jour | **40–60 comptes batch en file active** + recharge **25–40/jour** tant que la file <80 |
+| Soir = SMS/mail prioritaire | **Call + mail pro + LinkedIn + visite** ; SMS = relance |
+| 10× = plus de fiches | **10× = plus de touches sur les mêmes gros comptes** |
 
 ---
 
-## Si doute — 3 entrepreneurs au-dessus
+## Objectif fichier (gros clients)
 
-### Hormozi
-Il irait **ticket plus haut, moins de clients**.  
-Offre grand slam : pack multi-sites + pilote payant + repasage 48h.  
-10× = 10× de pitches pack, pas 10× de cafés à 89 €.
+### Taille de file
+- **Floor :** 40 comptes batch qualifiés  
+- **Cible :** **60–80** comptes actifs en pipeline  
+- **Recharge :** +25–40 nouvelles fiches/jour **jusqu’à 80**, puis tu arrêtes d’ajouter et tu **10× les touches**
 
-### Kalanick (Uber)
-Il saturerait **un nœud** (1 ZAC / 1 retail park) en supply+demand le même week-end.  
-Un park conquis > 50 boutiques éparpillées.
+Sur Lorient, le stock syndic/facility/showroom n’est pas infini.  
+Quand tu as ~60–80 vrais comptes : le jeu = **intensité**, pas collectionnite.
 
-### Arnault / roll-up
-Il **achèterait** 1 tournée existante (30–80 clients) plutôt que de closer 80 fois à 89 €.  
-Un chèque = 80 % du CA d’un trimestre de cold call boutique.
-
-**Les 3 d’accord :** arrête la mitraille petit commerce comme stratégie principale.
-
----
-
-## Petite voie (les 20 % restants — pas le focus)
-- Meta B2C particuliers → cash + occupancy presta  
-- Boutiques uniquement si **sur le chemin** d’un park / d’une rue déjà batch  
+### Qui entre dans la file (toujours batch)
+1. Syndics / administrateurs de biens  
+2. Property managers / gestion locative pro  
+3. Multi-sites (2+ points)  
+4. Showrooms / retail parks  
+5. Hôtels, sièges, galeries, bureaux multi-étages  
 
 ---
 
-## Phrase de discipline
-Si l’action du soir n’est pas :
-1. toucher une cible **batch**, ou  
-2. closer un **pilote pack**, ou  
-3. avancer un **rachat / takeover**  
+## Canaux pour GROS clients (ordre réel)
 
-→ ce n’est pas du 80/20. C’est de l’occupation.
+Les gros ne se closent pas comme une coiffure.
+
+| Rang | Canal | Usage |
+|---|---|---|
+| 1 | **Appel** décideur (jour : 8h30–12h / 14h–17h) | Fer de lance |
+| 2 | **Email pro** (nominatif, objet sérieux, 1 page max) | Trace + devis pack |
+| 3 | **LinkedIn** (connexion + 1 message) | Si gérant / DG introuvable au tél |
+| 4 | **Visite / dépôt** (syndic, accueil park) | 1×/semaine sur top 10 |
+| 5 | SMS | Uniquement non-décroché / bump court |
+
+**Async seul le soir :** OK pour **relancer** et **écrire**, pas pour **découvrir** un syndic à 5k €/mois.
+
+### Créneaux call (gros)
+- Lun–Ven : **dès que tu as une fenêtre jour** — même 25 min  
+- Ideal : 9h–11h30 / 14h–16h30  
+- Sam matin : FIRE sur top comptes  
+- 17h30–19h : **mails + LinkedIn + prep dossiers**, pas espoir de gérant magasin
+
+---
+
+## 10× rule sur gros comptes
+
+Tu ne fais pas 10× plus de petites fiches.  
+Tu fais **10× plus d’attempts sur 40–80 comptes**.
+
+### Cadence par compte chaud (exemple)
+| Jour | Touche |
+|---|---|
+| J0 | Appel 1 + mail J0 |
+| J1 | Appel 2 (si non joint) |
+| J2 | LinkedIn ou SMS bump |
+| J4 | Appel 3 + mail bump |
+| J7 | Visite / breakup / pilote posé |
+
+**Objectif intensité :**  
+- **80–120 touches/semaine** sur la file batch (appels + mails + LI + visites)  
+- dont **≥40 appels** si tu as des créneaux jour/sam  
+- Top **15 comptes** = 50 % des attempts
+
+---
+
+## Offre (inchangée, plus “gros”)
+> Pack [N] sites / halls — [X] €/mois  
+> Pilote payant 1 site — [Y] € — date cette semaine  
+> Si OK → bascule lot sous 15 jours  
+> Compte-rendu photo + interlocuteur unique
+
+Pour un syndic : parle **€ / immeuble / mois** et **planning trimestriel**, pas “89 € la vitrine”.
+
+---
+
+## Plan listes + objectifs (recalibré)
+
+### Objectifs globaux
+- File active : **60–80** comptes batch  
+- Touches / sem : **80–120**  
+- Pilotes / sem : **≥2** payants  
+- Packs en négo : **≥3**  
+- Close pack / mois (Phase 0) : **≥2** (plus les pilotes)
+
+### Quotas jour
+- **Recharge liste :** 25–40 fiches batch (dirigeant + tél + email) tant que file <80  
+- **Attempts :** 25–40 touches/jour sur comptes existants (mix call/mail/LI)  
+- **Top 15 :** toujours traités en premier
+
+### Semaine type
+1. **Lun** — +30 fiches batch ; appels top 15 (si fenêtre) ; 20 mails  
+2. **Mar** — 30–40 touches (call priority) ; relances J1  
+3. **Mer** — +25 fiches ; LinkedIn sur non-joignables ; 1 visite syndic  
+4. **Jeu** — closes pilotes ; dossiers pack (€)  
+5. **Ven** — top 15 only ; prep samedi  
+6. **Sam** — FIRE **40–60 appels/visites** batch  
+7. **Dim** — debrief € pack / pilotes / comptes vivants
+
+---
+
+## Petite voie (max 20 % du temps)
+- Meta B2C  
+- Boutiques seulement dans un park déjà en attaque  
+
+---
+
+## Discipline
+Si tu ajoutes des fiches sans monter les **touches sur les gros** → tu collections.  
+Si tu ne fais que du SMS sur des syndics → tu sous-armes le deal.  
+**Gros clients = téléphone + dossier + récurrence de touches.**
