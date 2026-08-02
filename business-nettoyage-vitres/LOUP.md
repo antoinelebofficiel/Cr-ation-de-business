@@ -3,8 +3,9 @@
 Lis ça. Ferme le reste. Exécute.
 
 ## Cible
-**15 clients payants en août** (contrats ou interventions encaissées).  
-Ensuite septembre → **12–15k CA**.
+**15 clients payants en août** — priorité **packs batch** (syndics / multi-sites / parks), pas 15 boutiques à 89 €.  
+Ensuite septembre → **12–15k CA**.  
+Voir [03-demarchage/80-20-gros-contrats.md](03-demarchage/80-20-gros-contrats.md).
 
 ## Offre (une phrase, point)
 > On entretient vos vitrines / vitres sous contrat, créneaux fixes, sans que vous y pensiez. À partir de 89 €/mois commerces · devis 24h particuliers.
