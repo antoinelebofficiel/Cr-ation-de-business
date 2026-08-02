@@ -6,7 +6,7 @@ Tu ne vends pas un podcast. Tu vends (ou tu livres) :
 
 Deux lectures possibles de l’appel — clarifie en 3 min :
 1. **Ils te recrutent** (presta / freelance closer-setter) → tu vends ton temps  
-2. **Tu leur vends un système** (rappel / cold call outbound mensuel) → tu vends un résultat + abo  
+2. **Tu leur vends un système** (cold call / prise de RDV outbound mensuel) → tu vends un résultat + abo  
 
 Objectif mardi : savoir lequel, puis **sortir avec un pilote daté + €**.
 
@@ -53,10 +53,6 @@ Oui :
 
 > Je prends vos cibles, je les joinds, je qualifie, je vous pose des RDV / guests dans l’agenda.  
 > Vous restez sur le podcast et la prod. Moi je remplis le pipe.
-
-Si rappel leads dans ta boîte à outils :
-> Même logique que pour les boîtes qui paient des ads : vitesse + qualif + créneau.  
-> Sauf qu’ici la cible c’est [guest / sponsor / client].
 
 ---
 

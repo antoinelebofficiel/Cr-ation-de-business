@@ -1,16 +1,14 @@
 # LUCIDE — Nettoyage de vitres sous contrat
 
 ## START ICI
-### → [DECISION-LORIENT.md](DECISION-LORIENT.md) ← **arbitrage à jour : online = rappel leads d’abord**
-### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse (**si** tu actives LUCIDE)
+### → [LOUP.md](LOUP.md) ← mode TDAH / vitesse
 ### → [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md) ← B2B commerces
 ### → [03-demarchage/80-20-gros-contrats.md](03-demarchage/80-20-gros-contrats.md) ← 80/20 + 10× (batch, pas 89 €)
 ### → [03-demarchage/3-entrepreneurs-vitesse.md](03-demarchage/3-entrepreneurs-vitesse.md) ← blitz Uber / ByteDance / roll-up
 ### → [03-demarchage/meta-ads.md](03-demarchage/meta-ads.md) ← particuliers (ce qui a déjà marché)
 ### → [05-ops/modele-ops.md](05-ops/modele-ops.md) ← toi = vente, pas le balai
 
-**Statut :** LUCIDE = plan B Lorient. Priorité online = rappel leads France (voir décision).  
-**Zone LUCIDE si activé :** Lorient Agglomération (25 km) — [01-cible/STATUS.md](01-cible/STATUS.md).
+**Zone :** Lorient Agglomération (25 km) — [01-cible/STATUS.md](01-cible/STATUS.md).
 
 Le reste = réserve. Tu n’y vas que si bloqué.
 

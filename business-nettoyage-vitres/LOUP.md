@@ -96,13 +96,10 @@ Sept → ads scale + 50 appels/jour B2B → **12–15k CA**.
 ---
 
 ## Ordre d’attaque
-1. Zone = **Lorient Agglomération** (déjà figée) — **si** tu actives ce kit
+1. Zone = **Lorient Agglomération** (déjà figée)
 2. Trouver **1 prestataire** Lorient/Lanester cette semaine
-3. **25 appels** centre-ville ce soir + Meta 30 €/j rayon agglo
+3. File batch 60–80 + Meta 30 €/j rayon agglo
 4. Jusqu’à 15 clients
-
-> Priorité online actuelle : **rappel leads France** — voir [DECISION-LORIENT.md](DECISION-LORIENT.md).  
-> Ce fichier LOUP = seulement si tu lances LUCIDE.
 
 **Vente sans ops = tu livres pas.**  
 **Ops sans vente = hobby.**  

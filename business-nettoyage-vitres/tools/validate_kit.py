@@ -44,7 +44,6 @@ REQUIRED = [
     ROOT / "06-scale" / "EXECUTE.md",
     ROOT / "README.md",
     ROOT / "LOUP.md",
-    ROOT / "DECISION-LORIENT.md",
 ]
 
 

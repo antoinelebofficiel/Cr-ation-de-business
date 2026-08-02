@@ -14,7 +14,7 @@ Ton pattern SaaS :
 Ça marche quand le produit est **invisible** et le close = une démo.  
 Nettoyage de vitres = produit **visible**. Le gérant n’achète pas 15 minutes : il achète une **vitrine propre à une date**.
 
-| SaaS / rappel leads | Vitres |
+| SaaS / service invisible | Vitres |
 |---|---|
 | Close = RDV 15 min | Close = **1er passage daté** |
 | Bénéfice abstrait | Hook concret (traces, rue, soleil) |
