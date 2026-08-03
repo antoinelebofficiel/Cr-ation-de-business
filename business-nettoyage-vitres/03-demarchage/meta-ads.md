@@ -69,13 +69,13 @@ Copy :
 - “Quand ?” : cette semaine / ce mois  
 
 ### Script rappel lead B2B (soir, 45 sec)
-> Clean&Pro, Antoine. Vous avez demandé un devis vitrine pour [commerce / ville].  
+> Clean&Pro, Antoine. Vous avez demandé le forfait vitrine pour [commerce / ville].  
 > C’est géré en interne ou vous avez déjà quelqu’un ?  
-> On passe avant ouverture, créneau fixe, **à partir de 89 €/mois** (c’est le minimum).  
+> On passe avant ouverture, créneau fixe. Forfait **Commerce S = 89 €/mois** (minimum) — ou 149 € si 4 passages.  
 > Mardi 7h30 ou jeudi 7h30 — je bloque lequel ?
 
-**Close** = 1er passage daté + SMS récap + paiement/acompte.  
-Pas un RDV “on en reparle”.
+**Close** = forfait choisi + 1er passage daté + SMS récap + paiement/acompte.  
+Pas de “sur mesure”. Pas un RDV “on en reparle”.
 
 ---
 
