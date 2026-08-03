@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clean&amp;Pro — Nettoyage de vitres Lorient</title>
+  <meta name="description" content="Clean&amp;Pro : nettoyage de vitres sous contrat à Lorient. Commerces, bureaux, particuliers. Devis rapide, créneaux fixes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0e1a22;
+      --bg-2: #173040;
+      --text: #f2f7f9;
+      --muted: #a8c0cc;
+      --accent: #3ec6b2;
+      --accent-2: #d9f3ee;
+      --font-display: "Fraunces", Georgia, serif;
+      --font-body: "DM Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+    a { color: inherit; }
+    .hero {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      align-content: end;
+      padding: 1.25rem 1.25rem 2.5rem;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(14,26,34,0.2) 0%, rgba(14,26,34,0.5) 42%, rgba(14,26,34,0.94) 100%),
+        radial-gradient(900px 520px at 78% 18%, rgba(62,198,178,0.28), transparent 58%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%231a3a48'/%3E%3Cstop offset='1' stop-color='%230e1a22'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g)'/%3E%3Cpath d='M120 80h960v640H120z' fill='none' stroke='%23d9f3ee22' stroke-width='3'/%3E%3Cpath d='M120 80L600 400 1080 80M120 720L600 400 1080 720M600 80v640' stroke='%23ffffff14' stroke-width='2'/%3E%3Cpath d='M200 200h180v220H200zM820 200h180v220H820zM420 480h360v160H420z' fill='%23ffffff08' stroke='%233ec6b233'/%3E%3Ccircle cx='980' cy='140' r='90' fill='%23d9f3ee18'/%3E%3C/svg%3E"),
+        linear-gradient(135deg, #0e1a22 0%, #1a3a48 55%, #0e1a22 100%);
+      background-size: cover, cover, cover, cover;
+      background-position: center;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(115deg, transparent 40%, rgba(217,243,238,0.1) 48%, transparent 56%);
+      animation: sheen 7s ease-in-out infinite;
+      pointer-events: none;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 35%;
+      background: linear-gradient(180deg, transparent, rgba(14,26,34,0.55));
+      pointer-events: none;
+    }
+    @keyframes sheen {
+      0%, 100% { transform: translateX(-8%); opacity: 0.35; }
+      50% { transform: translateX(8%); opacity: 0.75; }
+    }
+    .hero-inner { position: relative; z-index: 1; }
+    .brand {
+      font-family: var(--font-display);
+      font-size: clamp(3.4rem, 13vw, 7rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 0.92;
+      margin-bottom: 1rem;
+      animation: rise 0.9s ease both;
+    }
+    .headline {
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 3.5vw, 2rem);
+      font-weight: 500;
+      max-width: 16ch;
+      margin-bottom: 0.75rem;
+      animation: rise 1s ease 0.1s both;
+    }
+    .sub {
+      color: var(--muted);
+      max-width: 34ch;
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+      animation: rise 1s ease 0.2s both;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      animation: rise 1s ease 0.3s both;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.95rem 1.25rem;
+      border-radius: 0.35rem;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--accent); color: #062019; }
+    .btn-ghost { border-color: rgba(242,247,249,0.35); color: var(--text); }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    section {
+      padding: 4.5rem 1.25rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.02em;
+    }
+    .lead { color: var(--muted); margin-bottom: 1.75rem; max-width: 42ch; }
+    .split { display: grid; gap: 1.25rem; }
+    .item h3 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+    .item p { color: var(--muted); }
+    .form {
+      display: grid;
+      gap: 0.75rem;
+      background: linear-gradient(180deg, var(--bg-2), #122632);
+      padding: 1.25rem;
+      border: 1px solid rgba(217,243,238,0.12);
+    }
+    label { font-size: 0.85rem; color: var(--muted); }
+    input, select, textarea {
+      width: 100%;
+      margin-top: 0.3rem;
+      padding: 0.85rem 0.9rem;
+      border: 1px solid rgba(242,247,249,0.18);
+      background: rgba(14,26,34,0.55);
+      color: var(--text);
+      font: inherit;
+      border-radius: 0.25rem;
+    }
+    button[type="submit"] {
+      margin-top: 0.5rem;
+      padding: 1rem;
+      border: 0;
+      background: var(--accent);
+      color: #062019;
+      font-weight: 700;
+      font: inherit;
+      cursor: pointer;
+      border-radius: 0.35rem;
+    }
+    .note { font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+    footer {
+      padding: 2rem 1.25rem 3rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(242,247,249,0.08);
+      text-align: center;
+    }
+    .price-line {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      margin: 1rem 0 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand">Clean&amp;Pro</div>
+      <h1 class="headline">Vitres propres, sans y penser.</h1>
+      <p class="sub">Lorient &amp; agglo. Contrats commerces. Interventions maisons. Créneaux fixes, résultat net.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#devis">Demander un devis</a>
+        <!-- Remplacer le numéro WhatsApp réel -->
+        <a class="btn btn-ghost" href="https://wa.me/33000000000">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Pour qui</h2>
+    <p class="lead">Vitrines de commerces, baies de restaurants, entrées de bureaux, maisons avec grandes ouvertures — Lorient, Lanester, Ploemeur, Guidel, Hennebont.</p>
+    <div class="split">
+      <div class="item">
+        <h3>Commerces</h3>
+        <p>À partir de 89 €/mois — 2 passages. Vitrines nickel avant l’ouverture.</p>
+      </div>
+      <div class="item">
+        <h3>Particuliers</h3>
+        <p>Devis sous 24h. Créneau sous 5 jours. Forfaits 3×/an disponibles.</p>
+      </div>
+      <div class="item">
+        <h3>Bureaux</h3>
+        <p>Entrées et cloisons vitrées en créneau discret, hors pic d’activité.</p>
+      </div>
+    </div>
+    <p class="price-line">À partir de 89 €/mois</p>
+    <p class="lead">Repassage offert sous 48h si le passage n’est pas conforme.</p>
+  </section>
+
+  <section id="devis">
+    <h2>Devis rapide</h2>
+    <p class="lead">Une demande. On te rappelle. Prix clair.</p>
+    <form class="form" action="#" method="post" onsubmit="event.preventDefault(); alert('Branchez ce formulaire à Tally / Formspree / Sheets. Phase 0 : WhatsApp ou Instant Form Meta.');">
+      <div>
+        <label for="name">Nom</label>
+        <input id="name" name="name" required autocomplete="name" />
+      </div>
+      <div>
+        <label for="phone">Téléphone</label>
+        <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+      </div>
+      <div>
+        <label for="type">Type de besoin</label>
+        <select id="type" name="type" required>
+          <option value="particulier">Particulier</option>
+          <option value="commerce">Commerce / vitrine</option>
+          <option value="bureau">Bureau</option>
+        </select>
+      </div>
+      <div>
+        <label for="city">Ville / quartier</label>
+        <input id="city" name="city" required placeholder="Lorient, Lanester…" />
+      </div>
+      <div>
+        <label for="msg">Précision (optionnel)</label>
+        <textarea id="msg" name="msg" rows="3" placeholder="Ex. maison 3 baies, intérieur + extérieur"></textarea>
+      </div>
+      <button type="submit">Recevoir mon créneau</button>
+      <p class="note">Rappel sous 15 minutes le soir. Pas de spam.</p>
+    </form>
+  </section>
+
+  <footer>
+    <strong style="color:var(--text);font-family:var(--font-display);font-size:1.2rem;">Clean&amp;Pro</strong><br />
+    Nettoyage de vitres sous contrat<br />
+    Lorient Agglomération · <!-- Tel / SIRET réels -->
+  </footer>
+</body>
+</html>
