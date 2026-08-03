@@ -46,7 +46,7 @@ Lis. Ferme le reste. Exécute.
 ## Script commerce (T0)
 > Bonjour, Antoine Bauché — Clean&Pro.  
 > Pour vos vitrines : interne ou presta ?  
-> Créneau fixe avant ouverture, 89 €/mois (1er mois 69 €).  
+> Créneau fixe avant ouverture, à partir de 89 €/mois (minimum).  
 > Mardi 7h30 ou jeudi 7h30 ?
 
 **Close** = 1er passage daté. Script : [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)
@@ -66,9 +66,10 @@ Lis. Ferme le reste. Exécute.
 - Refaire le site
 
 ## Autorisé
-- Prix ±15 % pour close
+- Monter de forfait (jamais &lt; 89 €/mois commerce)
 - Prestataire bancal mais assuré
 - Landing moche qui convertit
 - Micro-entreprise
+- Forfaits fixes — **interdit : “sur mesure”**
 
 **Toi = vendeur + chef d’orchestre. Point.**

@@ -31,7 +31,7 @@ Source de vérité : [../SEMAINE-10X-2000.md](../SEMAINE-10X-2000.md)
 
 ## Sam 9 — GUERRE
 - [ ] **80** portes/appels 9h–13h + 15h–18h
-- [ ] Close = passage sous 7j + 1er mois 69→89 €
+- [ ] Close = passage sous 7j + contrat **≥89 €/mois** (plancher)
 - [ ] Cumul journée : viser **+800–1 200 €**
 
 ## Dim 10

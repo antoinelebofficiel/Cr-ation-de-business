@@ -53,11 +53,11 @@ Ne sur-niche pas J1 (ex. “uniquement opticien”) → volume mort.
 |---|---|---|
 | A | Vitrine sale vs nickel avant ouverture | Avant/après vitrine rue |
 | B | “Vos clients voient ça en premier” | Contre-jour traces + texte |
-| C | Contrat sans y penser — 89 €/mois | Commerce + prix clair |
+| C | Forfait clair — à partir de 89 €/mois | Commerce + prix (pas “sur mesure”) |
 
 Copy :
 > Vitrines nickel avant l’ouverture.  
-> Créneau fixe, dès 89 €/mois (1er mois 69 €).  
+> Créneau fixe, à partir de 89 €/mois (minimum).  
 > Clean&Pro — Lorient & agglo. Devis en 24h.
 
 ### Formulaire Instant B2B
@@ -71,7 +71,7 @@ Copy :
 ### Script rappel lead B2B (soir, 45 sec)
 > Clean&Pro, Antoine. Vous avez demandé un devis vitrine pour [commerce / ville].  
 > C’est géré en interne ou vous avez déjà quelqu’un ?  
-> On passe avant ouverture, créneau fixe, **89 €/mois** — 1er mois **69 €**.  
+> On passe avant ouverture, créneau fixe, **à partir de 89 €/mois** (c’est le minimum).  
 > Mardi 7h30 ou jeudi 7h30 — je bloque lequel ?
 
 **Close** = 1er passage daté + SMS récap + paiement/acompte.  
