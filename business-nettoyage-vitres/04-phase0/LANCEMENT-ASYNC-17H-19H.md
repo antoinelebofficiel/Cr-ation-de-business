@@ -1,131 +1,115 @@
-# Lancement Clean&Pro Lorient — async 17h–19h seulement
+# Lancement Clean&Pro Lorient — 17h–23h
 
-**Créneau :** 17h–19h (2h/jour) + optionnel samedi si tu veux accélérer.  
-**Principe :** zéro dépendance aux appels commerces en fermeture.  
-**Toi :** vente async + ads + planning. **Presta :** terrain en journée.
+**Créneau dispo :** 17h–23h (~6h) + samedi si possible.  
+**Principe :** async d’abord ; appels seulement quand ça décroche (leads, replies, mobiles).  
+**Toi :** vente + ads + planning. **Presta :** terrain en journée.
 
 ---
 
-## Ce que tu fais / ne fais pas à 17h–19h
+## Découpage soir type (guerre calme)
+
+| Bloc | Heure | Quoi | Output |
+|---|---|---|---|
+| **A** | 17h00–17h40 | Leads Meta du jour | 0 lead non traité · passages posés |
+| **B** | 17h40–19h00 | SMS/WA B2B volume | **60–80** messages perso |
+| **C** | 19h00–20h30 | Relances + appels chauds | Replies · mobiles · soft oui |
+| **D** | 20h30–22h00 | Chargeur liste lendemain | **40–50** fiches (tél+hook) |
+| **E** | 22h00–22h40 | Ops + encaissement | Presta briefé · factures |
+| **F** | 22h40–23h00 | Ads + debrief | CPA · 1 ligne scoreboard |
+
+Si fatigue : coupe **D** (liste) un soir sur deux, **jamais** A+B.
+
+---
+
+## Ce qui est autorisé 17h–23h
 
 | Oui | Non |
 |---|---|
-| SMS / WhatsApp | Appels magasins (mauvais créneau) |
-| Relance leads Meta | Devis PDF de 4 pages |
-| Enrichir file + hooks | Nettoyer toi-même |
-| Brief presta J+1 | Syndic “gros dossier” sans suite |
-| Ads (budget, créas, CPA) | Refaire le logo |
+| SMS / WA / mail | Compter sur les fixes magasin à 18h |
+| Appels **leads ads** + **replies** “rappelez-moi” | Devis roman |
+| Appels mobiles gérants (soir parfois OK) | Nettoyer toi-même |
+| Enrichissement Maps/Pappers | 2e business |
+| Ads, créas, landing | Perfection branding |
+| Brief presta | |
 
-Appels : seulement **mobiles qui rappellent**, leads ads, ou **samedi matin** (hors ce doc si tu restes strict 17–19h).
+**Fixes commerces :** toujours faibles le soir.  
+**Mobiles + leads entrants :** oui jusqu’à ~21h.
 
 ---
 
-## Semaine 0 (avant le vrai volume) — 3 soirs
+## Semaine 0 — 3 soirs pour démarrer
 
-### Soir 1 — Structure (2h)
-- [ ] Micro / SIRET en cours ou OK  
+### Soir 1 (17h–23h) — Fondation
+- [ ] SIRET / micro  
 - [ ] RC pro demandée  
-- [ ] WhatsApp Business + signature Clean&Pro  
-- [ ] Landing ou Google Form (nom, tél, ville, type, urgence)  
-- [ ] Lien paiement / IBAN / SumUp  
+- [ ] WhatsApp Business Clean&Pro  
+- [ ] Formulaire (nom, tél, ville, type, urgence)  
+- [ ] Paiement (IBAN / SumUp / lien)  
+- [ ] Sheet : leads · b2b · planning · cash  
 
-### Soir 2 — Presta (2h)
-- [ ] 5 annonces Leboncoin/FB “missions vitres Lorient, payé 48h”  
-- [ ] 3 appels/messages candidats (eux joignables le soir)  
-- [ ] 1 presta test validé (même sans client : dispo + tarif + RC)  
+### Soir 2 — Presta + file
+- [ ] 5 annonces Leboncoin/FB missions vitres Lorient  
+- [ ] Clôturer **1 presta** (tarif, zone, RC, dispo matins)  
+- [ ] 50 fiches Maps (showrooms, parks, vitrines) + hooks  
 
-### Soir 3 — Machine ads + file
-- [ ] Campagne Meta **Leads** rayon Lorient agglo, **25–40 €/j**  
-- [ ] 3 créas (avant/après, traces, prix)  
-- [ ] Sheet : `leads` + `b2b_sms`  
-- [ ] 30 fiches commerces/showrooms (Maps) avec tél + hook  
+### Soir 3 — Ads + premier FIRE async
+- [ ] Meta Leads ON **30–40 €/j** rayon agglo  
+- [ ] 3 créas  
+- [ ] **80 SMS** B2B  
+- [ ] Traiter leads dès qu’ils tombent  
 
-**DoD Semaine 0 :** presta OK + ads ON + formulaire + 30 fiches SMS.
+**DoD S0 :** presta + ads + formulaire + 50 fiches + 80 SMS partis.
 
 ---
 
-## Routine quotidienne 17h–19h (boucle)
+## Offre (close = passage)
+- Particulier : **99–149 €**  
+- Commerce : **89–99 €/mois** ou test payant  
+- Showroom : **149–249 €/mois**  
+- Toujours : **mardi 7h30 ou jeudi 7h30** (ou 2 dates concrètes)
 
-### Bloc A — 17h00–17h25 (Leads ads)
-- [ ] Traiter **tous** les leads Meta de la journée  
-- [ ] Appel si décroche / sinon SMS dans la minute  
-- [ ] Close : **passage payant** sous 5 jours (2 créneaux)  
-- [ ] Brief WhatsApp au presta dès OUI  
-
-### Bloc B — 17h25–18h25 (SMS B2B volume)
-- [ ] **40–60 SMS/WA** perso (hook + mardi/jeudi)  
-- [ ] File : showrooms, parks, commerces vitrine, multi-sites  
-- [ ] Relances J+2 / J+4 sur non-réponses  
-- [ ] Soft “oui” → appeler **tout de suite** ou caler appel 17h–18h le lendemain  
-
-Template :
-> [Commerce] — Antoine, Clean&Pro. Vu [hook].  
-> Vitrines en créneau fixe dès 89€/mois — ou passage test.  
+SMS type :
+> [Commerce] — Antoine, Clean&Pro. [hook].  
+> Créneau fixe dès 89€/mois — ou passage test.  
 > Mardi 7h30 ou jeudi 7h30 ? Stop = stop.
 
-### Bloc C — 18h25–18h50 (Ops légère)
-- [ ] Planning presta J+1 / J+2  
-- [ ] Relancer photos / OK client  
-- [ ] Factures / encaissements  
+---
 
-### Bloc D — 18h50–19h00 (Ads + debrief)
-- [ ] CPA / spend / kill créa morte  
-- [ ] 1 ligne sheet : leads · SMS · replies · passages posés · CA  
+## Objectif 2k nets (~5k CA)
+
+| Semaine | Soirs | Cible |
+|---|---|---|
+| S1 | Fondation + volume | Presta · ads · **5 payants** |
+| S2 | Machine | **+8** · ~2,5–3k CA |
+| S3 | Machine | **+8** · ~4k CA |
+| S4 | Close + contrats | **~5k CA → ~2k nets** |
+
+Quotas soir (presque tous les soirs) :
+- **0** lead ads en retard  
+- **60–80** SMS/WA  
+- **40+** fiches si seulement &lt;80 en file  
+- Passages briefés au presta **avant 23h**
 
 ---
 
-## Offre (async-friendly)
-- Particulier : **99–149 €** passage · forfait 3×/an  
-- Commerce S : **89–99 €/mois** (2×) ou passage test payant  
-- Showroom / grande vitrine : **149–249 €/mois**  
-- Close toujours : **date de passage**, pas “on se rappelle”
+## Samedi turbo (fortement recommandé)
+**9h–12h :** appels sur replies SMS + showrooms + non-décrochés mobiles.  
+Ça débloque ce que 17h–23h async ne close pas seul.
 
 ---
 
-## Objectif “2k nets” (tranquille)
-Cible : **~5k CA** → ~2k nets (presta + ads ~30 €/j).
-
-| Semaine | Objectif |
-|---|---|
-| S1 | Presta + ads + **3 payants** |
-| S2 | **+5 payants** · ~2k CA cumul |
-| S3 | **+5** · ~3,5–4k CA |
-| S4 | **+5–7** · **~5k CA / ~2k nets** |
-
-Volume min : **40 SMS/soir** + **0 lead ads non traité**.
-
----
-
-## Stack minimal
-- WhatsApp Business  
-- Google Sheet (leads + B2B + planning presta)  
-- Meta Ads  
-- Formulaire  
-- SumUp / virement  
-- 1 presta (+ backup dès 5 clients)
-
-Pas d’usine email Street View en Phase 0.
-
----
-
-## Si quelqu’un répond “appelle-moi”
-- Tu appelles **dans la foulée** (encore dans 17h–19h)  
-- Hors créneau : SMS “Je vous appelle demain 17h15 — ou mardi 7h30 passage direct ?”
-
-## Samedi (option turbo, 3h)
-Si tu peux : 9h–12h appels sur replies SMS + showrooms.  
-Sinon le plan 17h–19h suffit pour viser 2k nets.
+## Stack
+WhatsApp Business · Sheet · Meta · Formulaire · SumUp · 1 presta (+ backup à 5 clients)
 
 ---
 
 ## Interdit
-- Espérer joindre les gérants magasin à 18h30 au fixe  
+- Finir à 23h sur le logo  
 - Lancer sans presta  
-- 2e business en parallèle  
-- Gratuit “pour voir”
+- Gratuit “pour voir”  
+- Relancer un autre business avant 2k nets
 
-## Ce soir (premier)
-1. Annonces presta  
-2. Formulaire + WhatsApp Business  
-3. 30 fiches Maps + hooks  
-4. Demain : ads ON dès formulaire prêt + bloc SMS 17h25
+## Ce soir
+1. Fondation (Soir 1) jusqu’à formulaire + WhatsApp OK  
+2. Si avance : poster les 5 annonces presta  
+3. Demain : finir presta + 50 fiches + ads
