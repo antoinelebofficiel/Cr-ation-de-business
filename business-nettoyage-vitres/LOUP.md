@@ -2,7 +2,8 @@
 
 Lis ça. Ferme le reste. Exécute.
 
-**Décision :** Clean&Pro = **seul** business août — [DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md).
+**Décision :** Clean&Pro = **seul** business août — [DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md).  
+**Créneau :** 17h–19h async — [04-phase0/LANCEMENT-ASYNC-17H-19H.md](04-phase0/LANCEMENT-ASYNC-17H-19H.md).
 
 ## Cible
 **15 clients payants en août** — priorité **packs batch** (syndics / multi-sites / parks), pas 15 boutiques à 89 €.  
