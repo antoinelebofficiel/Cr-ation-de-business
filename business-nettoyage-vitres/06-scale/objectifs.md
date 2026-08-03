@@ -1,43 +1,34 @@
-# Objectifs — Clean&Pro
+# Objectifs — Clean&Pro → 20k / 90j
 
-Contrainte ([My History](../../My%20History)) :
-- Facteur jusqu’à mi-septembre 2026 → soirs + WE
-- Expertise : vente, ads, conversion — **pas** l’ops terrain
-- Expérience antérieure : société de nettoyage OK via Facebook ads
+Contraintes :
+- Survie **1 500 €/mois**
+- All-in Clean&Pro (voir [../PLAN-90J-20K.md](../PLAN-90J-20K.md))
+- Facteur jusqu’à mi-septembre → soirs + WE puis scale jour
+- Toi = vente / ads — pas le terrain
 
-## Décision verrouillée
-1. **Clean&Pro = seul business août**
-2. **4–10 août = semaine 10× → 2 000 €** ([../SEMAINE-10X-2000.md](../SEMAINE-10X-2000.md))
-3. **MVP août = 15 payants dont ≥5 récurrents**
-4. Ensuite : scale ads + 2e prestataire
+## Cibles CA
 
-## Cibles
-
-| Fenêtre | Payants / CA | Focus |
-|---|---|---|
-| **4–10 août** | **2 000 €** | **Meta B2B** + B2C + FIRE samedi |
-| **Août 2026** | **15** payants · **3–5k €** | Validation + 1 presta |
-| **Sept 2026** | **35** · **10–12k €** | Contrats + ads |
-| **Oct 2026** | **50** · **14–16k €** | Rétention + upsells |
-| **Nov 2026** | **60** · **16–18k €** | Machine |
-| **Déc 2026** | **65** · **18–20k €** | Fêtes / vitrines |
+| Fenêtre | CA mois | Contrats actifs | Prestas |
+|---|---|---|---|
+| **Août** (J0–30) | **4–6k** | ≥8–15 | 1–2 |
+| **Sept** (J30–60) | **10–12k** | ≥40 | 2–3 |
+| **Oct / 1er nov** (J60–90) | **20k** | ≥70 | 3–4 |
 
 ## Jalons
 
 | Date | Jalon | Si raté |
 |---|---|---|
-| 10 août | **2 000 €** | Audit ads + pitch 24h ; doubler samedi suivant |
-| 17 août | 5 payants | Passage one-shot agressif + spend 60 €/j si CPA OK |
-| 31 août | 15 payants (≥5 contrats) | Prolonger validation ; pas ville 2 |
-| 30 sept | ≥10k CA | 50 touches/j utiles + ads scale |
+| 10 août | ≥2k encaissés + 1 presta | Guerre ads/portes 7j |
+| 31 août | 4–6k CA + survie 1 500 OK | Audit close/CPA 48h |
+| 30 sept | ≥10k CA | Scale jour + presta #3 |
+| 1er nov | **20k CA run-rate** | Rester sur mix ; pas nouveau business |
 
-## Quotas (facteur = intensité soir/WE)
+## Quotas
 
-| Jour | Action |
-|---|---|
-| Lun–Ven soir | 100 % leads Meta (**B2B d’abord**) |
-| Samedi | **80** portes/appels commerces |
-| Dimanche | Closes ads restants |
+| Période | Ads | Vente |
+|---|---|---|
+| Août | 50–100 €/j si CPA OK | Leads soir + samedi 80 portes |
+| Sept–oct | 100–150 €/j si CAC OK | 40–60 touches B2B/j + ads |
 
-Ads : **~70 % B2B / ~30 % B2C** · floor total **45–55 €/j** ; scale **70–90 €/j** si CPA B2B ≤18 €.  
-Prix : contrats commerce **≥179 €/mois** (sur mesure).
+Prix : sur mesure **≥179 €/mois** commerce.  
+Marge brute après presta **≥55 %** (plancher 50 %).

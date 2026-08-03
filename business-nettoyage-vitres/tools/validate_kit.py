@@ -46,6 +46,7 @@ REQUIRED = [
     ROOT / "LOUP.md",
     ROOT / "DECISION-CLEAN-AND-PRO.md",
     ROOT / "SEMAINE-10X-2000.md",
+    ROOT / "PLAN-90J-20K.md",
 ]
 
 
@@ -113,7 +114,7 @@ def main() -> int:
         return 1
 
     print("STATUS: KIT_READY")
-    print("NEXT: SEMAINE-10X-2000.md → presta + Meta B2B~35€/j + B2C~15€/j + samedi portes")
+    print("NEXT: PLAN-90J-20K.md → survie 1500€ + presta + Meta B2B + samedi portes")
     return 0
 
 

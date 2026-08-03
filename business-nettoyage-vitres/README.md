@@ -1,20 +1,20 @@
 # Clean&Pro — Nettoyage de vitres sous contrat
 
 ## START ICI (ordre)
-1. **[SEMAINE-10X-2000.md](SEMAINE-10X-2000.md)** ← **2 000 € cette semaine**
-2. **[LOUP.md](LOUP.md)** ← mode TDAH / exécution
-3. **[DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md)** ← seul business août
-4. **[03-demarchage/meta-ads.md](03-demarchage/meta-ads.md)** ← **B2B prioritaire** + B2C appoint
-5. **[03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)** ← portes samedi
+1. **[PLAN-90J-20K.md](PLAN-90J-20K.md)** ← **20k/mois en 90j** + survie 1 500 €
+2. **[LOUP.md](LOUP.md)** ← exécution quotidienne
+3. **[SEMAINE-10X-2000.md](SEMAINE-10X-2000.md)** ← 1ers encaissements
+4. **[03-demarchage/meta-ads.md](03-demarchage/meta-ads.md)** ← B2B prioritaire
+5. **[02-offre/pricing.md](02-offre/pricing.md)** ← plancher 179 €
 
 **Zone :** Lorient Agglomération (25 km) — [01-cible/STATUS.md](01-cible/STATUS.md).
 
 ## En 5 lignes
-- **Semaine 4–10 août** : **2 000 €** — **Meta B2B** + Meta B2C + samedi portes
-- **Août** : **15 payants** dont ≥5 récurrents
-- **Sept** : **10–12k € CA/mois**
-- **Offre** : contrats pro sur mesure (**≥179 €/mois** commerces) + particuliers
-- **Règle** : tu ne nettoies jamais — prestataires ; **jamais de pricing low-cost**
+- **90 jours** : **20k € CA/mois** (all-in Clean&Pro)
+- **Survie** : **1 500 €/mois** avant risk ads max
+- **Août→oct** : 5k → 12k → 20k
+- **Offre** : sur mesure **≥179 €/mois** · marge brute ≥55 %
+- **Toi** : vente + ads — jamais le balai · pas de 2e business
 
 ## Pourquoi ce business
 Tu as déjà validé le nettoyage via Facebook ads. Frein = ops/recrutement long. Modèle :

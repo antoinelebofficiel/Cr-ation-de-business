@@ -1,8 +1,9 @@
 # MODE LOUP — Clean&Pro entreprise pro
 
-**Décision :** Clean&Pro = seul business — [DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md)  
-**Semaine :** [SEMAINE-10X-2000.md](SEMAINE-10X-2000.md) → 2 000 €  
-**Prix :** [02-offre/pricing.md](02-offre/pricing.md) → **sur mesure, plancher 179 €/mois**
+**Décision :** Clean&Pro all-in 90j → **20k/mois** — [PLAN-90J-20K.md](PLAN-90J-20K.md)  
+**Survie :** **1 500 €/mois** provisionnés avant de brûler les ads  
+**Semaine :** [SEMAINE-10X-2000.md](SEMAINE-10X-2000.md) → 1ers 2 000 €  
+**Prix :** sur mesure, plancher **179 €/mois**
 
 ## Offre (une phrase)
 > Entretien professionnel de vos vitrines sous contrat, créneau fixe, suivi photo.  
@@ -29,8 +30,9 @@
 
 ## Interdits
 - Offres low-cost / 89 €  
-- Autre business  
+- Vendre leads / cold call pour les autres (90j)  
 - Nettoyer toi-même  
+- Scaler ads si les **1 500 €** survie ne sont pas couverts  
 - “C’est négociable” sans raison marge  
 
 ## Autorisé

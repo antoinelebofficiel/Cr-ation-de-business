@@ -1,27 +1,30 @@
-# Playbook scale → ~15–20k € CA/mois
+# Playbook → 20k € CA/mois (90j)
 
-## Cible réaliste
-Mix contrats + particuliers. 20k en **pur récurrent** vitres exige ~100–150 contrats selon ticket — long.  
-Objectif opérationnel : **15k CA/mois** d’abord, 20k en push (ads + multi-prestataires + upsells).
+Source : [../PLAN-90J-20K.md](../PLAN-90J-20K.md)
+
+## Mix cible
+70 contrats @ ~220 € + 30 B2C @ ~160 € ≈ **20k**  
+ou 90 contrats @ ~225 €.
 
 ## Phases
 | Phase | Objectif |
 |---|---|
-| P0 | 15 payants, 1 prestataire, zone 1 |
-| P1 | 8–10k CA, 2 prestataires, ≥20 contrats |
-| P2 | 12–15k CA, machine ads + B2B, avis Google ≥15 |
-| P3 | 18–20k CA, upsells, éventuellement ville 2 |
+| A (août) | 4–6k · 1–2 prestas · ads ON |
+| B (sept) | 10–12k · 3 prestas · call jour |
+| C (oct) | 20k · rétention · capacité |
 
-## Règles non négociables
-- Tu restes sur vente / close / ads
-- Capacité ops avant promesse commerciale
-- Marge ≥40 % après prestataire
-- Pas de CDI avant 10k récurrent stable 2 mois
-- Une seule promesse : vitres propres, créneaux fixes
+## Règles
+- Toi = vente / ads / planning  
+- Capacité presta **avant** promesse volume  
+- Marge brute ≥55 % (plancher 50 %)  
+- Survie 1 500 € avant scale ads agressif  
+- Pas de CDI avant 12k récurrent stable 2 mois  
+- Une promesse : vitres pro, créneaux fixes, sur mesure ≥179 €
 
 ## Recrutement
-- Prestataire #2 quand délai créneau >5 jours
-- Setter / commercial freelance **seulement** si tu satures à 50+ appels/j et CPA ads OK
+- Presta #2 quand délai créneau >5j **ou** occupancy >70 %  
+- Presta #3 dès phase B  
+- Commercial externe seulement si tu satures et CPA ads OK
 
-## Couper les clients toxiques
-Réclamations hebdo + mauvais payeur + accès infernal → résilier. Protège les prestataires = protège ton CA.
+## Clients toxiques
+Réclamations hebdo + mauvais payeur + accès infernal → out.
