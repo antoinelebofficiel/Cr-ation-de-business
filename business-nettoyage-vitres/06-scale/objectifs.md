@@ -39,4 +39,5 @@ Contrainte ([My History](../../My%20History)) :
 | Samedi | **80** portes/appels commerces |
 | Dimanche | Closes ads restants |
 
-Ads : **~70 % B2B / ~30 % B2C** · floor total **45–55 €/j** ; scale **70–90 €/j** si CPA B2B ≤15 €.
+Ads : **~70 % B2B / ~30 % B2C** · floor total **45–55 €/j** ; scale **70–90 €/j** si CPA B2B ≤18 €.  
+Prix : contrats commerce **≥179 €/mois** (sur mesure).
