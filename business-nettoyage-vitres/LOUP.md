@@ -24,23 +24,24 @@ Lis. Ferme le reste. Exécute.
 ### 1. Setup bloquant (si pas fait)
 - [ ] Prestataire #1 contacté / confirmé
 - [ ] WhatsApp + paiement prêts
-- [ ] Landing / Instant Form live
-- [ ] Meta **40 €/j** ON
+- [ ] **2 Instant Forms** : B2B commerces + B2C
+- [ ] Meta ON : **~35 €/j B2B + ~15 €/j B2C** — [meta-ads.md](03-demarchage/meta-ads.md)
 
-### 2. Chargeur (30 min)
-- [ ] File ≥60 fiches score ≥3 — [process-liste.md](01-cible/process-liste.md)
+### 2. Chargeur (20 min)
+- [ ] 3 créas B2B (avant/après vitrine) uploadées
+- [ ] File portes samedi ≥40 commerces
 
 ### 3. FIRE soir (17h30–21h)
-- [ ] 100 % leads ads rappelés <15 min
-- [ ] 40 SMS/mails B2B
+- [ ] **100 % leads Meta** — B2B d’abord, puis B2C
 - [ ] Closes = date + prix + paiement
+- [ ] SMS non-décrochés
 
 ### 4. FIRE samedi
-- [ ] 80 appels/visites commerces
+- [ ] 80 portes/appels commerces (complément ads)
 - [ ] Close passage sous 7j
 
 ### 5. Debrief (10 min)
-- [ ] `04-phase0/daily-tracker.csv` : appels · leads · closes · CA · spend
+- [ ] `daily-tracker.csv` : leads B2B/B2C · closes · CA · spend
 
 ## Script commerce (T0)
 > Bonjour, Antoine Bauché — Clean&Pro.  

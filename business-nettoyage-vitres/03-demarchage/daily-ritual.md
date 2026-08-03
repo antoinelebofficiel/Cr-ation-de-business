@@ -7,20 +7,20 @@ Semaine 4–10 août : suivre aussi [../SEMAINE-10X-2000.md](../SEMAINE-10X-2000
 - [ ] Prestas du jour briefés (adresse / accès / photos)
 
 ## Soir FIRE (17h30–21h)
-- [ ] **100 %** leads ads rappelés (<15 min dès notif)
-- [ ] 40 SMS / mails B2B (file score ≥3)
+- [ ] **100 %** leads Meta — **B2B d’abord**, puis B2C (<15 min)
 - [ ] Closes = date + prix + paiement
+- [ ] SMS non-décrochés
 - [ ] Brief presta J+1/J+2
 
-## Samedi (remplace le soir soft)
-- [ ] **80** appels/visites commerces
+## Samedi (terrain = complément ads)
+- [ ] **80** portes/appels commerces
 - [ ] Ads ON
 - [ ] Encaisser / poser passages
 
 ## Ads (10 min)
-- [ ] Budget ≥40 €/j (60–80 si CPA ≤12 €)
-- [ ] CPA / leads du jour
-- [ ] Kill créa morte
+- [ ] Split : **~70 % B2B / ~30 % B2C** (total ≥45 €/j)
+- [ ] CPA B2B ≤15 € · CPA B2C ≤12 € sinon kill créa
+- [ ] Leads du jour par campagne
 
 ## Debrief (10 min)
 Remplir [../04-phase0/daily-tracker.csv](../04-phase0/daily-tracker.csv) :

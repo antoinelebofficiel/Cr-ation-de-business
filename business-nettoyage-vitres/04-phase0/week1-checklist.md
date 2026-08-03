@@ -8,21 +8,20 @@ Source de vérité : [../SEMAINE-10X-2000.md](../SEMAINE-10X-2000.md)
 - [ ] Micro / activité lancée
 - [ ] RC pro demandée
 - [ ] WhatsApp Business + SumUp / lien paiement
-- [ ] Landing live **ou** Instant Form Meta
+- [ ] **2 Instant Forms** : B2B commerces + B2C maisons
+- [ ] 3 créas B2B (avant/après vitrine + prix)
 - [ ] Notif lead → téléphone
 - [ ] **1 prestataire** dispo cette semaine
-- [ ] File ≥60 fiches score ≥3
+- [ ] File portes samedi ≥40 commerces
 
 ## Lun 4
-- [ ] Meta ON **40 €**
-- [ ] 40 SMS B2B
-- [ ] 100 % leads rappelés
+- [ ] Meta ON : **~35 € B2B + ~15 € B2C**
+- [ ] 100 % leads rappelés (B2B d’abord)
 - [ ] Objectif : 1er close
 
 ## Mar 5 – Jeu 7
-- [ ] Ads 40–50 €/j
-- [ ] 40 touches/soir
-- [ ] Closes date + paiement
+- [ ] Split ads maintenu ; scale B2B si CPA ≤15 €
+- [ ] Soir = closes leads Meta
 - [ ] Jeu soir : **≥500 €** cumul
 
 ## Ven 8
@@ -31,14 +30,14 @@ Source de vérité : [../SEMAINE-10X-2000.md](../SEMAINE-10X-2000.md)
 - [ ] Cumul **≥800 €**
 
 ## Sam 9 — GUERRE
-- [ ] **80** appels/visites 9h–13h + 15h–18h
+- [ ] **80** portes/appels 9h–13h + 15h–18h
 - [ ] Close = passage sous 7j + 1er mois 69→89 €
 - [ ] Cumul journée : viser **+800–1 200 €**
 
 ## Dim 10
-- [ ] 40 snipers + closes ads
+- [ ] Closes ads restants
 - [ ] Scoreboard : **≥2 000 €**
-- [ ] Si <2 000 € : écrire en 5 lignes ce qui a cassé (leads / close / presta / pitch)
+- [ ] Si <2 000 € : écrire ce qui a cassé (créa B2B / rappel / close / presta)
 
 ## Preuves à stocker
 - [ ] Photos avant/après

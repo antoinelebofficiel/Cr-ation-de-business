@@ -15,7 +15,7 @@ Contrainte ([My History](../../My%20History)) :
 
 | Fenêtre | Payants / CA | Focus |
 |---|---|---|
-| **4–10 août** | **2 000 €** | Ads B2C + FIRE samedi |
+| **4–10 août** | **2 000 €** | **Meta B2B** + B2C + FIRE samedi |
 | **Août 2026** | **15** payants · **3–5k €** | Validation + 1 presta |
 | **Sept 2026** | **35** · **10–12k €** | Contrats + ads |
 | **Oct 2026** | **50** · **14–16k €** | Rétention + upsells |
@@ -35,8 +35,8 @@ Contrainte ([My History](../../My%20History)) :
 
 | Jour | Action |
 |---|---|
-| Lun–Ven soir | 100 % leads ads + 40 SMS/mails B2B |
-| Samedi | **80** appels/visites commerces |
-| Dimanche | 40 snipers + closes |
+| Lun–Ven soir | 100 % leads Meta (**B2B d’abord**) |
+| Samedi | **80** portes/appels commerces |
+| Dimanche | Closes ads restants |
 
-Ads : **40 €/jour** floor dès formulaire + rappel prêts ; **60–80 €** si CPA lead ≤12 €.
+Ads : **~70 % B2B / ~30 % B2C** · floor total **45–55 €/j** ; scale **70–90 €/j** si CPA B2B ≤15 €.

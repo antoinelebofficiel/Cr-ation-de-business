@@ -113,7 +113,7 @@ def main() -> int:
         return 1
 
     print("STATUS: KIT_READY")
-    print("NEXT: SEMAINE-10X-2000.md → presta + ads 40€/j + samedi 80 appels")
+    print("NEXT: SEMAINE-10X-2000.md → presta + Meta B2B~35€/j + B2C~15€/j + samedi portes")
     return 0
 
 

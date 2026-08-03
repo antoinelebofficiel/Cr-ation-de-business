@@ -4,13 +4,13 @@
 1. **[SEMAINE-10X-2000.md](SEMAINE-10X-2000.md)** ← **2 000 € cette semaine**
 2. **[LOUP.md](LOUP.md)** ← mode TDAH / exécution
 3. **[DECISION-CLEAN-AND-PRO.md](DECISION-CLEAN-AND-PRO.md)** ← seul business août
-4. **[03-demarchage/meta-ads.md](03-demarchage/meta-ads.md)** ← B2C (déjà validé)
-5. **[03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)** ← B2B samedi
+4. **[03-demarchage/meta-ads.md](03-demarchage/meta-ads.md)** ← **B2B prioritaire** + B2C appoint
+5. **[03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)** ← portes samedi
 
 **Zone :** Lorient Agglomération (25 km) — [01-cible/STATUS.md](01-cible/STATUS.md).
 
 ## En 5 lignes
-- **Semaine 4–10 août** : **2 000 €** encaissés (ads B2C + samedi commerces)
+- **Semaine 4–10 août** : **2 000 €** — **Meta B2B** + Meta B2C + samedi portes
 - **Août** : **15 payants** dont ≥5 récurrents
 - **Sept** : **10–12k € CA/mois**
 - **Offre** : contrats commerces/bureaux + interventions particuliers
@@ -18,7 +18,7 @@
 
 ## Pourquoi ce business
 Tu as déjà validé le nettoyage via Facebook ads. Frein = ops/recrutement long. Modèle :
-1. **Vente** (toi) : Meta ads B2C + cold call/portes B2B samedi
+1. **Vente** (toi) : **Meta B2B commerces** (fer de lance) + B2C + portes samedi
 2. **Exécution** (autres) : auto-entrepreneurs / sous-traitants
 3. **Cash prévisible** : contrats mensuels + forfaits particuliers
 

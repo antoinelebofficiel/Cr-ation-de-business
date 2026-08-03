@@ -11,7 +11,7 @@ MVP août = **15 clients payants** (contrats ou interventions), pas un beau site
 3. Micro + RC pro lancées
 4. **1 prestataire** trouvé (dispo sous 72h)
 5. Landing live + WhatsApp
-6. Meta ads **40 €/jour** + file B2B ≥60 fiches
+6. Meta ads **2 campagnes** : B2B ~35 €/j + B2C ~15 €/j (voir `meta-ads.md`)
 
 ## Boucle
 - Guerre semaine : `../SEMAINE-10X-2000.md`

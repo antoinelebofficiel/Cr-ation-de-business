@@ -26,11 +26,13 @@
 
 | Canal | Quand | Rôle |
 |---|---|---|
-| Meta ads B2C | 24/7 | Cash semaine 10× |
-| Rappel leads | Soir <15 min | Close |
-| SMS / mail B2B | Soir | Pipeline |
-| Appels / portes commerces | **Samedi** (+ micro-fenêtres) | Contrats |
+| **Meta ads B2B** (commerces) | 24/7 · **~70 % du spend** | **Fer de lance** contrats |
+| Meta ads B2C | 24/7 · ~30 % | Appoint cash |
+| Rappel leads | Soir <15 min | Close (B2B d’abord) |
+| Portes / appels commerces | **Samedi** | Complément / close dur |
 | Prestataires | Jour | Delivery |
+
+**Correction 3 août :** Meta B2B > cold call soir. Les gérants répondent sur mobile aux leads ; les boutiques décrochent mal après 18h.
 
 ## 10× Rule (Cardone) — définition opérationnelle
 10× = **attempts** (leads rappelés, SMS, appels samedi, spend ads si CPA tient).  
