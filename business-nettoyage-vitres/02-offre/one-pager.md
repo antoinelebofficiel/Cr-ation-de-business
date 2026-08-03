@@ -9,7 +9,7 @@
 3. **Particuliers** maisons / grands appartements avec baies (via ads)
 
 ## Ce que vous obtenez
-1. Diagnostic rapide → **forfait oral** (89 / 149 / …) sous 24h — pas de “sur mesure”
+1. Diagnostic rapide → **tarif sur mesure oral** (≥89 €/mois) sous 24h
 2. Intervention pro (intérieur / extérieur selon contrat)
 3. Créneau récurrent (hebdo, bi-mensuel, mensuel, trimestriel)
 4. Compte-rendu photo après chaque passage (WhatsApp)
@@ -35,7 +35,7 @@
 | Particulier maison | 1 intervention | **99–179 €** |
 | Particulier forfait | 3 passages / an | **249–399 €** |
 
-\*Monter de forfait si hauteur/accès/grande vitrine. **Plancher commerce = 89 €/mois.** Pas de sur mesure. Voir [pricing.md](pricing.md).
+\*Sur mesure selon hauteur/accès/vitrine. **Plancher commerce = 89 €/mois.** Voir [pricing.md](pricing.md).
 
 ## Accroche close
 - Commerce : **1er passage sous 7 jours**, puis contrat mensuel

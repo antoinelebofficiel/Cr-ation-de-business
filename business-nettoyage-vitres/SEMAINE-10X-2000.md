@@ -85,7 +85,7 @@ Scale B2B à **50–60 €/j** dès CPA lead ≤15 € et ≥1 close B2B.
 
 ## Offres (ordre de push)
 
-1. **Commerce Meta** : **à partir de 89 €/mois** (plancher) — passage sous 7j  
+1. **Commerce Meta** : **sur mesure dès 89 €/mois** — passage sous 7j  
 2. **Particulier Meta** : 99–149 € one-shot  
 3. **Pack 2–3 sites** : 250–450 € pilote  
 
@@ -98,8 +98,8 @@ Close = **date + prix + paiement**. Jamais “je vous rappelle”.
 ### Lead Meta B2B (soir)
 > Clean&Pro, Antoine. Devis vitrine pour [commerce/ville].  
 > Interne ou presta ?  
-> Avant ouverture, **à partir de 89 €/mois** (minimum).  
-> Mardi 7h30 ou jeudi 7h30 ?
+> Avant ouverture, **sur mesure**, à partir de **89 €/mois**.  
+> Pour vous **[X] €/mois**. Mardi 7h30 ou jeudi 7h30 ?
 
 ### Lead Meta B2C (soir)
 > Devis vitres à [ville]. Maison ou appart ? Combien de baies ?  
@@ -107,7 +107,7 @@ Close = **date + prix + paiement**. Jamais “je vous rappelle”.
 
 ### Porte samedi
 > Antoine Bauché — Clean&Pro. Vos vitrines : interne ou déjà quelqu’un ?  
-> Créneau fixe avant ouverture, à partir de 89 €/mois.  
+> Créneau fixe avant ouverture, sur mesure dès 89 €/mois.  
 > Mardi ou jeudi 7h30 ?
 
 ---
@@ -120,10 +120,9 @@ Close = **date + prix + paiement**. Jamais “je vous rappelle”.
 - Scaler hors Lorient Agglo  
 
 ## Autorisé
-- Monter de forfait (89 → 149 → 169) — **jamais &lt; 89 €**  
+- **Sur mesure** (ancres 89 / 149 / 169…) — **jamais &lt; 89 €**  
 - Presta à 45–50 % du CA  
-- Instant Form moche qui convertit  
-- Forfaits fixes — **interdit : “sur mesure”**
+- Instant Form moche qui convertit
 
 ---
 

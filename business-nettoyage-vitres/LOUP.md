@@ -7,7 +7,7 @@ Lis. Ferme le reste. Exécute.
 
 ## Offre (une phrase)
 > On entretient vos vitrines / vitres sous contrat, créneaux fixes, sans que vous y pensiez.  
-> À partir de 89 €/mois commerces · particuliers dès 99 €.
+> Sur mesure commerces, à partir de 89 €/mois · particuliers dès 99 €.
 
 ## Règles du loup
 1. **Appeler / ads > préparer**
@@ -46,7 +46,7 @@ Lis. Ferme le reste. Exécute.
 ## Script commerce (T0)
 > Bonjour, Antoine Bauché — Clean&Pro.  
 > Pour vos vitrines : interne ou presta ?  
-> Créneau fixe avant ouverture, à partir de 89 €/mois (minimum).  
+> Créneau fixe avant ouverture, sur mesure dès 89 €/mois.  
 > Mardi 7h30 ou jeudi 7h30 ?
 
 **Close** = 1er passage daté. Script : [03-demarchage/cold-call-script.md](03-demarchage/cold-call-script.md)
@@ -66,10 +66,9 @@ Lis. Ferme le reste. Exécute.
 - Refaire le site
 
 ## Autorisé
-- Monter de forfait (jamais &lt; 89 €/mois commerce)
+- **Sur mesure** (jamais &lt; 89 €/mois commerce)
 - Prestataire bancal mais assuré
 - Landing moche qui convertit
 - Micro-entreprise
-- Forfaits fixes — **interdit : “sur mesure”**
 
 **Toi = vendeur + chef d’orchestre. Point.**

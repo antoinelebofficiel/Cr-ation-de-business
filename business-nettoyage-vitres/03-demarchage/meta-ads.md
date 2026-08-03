@@ -53,11 +53,11 @@ Ne sur-niche pas J1 (ex. “uniquement opticien”) → volume mort.
 |---|---|---|
 | A | Vitrine sale vs nickel avant ouverture | Avant/après vitrine rue |
 | B | “Vos clients voient ça en premier” | Contre-jour traces + texte |
-| C | Forfait clair — à partir de 89 €/mois | Commerce + prix (pas “sur mesure”) |
+| C | Sur mesure — à partir de 89 €/mois | Commerce + prix plancher |
 
 Copy :
 > Vitrines nickel avant l’ouverture.  
-> Créneau fixe, à partir de 89 €/mois (minimum).  
+> Entretien sur mesure, créneau fixe, à partir de 89 €/mois.  
 > Clean&Pro — Lorient & agglo. Devis en 24h.
 
 ### Formulaire Instant B2B
@@ -69,13 +69,13 @@ Copy :
 - “Quand ?” : cette semaine / ce mois  
 
 ### Script rappel lead B2B (soir, 45 sec)
-> Clean&Pro, Antoine. Vous avez demandé le forfait vitrine pour [commerce / ville].  
+> Clean&Pro, Antoine. Vous avez demandé un devis vitrine pour [commerce / ville].  
 > C’est géré en interne ou vous avez déjà quelqu’un ?  
-> On passe avant ouverture, créneau fixe. Forfait **Commerce S = 89 €/mois** (minimum) — ou 149 € si 4 passages.  
-> Mardi 7h30 ou jeudi 7h30 — je bloque lequel ?
+> On passe avant ouverture, créneau fixe. **Sur mesure**, à partir de **89 €/mois**.  
+> Pour vous, vu [taille/fréquence], c’est **[X] €/mois**. Mardi 7h30 ou jeudi 7h30 ?
 
-**Close** = forfait choisi + 1er passage daté + SMS récap + paiement/acompte.  
-Pas de “sur mesure”. Pas un RDV “on en reparle”.
+**Close** = tarif sur mesure (≥89 €) + 1er passage daté + SMS récap + paiement/acompte.  
+Pas un RDV “on en reparle”.
 
 ---
 

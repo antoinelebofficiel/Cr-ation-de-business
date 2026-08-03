@@ -1,15 +1,15 @@
 # 3 Ads Meta B2B — Clean&Pro (skill facebook-ads)
 
-**Règles prix (non négociables)**  
-- **89 €/mois = PLANCHER** contrat commerce — jamais en dessous  
-- **Forfaits fixes** (Commerce S / M / M+) — **pas de “sur mesure”**  
-- Interdit en ads : « sur mesure », « selon besoin », « devis personnalisé », 69 €
+**Positionnement prix**  
+- **Sur mesure** : fréquence, taille vitrine, accès → tarif adapté  
+- **89 €/mois = MINIMUM** — jamais en dessous  
+- Interdit en ads : 69 €, “prix unique pour tous”, “pas de devis”
 
 **Objectif campagne :** Lead Generation (Instant Form)  
 **Budget B2B :** 35–50 €/jour  
 **Zone :** Lorient + 15–25 km  
 **KPI :** CPA lead ≤15 € · close ≥20 %  
-**CTA bouton :** Contacter / S’inscrire (FR Ads Manager)
+**CTA bouton :** Contacter / S’inscrire
 
 ```
 CAMPAIGN BRIEF
@@ -32,101 +32,86 @@ Audience: Commerces Lorient Broad
   Age: 25–60 | Gender: All
   Detailed Targeting:
     Include (OR): broad local (recommandé J1)
-      OU intérêts : Small business owners, Retail, Restaurant,
-      Entrepreneurship, Property management (si volume OK)
+      OU intérêts retail / resto / small business
     Exclude: Cleaning service employees (si dispo)
-  Placements: Advantage+ OU Feed FB + Feed IG + Stories (pas Audience Network J1)
+  Placements: Advantage+ OU Feed FB + Feed IG + Stories
 ```
-
-Pas de Lookalike J1.  
-Pixel &lt;50 leads/semaine → rester en **Leads**.
 
 ---
 
-## Grille forfait (à dire au close — pas “sur mesure”)
+## Ancres internes (toi — pas affiché comme menu rigide)
 
-| Forfait | Contenu | Prix |
+| Ancre | Contenu type | À partir de |
 |---|---|---|
-| Commerce S | 2 passages/mois, vitrine ≤12 m² | **89 €/mois** (min) |
-| Commerce M | 4 passages/mois | **149 €/mois** |
-| Commerce M+ | 4 passages, grande vitrine | **169–199 €/mois** |
-| Resto / café | 2–4×/mois + portes | **119–199 €/mois** |
+| Commerce S | 2×/mois, vitrine ≤12 m² | **89 €/mois** (min) |
+| Commerce M | 4×/mois | **149 €/mois** |
+| Commerce M+ | grande vitrine | **169–199 €/mois** |
+| Resto | 2–4× + portes | **119–199 €/mois** |
 
-Au téléphone tu **choisis le forfait**, tu ne “construis” pas un prix.
+Tu **adaptes** (sur mesure) puis tu annonces un prix **≥89 €**.  
+Les ancres évitent de inventer un tarif au feeling.
 
 ---
 
 ## AD A — Avant / après vitrine
 
-**Fichier :** [creas-b2b/cleanpro-ad-a-avant-apres.png](creas-b2b/cleanpro-ad-a-avant-apres.png)  
-**Concept :** Before/After  
-**Format :** Single image 1:1
+**Fichier :** [creas-b2b/cleanpro-ad-a-avant-apres.png](creas-b2b/cleanpro-ad-a-avant-apres.png)
 
 ```
 Primary Text:
 Vos clients passent devant votre vitrine avant d’entrer.
-On la laisse nickel — créneau fixe avant l’ouverture.
+On l’adapte à votre commerce — créneau fixe avant l’ouverture.
 
 Clean&Pro · Lorient & agglo
-Contrats à partir de 89 €/mois
+Sur mesure · à partir de 89 €/mois
 
 Headline (≤40): Vitrines nickel avant l’ouverture
 Description (≤30): Dès 89 €/mois
 CTA Button: Contacter / S’inscrire
 ```
 
-Compteurs : primary ~155 · headline 34 · description 14 → OK.
-
 ---
 
 ## AD B — Douleur traces / soleil
 
-**Fichier :** [creas-b2b/cleanpro-ad-b-traces.png](creas-b2b/cleanpro-ad-b-traces.png)  
-**Concept :** PAS  
-**Format :** Single image 1:1
+**Fichier :** [creas-b2b/cleanpro-ad-b-traces.png](creas-b2b/cleanpro-ad-b-traces.png)
 
 ```
 Primary Text:
 Vos clients voient ça en premier.
 Traces, soleil, poussière — ça parle avant vous.
 
-Créneau fixe avant ouverture.
-Clean&Pro · forfaits dès 89 €/mois · Lorient
+Entretien sur mesure, créneau avant ouverture.
+Clean&Pro · dès 89 €/mois · Lorient
 
 Headline (≤40): Vos clients voient ça en premier
-Description (≤30): Forfait dès 89 €/mois
+Description (≤30): Sur mesure dès 89 €
 CTA Button: Contacter / S’inscrire
 ```
 
-Compteurs : primary ~165 · headline 33 · description 20 → OK.
-
 ---
 
-## AD C — Offre forfait 89 € (plancher)
+## AD C — Sur mesure · plancher 89 €
 
 **Fichier :** [creas-b2b/cleanpro-ad-c-offre-89.png](creas-b2b/cleanpro-ad-c-offre-89.png)  
-**Concept :** Direct Offer · prix forfaitaire  
-**Format :** Single image 1:1  
-**Visuel :** « À partir de 89€/mois » · Minimum contrat commerce · **zéro “sur mesure”** · zéro 69 €
+**Visuel :** « À partir de 89€/mois » + **« Sur mesure · Lorient & agglo »**
 
 ```
 Primary Text:
-Nettoyage de vitrines sous contrat — forfaits clairs.
+Nettoyage de vitrines sous contrat — sur mesure.
 Créneau fixe · Lorient & agglo.
 
 À partir de 89 €/mois (minimum).
 Vous dites mardi ou jeudi 7h30, on bloque.
 
-Headline (≤40): À partir de 89 €/mois
-Description (≤30): Forfait commerce
+Headline (≤40): Sur mesure dès 89 €/mois
+Description (≤30): Lorient & agglo
 CTA Button: Contacter / S’inscrire
 ```
 
-Compteurs : primary ~155 · headline 22 · description 15 → OK.
-
 ---
 
-## Instant Form (3 ads)
+## Instant Form
 
 | Champ | Type |
 |---|---|
@@ -138,51 +123,22 @@ Compteurs : primary ~155 · headline 22 · description 15 → OK.
 | Urgence | cette semaine / ce mois |
 
 Intro :
-> Forfait vitrine Clean&Pro — on vous rappelle pour poser le créneau.
+> Devis vitrine sur mesure Clean&Pro — à partir de 89 €/mois. On rappelle pour caler le créneau.
 
 Thank you :
-> Merci. Antoine vous rappelle pour bloquer le 1er passage (forfait dès 89 €/mois).
-
-**Pas** d’intro « devis sur mesure ».
+> Merci. Antoine vous rappelle pour un tarif adapté (≥89 €/mois) et le 1er passage.
 
 ---
 
-## A/B TEST
+## Script close (soir)
 
-| Priorité | Variable |
-|---|---|
-| 1 | Creative A vs B vs C |
-| 2 | Hook primary text sur la gagnante |
-| 3 | Broad vs intérêts retail (après 1 gagnante) |
-
-Kill : CPA lead &gt;2× cible après 500+ impressions + 10+ leads sur une créa.
+> On regarde votre vitrine : taille, passages/mois, accès.  
+> Je vous fais un **tarif sur mesure**, minimum **89 €/mois**.  
+> Pour vous ça serait **[X] €/mois**. Mardi 7h30 ou jeudi 7h30 ?
 
 ---
 
-## BUDGET
+## BUDGET / TEST
 
-| | Spend B2B |
-|---|---|
-| Floor | 35 €/j |
-| Scale | 50–60 €/j si CPA lead ≤15 € + ≥1 close |
-
-Rappel leads &lt;15 min le soir = non négociable.
-
----
-
-## MEASUREMENT
-
-spend · leads A/B/C · joints · forfait posé (89/149/…) · closes · CA  
-Winner = **coût par close**.
-
-Scripts : [SEMAINE-10X-2000.md](../SEMAINE-10X-2000.md) · [meta-ads.md](meta-ads.md)
-
----
-
-## Upload Ads Manager
-
-1. Campagne Leads · budget adset 35 €  
-2. Adset Broad Lorient 25 km  
-3. Upload A, B, C + texts ci-dessus  
-4. Instant Form + notif tel  
-5. Publier · 72h sans toucher sauf CPA explosé
+Floor 35 €/j B2B · scale 50–60 € si CPA lead ≤15 €.  
+Test = A vs B vs C. Winner = coût par close.
