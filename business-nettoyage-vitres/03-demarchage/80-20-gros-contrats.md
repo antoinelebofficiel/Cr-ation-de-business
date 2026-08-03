@@ -7,7 +7,7 @@
 ---
 
 ## Verdict inchangé
-**Gros / batch.** Pas la mitraille boutique 89 €.
+**Gros / batch.** Pas la mitraille boutique low-cost.
 
 ## Ce qui change
 
@@ -87,7 +87,7 @@ Tu fais **10× plus d’attempts sur 40–80 comptes**.
 > Si OK → bascule lot sous 15 jours  
 > Compte-rendu photo + interlocuteur unique
 
-Pour un syndic : parle **€ / immeuble / mois** et **planning trimestriel**, pas “89 € la vitrine”.
+Pour un syndic : parle **€ / immeuble / mois** et **planning trimestriel**, pas un tarif discount vitrine.
 
 ---
 

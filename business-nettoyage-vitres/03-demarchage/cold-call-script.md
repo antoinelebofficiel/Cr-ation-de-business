@@ -54,7 +54,7 @@ Tu gardes **ta structure** (Bonjour + nom + motif), tu changes **la fin** (crén
 > Je vous appelle pour vos vitrines [HOOK en 6–10 mots].  
 > Aujourd’hui c’est géré en interne ou vous avez déjà quelqu’un ?  
 > …  
-> Parfait. On passe en créneau fixe avant ouverture, à partir de 89 €/mois pour 2 passages.  
+> Parfait. On passe en créneau fixe avant ouverture — entretien pro, sur mesure, à partir de 179 €/mois.  
 > Je vous propose un **1er passage mardi 7h30 ou jeudi 7h30** — lequel vous arrange ?
 
 ### Script B — sans hook fort
@@ -96,7 +96,7 @@ Tu gardes **ta structure** (Bonjour + nom + motif), tu changes **la fin** (crén
 > **[Jour1] ou [Jour2] matin**, 1er passage. Lequel ?
 
 Prix si demandé :  
-> 89 €/mois pour 2 passages vitrine standard, ou [Y] € le passage test.
+> Sur mesure, à partir de 179 €/mois pour un entretien 2× / mois — ou [Y] € le passage test au tarif plein.
 
 ### B. “On a déjà quelqu’un”
 > Il passe à quelle fréquence ?  
@@ -105,15 +105,15 @@ Prix si demandé :
 - Blindé satisfait → `OK, je vous laisse mon numéro si un jour il lâche.` → `KO_CONTRAT` + stop
 
 ### C. “Envoyez un devis / un mail”
-> Je vous envoie le prix en SMS dans 2 minutes : 89 €/mois ou [Y] € le passage.  
+> Je vous envoie le tarif en SMS dans 2 minutes : [X] €/mois (sur mesure, min. 179 €) ou [Y] € le passage.  
 > Et je bloque le créneau : **mardi 7h30 ou jeudi 7h30** ?
 
 ### D. “Je n’ai pas le temps”
 > Justement — 20 secondes : deux créneaux, vous dites 1 ou 2, on s’occupe du reste. Mardi ou jeudi ?
 
 ### E. “C’est trop cher” (si tu as sorti le prix)
-> 89 €/mois ≈ 2 €/jour pour une vitrine qui vend à votre place.  
-> On commence par **un passage test** à [prix one-shot], vous voyez le rendu, puis vous décidez.
+> C’est le tarif d’un entretien pro avant ouverture, avec suivi photo — pas du jobbing.  
+> On peut faire **un passage test** à [prix one-shot plein], vous comparez le rendu, puis vous décidez.
 
 ---
 
@@ -139,7 +139,7 @@ Pas de “je vous rappelle pour convenir d’un rendez-vous”.
 > Bonjour Monsieur [Nom], Antoine Bauché.  
 > Vos vitrines [hook] — interne ou prestataire ?  
 > …  
-> On passe en fixe avant ouverture, dès 89 €/mois.  
+> On passe en fixe avant ouverture, sur mesure dès 179 €/mois.  
 > Mardi 7h30 ou jeudi 7h30 ?
 
 Si tu dépasses 90 sec sans question “interne/prestataire” → tu papotes, tu ne prospectes pas.

@@ -1,63 +1,73 @@
-# Pricing — Clean&Pro
+# Pricing — Clean&Pro (entreprise pro)
 
 ## Principes
-1. **Sur mesure** : on adapte fréquence, surface, accès, hauteur
-2. **89 €/mois = PLANCHER** contrat commerce — jamais en dessous
-3. Annoncer « à partir de 89 €/mois » en ads / oral
-4. Vendre du **récurrent** avant du one-shot
-5. Marge cible après prestataire : **≥40–50 %** du CA
-6. Ne jamais discuter à la minute — forfait mois / forfait passage
+1. On vend une **prestation pro** (RC, créneau fixe, photos, interlocuteur) — pas du discount
+2. **Sur mesure** selon surface, fréquence, accès, hauteur
+3. **Plancher contrat commerce : 179 €/mois** — jamais en dessous
+4. Marge après prestataire : **≥50 %** du CA
+5. Annoncer le prix avec assurance. Pas de “c’est donné”.
 
-## Ancres (aide au close — tarif final = sur mesure ≥ plancher)
+## Pourquoi plus 89 €
+89 €/mois pour 2 passages = ~45 €/passage avant presta → marge morte, image low-cost, clients qui négocient tout.  
+Une vraie boîte vitres locale facture le **résultat + la fiabilité**, pas le seau d’eau.
 
-| Ancre | Contenu type | Prix plancher / zone |
+## Ancres B2B (tarif final = sur mesure ≥ plancher)
+
+| Ancre | Contenu type | Zone de prix |
 |---|---|---|
-| Commerce S | 2 passages / mois, vitrine ≤12 m² | **89 €/mois** (min absolu) |
-| Commerce M | 4 passages / mois | **149 €/mois** |
-| Commerce M+ | 4 passages, grande vitrine | **169–199 €/mois** |
-| Resto / café | 2–4× / mois + portes | **119–199 €/mois** |
-| Bureau | Entrée + 1–2 cloisons, 2×/mois | **129–189 €/mois** |
-| Syndic hall | Mensuel | **à partir de 180 €/mois** |
+| Commerce S | 2 passages / mois, vitrine standard | **179–219 €/mois** |
+| Commerce M | 4 passages / mois | **299–349 €/mois** |
+| Commerce M+ / grande baie | 4 passages, linéaire important | **349–449 €/mois** |
+| Resto / café | 2–4× / mois + portes + traces intensives | **229–399 €/mois** |
+| Bureau / entrée pro | 2× / mois | **219–299 €/mois** |
+| Syndic / hall | Mensuel ou bi-mensuel | **à partir de 280 €/mois** |
+| Multi-sites (pack) | 2–5 points | **à partir de 450 €/mois** |
+| Passage one-shot / test | 1 intervention commerce | **95–160 €** |
 
-**Correction Commerce S :** si marge &lt;40 €/mois après presta → monte le tarif sur mesure (jamais descendre sous 89).
+**Plancher absolu contrat commerce : 179 €/mois.**
 
-## Grille B2C
+## Grille B2C (particuliers)
 
-| Offre | Prix TTC | Prestataire | Marge |
-|---|---|---|---|
-| Appartement baies | 79–119 € | 35–50 € | ≥40 % |
-| Maison standard | 99–149 € | 45–65 € | ≥40 % |
-| Maison grande / étage | 149–229 € | 65–100 € | ≥40 % |
-| Forfait 3× / an | −15 % vs 3 one-shot | idem | ≥40 % |
-| Forfait 4× / an | −20 % | idem | ≥40 % |
+| Offre | Prix TTC |
+|---|---|
+| Appartement baies | **119–159 €** |
+| Maison standard | **149–199 €** |
+| Maison grande / étage | **199–299 €** |
+| Forfait 3× / an | −10 % vs 3 one-shots |
+| Forfait 4× / an | −15 % |
 
-## Comment construire le sur mesure (30 sec)
-1. Surface / linéaire vitrine  
+## Construire le sur mesure (30 sec)
+1. Linéaire / nb de faces  
 2. Intérieur + extérieur ?  
-3. Fréquence (2× ou 4× / mois)  
-4. Accès / hauteur / eau / parking  
-5. Prix = ancre la plus proche **puis ajustement** — plancher 89 € commerce
+3. Fréquence (2× ou 4×)  
+4. Accès, hauteur, eau, parking, horaires avant ouverture  
+5. Ancre la plus proche → ajustement **vers le haut** si contrainte  
+6. Annoncer : « Pour votre configuration, **[X] €/mois**. »
 
-## Règles de devis
-- Hauteur >3,5 m / nacelle : **+40 à +100 %** ou refus Phase 0
-- Eau non dispo / parking payant : +15 €
-- Urgence <48h : +25 %
+## Coût presta (interne — ne jamais annoncer)
+| Type | Presta cible | Marge mini |
+|---|---|---|
+| Passage commerce S | 45–55 € | ≥50 % du CA |
+| Passage commerce M | 55–70 € | ≥50 % |
+| Maison | 55–90 € | ≥45 % |
+
+Si le tarif client ne sort pas 50 % de marge → **tu montees le devis**, tu ne baisses pas le presta en dessous du seuil qualité.
+
+## Règles
+- Hauteur >3,5 m / nacelle : **+50 à +100 %** ou refus Phase 0
+- Parking payant / eau absente : +20 €
+- Urgence &lt;48h : +30 %
+- Multi-sites : −5 à −10 % dès 3 sites (chaque site reste rentable)
 
 ## Close friction prix
-- Commerce : **jamais &lt; 89 €/mois**
-- Friction → one-shot au tarif plein, puis contrat sur mesure ≥89 €
-- Particulier : **−10 €** sur place si close immédiat, pas −30 €
-
-## Upsells
-| Upsell | Prix |
-|---|---|
-| Cadres / miroirs / verrière intérieure | +29–59 € / passage |
-| Passage avant événement / soldes | +49–79 € |
-| Vitres de toit / véranda | devis séparé ≥ plancher logique |
-| Multi-magasins | −10 % dès 3 sites (chaque site ≥89 €) |
+- Tu assumes le prix. « C’est le tarif pour un entretien pro avant ouverture, avec suivi photo. »
+- Jamais de −20 € “pour démarrer”
+- Alternative : **1 passage test au tarif one-shot plein**, puis contrat ≥179 €
+- Si “trop cher” → « Par rapport à quoi ? » puis silence. Ou pack moins fréquent (2×) **sans casser le plancher**.
 
 ## Interdit
-- Contrat commerce **&lt; 89 €/mois**
-- “C’est le même prix pour tout le monde” (contredit le sur mesure)
-- Pricing à l’heure annoncé au client
-- Salariés + charges avant d’avoir la marge
+- Contrat commerce **&lt; 179 €/mois**
+- Annoncer 89 € / “à partir de 2 €/jour”
+- Aligner sur le moins-disant Google
+- Remise émotionnelle
+- Pricing à l’heure au client

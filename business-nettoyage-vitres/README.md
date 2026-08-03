@@ -13,8 +13,8 @@
 - **Semaine 4–10 août** : **2 000 €** — **Meta B2B** + Meta B2C + samedi portes
 - **Août** : **15 payants** dont ≥5 récurrents
 - **Sept** : **10–12k € CA/mois**
-- **Offre** : contrats commerces/bureaux + interventions particuliers
-- **Règle** : tu ne nettoies jamais — prestataires à la vacation
+- **Offre** : contrats pro sur mesure (**≥179 €/mois** commerces) + particuliers
+- **Règle** : tu ne nettoies jamais — prestataires ; **jamais de pricing low-cost**
 
 ## Pourquoi ce business
 Tu as déjà validé le nettoyage via Facebook ads. Frein = ops/recrutement long. Modèle :

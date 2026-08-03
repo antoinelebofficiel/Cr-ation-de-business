@@ -7,7 +7,11 @@
 Vitres propres, sans y penser.
 
 ## Positionnement
-Prestataire local de nettoyage de vitres **sous contrat**, fiable, discret, orienté commerces et particuliers exigeants. Pas “pas cher”. Pas “luxe parisien”. **Propre, ponctuel, simple.**
+**Entreprise** locale de nettoyage de vitres sous contrat.  
+Pro, assurée, créneaux fixes, suivi photo.  
+Orientée commerces / bureaux / particuliers exigeants.  
+**Pas low-cost. Pas “offre à 2 balles”. Pas franchise nationale.**  
+On assume un prix pro (≥179 €/mois commerces).
 
 ## Voix
 - Courte
@@ -43,6 +47,6 @@ Prestataire local de nettoyage de vitres **sous contrat**, fiable, discret, orie
 4. Google Business Profile créé J1–J3
 
 ## Slogan ads (tests)
-- A : Vitres propres, sans y penser.
-- B : Vos vitrines nickel avant l’ouverture.
-- C : Devis en 24h. Créneau sous 5 jours.
+- A : Vitres impeccables, sans y penser.
+- B : Vos vitrines propreté avant l’ouverture.
+- C : Entretien pro · sur mesure · dès 179 €/mois.
