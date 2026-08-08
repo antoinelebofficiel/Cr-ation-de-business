@@ -82,6 +82,12 @@ ZONES: dict[str, dict[str, Any]] = {
         "lng": -3.2780,
         "radius_m": 2500,
     },
+    "labase": {
+        "label": "Lorient La Base Keroman",
+        "lat": 47.7292,
+        "lng": -3.3695,
+        "radius_m": 1200,
+    },
 }
 
 # Requêtes "vitrine image" + quelques whales
