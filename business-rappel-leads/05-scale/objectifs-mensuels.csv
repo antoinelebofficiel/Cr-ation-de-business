@@ -1,0 +1,8 @@
+mois,appels_cible,closes_nets_cible,clients_fin_mois,mrr_cible_eur,ca_mois_cible_eur,churn_max_pct,appels_jour_ouve,notes
+2026-08,1100,10,10,9900,14800,15,25plusWE,AOUT=DEMARCHAGE — valider MVP avec 10 clients payants
+2026-09,1500,12,22,21780,27660,12,25puis90,Post-MVP scale — bascule plein temps mi-sept — jalon 20k
+2026-10,1550,10,30,29700,34600,8,70,Scale + upsells
+2026-11,1400,8,36,35640,39560,8,70,Machine
+2026-12,1200,6,40,39600,42540,8,60,Fêtes — sniper
+2027-01,1550,10,48,47520,52420,8,70,Reprise
+2027-02,1500,8,54,53460,57380,8,70,Palier 50+

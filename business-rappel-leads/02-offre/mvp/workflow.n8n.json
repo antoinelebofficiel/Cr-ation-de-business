@@ -1,0 +1,108 @@
+{
+  "name": "Rappel Leads <5min PAC",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "lead-rappel",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "webhook-lead",
+      "name": "Webhook Lead",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const b = $input.first().json.body || $input.first().json;\nconst phoneRaw = String(b.phone || b.tel || b.telephone || '').replace(/\\s+/g,'');\nlet phone = phoneRaw;\nif (phone.startsWith('0') && phone.length === 10) phone = '+33' + phone.slice(1);\nif (phone.startsWith('33') && !phone.startsWith('+')) phone = '+' + phone;\nconst name = b.name || b.nom || 'Prospect';\nconst city = b.city || b.ville || '';\nconst source = b.source || 'form';\nif (!phone.startsWith('+33') && !phone.startsWith('+')) {\n  return [{ json: { skip: true, reason: 'bad_phone', phoneRaw } }];\n}\nreturn [{ json: { skip: false, name, phone, city, source, receivedAt: new Date().toISOString() } }];"
+      },
+      "id": "normalize",
+      "name": "Normalize FR phone",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [260, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [
+            {
+              "value1": "={{$json.skip}}",
+              "value2": false
+            }
+          ]
+        }
+      },
+      "id": "if-valid",
+      "name": "Phone valid?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [520, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.VAPI_CALL_URL}}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "=Bearer {{$env.VAPI_API_KEY}}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"assistantId\": \"{{$env.VAPI_ASSISTANT_ID}}\",\n  \"customer\": {\"number\": \"{{$json.phone}}\", \"name\": \"{{$json.name}}\"},\n  \"phoneNumberId\": \"{{$env.VAPI_PHONE_NUMBER_ID}}\",\n  \"assistantOverrides\": {\n    \"variableValues\": {\n      \"lead_name\": \"{{$json.name}}\",\n      \"lead_phone\": \"{{$json.phone}}\",\n      \"lead_city\": \"{{$json.city}}\",\n      \"lead_source\": \"{{$json.source}}\",\n      \"company_name\": \"{{$env.CLIENT_COMPANY_NAME}}\"\n    }\n  }\n}"
+      },
+      "id": "vapi-call",
+      "name": "Start Vapi Call",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [780, -80],
+      "notes": "Remplacer par Retell si besoin. Brancher ensuite webhook post-appel pour booking Calendar."
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {"__rl": true, "mode": "id", "value": "SHEET_ID"},
+        "sheetName": {"__rl": true, "mode": "name", "value": "leads_log"},
+        "columns": {
+          "mappingMode": "autoMapInputData"
+        }
+      },
+      "id": "log-sheet",
+      "name": "Log Sheet",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4,
+      "position": [1040, -80]
+    }
+  ],
+  "connections": {
+    "Webhook Lead": {
+      "main": [[{"node": "Normalize FR phone", "type": "main", "index": 0}]]
+    },
+    "Normalize FR phone": {
+      "main": [[{"node": "Phone valid?", "type": "main", "index": 0}]]
+    },
+    "Phone valid?": {
+      "main": [
+        [{"node": "Start Vapi Call", "type": "main", "index": 0}],
+        []
+      ]
+    },
+    "Start Vapi Call": {
+      "main": [[{"node": "Log Sheet", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "description": "Squelette MVP. Ajouter freebusy Calendar + branchement webhook fin d'appel pour RDV + SMS."
+  }
+}
