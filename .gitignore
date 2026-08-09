@@ -1,0 +1,9 @@
+.env
+cle
+.venv/
+__pycache__/
+*.pyc
+output/
+*.csv
+!leads/
+!leads/**
