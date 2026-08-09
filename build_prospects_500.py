@@ -62,8 +62,10 @@ def estimate_devis(r: dict[str, Any]) -> dict[str, Any]:
     is_moto = any(x in nom for x in ["moto", "yamaha", "scooter", "motos"])
     is_big = any(
         x in nom
-        for x in ["peugeot", "renault", "kia", "mercedes", "lexus", "bmw", "citroen", "citroën", "audi", "volkswagen", "toyota", "ford", "hyundai", "nissan", "opel", "dacia", "seat", "skoda"]
+        for x in ["peugeot", "renault", "kia", "mercedes", "lexus", "bmw", "citroen", "citroën", "volkswagen", "toyota", "ford", "hyundai", "nissan", "opel", "dacia", "seat", "skoda"]
     ) and not is_moto
+    if __import__("re").search(r"\baudi\b", nom) and "audiopro" not in nom:
+        is_big = True
     is_garage = any(
         x in nom
         for x in [
