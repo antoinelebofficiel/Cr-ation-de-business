@@ -2,7 +2,7 @@
 
 Campagne **éteinte** jusqu’à 2 contrats (780 €). 400 € ads sortent de cet encaissement.
 
-Page de destination : [`landing/index.html`](../landing/index.html). Marque **Nettoyage de vitres**. Zéro prix. CTA : rappel dans les 5 minutes. Formulaire : `nettoyage de vitres` · `nettoyage de vitres plus ménage`. Tarif à l’oral. Diagnostic : `landing/DIAGNOSTIC.md`.
+Page de destination : [`landing/index.html`](../landing/index.html). Sales letter Morbihan Sud. Zéro prix. Deux boutons : devis vitres · devis vitres + ménage / locaux. Rappel 5 min, passage test 24 h. Tarif à l’oral.
 
 ## Formulaire
 
