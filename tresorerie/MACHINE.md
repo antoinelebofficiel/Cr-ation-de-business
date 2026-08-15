@@ -2,21 +2,20 @@
 
 Campagne **éteinte** jusqu’à 2 contrats (780 €). 400 € ads sortent de cet encaissement.
 
-Page de destination : [`landing/index.html`](../landing/index.html). Marque **Nettoyage de vitres**. Zéro prix. CTA : rappel dans les 5 minutes. Formulaire : `nettoyage de vitres` · `nettoyage de vitres plus ménage`. Tarif à l’oral. Diagnostic : `landing/DIAGNOSTIC.md`.
+Page de destination : [`landing/index.html`](../landing/index.html). Sales letter locale, Morbihan Sud. Zéro prix. Deux boutons submit : `nettoyage de vitres` · `nettoyage de vitres plus ménage`. Tarif à l’oral. Diagnostic : `landing/DIAGNOSTIC.md`.
 
 ## Formulaire
 
-| Champ | Obligatoire |
-|---|---|
-| Nom | oui |
-| Téléphone | oui |
-| Ville des locaux | oui |
-| Type | liste : Commerce vitrine / Bureaux / Autre |
-| Étages de vitrage | liste : RDC / R+1 / R+2 / plus haut |
+| Champ | Obligatoire | Placeholder |
+|---|---|---|
+| Prénom | oui | Jeff Bezos |
+| Société | oui | Amazon |
+| Téléphone | oui | 06 06 06 06 06 |
+| Ville des locaux | oui | ville |
 
-« Plus haut » : rappel 2 min, refus. Particulier / Autre hors pro : refus.
+Offre = le bouton cliqué. Mention sous les boutons (ironique, pas une case) : « Je ne veux pas être rappelé dans les 5 minutes. »
 
-Confirmation : « Forfait vitres 1 passage/mois, on vous rappelle sous 24h. »
+Confirmation : « On vous appelle dans les 5 minutes. » R+3 / particulier : refus à l’appel.
 
 ## Sheet
 

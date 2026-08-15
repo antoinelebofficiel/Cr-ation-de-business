@@ -1,21 +1,40 @@
-# Diagnostic landing — 3 copywriters, synthèse
+# CRO — landing moche qui convertit
 
-## Ce que les trois ont tué (unanimité)
+Ordre HTML exact (AIDA, un seul `<main>`, rien avant le H1) :
 
-- Prix 390 / 690 dans les radios, les specs et le merci
-- CTA / promesse « 24 h »
-- H1 = nom de catégorie, identique au header
-- Unsplash gratte-ciel (mensonge vs R+2 / TPE)
-- « Vous payez le premier mois » avant d’avoir parlé à quelqu’un
-- Kicker « R+2 max » en premier mot (filtre avant le désir)
-- Étapes qui rejouent le formulaire + le virement
+1. `h1` résultat + promesse
+2. `p.sub` commerçants / bureaux, Morbihan Sud
+3. `ul.benefices` : propreté max · gérant en direct · déductible charges
+4. `form` 4 champs (placeholders Jeff Bezos / Amazon / 06 06 06 06 06 / ville)
+5. 2 `button type="submit"` (devis vitres) (devis vitres + ménage des locaux)
+6. `p.ironie` sous les boutons
+7. `section#etapes` 5 étapes
+8. `section#gerant` relation directe avec moi, le gérant
+9. `section#faq`
 
-## Divergence tranchée
+Zéro header sticky, zéro bandeau, zéro carte, zéro photo.
 
-- CRO : le ménage en case optionnelle, pas un 2e produit. **Rejeté** : le owner a imposé deux offres au formulaire, libellés exacts.
-- Direct-response : 3 H1 possibles. **Retenu : perte visible + forfait** (vitrine / un passage / mois). Le header reste marqué « Nettoyage de vitres ».
-- B2B local : ne pas bloquer l’envoi si « plus haut ». **Retenu** : le lead part, le refus se fait au tel (sinon pub brûlée).
+## Visuel
 
-## Page imposée
+- Police : Arial, Helvetica, sans-serif. Corps 16 px, noir `#000` sur blanc `#fff`.
+- H1 : Arial gras, 28–32 px, aligné à gauche.
+- Largeur : 640 px max, sales letter.
+- Bouton 1 (vitres) : `#ffd814`, texte `#111`, bordure 2 px `#000`.
+- Bouton 2 (vitres + ménage) : `#ff8f00`, texte `#111`, bordure 2 px `#000`.
+- Formulaire : fond `#ffff99`, bordure 2 px `#000`, inputs carrés.
+- Liens : bleu `#00e`, soulignés.
+- « 5 minutes » : surlignage `#ffff00`.
 
-Header marque + ancre 5 min → hero (kicker pro / 1× mois, H1 vitrine, lede rappel 5 min) → formulaire besoin sans € → 3 faits (pluie, pas de nacelle, sous 7 j) → périmètre des 2 offres → refus (particulier, R+3) → bandeau rappel. Zéro photo stock. Zéro tarif.
+## Interdit de designer
+
+Fraunces / Outfit / Google Fonts. Pastilles `border-radius: 999px`. Header flou, glass, sage, cartes 14 px, grille deux colonnes hero, Unsplash, pictos, carousel, badges, footer 4 colonnes, ombres, dégradés, hamburger. Si ça irait sur Dribbble, ça sort.
+
+## Mention 5 min
+
+Texte exact, en italique, entre guillemets :
+
+« Je ne veux pas être rappelé dans les 5 minutes. »
+
+C’est une réplique ironique (le gérant se moque de la peur d’être relancé). **Pas** une case, **pas** un `input`, **pas** un lien, **pas** un opt-out RGPD. Le submit = rappel dans les 5 minutes. Une checkbox ferait cocher les gens et pourrirait le lead.
+
+Zéro prix à l’écran. Tarif à l’oral.

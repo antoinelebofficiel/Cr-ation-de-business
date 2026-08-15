@@ -2,19 +2,6 @@ const form = document.getElementById("formulaire");
 const thanks = document.querySelector(".thanks");
 const thanksCopy = document.querySelector(".thanks-copy");
 const errorEl = document.querySelector(".form-error");
-const offers = document.querySelectorAll(".offer");
-
-function markOffer() {
-  offers.forEach((label) => {
-    const on = label.querySelector("input")?.checked;
-    label.classList.toggle("is-on", Boolean(on));
-  });
-}
-
-offers.forEach((label) => {
-  label.addEventListener("change", markOffer);
-});
-markOffer();
 
 function phoneOk(value) {
   const digits = value.replace(/\D/g, "");
@@ -26,11 +13,12 @@ form?.addEventListener("submit", async (event) => {
   errorEl.hidden = true;
 
   const data = new FormData(form);
-  const offre = String(data.get("offre") || "");
+  const offre = event.submitter?.value || String(data.get("offre") || "");
   const tel = String(data.get("telephone") || "");
+  data.set("offre", offre);
 
   if (!offre) {
-    errorEl.textContent = "Choisissez une intervention.";
+    errorEl.textContent = "Cliquez sur un des deux boutons de devis.";
     errorEl.hidden = false;
     return;
   }
@@ -64,12 +52,9 @@ form?.addEventListener("submit", async (event) => {
   }
 
   const combo = offre === "nettoyage de vitres plus ménage";
-  const high = String(data.get("etage") || "") === "plus haut";
-  thanksCopy.textContent = high
-    ? "On vous appelle dans les 5 minutes. Si c’est au-dessus du R+2, on vous le dira tout de suite."
-    : combo
-      ? "Offre notée : nettoyage de vitres plus ménage. On vous appelle dans les 5 minutes."
-      : "Offre notée : nettoyage de vitres. On vous appelle dans les 5 minutes.";
+  thanksCopy.textContent = combo
+    ? "Offre notée : nettoyage de vitres plus ménage. On vous appelle dans les 5 minutes."
+    : "Offre notée : nettoyage de vitres. On vous appelle dans les 5 minutes.";
   form.hidden = true;
   thanks.hidden = false;
 });
