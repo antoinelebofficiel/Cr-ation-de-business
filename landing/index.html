@@ -3,44 +3,29 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nettoyage de vitres — locaux professionnels</title>
-  <meta name="description" content="Nettoyage de vitres pour bureaux et commerces. 1 passage par mois. Formulaire en 30 secondes." />
+  <title>Nettoyage de vitres — rappel en 5 minutes</title>
+  <meta name="description" content="Nettoyage de vitres pour commerces et bureaux. On vous rappelle dans les 5 minutes." />
   <meta property="og:title" content="Nettoyage de vitres" />
-  <meta property="og:description" content="Forfait mensuel pour locaux pro. Rappel sous 24 h." />
+  <meta property="og:description" content="Un passage par mois. Rappel dans les 5 minutes." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="top">
     <p class="mark">Nettoyage de vitres</p>
-    <a class="top-link" href="#formulaire">Demander un rappel</a>
+    <a class="top-link" href="#formulaire">Rappel 5 min</a>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-copy">
-        <p class="kicker">Locaux professionnels · R+2 max</p>
-        <h1>Nettoyage de vitres</h1>
-        <p class="lede">
-          Un passage par mois. Vitrine, façade accessible, porte, cloisons vitrées.
-          Vous payez le premier mois, on intervient sous 7 jours.
-        </p>
-        <ul class="proof">
-          <li>Livrable photo à chaque passage</li>
-          <li>Laveur indépendant, son matériel</li>
-          <li>Pluie = report dans le mois, pas d’avoir</li>
-        </ul>
-      </div>
-
       <form id="formulaire" class="card" name="leads-vitres" method="POST" netlify>
         <input type="hidden" name="form-name" value="leads-vitres" />
-        <p class="hp">
-          <label>Ne pas remplir <input name="bot-field" /></label>
-        </p>
-        <h2>Choisir l’intervention</h2>
-        <p class="card-sub">Rappel sous 24 h. Premier mois d’avance.</p>
+        <p class="hp"><label>Ne pas remplir <input name="bot-field" /></label></p>
+
+        <h2>On vous rappelle dans les 5 minutes</h2>
+        <p class="card-sub">Vous dites ce qu’il faut faire. Le tarif se calcule au téléphone.</p>
 
         <fieldset class="offers">
           <legend class="sr">Offre</legend>
@@ -48,95 +33,101 @@
             <input type="radio" name="offre" value="nettoyage de vitres" checked required />
             <span class="offer-body">
               <span class="offer-name">nettoyage de vitres</span>
-              <span class="offer-meta">390 € / mois · 1 passage · R+2 max</span>
+              <span class="offer-meta">1 passage par mois · vitrine, façade accessible, porte, cloisons · R+2 max</span>
             </span>
           </label>
           <label class="offer">
             <input type="radio" name="offre" value="nettoyage de vitres plus ménage" required />
             <span class="offer-body">
               <span class="offer-name">nettoyage de vitres plus ménage</span>
-              <span class="offer-meta">690 € / mois · vitres 1× + bureaux 4× · ≤ 120 m²</span>
+              <span class="offer-meta">vitres 1× / mois + bureaux 4× / mois · local ≤ 120 m²</span>
             </span>
           </label>
         </fieldset>
 
         <label class="field">
-          <span>Nom</span>
-          <input name="nom" type="text" autocomplete="name" required maxlength="80" />
-        </label>
-        <label class="field">
           <span>Téléphone</span>
           <input name="telephone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="06 12 34 56 78" />
         </label>
-        <div class="row">
-          <label class="field">
-            <span>Ville des locaux</span>
-            <input name="ville" type="text" required maxlength="80" />
-          </label>
-          <label class="field">
-            <span>Société</span>
-            <input name="societe" type="text" maxlength="80" />
-          </label>
-        </div>
         <label class="field">
-          <span>Hauteur du vitrage</span>
+          <span>Ville des locaux</span>
+          <input name="ville" type="text" required maxlength="80" autocomplete="address-level2" />
+        </label>
+        <label class="field">
+          <span>Prénom</span>
+          <input name="prenom" type="text" autocomplete="given-name" required maxlength="40" />
+        </label>
+        <label class="field">
+          <span>Étage de la vitrine</span>
           <select name="etage" required>
             <option value="" disabled selected>Choisir</option>
             <option>RDC</option>
             <option>R+1</option>
             <option>R+2</option>
-            <option value="plus haut">Plus haut — hors forfait</option>
+            <option value="plus haut">Plus haut</option>
           </select>
         </label>
 
-        <button type="submit">Être rappelé sous 24 h</button>
-        <p class="fine">En envoyant, vous acceptez d’être rappelé au numéro indiqué. Pas de devis au m².</p>
+        <button type="submit">Rappeler-moi dans les 5 minutes</button>
+        <p class="fine">Un appel. Locaux professionnels, rayon 40 km.</p>
         <p class="form-error" hidden></p>
       </form>
 
       <div class="thanks" hidden>
-        <p class="kicker">Demande reçue</p>
-        <h2>On vous rappelle.</h2>
+        <p class="kicker">C’est envoyé</p>
+        <h2>On vous appelle dans les 5 minutes.</h2>
         <p class="lede thanks-copy"></p>
       </div>
-    </section>
 
-    <section class="split">
-      <figure class="glass-shot">
-        <img
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
-          alt="Façade vitrée de locaux professionnels"
-          width="1400"
-          height="900"
-        />
-      </figure>
-      <div>
-        <h2>Le verre, c’est ce que le client voit en premier.</h2>
-        <p>
-          Agence, opticien, showroom, siège. Un forfait, un passage, un prix.
-          Au-dessus du R+2 ou nacelle : on ne prend pas.
+      <div class="hero-copy">
+        <p class="kicker">Commerces et bureaux · 1 passage par mois</p>
+        <h1>La vitrine que le passant juge en deux secondes.</h1>
+        <p class="lede">
+          Nettoyage de vitres, forfait mensuel, verre accessible.
+          Laissez votre numéro : on vous rappelle dans les 5 minutes.
         </p>
-        <dl class="specs">
-          <div><dt>Vitres</dt><dd>390 € TTC / mois</dd></div>
-          <div><dt>Vitres plus ménage</dt><dd>690 € TTC / mois</dd></div>
-          <div><dt>Démarrage</dt><dd>Sous 7 jours après virement</dd></div>
-        </dl>
+        <p class="one-line">Après chaque passage, 4 photos. Si le local est hors forfait, on vous le dit à l’appel — pas par mail trois jours plus tard.</p>
       </div>
     </section>
 
-    <section class="steps">
-      <h2>Trois étapes</h2>
-      <ol>
-        <li><strong>Vous choisissez l’offre</strong> dans le formulaire. Vitres, ou vitres plus ménage.</li>
-        <li><strong>Vous payez le mois 1.</strong> Pas de créneau avant virement.</li>
-        <li><strong>Un indépendant passe</strong> avec son matériel. 4 photos. Pluie = report dans le mois.</li>
-      </ol>
+    <section class="facts">
+      <h2>Ce qui est calé</h2>
+      <ul>
+        <li><strong>Pluie.</strong> On reporte dans le mois. Pas d’avoir.</li>
+        <li><strong>Hauteur.</strong> Perche, jusqu’au R+2. Pas de nacelle.</li>
+        <li><strong>Délai.</strong> Premier passage sous 7 jours, une fois le créneau confirmé au téléphone.</li>
+      </ul>
+    </section>
+
+    <section class="scope">
+      <h2>Les deux interventions</h2>
+      <div class="scope-grid">
+        <article>
+          <h3>nettoyage de vitres</h3>
+          <p>Un passage par mois. Vitrine ou façade accessible, porte, sas, cloisons vitrées. Locaux pro.</p>
+        </article>
+        <article>
+          <h3>nettoyage de vitres plus ménage</h3>
+          <p>Les vitres une fois par mois, plus le ménage des bureaux quatre fois par mois. Surface ≤ 120 m².</p>
+        </article>
+      </div>
+      <p class="scope-note">Le montant se dit à l’oral, une fois la ville, l’accès et la hauteur posés.</p>
+    </section>
+
+    <section class="nope">
+      <h2>On ne prend pas</h2>
+      <p>Particuliers. Copropriétés. R+3 et nacelle. Devis au m². Si c’est votre cas, inutile d’envoyer le formulaire.</p>
     </section>
   </main>
 
+  <aside class="band">
+    <p>Un numéro. Un rappel dans les 5 minutes.</p>
+    <a href="#formulaire">Laisser mon téléphone</a>
+  </aside>
+
   <footer>
     <p class="mark">Nettoyage de vitres</p>
-    <p>Locaux pro · 1 agglo · Pas de particulier · Pas de nacelle</p>
+    <p>Antoine · locaux pro · 40 km · indépendant équipé, pas une centrale d’appels</p>
   </footer>
   <script src="form.js"></script>
 </body>

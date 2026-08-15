@@ -28,20 +28,14 @@ form?.addEventListener("submit", async (event) => {
   const data = new FormData(form);
   const offre = String(data.get("offre") || "");
   const tel = String(data.get("telephone") || "");
-  const etage = String(data.get("etage") || "");
 
   if (!offre) {
-    errorEl.textContent = "Choisissez une offre.";
+    errorEl.textContent = "Choisissez une intervention.";
     errorEl.hidden = false;
     return;
   }
   if (!phoneOk(tel)) {
     errorEl.textContent = "Indiquez un téléphone joignable.";
-    errorEl.hidden = false;
-    return;
-  }
-  if (etage === "plus haut") {
-    errorEl.textContent = "Au-dessus du R+2, hors forfait. On ne prend pas.";
     errorEl.hidden = false;
     return;
   }
@@ -64,15 +58,18 @@ form?.addEventListener("submit", async (event) => {
       localStorage.setItem("leads-vitres", JSON.stringify(leads));
     }
   } catch (err) {
-    errorEl.textContent = "Envoi incomplet. Envoyez le formulaire à nouveau ou appelez-nous.";
+    errorEl.textContent = "Envoi incomplet. Renvoyez le formulaire.";
     errorEl.hidden = false;
     return;
   }
 
   const combo = offre === "nettoyage de vitres plus ménage";
-  thanksCopy.textContent = combo
-    ? "Offre retenue : nettoyage de vitres plus ménage (690 €). On confirme le créneau au téléphone."
-    : "Offre retenue : nettoyage de vitres (390 €). On confirme le créneau au téléphone.";
+  const high = String(data.get("etage") || "") === "plus haut";
+  thanksCopy.textContent = high
+    ? "On vous appelle dans les 5 minutes. Si c’est au-dessus du R+2, on vous le dira tout de suite."
+    : combo
+      ? "Offre notée : nettoyage de vitres plus ménage. On vous appelle dans les 5 minutes."
+      : "Offre notée : nettoyage de vitres. On vous appelle dans les 5 minutes.";
   form.hidden = true;
   thanks.hidden = false;
 });
