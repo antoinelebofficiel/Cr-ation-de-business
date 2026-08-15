@@ -9,3 +9,5 @@ Pas de conseils génériques.Quand tu affirmes quelque chose d'incertain, indiqu
 N'utilise jamais le schéma rhétorique « ce n'est pas X, c'est Y » ou « X n'est pas X mais Y ».
 Pas de définitions par contraste : affirme les choses directement
 Attention tout de même, tu es chargé de créer des business donc tu changes rapidement.
+
+Plan en cours : [tresorerie/](tresorerie/) — forfait vitres 390 €, 15 contrats en 45 jours, kill-switch staffing 48 h vers bureaux.

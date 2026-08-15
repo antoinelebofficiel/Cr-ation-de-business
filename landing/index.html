@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clean&amp;pro — nettoyage de vitres, Morbihan Sud</title>
+  <meta name="description" content="Clean&amp;pro : nettoyage de vitres et de locaux pour commerçants et bureaux du Morbihan Sud. Rappel en 5 minutes. Passage test sous 24 h." />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="brand-bar">
+    <a class="brand" href="#formulaire">
+      <img src="logo.svg" width="40" height="40" alt="" />
+      <span>
+        <span class="brand-name">Clean&amp;pro</span>
+        <span class="brand-line">Nettoyage de vitres · Morbihan Sud</span>
+      </span>
+    </a>
+  </header>
+
+  <main>
+    <h1>On nettoie, vous vérifiez. Pas net&nbsp;? On revient. <mark>Rappel en 5&nbsp;min.</mark></h1>
+    <p class="sub">Pour les commerçants et les bureaux du Morbihan Sud — Lorient et 40&nbsp;km autour.</p>
+
+    <ul class="benefices">
+      <li><strong>Propreté maximale, garantie.</strong> Si ce n’est pas net, on revient.</li>
+      <li><strong>Vous parlez au gérant.</strong> Pas une grosse société, pas un standard. Moi. Grande disponibilité.</li>
+      <li><strong>Prestations déductibles.</strong> Facture Clean&amp;pro. Ça rentre dans les charges.</li>
+    </ul>
+
+    <form id="formulaire" name="leads-vitres" method="POST" netlify>
+      <input type="hidden" name="form-name" value="leads-vitres" />
+      <p class="hp"><label>Ne pas remplir <input name="bot-field" /></label></p>
+
+      <p class="form-intro">2 minutes. Le gérant rappelle dans les 5 minutes.</p>
+
+      <label>
+        Nom complet
+        <input name="nom" type="text" autocomplete="name" required maxlength="80" placeholder="Marie Le Goff" />
+      </label>
+      <label>
+        Société
+        <input name="societe" type="text" autocomplete="organization" required maxlength="80" placeholder="Optique du Port" />
+      </label>
+      <label>
+        Téléphone
+        <input name="telephone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="06 12 34 56 78" />
+      </label>
+      <label>
+        Ville
+        <input name="ville" type="text" required maxlength="80" placeholder="Ploemeur" autocomplete="address-level2" />
+      </label>
+
+      <button type="submit" name="offre" value="nettoyage de vitres">
+        Je souhaite un devis pour le nettoyage de vitres
+      </button>
+      <button type="submit" class="combo" name="offre" value="nettoyage de vitres plus ménage">
+        Je souhaite un devis pour le nettoyage de vitres et le ménage / nettoyage de locaux
+      </button>
+
+      <p class="note">Rappel en 5 minutes. Pas un mail dans trois jours.</p>
+      <p class="form-error" hidden></p>
+    </form>
+
+    <div class="thanks" hidden>
+      <p><strong>C’est envoyé.</strong> Clean&amp;pro vous appelle dans les 5 minutes.</p>
+      <p class="thanks-copy"></p>
+    </div>
+
+    <h2>Comment ça se passe ?</h2>
+    <ol class="etapes">
+      <li>Vous remplissez le formulaire. Je reçois une notification tout de suite.</li>
+      <li>Je vous rappelle dans les 5 minutes.</li>
+      <li>On fixe une date et une heure pour passer dans les 24 heures.</li>
+      <li>On fait un premier passage test.</li>
+      <li>Si ça vous va, on pose un contrat à l’année. Si ça ne vous va pas, on s’arrête là.</li>
+    </ol>
+    <p class="gerant">Clean&amp;pro, c’est une relation directe avec moi, le gérant. La facture est au nom de l’entreprise.</p>
+
+    <h2>FAQ</h2>
+    <dl class="faq">
+      <dt>Est-ce que c’est garanti ou remboursé ?</dt>
+      <dd>Si ce n’est pas net, on revient. Le gérant suit le dossier. Il y a toujours quelqu’un pour rattraper le coup.</dd>
+
+      <dt>Est-ce qu’on intervient que sur Lorient ?</dt>
+      <dd>Non, on n’intervient pas que sur Lorient. On intervient à 40 kilomètres aux alentours (Lanester, Ploemeur, Guidel, Hennebont, Quéven, et le reste du rayon). Trop loin : je vous le dis à l’appel, en 5 minutes.</dd>
+
+      <dt>Je dois m’engager un an pour envoyer le formulaire ?</dt>
+      <dd>Non. D’abord le rappel, le créneau sous 24 h, le passage test. Le contrat annuel, seulement après, si ça vous va. Le tarif du test, je vous le dis au téléphone.</dd>
+
+      <dt>Je dois être sur place ? Clés, horaires ?</dt>
+      <dd>Pas forcément collé à nous. Commerce : on s’aligne sur vos horaires. Bureau : présence, un collègue, ou les clés — on choisit au rappel. Rien à figer avant d’envoyer le numéro.</dd>
+    </dl>
+  </main>
+
+  <footer>
+    <p><strong>Clean&amp;pro</strong> — nettoyage de vitres et de locaux, Morbihan Sud.</p>
+    <p>Vous parlez au gérant. Facture entreprise, prestations en charges.</p>
+    <p><a href="confidentialite.html">Politique de confidentialité</a></p>
+  </footer>
+  <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #111;
+  background: #fff;
+}
+
+.brand-bar {
+  border-bottom: 2px solid #0b3d4a;
+  background: #fff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #0b3d4a;
+}
+
+.brand img {
+  display: block;
+  flex: 0 0 40px;
+}
+
+.brand-name {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.brand-line {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-top: 2px;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0 0 12px;
+}
+
+.sub {
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.benefices {
+  margin: 0 0 24px;
+  padding-left: 20px;
+}
+
+.benefices li { margin: 0 0 10px; }
+
+form {
+  background: #ffff99;
+  border: 2px solid #0b3d4a;
+  padding: 16px;
+  margin: 0 0 28px;
+}
+
+.form-intro {
+  margin: 0 0 12px;
+  font-weight: bold;
+}
+
+mark { background: #fff3a3; }
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 12px 10px;
+  font: inherit;
+  font-size: 16px;
+  border: 1px solid #9aa7a3;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+  padding: 14px 12px;
+  font: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #111;
+  background: #ffd814;
+  border: 2px solid #0b3d4a;
+  cursor: pointer;
+}
+
+button.combo {
+  background: #ff8f00;
+}
+
+.note {
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+
+.form-error {
+  color: #8b0000;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+.hp { display: none; }
+
+.thanks {
+  border: 2px solid #0b3d4a;
+  background: #ffff99;
+  padding: 16px;
+  margin: 0 0 28px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 0 12px;
+}
+
+.etapes { margin: 0 0 12px; padding-left: 20px; }
+.etapes li { margin: 0 0 8px; }
+
+.gerant {
+  margin: 0 0 28px;
+  font-weight: bold;
+}
+
+.faq dt {
+  font-weight: bold;
+  margin: 16px 0 6px;
+}
+
+.faq dd { margin: 0; }
+.faq { margin: 0; }
+
+footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  border-top: 2px solid #0b3d4a;
+  font-size: 14px;
+  color: #222;
+}
+
+footer p { margin: 0 0 6px; }
+footer strong { color: #0b3d4a; }
