@@ -1,51 +1,48 @@
-# Machine Meta — pour TON SKU
+# Machine Meta — forfait vitres 390 €
 
-Même recette qu’avant, destination = tes closes à 590 €. Campagne **éteinte** jusqu’à 2 contrats encaissés (1 180 €). Les 400 € ads sortent de cet encaissement, pas du love money.
+Campagne **éteinte** jusqu’à 2 contrats (780 €). 400 € ads sortent de cet encaissement.
 
-## Formulaire (5 champs)
-
-Instant form Meta prioritaire.
+## Formulaire
 
 | Champ | Obligatoire |
 |---|---|
 | Nom | oui |
 | Téléphone | oui |
-| Ville des bureaux | oui |
-| Surface approx. (liste : < 60 / 60–120 / > 120) | oui |
-| Société | oui |
+| Ville des locaux | oui |
+| Type | liste : Commerce vitrine / Bureaux / Autre |
+| Étages de vitrage | liste : RDC / R+1 / R+2 / plus haut |
 
-> 120 m² : tu rappelles 2 min, tu refuses, tu notes. Pas de devis custom.
+« Plus haut » : rappel 2 min, refus. Particulier / Autre hors pro : refus.
 
-Confirmation : « On vous propose un forfait 4 passages/mois sous 24h. »
+Confirmation : « Forfait vitres 1 passage/mois, on vous rappelle sous 24h. »
 
 ## Sheet
 
-`date | nom | tel | société | ville | surface | statut (nouveau / close 590 / refus surface / lost) | €`
+`date | nom | tel | société | ville | type | étage | statut | €`
 
-Toi tu closes **le jour même**. Une demande non rappelée à H+4 est pourrie. C’est ton métier, pas l’indépendant.
+Close **le jour même**. H+4 sans rappel = pourri.
 
-## Trois angles (ville unique)
+## Trois angles
 
-**A — Forfait clair**
-`Nettoyage de vos bureaux à [Ville] — 4 passages/mois, 590 €, surface jusqu’à 120 m². Premier mois d’avance.`
-CTA : `Demander le créneau`
-
-**B — Charge mentale**
-`Vous gérez une TPE à [Ville]. Le ménage des bureaux, forfait mensuel, sans recruter.`
-CTA : `Voir le forfait`
-
-**C — Remplacement prestataire**
-`Votre prestataire actuel est irrégulier ? Forfait 4 visites / mois à [Ville], 590 €.`
+**A — Avant/après**
+Photo vraie de vitrine sale / propre (pas un stock américain).
+`Vitres de vos locaux à [Ville] — 1 passage/mois, 390 €. Premier mois d’avance.`
 CTA : `Être rappelé`
 
-Geo : 25 km autour de ton agglo. 25–55 ans. 15 €/jour. 72 h sans toucher. Tu tues l’angle à CPL > 2× la moyenne.
+**B — Trottoir**
+`Vos clients voient vos vitres avant de vous voir. Forfait mensuel à [Ville], 390 €.`
+CTA : `Demander le créneau`
 
-CPL utile = coût / **contrat signé**, pas / formulaire. Cible : CAC < 150 € (une demi-marge mensuelle). Au-dessus de 250 € après 200 € dépensés : tu changes l’angle, tu gardes le SKU.
+**C — Remplacement**
+`Un passage vitres par mois, intérieur + accès, sans recruter. [Ville], 390 €.`
+CTA : `Voir le forfait`
 
-## Page minimale (si pas d’instant form)
+Geo 25 km. 15 €/jour. 72 h sans toucher. CAC cible < 120 € (demi-marge). > 200 € après 200 € dépensés : tu changes l’angle, tu gardes 390 €.
 
-1 écran : prix 590 €, 4 passages, ≤ 120 m², mois d’avance, ville. Formulaire. Pas de manifeste de marque.
+## Page min
+
+390 €, 1×/mois, R+2 max, mois d’avance, ville. Formulaire. Une photo de verre. Pas de manifeste.
 
 ## Clone ville 2
 
-Interdit avant 10 contrats ville 1 + 1 indépendant **sur place** ville 2. Dupliquer pubs, remplacer [Ville], nouveau titulaire. Toi tu ne voyages pas pour « lancer le marché ».
+Après 15 contrats ville 1 + 1 laveur **sur place** ville 2.

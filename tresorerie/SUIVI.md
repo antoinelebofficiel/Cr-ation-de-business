@@ -1,43 +1,47 @@
-# Suivi — 5 minutes / soir
+# Suivi
 
 ## Vente
 
-| Date | Tentatives | Conversations | Dont anciens clients | Propositions 590 | Closes payés | € encaissés | Toi sur site (0/1) |
+| Date | Tentatives | Conversations | Dont anciens | Prop. 390 | Closes payés | € | Toi sur site (0/1) |
 |---|---|---|---|---|---|---|---|
 | J1 | | | | | | | |
-| J2 | | | | | | | |
 | … | | | | | | | |
 | J14 | | | | | | | |
 
-Toi sur site ≥ 1 : tu traites ça comme un incident, pas une anecdote. Voir `PLAN.md` §5.
+## Staffing 48 h (obligatoire)
 
-## Contrats (1 ligne = 1 client)
+| Date | Appels laveurs | Oui SIRET+matos | Signés | Kill-switch bureaux ? (oui/non) |
+|---|---|---|---|---|
+| H+24 | | | | |
+| H+48 | | | | |
 
-| Société | Ville | m² déclaré | € | Date virement | 1er passage | Indépendant | Résilié ? |
+Sans 2 signés à H+48 : tu écris « kill-switch staffing vitres » ici **avant** de replier sur bureaux.
 
-## Machine (après allumage)
+## Contrats
 
-| Date | Dépensé ads | Formulaires | Closes issus ads | CAC (ads/closes ads) | Angle |
+| Société | Ville | RDC–R+2 | € | Virement | 1er passage | Laveur | Pluie reportée | Résilié |
 
-## Sous-traitance
+## Machine
 
-| Date | Passages dus | Photos reçues | Passages payés | Incidents | Backup utilisé |
+| Date | € ads | Formulaires | Closes ads | CAC | Angle |
+
+## Passages
+
+| Date | Dus | Photos | Payés 150 € | Incidents | Backup |
 
 ## Jalon
 
-| Date | Contrats payés cible | Réel | € bruts cible | Réel |
+| Date | Contrats cible | Réel | € cible | Réel |
 |---|---|---|---|---|
-| J+7 | 2 | | 1 180 | |
-| J+14 | 4 | | 2 360 | |
-| J+30 | 7 | | 4 130 | |
-| J+45 | 10 | | 5 900 | |
-
-J+7 à 0 contrat : échec si tentatives < 250 **ou** si 0 indépendant signé.
+| J+7 | 2 | | 780 | |
+| J+14 | 4 | | 1 560 | |
+| J+30 | 10 | | 3 900 | |
+| J+45 | 15 | | 5 850 | |
 
 ## Dimanche 10 min
 
-1. Jours à ≥ 80 appels / 6 ?
-2. Nombre de fois où j’ai proposé autre chose que 590 / 4 passages / 120 m² ?
-3. Photos checklist : % reçu ?
+1. Jours ≥ 80 appels / 6 ?
+2. Fois où j’ai proposé du ménage ou un tarif vitrine 79 € ? (cible : 0)
+3. % photos reçues / passages ?
 
-Une modification de script max par semaine. Zéro nouveau SKU.
+Zéro nouveau SKU.

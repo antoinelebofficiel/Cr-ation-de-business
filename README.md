@@ -10,4 +10,4 @@ N'utilise jamais le schéma rhétorique « ce n'est pas X, c'est Y » ou « X n'
 Pas de définitions par contraste : affirme les choses directement
 Attention tout de même, tu es chargé de créer des business donc tu changes rapidement.
 
-Plan en cours : [tresorerie/](tresorerie/) — forfait bureaux 590 € pour toi, sous-traité, 10 contrats en 45 jours, cash de départ = 0.
+Plan en cours : [tresorerie/](tresorerie/) — forfait vitres 390 €, 15 contrats en 45 jours, kill-switch staffing 48 h vers bureaux.

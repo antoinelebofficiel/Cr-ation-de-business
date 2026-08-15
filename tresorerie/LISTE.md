@@ -1,40 +1,38 @@
-# Liste jour 1 — qui achète TON forfait
+# Liste — qui a du verre visible depuis la rue
 
-Tu n’appelles plus les sociétés de nettoyage (ce sont des rivaux ou des sous-traitants). Tu appelles **les bureaux**.
+Tu n’appelles pas les sociétés de nettoyage (rivaux / sous-traitance). Tu appelles **les locaux vitrés**.
 
-## Heure 1 — réactivation
+## Heure 1 — anciens clients ménage
 
-Sheet séparé : tous les anciens clients de ta société de nettoyage. Téléphone, dernier contrat, motif de fin si tu le connais. Tu les fais **avant** le cold.
+Même carnet. Phrase : « Je ne reprends pas le ménage. Forfait vitres 390 €, 1 passage/mois. Vous prenez, ou je vous laisse ? »
 
-Phrase : « Je reprends un forfait bureaux simple, 4 passages, 590 €, 120 m² max. Vous êtes encore équipés, ou je vous laisse ? »
+## Requêtes (40 km)
 
-## Requêtes cold (Google Maps / PagesJaunes)
+Priorité = vitrine vue du trottoir, gérant sur place :
 
-Dans un rayon de 40 km :
-
-- `cabinet comptable [ville]`
 - `agence immobilière [ville]`
-- `cabinet avocat [ville]`
-- `cabinet dentaire` / `kiné` / `laboratoire` (si bureaux, pas salle de soins spécialisée — en doute, next)
-- `assurance [ville]`
-- `agence web` / `SSII` / `coworking`
-- `TPE` trop vague → préfère `siège` + métier local que tu vois dans la zone
-- `bureau d'études [ville]`
-- `syndic` (ils achètent parfois pour leurs propres bureaux, pas pour les copros — tu vends **leurs** bureaux)
+- `opticien [ville]`
+- `pharmacie [ville]` (vitrine ; tu ne rentres pas dans l’officine technique)
+- `concession` / `garage automobile [ville]` (showroom vitrée)
+- `banque` / `assurance [ville]`
+- `agence [ville]` (voyage, emploi, com)
+- `showroom [ville]`
+- `cabinet dentaire` / `orthodontiste` (baie vitrée)
+- `siège` / `bureau [ville]` si photos Maps = verre
 
-Exclusion : usine, entrepôt, particulier, restaurant, chantier, école. Ça casse le SKU.
+Exclusion 45 jours : particulier, resto (graisse), copro, usine, entrepôt, école, R+3 visible sans perche.
+
+Street View : pas de verre = tu n’appelles pas. 40 fiches puis appels.
 
 ## Colonnes
 
-`nom | métier | ville | tel | surface estimée (petite / ~100 / >120) | statut | €`
-
-Surface > 120 visible sur Street View / photos : tu ne l’appelles pas. 40 fiches puis tu décroches. 200 le soir.
+`nom | métier | ville | tel | hauteur (RDC / R+1 / R+2 / trop) | statut | €`
 
 ## Ordre
 
 1. Anciens clients
-2. Cabinets / agences 3–15 personnes (décideur = gérant, panier 590 € = un non-sujet)
-3. Coworking / petites SSII
-4. Le reste
+2. Agences immo + opticiens + showrooms (le verre *est* le magasin)
+3. Pharmacies, banques, assurances
+4. Bureaux vitrés 3–15 pers
 
-Horaires : 8h30–10h et 16h–18h gérants. Évite le lundi 9h (ils n’écoutent pas).
+Horaires : 8h30–10h et 16h–18h. Commerces : 10h–12h et 15h–17h (entre deux clients).

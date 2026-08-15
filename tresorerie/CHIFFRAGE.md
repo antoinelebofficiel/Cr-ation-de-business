@@ -1,57 +1,54 @@
 # Chiffrage — jour 0 (30 min)
 
-Sans ces chiffres, « 3 mois de tréso » ne veut rien dire.
+## A. Burn mensuel
 
-## A. Burn mensuel personnel
-
-| Poste | Montant € |
+| Poste | € |
 |---|---|
-| Loyer / collocation / participation parents | |
+| Loyer / parents | |
 | Alimentation | |
 | Transport | |
 | Téléphone + internet | |
-| Mutuelle / santé | |
-| Dettes / crédits | |
-| Impôts / URSSAF déjà dus | |
-| Divers incompressible | |
-| **BURN** | **___** |
+| Mutuelle | |
+| Dettes | |
+| URSSAF / impôts dus | |
+| Divers | |
+| **BURN** | |
 
-Haut de fourchette, pas le bas.
-
-## B. Cible
+## B. Cible (SKU vitres)
 
 ```
-CIBLE_90J     = BURN × 3
-MARGE_CLIENT  = 590 - 280 = 310 € / mois
-NB_POUR_BURN  = BURN / 310          (contrats pour que le récurrent tienne tout seul)
-NB_45J        = 10                  (cible d’encaissement mois 1 : 5 900 €)
+CIBLE_90J    = BURN × 3
+MARGE        = 390 - 150 = 240 € / mois
+NB_POUR_BURN = BURN / 240
+NB_45J       = 15          → 5 850 € bruts mois 1
 ```
 
-| Calcul | Montant |
+| Calcul | Valeur |
 |---|---|
 | BURN | |
 | CIBLE_90J | |
-| Contrats pour couvrir le burn (BURN/310) | |
-| Dont anciens clients recontactables | |
+| Contrats pour couvrir le burn (BURN/240) | |
+| Anciens clients recontactables | |
 
-Si BURN > 3 100 € : 10 forfaits ne te tiennent pas. Tu coupes le burn ou tu assumeras un 2e titulaire + plus de ventes, pas un 2e métier.
+Si BURN > 3 600 € : 15 forfaits ne tiennent pas. Tu coupes le burn, tu n’ajoutes pas le ménage « pour compléter ».
 
-Pub : 400 € **après** 2 × 590 € encaissés. Love money = nourriture, jamais la pub.
+Pub : 400 € après 2 × 390 €. Love money = nourriture.
 
 ## C. Actifs
 
 | Actif | Oui/Non | Détail |
 |---|---|---|
-| Toit + repas 45 j chez les parents | | |
-| ARE / France Travail €/mois | | |
-| Micro déjà créée | | |
-| Anciens clients nettoyage + tel | | |
-| Compte Meta Ads (0 €) | | |
-| 2 indépendants identifiables aujourd’hui | | |
-| RC / cadre juridique sous-traitance | | |
+| Toit + repas 45 j | | |
+| ARE €/mois | | |
+| Micro | | |
+| Anciens clients nettoyage | | |
+| Meta Ads | | |
+| 2 laveurs identifiables (perche/raclette) | | |
+| Si < 2 laveurs à 48 h : kill-switch noté | | |
 
 ## D. Dates
 
 - Jour 0 : ________
+- H+48 staffing : ________
 - J+14 : ________
-- J+45 (10 contrats) : ________
+- J+45 (15 contrats) : ________

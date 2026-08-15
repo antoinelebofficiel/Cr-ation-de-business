@@ -1,132 +1,120 @@
-# Trésorerie 90 jours — tu possèdes la demande
+# Trésorerie 90 jours — vitres, pas le ménage
 
-Objectif cash : **10 contrats × 590 € d’avance = 5 900 € encaissés en 45 jours**.
-Objectif réel : **le récurrent couvre le burn**. 10 clients × ~310 € de marge = ~3 100 €/mois avant pub. À burn 2 000 €, tu es au-dessus de l’eau **chaque mois**, pas une fois.
+**Décision : nettoyage de vitres.** Le ménage bureaux, tu l’as déjà fait : l’ads marchait, l’ops et l’ennui ont tué. Recoller un forfait sanitaires + cuisine, c’est la v1 avec un nouveau prix. Les vitres sont binaires (photo avant/après), le matos est cher et donc **déjà à eux**, le client voit le livrable depuis le trottoir.
 
-Confiance : **haute** sur l’acquisition (ads + close, déjà prouvé). **Basse** sur toi qui ne redescend pas sur site « juste une fois ». Si tu re-livres, le plan est mort : tu redeviens l’ops que tu as déjà cassée.
+Kill-switch **48 h** : tu appelles 15 laveurs de vitres. Si < 2 signatures (SIRET + RC + perche/raclette à eux), tu replies sur le forfait bureaux 590 € (`PLAN.md` §8). Le critère, c’est le staffing, pas le feeling du dimanche soir.
+
+Confiance : **moyenne-haute** sur le SKU (plus palpable, plus brandable, moins d’ops quotidien). **Moyenne** sur trouver 2 vrais laveurs dans une petite agglo en 48 h — c’est pour ça que le kill-switch existe. **Basse** sur toi qui montes une échelle « pour dépanner ».
 
 ---
 
-## 1. La décision
-
-Tu allumes la même machine Meta **pour ton offre**. Tu closes. Un indépendant exécute. Tu ne vends plus la demande à un autre nettoyeur : un client à 590 € × 12 mois vaut plus que 15 fiches à 1 800 €.
+## 1. SKU
 
 | Paramètre | Valeur |
 |---|---|
-| SKU | Nettoyage de bureaux, 4 passages / mois, surface ≤ 120 m² |
-| Prix | 590 € TTC / mois, **mois 1 100 % avant le 1er passage** |
-| 1er passage | au plus tôt 7 jours après virement (float + placement sous-traitant) |
-| Au-dessus de 120 m² | refus. Pas de devis custom. |
-| Marge cible | 590 − 280 (sous-traitant) = 310 € / client / mois |
-| Pub | 15 €/jour **après** 2 contrats encaissés. Enveloppe 400 €. |
-| Tes heures | vente + ads + facture. 0 passage, 0 recrutement salarié. |
-| Zone | 1 agglo, 40 km. Clone la ville 2 **après** 10 contrats. |
+| Offre | Vitres locaux pro, 1 passage / mois |
+| Inclus | vitrage extérieur accessible + porte / sas + cloisons vitrées intérieures |
+| Exclus | nacelle, R+3 et plus, copro, particulier, chantier, stores, menuiseries, toiture |
+| Hauteur max | perche ou R+2. Au-dessus : refus |
+| Prix | **390 € TTC / mois**, mois 1 100 % avant le 1er passage |
+| 1er passage | ≥ J+7 après virement (et hors pluie : report dans le mois, pas de remboursement) |
+| Indépendant | **150 €** / passage (180 € max). Perche / raclette / eau **à eux** |
+| Marge | 390 − 150 = **240 €** / client / mois |
+| Pub | 15 €/jour après **2** contrats (780 €). Enveloppe 400 € |
+| Cible 45 j | **15 contrats payés = 5 850 €** |
+| Zone | 1 agglo, 40 km |
 
-Livrable palpable : le bureau est propre 4 fois par mois, checklist photo. Réplicable : même prix, même surface max, même script, même pub, même indépendant sur un planning qu’**il** possède.
-
----
-
-## 2. Pourquoi ça a foiré la première fois — et la règle qui change
-
-L’ads marchait. Le recrutement et l’ops ne marchaient pas. Donc :
-
-- 0 salarié, 0 « équipe »
-- 2 indépendants (1 titulaire + 1 backup), forfait par site, `SOUS-TRAITANCE.md`
-- toi interdit de site, y compris le dimanche soir et le client en colère
-- 1 SKU. Fin de chantier, copro, particulier, vitres seules : refus pendant 45 jours
-- qualité = 4 photos WhatsApp par passage (avant/après, 2 angles). Pas toi qui y vas contrôler
-
-Si cette liste te paraît trop étroite, tu n’as pas un problème d’offre : tu es déjà en train de reconstruire la société précédente.
+Vitrine commerce et bureaux vitrés = **le même** forfait 390 €, 1×/mois. Tu ne crées pas un tarif vitrine à 79 € : tu te retrouves avec 40 tournées et 49 € de marge.
 
 ---
 
-## 3. Maths (à cash zéro)
+## 2. Pourquoi vitres bat bureaux *ici*
+
+- Livrable visible : une photo de vitrine vend le client suivant. Un WC propre non.
+- 1 passage / mois, pas 4 : moins de planning, moins d’incidents, moins de tentation d’y aller.
+- Matériel = 400–2 000 € chez eux. La question « qui fournit l’aspirateur » disparaît. S’ils n’ont pas la perche/raclette : next.
+- Tu n’as pas à aimer le métier « ménage ». La v1 est morte là-dessus, le prendre en compte n’est pas du confort, c’est du risque d’abandon à J+21.
+- Cold call naturel : agences immo, opticiens, showrooms, pharmacies, sièges vitrés — le gérant *voit* le problème.
+
+Le bureaux 590 € est **meilleur en maths pures** (10 logos vs 15, indépendants plus nombreux). Il est plus faible en probabilité que tu tiennes 45 jours. On optimise la tenue, pas la slide.
+
+---
+
+## 3. Maths
 
 ```
-2 premiers contrats = 1 180 €   → 400 € ads + 780 € vie
-10 contrats en 45 j  = 5 900 € bruts mois 1
-coût sous-traitant   ≈ 70 € × 4 × nb clients actifs
-                     tu paies le passage J+2, pas à J-1
+2 premiers contrats = 780 €     → 400 € ads + 380 € vie (serré : ARE / parents comptent)
+15 contrats en 45 j = 5 850 € bruts
+indépendant         = 150 € × 1 × nb sites, payé J+2 après photos
+marge mensuelle     = 240 € × 15 = 3 600 € avant pub  (~450 €)
 ```
 
-Le tas de 6 000 € est plus lent qu’en vendant des packs à d’autres boîtes. Le deal : tu possèdes le client. À 10 contrats, 3 mois de tréso = le récurrent, plus le float du mois d’avance.
+15 closes en 45 jours = 1 paiement tous les 3 jours. Tenable si 80 appels/jour + ads à partir du contrat 2. Plus dur que 10 × 590. C’est le prix du SKU.
 
-Si tu vises encore un tas one-shot sans récurrent : tu aurais dû rester sur le pack 1 800 €. Là on construit une boîte.
-
-Anciens clients de ta société de nettoyage : tu les appelles **heure 1**. Un retour à 590 € vaut 20 cold calls.
+Anciens clients ménage : « je ne reprends pas le ménage, je prends vos vitres, 390 €/mois, 1 passage. » Un oui vaut 15 cold calls.
 
 ---
 
 ## 4. Séquence
 
-### Heure 0 (30 min)
+### Heure 0
 
-`CHIFFRAGE.md`. Micro. Nom de marque en 1 mot + « bureaux » (tu le notes, tu n’ouvres pas Canva 4 h). Compte Meta existant.
+`CHIFFRAGE.md`. Nom 1 mot + « vitres ». Micro. Meta.
 
-### Jour 1 — sous-traitance **avant** le 1er close
+### Jour 1–2 — staffing vitres **avant** vente
 
-Matin : protocole `SOUS-TRAITANCE.md` — anciens d’abord, Maps, Pappers 8121Z, LBC. 15 appels, 2 oui à 70 € (80 € max), **matos à eux**. Sans aspirateur déjà en leur possession : next. Sans 2 signatures, tu ne vends pas.
+`SOUS-TRAITANCE.md` : 15 appels laveurs. 2 oui à 150 € (180 max), matos à eux.
 
-Après-midi : anciens clients (liste réelle) puis 40 appels bureaux (`LISTE.md`). Script `KIT-COMMERCIAL.md`.
+- ≥ 2 signatures → tu vends les vitres l’après-midi J1 (si 2 déjà là) ou J2.
+- < 2 à H+48 → §8 repli bureaux, tu n’attends pas J+14.
 
-Machine ads **éteinte** : formulaire + 3 pubs montés le soir (`MACHINE.md`). Allumage après 1 180 €.
+### Vente (dès 2 indépendants vitres)
 
-### Jours 2–14
+80 appels/jour. Script `KIT-COMMERCIAL.md`. Liste `LISTE.md` (vitrines + bureaux vitrés).
 
-| Heure | Action |
-|---|---|
-| 08:30–12:30 | Appels (80 tentatives / jour, 6 j/7) |
-| 13:30–16:00 | Appels + relances mail |
-| 16:00–17:00 | Closes, RIB, brief 15 min, placement date J+7 |
-| 17:00–17:30 | WhatsApp sous-traitant : créneau + adresse + checklist |
-| 18:00 | `SUIVI.md` |
+J+14 : ≥ 800 tentatives, ≥ 4 contrats payés, 1er passage fait par l’indépendant, 0 échelle à toi.
 
-Objectif J+14 : ≥ 800 tentatives, ≥ 3 contrats payés, 1er passage **fait par l’indépendant**, 0 passage fait par toi.
+J+45 : 15 payés.
 
-### Jours 15–45
-
-Pub à 15 €/jour. Tu closes les demandes le jour même (ton métier). Cible : 10 contrats payés, 2 indépendants qui tiennent le planning.
-
-Max 12 clients sur 1 titulaire. Au-delà tu actives le backup comme 2e titulaire, tu ne « aides » pas le samedi.
+Pub ON après 780 €.
 
 ---
 
 ## 5. Diagnostic J+14
 
-| Ratio | Seuil | Si en dessous |
+| Ratio | Seuil | Action |
 |---|---|---|
-| Conversations / tentatives | ≥ 10 % | horaires, liste |
-| Propositions 590 € / conv | ≥ 20 % | tu racontes trop. SKU en une phrase |
-| Close / propositions | ≥ 25 % | mois 1 à 490 € **pour 3 clients max**, puis 590 |
-| Toi sur site | 0 | si ≥ 1 : arrêt des ventes 48 h, tu répares la sous-traitance. Le volume d’appels ne compense pas ça |
+| Conversations / tentatives | ≥ 10 % | horaires / liste |
+| Propositions 390 / conv | ≥ 20 % | une phrase, tu vends le verre pas « une solution hygiène » |
+| Close / propositions | ≥ 25 % | 3 premiers à 340 € max, puis 390 |
+| Toi sur site / échelle | 0 | ventes OFF 48 h, tu répares le staffing |
+| Pluie / reports | passages quand même dans le mois | si l’indépendant annule 2× : backup |
 
-Volume < 50 appels/jour : exécution.
+0 close / 80 conv : 340 €, même périmètre. Pas de retour ménage par ennui. Le ménage, c’est uniquement le kill-switch staffing 48 h.
 
-Si 0 close après 80 conversations : le 590 € est haut pour la ville. 490 €, 4 passages, ≤ 100 m². Pas de 2e métier.
-
-Pivot interdit 45 jours : revendre les demandes à d’autres nettoyeurs, ouvrir le chantier, recruter, refaire la marque.
+Pivot interdit : nacelle, particuliers, 2e tarif vitrine 79 €, te vendre comme « nettoyage global ».
 
 ---
 
-## 6. Cash
+## 6. Cash par 390 €
 
-Chaque 590 € :
-
-1. 70 € × 4 à provisionner pour l’indépendant (enveloppe ops)
+1. 150 € enveloppe indépendant
 2. Après 2 contrats : 400 € ads
-3. Le reste = compte vie
+3. Reste = vie
 
-Tu ne paies pas l’indépendant avant le passage. Tu ne commences pas le contrat avant le virement.
+Pas de passage avant virement. Pluie = report, pas avoir.
 
 ---
 
 ## 7. Succès J+45
 
-Les quatre ensemble :
+- 15 × 390 € payés
+- 0 passage / 0 échelle par toi
+- ads ON, CAC connu
+- planning chez les 2 laveurs
 
-- 10 contrats à 590 € **payés** mois 1
-- 0 intervention faite par toi
-- machine ads ON, CPL connu
-- planning dans les mains des indépendants, toi tu as le Sheet clients / paiements
+---
 
-10 logos et 4 clients = échec. 10 clients et toi sur le scooter le soir = échec.
+## 8. Repli bureaux (uniquement si < 2 laveurs à H+48)
+
+SKU : 4 passages / mois, ≤ 120 m², 590 €, indépendant ménage 70 € (80 max), aspirateur à eux. Cible 10 contrats. Tu reprends les scripts bureaux dans le git *précédent* uniquement si tu as écrit dans `SUIVI.md` : « kill-switch staffing vitres, date, 15 appels, 0 ou 1 oui ». Sans cette ligne, tu n’as pas le droit de replier — tu es en train de fuir le SKU.

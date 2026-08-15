@@ -1,22 +1,20 @@
 # Trésorerie 90 jours
 
-Départ cash = 0. **Tu possèdes la demande.**
+**SKU : vitres locaux pro, 1 passage / mois, 390 €, mois 1 d’avance.**
+Indépendant laveur : 150 € (180 max), perche/raclette **à eux**. Toi : vente + ads, 0 échelle.
 
-SKU : **forfait bureaux 4 passages / mois, ≤ 120 m², 590 €, mois 1 d’avance.**
-Toi : vente + ads. Exécution : 2 indépendants. Pub allumée après 2 contrats.
+Cible 45 j : **15 contrats (5 850 €)**.
 
-Cible 45 j : **10 contrats payés (5 900 €)** + récurrent qui vise à couvrir le burn.
+Kill-switch 48 h : < 2 laveurs signés → repli bureaux 590 €, **après** ligne écrite dans `SUIVI.md`.
 
 | Fichier | Usage |
 |---|---|
-| [PLAN.md](PLAN.md) | Décision, maths, diagnostic |
-| [SOUS-TRAITANCE.md](SOUS-TRAITANCE.md) | 2 indépendants **avant** le 1er close |
+| [PLAN.md](PLAN.md) | Décision vitres vs bureaux, maths, repli |
+| [SOUS-TRAITANCE.md](SOUS-TRAITANCE.md) | 15 appels laveurs, matos à eux |
 | [CHIFFRAGE.md](CHIFFRAGE.md) | Burn |
-| [MACHINE.md](MACHINE.md) | Meta pour TON forfait |
-| [KIT-COMMERCIAL.md](KIT-COMMERCIAL.md) | Script 590 € |
-| [LISTE.md](LISTE.md) | Anciens clients + bureaux |
-| [SUIVI.md](SUIVI.md) | Contrats, CAC, 0 site perso |
+| [MACHINE.md](MACHINE.md) | Ads avant/après verre |
+| [KIT-COMMERCIAL.md](KIT-COMMERCIAL.md) | Script 390 € |
+| [LISTE.md](LISTE.md) | Vitrines + bureaux vitrés |
+| [SUIVI.md](SUIVI.md) | Staffing 48 h + contrats |
 
-Matériel : **indépendant** (aspirateur + produits, inclus dans les 70 €). Toi : 0 € d’équipement. Client : PQ / savon / sacs sur site.
-
-Interdit 45 jours : te mettre les gants, acheter l’aspirateur, custom devis, fin de chantier, vendre tes demandes à un autre nettoyeur.
+Interdit : nacelle, particulier, tarif vitrine 79 €, acheter une perche, le ménage « en plus » pour closer.
