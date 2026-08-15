@@ -2,7 +2,7 @@
 
 Campagne **éteinte** jusqu’à 2 contrats (780 €). 400 € ads sortent de cet encaissement.
 
-Page de destination : [`landing/index.html`](../landing/index.html). Sales letter Morbihan Sud. Zéro prix. Deux boutons : devis vitres · devis vitres + ménage / locaux. Rappel 5 min, passage test 24 h. Tarif à l’oral.
+Page de destination : [`landing/index.html`](../landing/index.html). Marque **Clean&pro**. Sales letter Morbihan Sud. Zéro prix. Deux boutons devis. Rappel 5 min, passage test 24 h. Tarif à l’oral. Identité : `landing/MARQUE.md`.
 
 ## Formulaire
 

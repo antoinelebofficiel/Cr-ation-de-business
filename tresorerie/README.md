@@ -14,7 +14,7 @@ Kill-switch 48 h : < 2 laveurs signés → repli bureaux 590 €, **après** lig
 | [CHIFFRAGE.md](CHIFFRAGE.md) | Burn |
 | [MACHINE.md](MACHINE.md) | Ads avant/après verre |
 | [KIT-COMMERCIAL.md](KIT-COMMERCIAL.md) | Script 390 € |
-| [../landing/index.html](../landing/index.html) | Landing moche AIDA, Morbihan Sud, 2 boutons devis |
+| [../landing/index.html](../landing/index.html) | Landing Clean&pro, Morbihan Sud, 2 boutons devis |
 | [LISTE.md](LISTE.md) | Vitrines + bureaux vitrés |
 | [SUIVI.md](SUIVI.md) | Staffing 48 h + contrats |
 
