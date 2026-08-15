@@ -9,6 +9,42 @@ body {
   background: #fff;
 }
 
+.brand-bar {
+  border-bottom: 2px solid #0b3d4a;
+  background: #fff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #0b3d4a;
+}
+
+.brand img {
+  display: block;
+  flex: 0 0 40px;
+}
+
+.brand-name {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.brand-line {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-top: 2px;
+}
+
 main {
   max-width: 640px;
   margin: 0 auto;
@@ -125,3 +161,15 @@ h2 {
 }
 
 .faq { margin: 0; }
+
+footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  border-top: 2px solid #0b3d4a;
+  font-size: 14px;
+  color: #222;
+}
+
+footer p { margin: 0 0 6px; }
+footer strong { color: #0b3d4a; }

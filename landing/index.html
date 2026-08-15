@@ -3,11 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nettoyage de vitres — commerçants et bureaux, Morbihan Sud</title>
-  <meta name="description" content="Nettoyage de vitres pour commerçants et bureaux du Morbihan Sud. Rappel en 5 minutes. Passage test sous 24 h." />
+  <title>Clean&amp;pro — nettoyage de vitres, Morbihan Sud</title>
+  <meta name="description" content="Clean&amp;pro : nettoyage de vitres et de locaux pour commerçants et bureaux du Morbihan Sud. Rappel en 5 minutes. Passage test sous 24 h." />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header class="brand-bar">
+    <a class="brand" href="#formulaire">
+      <img src="logo.svg" width="40" height="40" alt="" />
+      <span>
+        <span class="brand-name">Clean&amp;pro</span>
+        <span class="brand-line">Nettoyage de vitres · Morbihan Sud</span>
+      </span>
+    </a>
+  </header>
+
   <main>
     <h1>On nettoie, vous vérifiez. Pas net&nbsp;? On revient. <mark>Rappel en 5&nbsp;min.</mark></h1>
     <p class="sub">Pour les commerçants et les bureaux du Morbihan Sud — Lorient et 40&nbsp;km autour.</p>
@@ -15,14 +26,14 @@
     <ul class="benefices">
       <li><strong>Propreté maximale, garantie.</strong> Si ce n’est pas net, on revient. Quelqu’un rattrape le coup.</li>
       <li><strong>Vous parlez au gérant.</strong> Pas une grosse société, pas un standard. Moi. Grande disponibilité.</li>
-      <li><strong>Prestations déductibles.</strong> Ça rentre dans les charges. Simple, comme une facture fournisseur.</li>
+      <li><strong>Prestations déductibles.</strong> Facture Clean&amp;pro. Ça rentre dans les charges. Simple.</li>
     </ul>
 
     <form id="formulaire" name="leads-vitres" method="POST" netlify>
       <input type="hidden" name="form-name" value="leads-vitres" />
       <p class="hp"><label>Ne pas remplir <input name="bot-field" /></label></p>
 
-      <p class="form-intro">2 minutes. On vous rappelle dans les 5 minutes.</p>
+      <p class="form-intro">2 minutes. Clean&amp;pro vous rappelle dans les 5 minutes.</p>
 
       <label>
         Nom complet
@@ -53,7 +64,7 @@
     </form>
 
     <div class="thanks" hidden>
-      <p><strong>C’est envoyé.</strong> On vous appelle dans les 5 minutes.</p>
+      <p><strong>C’est envoyé.</strong> Clean&amp;pro vous appelle dans les 5 minutes.</p>
       <p class="thanks-copy"></p>
     </div>
 
@@ -65,7 +76,7 @@
       <li>On fait un premier passage test.</li>
       <li>Si ça vous va, on pose un contrat à l’année. Si ça ne vous va pas, on s’arrête là.</li>
     </ol>
-    <p class="gerant">Il y a toujours une relation directe avec moi, le gérant. Pas un commercial, pas un sous-traitant caché derrière un logo.</p>
+    <p class="gerant">Clean&amp;pro, c’est une relation directe avec moi, le gérant. La facture est au nom de l’entreprise. Pas un commercial, pas un sous-traitant caché derrière un logo.</p>
 
     <h2>FAQ</h2>
     <dl class="faq">
@@ -82,6 +93,11 @@
       <dd>Pas forcément collé à nous. Commerce : on s’aligne sur vos horaires. Bureau : présence, un collègue, ou les clés — on choisit au rappel. Rien à figer avant d’envoyer le numéro.</dd>
     </dl>
   </main>
+
+  <footer>
+    <p><strong>Clean&amp;pro</strong> — nettoyage de vitres et de locaux, Morbihan Sud.</p>
+    <p>Vous parlez au gérant. Facture entreprise, prestations en charges.</p>
+  </footer>
   <script src="form.js"></script>
 </body>
 </html>
