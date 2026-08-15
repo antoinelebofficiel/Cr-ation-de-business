@@ -1,168 +1,148 @@
 # Trésorerie 90 jours — décision et exécution
 
-Objectif : **6 000 € encaissés en 45 jours**, buffer visé 9 000 €.
-Ça couvre 3 mois de vie solo lean en France (loyer petit / coloc / chez les parents + charges courantes). Si ton burn réel dépasse 2 500 €/mois, tu rescale le nombre de clients, pas l’offre.
+Objectif : **6 000 € nets en 45 jours** (après pub), buffer visé 9 000 € bruts.
+Chaque vente = 1 800 € encaissés dont **400 € lockés ads**. Net ≈ 1 400 €. **5 ventes** couvrent la cible.
 
-Confiance : **haute** sur la mécanique (prestation prépayée, skill commercial déjà prouvée). **Moyenne** sur le montant 6 000 € tant que le burn n’est pas écrit. Ça change dès que tu remplis `CHIFFRAGE.md`.
+Confiance : **haute** sur l’offre (tu as déjà fait tourner Facebook ads → demandes nettoyage). **Moyenne** sur le CPL à 25 € : ça change si tes 15 premières demandes coûtent > 40 €, tu allonges le délai, tu ne changes pas le SKU.
 
 ---
 
-## 1. Ce qui est vrai au départ
+## 1. Pourquoi l’offre précédente tombe
 
-Le cash est à zéro. Le reste n’est pas à zéro :
+Un RDV « qualifié » est une opinion. Le client et toi pouvez être en désaccord sur chaque ligne livrée. La production, c’est toi au téléphone. Le 6e client exige 6 fois ton temps. Ça ne clone pas.
 
-- un canal déjà prouvé (Facebook ads → leads nettoyage)
-- une compétence de close / cold call / cold email
-- un métier local que tu connais (nettoyage)
-- un toit potentiellement gratuit (ferme)
-- éventuellement des droits ARE (passage facteur)
-
-« 3 mois de tréso » sans euro est inutilisable. On pilote un **montant** et une **date**.
-
-Tu as un conflit de séquence dans tes propres expertises : tu veux un branding solide **et** du cash immédiat. Les deux en parallèle, avec TDAH, = zéro des deux. Le branding vient après l’encaissement. Pendant 45 jours, une offre, un canal, un chiffre quotidien.
-
-Relancer une société de nettoyage en ops répète l’échec déjà identifié : tu es fort en vente, faible et malheureux en opérationnel. On utilise le nettoyage comme **vertical de connaissance** (tu parles la langue des patrons), pas comme entreprise à recréer.
+On vend un **objet comptable** produit par une **machine unique**.
 
 ---
 
 ## 2. La décision
 
-Je vends **des rendez-vous commerciaux prépayés** à des prestataires locaux qui ont déjà une offre et une capacité de delivery.
+SKU unique, vertical unique, 45 jours.
 
 | Paramètre | Valeur |
 |---|---|
-| Offre | 12 RDV qualifiés en 21 jours |
-| Prix | 1 200 € TTC (micro) / 1 000 € HT si société |
-| Paiement | 100 % à la commande, avant le 1er appel |
-| Garantie | si < 8 RDV tenus, je continue sans facturer jusqu’à 8 |
-| Canal | cold call (principal) + cold email (soutien) |
-| Volume | 80 appels / jour, 6 jours / semaine |
-| Cible d’encaissement | 5 clients = 6 000 € |
+| Objet vendu | 15 demandes de devis **complètes** + la machine qui les produit |
+| Demande complète | nom, téléphone, ville, type (bureaux / fin de chantier / copro / autre), message ou surface |
+| Délai | 30 jours après encaissement |
+| Prix | 1 800 € TTC, 100 % à la commande |
+| Inclus | page + formulaire + 3 pubs Meta + jusqu’à 400 € de pub + Sheet + WhatsApp en temps réel |
+| Garantie | si < 15 demandes **complètes** à J+30, on continue sans refacturer jusqu’à 15. Pas de « qualifié ». Complet = les 5 champs remplis |
+| Canal de vente | cold call + mail. 80 appels / jour |
+| Production | Meta ads, recette unique (`MACHINE.md`) |
+| Cible | 5 clients payeurs |
 
-Pourquoi cette offre :
+Le client reçoit un dossier qu’il peut ouvrir ce soir et appeler. Il voit la campagne dans un screenshot Ads Manager chaque semaine. Il possède l’export.
 
-- zéro stock, zéro pub, zéro salarié, zéro site
-- encaissement **avant** le travail
-- le prix est assez bas pour qu’un patron de TPE décide en un appel
-- 5 closes suffisent
-- tu livres avec la compétence que tu as déjà (prospection + qualification)
-- le delivery est du volume d’appels, compatible TDAH si le rituel est unique
+Réplicable = même page, mêmes 3 angles, même formulaire, même budget quotidien. Client 2 = dupliquer la campagne, changer la ville. Client 5 = un VA peut cloner. Toi tu vends.
 
-Pourquoi 1 200 € et pas 3 000 € : à cash zéro, le taux de close prime sur le panier. Un panier plus haut allonge le cycle. On remonte le prix **après** 3 ventes.
+Vertical **verrouillé** : entreprises de **nettoyage professionnel** (bureaux, fin de chantier, copropriété). Un seul marché, une seule créa. Ouvrir plomberie / BTP avant 5 ventes casse la recette.
 
----
-
-## 3. Cibles (dans cet ordre)
-
-1. **Entreprises de nettoyage** (bureaux, copro, fin de chantier) — tu connais le pitch, les objections, le ticket client.
-2. **Artisans / multi-services / BTP** qui dépendent du téléphone et n’ont pas de commercial.
-3. **Courtiers, agences immo, diagnostiqueurs, formateurs, coachs B2B** qui paient déjà de l’acquisition.
-4. **Agences web / communicants** qui savent livrer et ne savent pas prospecter.
-
-Critère d’exclusion immédiat : entreprise sans offre claire, sans quelqu’un qui peut prendre le RDV, ou qui veut « juste des leads » sans s’engager à rappeler. Tu vends des **rendez-vous tenus**, pas un fichier Excel.
-
-Zone : 80 km autour de chez toi + téléphonique France entière pour le nettoyage et les métiers déjà à distance (courtage, formation). Commence local : la preuve sociale et le déplacement éventuel accélèrent le close.
+Un client par zone (département ou agglo). Deux clients sur la même ville = tu te mets en concurrence avec toi-même.
 
 ---
 
-## 4. Séquence (ordre strict)
+## 3. Cibles
+
+1. Sociétés de nettoyage 2–30 personnes, déjà en activité (elles savent traiter un devis).
+2. Indépendants nettoyage qui facturent déjà des bureaux / chantiers (panier > 250 €).
+3. Multi-services **uniquement** s’ils ont une ligne nettoyage identifiable.
+
+Exclusion : boîte sans téléphone de devis, franchise à standard unique, « je veux de la notoriété », « envoyez-moi des leads pas chers », entreprise qui n’a jamais signé un client sorti d’une demande de devis.
+
+Zone d’appel : France entière. La machine est téléphonique. Commence par les villes que tu as déjà bossées en ads (tu as un historique de CPL).
+
+---
+
+## 4. Séquence
 
 ### Heure 0 — chiffrage (30 min)
 
-Remplis `CHIFFRAGE.md`. Sans ça, tu optimises dans le vide.
+`CHIFFRAGE.md`. ARE, micro, toit. Plus : un compte pub Meta prêt (perso, 0 € aujourd’hui, la pub se charge **après** le 1er virement).
 
-Vérifie le même jour :
+Les 400 € ads de chaque vente ne sont **pas** de la trésorerie perso. Compte ou enveloppe séparée le jour de l’encaissement.
 
-- droits ARE / France Travail (le facteur a pu ouvrir des droits : c’est de la trésorerie, pas un plan B moral)
-- micro-entreprise existante ou création (0 €, 24–48 h)
-- possibilité de dormir et manger à la ferme les 45 premiers jours
-- 300–500 € d’amour (parents, frère, pote) **uniquement** comme pont alimentaire, pas comme budget pub
+### Jour 1 — machine + 40 appels
 
-Si ARE > 1 000 €/mois : la pression descend, le plan reste le même, le volume aussi. L’ARE n’autorise pas à « construire la marque ».
+Matin (3 h) : monter **une fois** le squelette dans `MACHINE.md` (Formulaire Google + Sheet + notification mail/WhatsApp + 3 textes de pub + 3 visuels Canva moches acceptables). Campagne **éteinte**. Sans client payeur, 0 € de pub.
 
-### Jour 1 — kit et liste (demi-journée), puis appels (demi-journée)
+Après-midi : 40 appels. Liste = `LISTE.md`. Script = `KIT-COMMERCIAL.md`.
 
-- Script et mail : `KIT-COMMERCIAL.md` (déjà écrits, tu les dis à voix haute 10 fois, tu n’y touches pas avant 50 conversations)
-- Liste de **200 fiches** : nom, tel, ville, métier, taille estimée. Sources : Google Maps, PagesJaunes, societe.com. Commence par « nettoyage » + ta ville + les 10 villes autour.
-- Compte LinkedIn / e-mail dédié si besoin. Ligne téléphonique que tu décroches. CRM = Google Sheet (`SUIVI.md`), pas un outil.
-
-Ensuite : **premiers 40 appels le jour 1**. La liste parfaite n’existe pas. Une liste de 40 noms + un téléphone suffit pour démarrer.
-
-### Jours 2 à 14 — unique rituel
+### Jours 2 à 14
 
 | Heure | Action |
 |---|---|
-| 08:30–12:30 | Appels (bloc 1) |
-| 13:30–16:30 | Appels (bloc 2) jusqu’à 80 tentatives |
-| 16:30–18:00 | Mails aux non-joignables + relances J+2 / J+5 |
-| 18:00–18:20 | Remplir `SUIVI.md` : tentatives, convos, RDV, closes, cash |
+| 08:30–12:30 | Appels |
+| 13:30–16:30 | Appels jusqu’à 80 tentatives |
+| 16:30–17:30 | Mails non-joignables + relances |
+| 17:30–18:00 | Si client en livraison : 20 min machine (budget, 3 commentaires, 1 screenshot) |
+| 18:00–18:20 | `SUIVI.md` |
 
-Objectif J+14 :
+Objectif J+14 : ≥ 800 tentatives, ≥ 80 conversations, ≥ 10 propositions, ≥ 2 × 1 800 € encaissés, **premières demandes réelles** sur au moins un compte.
 
-- ≥ 800 tentatives
-- ≥ 80 conversations (quelqu’un au bout qui a écouté 2 minutes)
-- ≥ 12 devis oraux / propositions
-- ≥ 2 factures payées
-
-Si un client paie : tu commences à **livrer le soir même**. 40 appels pour lui le jour de l’encaissement. La trésorerie se tue si tu empiles les ventes sans livrer ; la réputation aussi.
+Dès le 1er virement : brief 20 min, campagne allumée **le jour même** à 15 €/jour.
 
 ### Jours 15 à 45
 
-Même rituel. Cible : **5 paiements cumulés**.
+Même rituel de vente. Max **3 machines actives** en parallèle. Le 4e et 5e client : file d’attente, démarrage quand un lot de 15 est clos ou à J+21 si le CPL est déjà sous 25 € (la machine tourne seule).
 
-Dès 3 600 € encaissés : tu continues le volume, tu n’inventes pas une offre 2. L’erreur classique est d’arrêter les appels pour « structurer ».
-
----
-
-## 5. Comment tu livres (pour ne pas exploser en ops)
-
-Pour chaque client payeur :
-
-- brief 20 min : offre, zone, client idéal, dispo pour les RDV, phrase d’intro que **lui** assume
-- tu book des créneaux dans **son** calendrier (Calendly à lui, ou un Sheet partagé)
-- qualification minimale : budget, délai, décideur, besoin formulé. Le reste est du perfectionnisme, tu le coupes.
-- reporting 2 fois par semaine : 5 lignes (appels, joignables, RDV posés, RDV tenus, refus et motif)
-
-Volume de delivery par client : ~40–60 appels/jour **répartis** si tu as 2–3 clients. À 5 clients simultanés tu satureras. Donc : **max 3 clients en livraison active**, les suivants commencent quand un lot de 12 RDV est clos. Ça lisse l’encaissement et empêche l’ops de te tuer.
-
-Si un client veut que tu gères WhatsApp, devis, relances post-RDV : non. Périmètre = poser le RDV. Tout le reste recrée la société de nettoyage dans ta tête.
+À 3 600 € bruts : tu continues à vendre le même SKU. Interdit : nouvelle verticale, rebrand, site vitrine, recrutement.
 
 ---
 
-## 6. Diagnostic J+14 (si 0 €)
+## 5. Livraison (ops volontairement pauvre)
 
-Tu ne « pivotes » pas au feeling. Tu lis 3 ratios :
+Périmètre fermé :
 
-| Ratio | Seuil sain | Si en dessous |
+- tu allumes et tu clones la recette
+- tu envoies chaque demande dans le Sheet + WhatsApp du gérant
+- tu envoies 1 screenshot Ads Manager le vendredi
+- tu coupes à 400 € même si on n’a pas 15 demandes : tu **allonges le temps**, tu n’injectes pas ta trésorerie
+
+Périmètre interdit : closer leurs devis, gérer leurs WhatsApp clients, réécrire leur offre, recréer leur site, « qualifier » au feeling, se déplacer.
+
+Si le gérant ne rappelle pas les demandes : tu as livré. Tu le notes. Tu ne compenses pas en devenant son commercial.
+
+---
+
+## 6. Diagnostic J+14
+
+| Ratio | Seuil | Si en dessous |
 |---|---|---|
-| Conversations / tentatives | ≥ 10 % | liste pourrie ou horaires nuls (appelle 8h30–10h et 16h–18h, décideurs) |
-| Devis / conversations | ≥ 15 % | script trop long, offre floue, mauvaise cible. Enregistre-toi, coupe 50 % des mots |
-| Close / devis | ≥ 20 % | prix ou risque. Baisse à 800 € pour les 2 premiers, garantie plus agressive (on continue jusqu’à 12) |
+| Conversations / tentatives | ≥ 10 % | horaires / liste. 8h30–10h et 16h–18h |
+| Propositions / conv | ≥ 15 % | script. Coupe les mots, garde l’objet (15 dossiers + machine) |
+| Close / propositions | ≥ 20 % | risque perçu. Montre le formulaire + un exemple de ligne Sheet. Prix plancher 1 400 € pour **2** premiers clients max, 15 demandes inchangées |
+| CPL (si déjà en pub) | ≤ 30 € | change ville ou angle 2, **pas** le SKU |
 
-Si le volume < 50 appels/jour : le problème n’est pas l’offre, c’est l’exécution. Aucun pivot. Tu reviens à 80.
+Volume < 50 appels/jour : exécution. Pas de nouvelle offre.
 
-Pivot autorisé **uniquement** si volume tenu ET close < 10 % après 80 conversations : tu vends un **retainer closer** 800 €/mois prépayé + commission, à des boîtes qui ont déjà des leads. Même skill, promesse plus petite.
+Pivot autorisé après 80 conversations **et** close < 10 % : même objet, pack d’entrée **10 demandes / 1 200 € / 250 € ads**. Toujours des dossiers complets, toujours la machine.
 
-Pivot interdit avant 45 jours : nouveau site, nouvelle marque, recrutement, ads, formation payante, « offre signature » à 8 000 €.
+Pivot interdit : RDV, closer, coaching, sites, marque, recruter des agents d’entretien.
 
----
-
-## 7. Ce que tu fais avec l’argent (ordre)
-
-1. 3 mois de burn personnel sur un compte **séparé**. Intouchable pour le business.
-2. 300 € d’outils max (ligne, Calendly, domaine mail).
-3. Rien d’autre.
-
-Facebook ads (ton canal prouvé) : **après** les 6 000 €, avec 10 €/jour sur une offre nettoyage **sous-traitée** (tu vends, un prestataire livre). Pas avant. L’ads avec cash zéro transforme le compte pub en roulette.
+Si CPL > 40 € sur 200 € dépensés : tu changes l’angle (voir `MACHINE.md`), tu gardes le formulaire.
 
 ---
 
-## 8. Critère de succès
+## 7. Affectation du cash (par vente)
 
-Ça marche quand, au plus tard J+45 :
+```
+1 800 € reçus
+  → 400 € enveloppe ads (intouchable)
+  → 1 400 € compte vie / tréso 90 j
+```
 
-- ≥ 6 000 € reçus sur le compte
-- ≥ 3 clients ont eu au moins 8 RDV tenus
-- le compte « vie » a 90 jours de burn, calculé avec `CHIFFRAGE.md` réel
+Outils : 0–30 € (domaine mail optionnel). Canva gratuit, Google Form gratuit, Meta gratuit.
 
-Ça ne marche pas si tu as un logo, un positionnement et 0 €.
+Après 6 000 € **nets** sur le compte vie : alors seulement tu testes une 2e ville **à toi** (tu gardes la demande et tu la vends à un 2e nettoyeur hors zone exclusive). Pas avant.
+
+---
+
+## 8. Succès
+
+J+45, les trois en même temps :
+
+- ≥ 6 000 € nets (après pub) sur le compte vie
+- ≥ 3 clients ont reçu 15 demandes **complètes** (ou campagne encore ouverte sur garantie, volume déjà ≥ 8)
+- la recette du 2e client a été un **duplicata**, pas une refonte
+
+Un positionnement sans dossier dans un Sheet = échec.

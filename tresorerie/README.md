@@ -1,15 +1,16 @@
 # Trésorerie 90 jours
 
-Départ cash = 0. Cible = 6 000 € encaissés en 45 jours (3 mois de burn lean).
+Départ cash = 0. Cible = **6 000 € nets en 45 jours**.
+
+SKU : **15 demandes de devis nettoyage + machine Meta**, 1 800 € prépayés, 400 € ads inclus, garantie au volume (dossiers complets), vertical unique.
 
 | Fichier | Usage |
 |---|---|
-| [PLAN.md](PLAN.md) | Décision, séquence, diagnostic J+14 |
-| [CHIFFRAGE.md](CHIFFRAGE.md) | Burn réel — à remplir jour 0 |
-| [KIT-COMMERCIAL.md](KIT-COMMERCIAL.md) | Offre, script, mails, objections, delivery |
-| [LISTE.md](LISTE.md) | Comment extraire 200 cibles aujourd’hui |
-| [SUIVI.md](SUIVI.md) | KPIs quotidiens |
+| [PLAN.md](PLAN.md) | Décision, séquence, diagnostic |
+| [CHIFFRAGE.md](CHIFFRAGE.md) | Burn réel — jour 0 |
+| [MACHINE.md](MACHINE.md) | Recette ads à cloner |
+| [KIT-COMMERCIAL.md](KIT-COMMERCIAL.md) | Script, mails, objections |
+| [LISTE.md](LISTE.md) | 200 cibles nettoyage |
+| [SUIVI.md](SUIVI.md) | Vente + CPL |
 
-Offre unique : 12 RDV qualifiés / 21 jours / 1 200 € prépayés / garantie 8 tenus.
-Canal unique : 80 appels par jour.
-Pas de marque, pas d’ads, pas d’ops nettoyage, pas de site, avant les 6 000 €.
+80 appels/jour pour vendre. La pub ne s’allume qu’après virement. Pas de RDV, pas d’ops nettoyage, pas de marque avant les 6 000 € nets.

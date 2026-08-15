@@ -22,7 +22,9 @@ Règle : si un poste est « variable », tu mets le **haut** de la fourchette, p
 
 ```
 CIBLE_90J = BURN × 3
-PONT_45J  = BURN × 1.5     (ce que le plan doit encaisser avant J+45)
+PONT_45J  = BURN × 1.5
+NET_PAR_VENTE = 1800 - 400 = 1400   (400 € lockés ads, intouchables)
+NB_VENTES = PONT_45J / 1400
 ```
 
 | Calcul | Montant € |
@@ -30,10 +32,12 @@ PONT_45J  = BURN × 1.5     (ce que le plan doit encaisser avant J+45)
 | BURN | |
 | CIBLE_90J (×3) | |
 | PONT_45J (×1,5) | |
-| Nombre de ventes à 1 200 € pour le pont | PONT_45J / 1200 = ___ |
+| Nb ventes à 1 400 € nets | PONT_45J / 1400 = ___ |
 
-Si CIBLE_90J < 4 500 € : le plan à 5 ventes tient largement.
-Si CIBLE_90J > 9 000 € : tu as un train de vie incompatible avec un départ à cash zéro. Tu coupes le burn **avant** d’ajouter des offres. Loyer trop haut, voiture trop chère, ou les deux.
+Si CIBLE_90J < 4 500 € : 4 ventes suffisent.
+Si CIBLE_90J > 9 000 € : train de vie incompatible avec un départ à cash zéro. Tu coupes le burn **avant** d’ajouter des offres.
+
+Compte pub : enveloppe 400 € ouverte **le jour du 1er virement**, pas avant. Love money 300–500 € = nourriture, jamais la pub.
 
 ## C. Actifs non-cash (oui/non + montant si oui)
 
@@ -45,6 +49,7 @@ Si CIBLE_90J > 9 000 € : tu as un train de vie incompatible avec un départ à
 | Love money 300–500 € (pont alimentaire, pas pub) | | |
 | Anciens clients nettoyage recontactables | | |
 | Ligne téléphone + Google Sheet | | |
+| Compte Meta Ads déjà créé (0 €) | | |
 
 ARE + toit parental : tu es déjà plus riche en runway qu’un fondateur urbain à 0 €. Tu traites ça comme une donnée, pas comme une honte.
 

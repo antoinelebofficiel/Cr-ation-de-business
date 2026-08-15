@@ -1,110 +1,97 @@
-# Kit commercial — offre RDV prépayés
+# Kit commercial — pack 15 demandes + machine
 
-Tu ne réécris rien avant 50 conversations. Les ajustements se font sur les **mots qui bloquent**, pas sur l’envie de « mieux formuler ».
+Tu ne réécris rien avant 50 conversations.
 
 ## Offre (phrase unique)
 
-> Je vous pose 12 rendez-vous avec des prospects qualifiés en 21 jours. 1 200 €, payés maintenant. Si on tient moins de 8 RDV, je continue sans vous re-facturer jusqu’à 8.
+> Je vous livre 15 demandes de devis nettoyage, nom + téléphone + ville + type + besoin, en 30 jours. Vous les recevez sur WhatsApp. 1 800 € maintenant, la pub est incluse. Si on n’a pas 15 dossiers complets, je continue à ma charge jusqu’à 15.
 
-Qualifié = décideur, besoin exprimé, zone OK, créneau dans **votre** agenda.
+## Script d’appel (70 s)
 
-## Cible d’appel (ouverture)
+**Accroche**
+« [Prénom], Antoine. Vous faites du nettoyage [bureaux / chantier] sur [ville]. Je m’arrête 20 secondes : aujourd’hui vos devis, ils arrivent d’où ? »
 
-Tu demandes la personne qui s’occupe des **nouveaux clients**. Pas le standard « service com ». Si TPE < 20 personnes : le gérant.
+Silence.
 
-## Script d’appel (70 secondes max)
+**Si « bouche à oreille / Google / rien »**
+« Je fais tourner des pubs locales. Les gens demandent un devis, ça vous tombe sur WhatsApp : nom, tel, ville, surface. 15 dossiers en 30 jours. 1 800 €, pub comprise. Moins de 15, je continue sans vous re-facturer. Vous rappelez encore des devis en ce moment, oui ou non ? »
 
-**Accroche (15 s)**
-« [Prénom], Antoine. Je vous appelle parce que vous faites du [nettoyage bureaux / plomberie / courtage] sur [ville], et que la plupart des gens que je vois dans votre métier attendent que le téléphone sonne. Je m’arrête 30 secondes et vous me dites si c’est hors sujet. »
+**Qualif (4 questions)**
+1. Vous prenez encore des bureaux ou du fin de chantier sur [zone] ce mois-ci ?
+2. Un devis signé, ça vous fait combien en moyenne ?
+3. C’est vous qui rappelez dans la journée ?
+4. Si une demande arrive ce soir à 18h30, vous décrochez ?
 
-*Silence. S’il coupe : tu laisses. S’il reste : tu continues.*
-
-**Offre (20 s)**
-« Je pose des rendez-vous dans votre agenda. Pas un fichier, pas des likes. 12 RDV en 21 jours, avec des gens qui ont un besoin et un décideur. Vous payez 1 200 € maintenant, je commence aujourd’hui. Si on en tient moins de 8, je continue à ma charge. »
-
-**Question (10 s)**
-« Là, aujourd’hui, votre prochain client, il vient d’où ? »
-
-Tu écoutes. Tu ne pitches plus. Tu qualifies.
-
-**Qualif (4 questions, pas 12)**
-1. Vous prenez encore des clients sur [zone] dans les 30 jours ?
-2. C’est vous qui faites les RDV / devis ?
-3. Un client de [son métier], ça vous fait combien en moyenne ?
-4. Si je vous pose un RDV jeudi 11h, vous le prenez ?
-
-Si 1 = non : next.
-Si 2 = non et personne identifiée : next.
-Si 3 < 400 € de panier : next (ton RDV ne vaut pas le prix pour lui).
-Si 4 = non : il n’achète pas des RDV, il achète de la magie. Next.
+Next immédiat si : panier moyen < 250 €, personne pour rappeler, ils veulent « de la notoriété », ils refusent de payer avant.
 
 **Close**
-« OK. Je vous envoie le RIB / lien de paiement maintenant. Dès que c’est reçu, on fait le brief de 20 minutes et je commence les appels aujourd’hui. Vous préférez virement ou lien ? »
+« Je vous envoie le RIB. Dès que c’est reçu, 20 minutes de brief, la campagne part aujourd’hui. Virement ou lien ? »
 
 Tu te tais.
 
-## Objections (une réplique, puis silence)
+## Objections
 
 | Il dit | Tu réponds |
 |---|---|
-| Envoyez-moi un mail | « Je peux. Ça servira à rien si le sujet n’est pas ouvert. C’est les nouveaux clients le sujet, ou pas ? » |
-| J’y réfléchis | « C’est le prix ou le fait de payer avant ? » |
-| C’est cher | « Un de vos clients ça fait [son panier]. 1 200 € c’est moins d’un client. Si je vous en pose 8, vous êtes largement au-dessus. » |
-| J’ai déjà une commerciale / une agence | « Ils vous posent combien de RDV tenus par semaine, là, en vrai ? » |
-| Je veux des leads, pas des RDV | « Un lead sans créneau ça pourrit dans le téléphone. Moi je vends le créneau. » |
-| Garantissez-moi 12 | « Je garantis que je continue jusqu’à 8 tenus. Les 4 derniers dépendent de vous : vous décrochez, vous êtes à l’heure, votre offre est claire. » |
-| On n’a pas le budget | « OK. » (next — ce n’est pas un prospect) |
-| Rappelez dans 2 mois | « Je peux. En 2 mois vous aurez les mêmes clients qu’aujourd’hui. Si c’est juste, on se rappelle. Sinon, 1 200 € et je commence aujourd’hui. » |
+| Envoyez un mail | « Oui. Avant : vos devis arrivent d’où, là, cette semaine ? » |
+| C’est cher | « 15 dossiers. Un contrat bureaux c’est [son panier]. Un seul signé paie le pack. » |
+| Qualifiez-les / prenez les RDV | « Je livre le dossier complet. Le devis, c’est votre métier. Si vous voulez un commercial, ce n’est pas moi. » |
+| J’ai déjà une agence / des ads | « Combien de demandes **complètes** la semaine dernière, chiffre réel ? » |
+| Garantissez-moi des clients signés | « Je garantis 15 dossiers complets. La signature dépend de votre devis et de votre délai de rappel. » |
+| Montrez-moi des pubs | « Je vous montre le formulaire et une ligne de Sheet. La pub part le jour du virement, sur votre ville. » |
+| On n’a pas le budget | « OK. » Next. |
+| 2e devis / appel d’offres d’abord | « Le pack est le devis : 15 dossiers, 1 800 €, pub dedans. Vous dites oui ou non aujourd’hui. » |
 
-Interdit : justifier ton parcours, raconter le TDAH, proposer une réduction avant qu’il ait demandé, « je vous fais un prix parce que je démarre ».
+Interdit : raconter ton TDAH, « je démarre donc je fais un prix », proposer des RDV, proposer de closer, baisser sous 1 400 €.
 
-Exception prix : **uniquement** pour les 2 premiers clients si close < 10 % après 40 conversations. Alors 800 €, même garantie. Ensuite retour à 1 200 €.
+Exception prix : 1 400 € **uniquement** pour les 2 premiers si close < 10 % après 40 conversations. 15 demandes et 300 € ads (pas 400). Ensuite retour à 1 800 €.
 
-## Mail (non-joignables et relance)
+## Mail
 
-Objet : `12 RDV en 21 jours — [leur métier] [ville]`
+Objet : `15 devis nettoyage — [ville] — 30 jours`
 
 ```
 [Prénom],
 
-Vous dépendez du téléphone pour signer.
-Je pose 12 rendez-vous qualifiés dans votre agenda en 21 jours.
+15 demandes de devis nettoyage sur [ville], en 30 jours.
+Chaque dossier : nom, téléphone, ville, type, besoin.
+Vous les recevez sur WhatsApp.
 
-1 200 €, payés maintenant.
-Moins de 8 RDV tenus : je continue à ma charge jusqu’à 8.
+1 800 €, pub incluse, payé maintenant.
+Moins de 15 dossiers complets : je continue à ma charge jusqu’à 15.
 
-Pas un fichier Excel. Des créneaux avec décideur + besoin.
-
-Si vous prenez encore des clients sur [zone], répondez « OK » et je vous appelle 10 minutes.
+Répondez « OK » si vous rappelez encore des devis. J’appelle 10 minutes.
 Sinon ignorez.
 
 Antoine
 [téléphone]
 ```
 
-Relance J+2 : le même mail, 2 lignes en haut :
-« Je relance une fois. Si le téléphone ne vous amène plus assez de clients, on en parle 10 minutes. »
+Relance J+2 : 2 lignes au-dessus, même mail.
+« Une fois. Si le téléphone ne vous amène plus assez de devis, 10 minutes. »
 
-Relance J+5 : appel. Pas un 3e mail.
+Relance J+5 : appel. Pas de 3e mail.
 
-## Brief de livraison (20 min, dès paiement reçu)
+## Preuve à envoyer (1 écran, pas un PDF de 12 pages)
 
-Tu sors avec ça, rien d’autre :
+Après la 1re conversation sérieuse, SMS ou mail :
 
-- une phrase d’intro que **lui** assume (« je vous appelle de la part de [Boîte] »)
-- zone + exclusion
-- client idéal (3 critères max)
-- client à refuser (2 critères)
-- panier moyen
-- créneaux où IL est dispo (minimum 6/semaine)
-- lien de prise de RDV ou Sheet
+1. Capture des 5 champs du formulaire
+2. Exemple de ligne Sheet (données fictives réalistes)
+3. La phrase de garantie
 
-Tu n’optimises pas son offre. Tu book.
+Pas de mockup Figma. Pas de brand book.
 
-## Script que TU utilises pour LUI (delivery)
+## Contrat oral / mail de confirmation (5 lignes)
 
-« [Prénom], Antoine au nom de [Boîte]. Ils font [métier] sur [zone]. Je vous appelle parce que [raison concrète : déménagement, locaux, fin de chantier, recrutement, etc.]. Vous avez 12 minutes [jour] [heure] pour faire le point avec [Prénom du gérant] ? »
+Dès le virement :
 
-Si oui : tu poses, tu confirmes par SMS aux deux, tu notes dans le Sheet.
-
-Si « envoyez un mail » : tu poses quand même un créneau « je vous bloque 12 min, vous annulez si hors sujet ». Un mail seul = 0 RDV.
+```
+Pack 15 demandes de devis nettoyage — [zone]
+Prix 1800 € reçu le [date]
+Inclus : formulaire, 3 pubs, jusqu’à 400 € de pub, Sheet, WhatsApp
+Compte dans les 15 : nom + tel + ville + type + besoin, dans la zone
+Hors zone ou champs manquants : ne compte pas
+Si < 15 à J+30 : poursuite sans facture jusqu’à 15
+Vous rappelez sous 24h. Je ne fais pas les devis.
+```
