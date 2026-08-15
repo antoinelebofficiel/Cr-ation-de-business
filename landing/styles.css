@@ -9,137 +9,119 @@ body {
   background: #fff;
 }
 
-main,
-footer {
+main {
   max-width: 640px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 20px 16px 48px;
 }
 
 h1 {
   font-size: 28px;
   line-height: 1.2;
-  font-weight: 700;
   margin: 0 0 12px;
 }
 
-h2 {
-  font-size: 20px;
-  margin: 28px 0 10px;
-}
-
-h3 {
-  font-size: 16px;
-  margin: 16px 0 4px;
-}
-
 .sub {
-  margin: 0 0 16px;
-  font-size: 16px;
+  font-size: 18px;
+  margin: 0 0 20px;
 }
 
 .benefices {
-  margin: 0 0 20px;
-  padding-left: 22px;
+  margin: 0 0 24px;
+  padding-left: 20px;
 }
 
-.benefices li { margin-bottom: 8px; }
-
-.mark {
-  background: #ffff00;
-  font-weight: 700;
-}
+.benefices li { margin: 0 0 10px; }
 
 form {
   background: #ffff99;
   border: 2px solid #000;
-  padding: 14px;
-  margin: 0 0 8px;
+  padding: 16px;
+  margin: 0 0 28px;
 }
 
-.form-titre {
-  font-weight: 700;
+.form-intro {
   margin: 0 0 12px;
+  font-weight: bold;
 }
+
+mark { background: #ffff00; }
 
 label {
   display: block;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 10px;
+  font-weight: bold;
+  margin: 0 0 12px;
 }
 
-input[type="text"],
-input[type="tel"] {
+input {
   display: block;
   width: 100%;
   margin-top: 4px;
-  padding: 8px 6px;
-  font: 16px Arial, Helvetica, sans-serif;
+  padding: 8px;
+  font: inherit;
   border: 2px inset #ccc;
-  background: #fff;
-  border-radius: 0;
 }
 
 button {
   display: block;
   width: 100%;
-  margin-top: 10px;
-  padding: 12px 8px;
-  font: 700 16px Arial, Helvetica, sans-serif;
+  margin: 10px 0 0;
+  padding: 14px 12px;
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
   color: #111;
   background: #ffd814;
   border: 2px solid #000;
-  border-radius: 0;
   cursor: pointer;
 }
 
-.btn-combo {
+button.combo {
   background: #ff8f00;
 }
 
 .ironie {
-  font-style: italic;
-  font-size: 14px;
   margin: 12px 0 0;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
 
 .form-error {
-  color: #b00000;
-  font-weight: 700;
-  margin: 8px 0 0;
+  color: #8b0000;
+  font-weight: bold;
+  margin: 10px 0 0;
 }
 
 .hp { display: none; }
 
 .thanks {
-  background: #ffff99;
   border: 2px solid #000;
-  padding: 14px;
+  background: #ffff99;
+  padding: 16px;
+  margin: 0 0 28px;
 }
 
-#etapes ol {
-  margin: 0;
-  padding-left: 22px;
+h2 {
+  font-size: 22px;
+  margin: 0 0 12px;
 }
 
-#etapes li { margin-bottom: 8px; }
+.etapes { margin: 0 0 12px; padding-left: 20px; }
+.etapes li { margin: 0 0 8px; }
 
-#gerant p,
-#faq p {
-  margin: 0 0 8px;
+.gerant {
+  margin: 0 0 28px;
+  font-weight: bold;
 }
 
-footer {
-  border-top: 1px solid #000;
-  font-size: 13px;
-  color: #333;
+.faq dt {
+  font-weight: bold;
+  margin: 16px 0 6px;
 }
 
-a { color: #00e; }
-
-@media (min-width: 700px) {
-  h1 { font-size: 32px; }
-  main,
-  footer { padding: 24px 16px 16px; }
+.faq dd {
+  margin: 0 0 0 0;
 }
+
+.faq { margin: 0; }

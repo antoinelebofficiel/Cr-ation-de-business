@@ -12,18 +12,19 @@ form?.addEventListener("submit", async (event) => {
   event.preventDefault();
   errorEl.hidden = true;
 
+  const submitter = event.submitter;
+  const offre = submitter?.getAttribute("value") || "";
   const data = new FormData(form);
-  const offre = event.submitter?.value || String(data.get("offre") || "");
-  const tel = String(data.get("telephone") || "");
   data.set("offre", offre);
 
-  if (!offre) {
-    errorEl.textContent = "Cliquez sur un des deux boutons de devis.";
+  const tel = String(data.get("telephone") || "");
+  if (!phoneOk(tel)) {
+    errorEl.textContent = "Indiquez un téléphone joignable.";
     errorEl.hidden = false;
     return;
   }
-  if (!phoneOk(tel)) {
-    errorEl.textContent = "Indiquez un téléphone joignable.";
+  if (!offre) {
+    errorEl.textContent = "Cliquez sur un des deux boutons.";
     errorEl.hidden = false;
     return;
   }
@@ -46,15 +47,16 @@ form?.addEventListener("submit", async (event) => {
       localStorage.setItem("leads-vitres", JSON.stringify(leads));
     }
   } catch (err) {
-    errorEl.textContent = "Envoi incomplet. Renvoyez le formulaire.";
+    errorEl.textContent = "Envoi incomplet. Cliquez à nouveau sur le bouton.";
     errorEl.hidden = false;
     return;
   }
 
   const combo = offre === "nettoyage de vitres plus ménage";
   thanksCopy.textContent = combo
-    ? "Offre notée : nettoyage de vitres plus ménage. On vous appelle dans les 5 minutes."
-    : "Offre notée : nettoyage de vitres. On vous appelle dans les 5 minutes.";
+    ? "Demande notée : devis nettoyage de vitres et ménage / locaux. Téléphone en main."
+    : "Demande notée : devis nettoyage de vitres. Téléphone en main.";
   form.hidden = true;
   thanks.hidden = false;
+  thanks.scrollIntoView({ behavior: "smooth", block: "start" });
 });

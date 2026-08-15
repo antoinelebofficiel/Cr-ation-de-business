@@ -3,95 +3,85 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nettoyage de vitres — Morbihan Sud</title>
-  <meta name="description" content="Nettoyage de vitres pour commerçants et bureaux du Morbihan Sud. Devis au téléphone. Rappel dans les 5 minutes." />
+  <title>Nettoyage de vitres — commerçants et bureaux, Morbihan Sud</title>
+  <meta name="description" content="Nettoyage de vitres pour commerçants et bureaux du Morbihan Sud. Rappel en 5 minutes. Passage test sous 24 h." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main>
-    <h1>Vos vitres propres tous les mois. On vous rappelle dans les <span class="mark">5 minutes</span>.</h1>
-
-    <p class="sub">Commerçants et bureaux du Morbihan Sud — Vannes, Auray, Sarzeau, Questembert, et le reste du sud du département.</p>
+    <h1>On nettoie, vous vérifiez. Pas net&nbsp;? On revient. <mark>Rappel en 5&nbsp;min.</mark></h1>
+    <p class="sub">Pour les commerçants et les bureaux du Morbihan Sud — Lorient et 40&nbsp;km autour.</p>
 
     <ul class="benefices">
-      <li><strong>Propreté max.</strong> Verre accessible, intérieur et accès. 4 photos après chaque passage.</li>
-      <li><strong>Gérant en direct.</strong> Vous parlez à Antoine. Un numéro, une personne.</li>
-      <li><strong>Déductible en charges.</strong> Facture au nom de la société. Charges d’exploitation.</li>
+      <li><strong>Propreté maximale, garantie.</strong> Si ce n’est pas net, on revient. Quelqu’un rattrape le coup.</li>
+      <li><strong>Vous parlez au gérant.</strong> Pas une grosse société, pas un standard. Moi. Grande disponibilité.</li>
+      <li><strong>Prestations déductibles.</strong> Ça rentre dans les charges. Simple, comme une facture fournisseur.</li>
     </ul>
 
     <form id="formulaire" name="leads-vitres" method="POST" netlify>
       <input type="hidden" name="form-name" value="leads-vitres" />
       <p class="hp"><label>Ne pas remplir <input name="bot-field" /></label></p>
 
-      <p class="form-titre">Laissez vos coordonnées. Le tarif se dit à l’oral.</p>
+      <p class="form-intro">2 minutes. On vous rappelle dans les 5 minutes.</p>
 
-      <label>Prénom
-        <input name="prenom" type="text" autocomplete="given-name" required maxlength="40" placeholder="Jeff Bezos" />
+      <label>
+        Nom complet
+        <input name="nom" type="text" autocomplete="name" required maxlength="80" placeholder="Jeff Bezos" />
       </label>
-      <label>Société
+      <label>
+        Société
         <input name="societe" type="text" autocomplete="organization" required maxlength="80" placeholder="Amazon" />
       </label>
-      <label>Téléphone
+      <label>
+        Téléphone
         <input name="telephone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="06 06 06 06 06" />
       </label>
-      <label>Ville des locaux
-        <input name="ville" type="text" required maxlength="80" autocomplete="address-level2" placeholder="ville" />
+      <label>
+        Ville
+        <input name="ville" type="text" required maxlength="80" placeholder="Lorient" autocomplete="address-level2" />
       </label>
 
-      <button type="submit" name="offre" value="nettoyage de vitres">Demander un devis vitres</button>
-      <button type="submit" name="offre" value="nettoyage de vitres plus ménage" class="btn-combo">Demander un devis vitres + ménage des locaux</button>
+      <button type="submit" name="offre" value="nettoyage de vitres">
+        Je souhaite un devis pour le nettoyage de vitres
+      </button>
+      <button type="submit" class="combo" name="offre" value="nettoyage de vitres plus ménage">
+        Je souhaite un devis pour le nettoyage de vitres et le ménage / nettoyage de locaux
+      </button>
 
       <p class="ironie">« Je ne veux pas être rappelé dans les 5 minutes. »</p>
       <p class="form-error" hidden></p>
     </form>
 
     <div class="thanks" hidden>
-      <p><strong>C’est envoyé.</strong> On vous appelle dans les <span class="mark">5 minutes</span>.</p>
+      <p><strong>C’est envoyé.</strong> On vous appelle dans les 5 minutes.</p>
       <p class="thanks-copy"></p>
     </div>
 
-    <section id="etapes">
-      <h2>Comment ça se passe</h2>
-      <ol>
-        <li>Vous laissez prénom, société, numéro, ville. Trente secondes.</li>
-        <li>J’appelle dans les 5 minutes.</li>
-        <li>On pose l’accès, la hauteur, le rythme. Le tarif se dit à l’oral.</li>
-        <li>Vous confirmez. Premier passage sous 7 jours.</li>
-        <li>Un passage par mois. 4 photos après. Pluie : on reporte dans le mois.</li>
-      </ol>
-    </section>
+    <h2>Comment ça se passe ?</h2>
+    <ol class="etapes">
+      <li>Vous remplissez le formulaire. Je reçois une notification tout de suite.</li>
+      <li>Je vous rappelle dans les 5 minutes.</li>
+      <li>On fixe une date et une heure pour passer dans les 24 heures.</li>
+      <li>On fait un premier passage test.</li>
+      <li>Si ça vous va, on pose un contrat à l’année. Si ça ne vous va pas, on s’arrête là.</li>
+    </ol>
+    <p class="gerant">Il y a toujours une relation directe avec moi, le gérant. Pas un commercial, pas un sous-traitant caché derrière un logo.</p>
 
-    <section id="gerant">
-      <h2>Relation directe avec moi, le gérant</h2>
-      <p>Antoine. Vous signez avec moi. Je vends, je planifie, je vous rappelle. Le laveur est un indépendant équipé : perche à lui, produits à lui. Un souci sur le chantier, c’est mon numéro.</p>
-    </section>
+    <h2>FAQ</h2>
+    <dl class="faq">
+      <dt>Est-ce que c’est garanti ou remboursé ?</dt>
+      <dd>On passe avec les meilleurs experts et il y aura tout le temps quelqu’un pour rattraper le coup. Si jamais, on revient.</dd>
 
-    <section id="faq">
-      <h2>FAQ</h2>
+      <dt>Est-ce qu’on intervient que sur Lorient ?</dt>
+      <dd>Non, on n’intervient pas que sur Lorient. On intervient à 40 kilomètres aux alentours (Lanester, Ploemeur, Guidel, Hennebont, Quéven, et le reste du rayon). Trop loin : je vous le dis à l’appel, en 5 minutes.</dd>
 
-      <h3>Combien ça coûte ?</h3>
-      <p>Au téléphone, une fois la ville, l’accès et la hauteur posés. Pas de grille au m² sur cette page.</p>
+      <dt>Je dois m’engager un an pour envoyer le formulaire ?</dt>
+      <dd>Non. D’abord le rappel, le créneau sous 24 h, le passage test. Le contrat annuel, seulement après, si ça vous va. Le tarif du test, je vous le dis au téléphone.</dd>
 
-      <h3>Vous prenez les particuliers ?</h3>
-      <p>Commerces et bureaux uniquement. Morbihan Sud.</p>
-
-      <h3>Il pleut.</h3>
-      <p>On reporte dans le mois. Le forfait tient.</p>
-
-      <h3>On est au 3<sup>e</sup> étage.</h3>
-      <p>Perche jusqu’au R+2. Au-dessus, je refuse à l’appel.</p>
-
-      <h3>C’est quoi le deuxième bouton ?</h3>
-      <p>Vitres 1× / mois + ménage des locaux 4× / mois, surface ≤ 120 m².</p>
-
-      <h3>Quelle zone ?</h3>
-      <p>Morbihan Sud. Vannes, Auray, Sarzeau, Questembert, et 40 km autour si c’est du pro.</p>
-    </section>
+      <dt>Je dois être sur place ? Clés, horaires ?</dt>
+      <dd>Pas forcément collé à nous. Commerce : on s’aligne sur vos horaires. Bureau : présence, un collègue, ou les clés — on choisit au rappel. Rien à figer avant d’envoyer le numéro.</dd>
+    </dl>
   </main>
-
-  <footer>
-    <p>Antoine · nettoyage de vitres · Morbihan Sud</p>
-  </footer>
   <script src="form.js"></script>
 </body>
 </html>
