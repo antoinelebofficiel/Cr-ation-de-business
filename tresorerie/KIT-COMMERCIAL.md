@@ -71,6 +71,7 @@ Contrat forfait bureaux — 590 € / mois
 Surface déclarée ≤ 120 m² — [adresse]
 4 passages / mois — plage : [ex. mar-ven 18h-21h]
 Mois 1 reçu le [date] — 1er passage le [date ≥ J+7]
-Intervenant : indépendant, backup prévu
+Consommables sanitaires (PQ, savon, sacs) : à vous, sur site
+Intervenant : indépendant avec son matériel, backup prévu
 Résiliation : préavis 30 jours, à date d’échéance
 ```
