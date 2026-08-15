@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.45;
-  color: #000;
+  color: #111;
   background: #fff;
 }
 
@@ -70,8 +70,8 @@ h1 {
 .benefices li { margin: 0 0 10px; }
 
 form {
-  background: #ffff99;
-  border: 2px solid #000;
+  background: #fff;
+  border: 2px solid #0b3d4a;
   padding: 16px;
   margin: 0 0 28px;
 }
@@ -81,7 +81,7 @@ form {
   font-weight: bold;
 }
 
-mark { background: #ffff00; }
+mark { background: #fff3a3; }
 
 label {
   display: block;
@@ -93,9 +93,11 @@ input {
   display: block;
   width: 100%;
   margin-top: 4px;
-  padding: 8px;
+  padding: 12px 10px;
   font: inherit;
-  border: 2px inset #ccc;
+  font-size: 16px;
+  border: 1px solid #9aa7a3;
+  border-radius: 4px;
 }
 
 button {
@@ -104,23 +106,23 @@ button {
   margin: 10px 0 0;
   padding: 14px 12px;
   font: inherit;
+  font-size: 16px;
   font-weight: bold;
   text-align: center;
-  color: #111;
-  background: #ffd814;
-  border: 2px solid #000;
+  color: #fff;
+  background: #0b3d4a;
+  border: 2px solid #0b3d4a;
   cursor: pointer;
 }
 
 button.combo {
-  background: #ff8f00;
+  color: #0b3d4a;
+  background: #fff;
 }
 
-.ironie {
+.note {
   margin: 12px 0 0;
   font-size: 14px;
-  font-style: italic;
-  text-align: center;
 }
 
 .form-error {
@@ -132,8 +134,8 @@ button.combo {
 .hp { display: none; }
 
 .thanks {
-  border: 2px solid #000;
-  background: #ffff99;
+  border: 2px solid #0b3d4a;
+  background: #f4f7f6;
   padding: 16px;
   margin: 0 0 28px;
 }
@@ -156,10 +158,7 @@ h2 {
   margin: 16px 0 6px;
 }
 
-.faq dd {
-  margin: 0 0 0 0;
-}
-
+.faq dd { margin: 0; }
 .faq { margin: 0; }
 
 footer {
