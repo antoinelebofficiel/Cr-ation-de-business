@@ -1,31 +1,29 @@
-# Kit commercial — pack 15 demandes + machine
+# Kit commercial — forfait bureaux 590 € (toi = vendeur)
 
-Tu ne réécris rien avant 50 conversations.
+Tu vends **ton** contrat. Tu ne vends pas des leads.
 
 ## Offre (phrase unique)
 
-> Je vous livre 15 demandes de devis nettoyage, nom + téléphone + ville + type + besoin, en 30 jours. Vous les recevez sur WhatsApp. 1 800 € maintenant, la pub est incluse. Si on n’a pas 15 dossiers complets, je continue à ma charge jusqu’à 15.
+> Nettoyage de vos bureaux, 4 passages par mois, jusqu’à 120 m², 590 €. Le mois est payé maintenant, on commence dans 7 jours. Si la surface dépasse 120, je ne prends pas.
 
-## Script d’appel (70 s)
+## Script d’appel (60 s)
 
 **Accroche**
-« [Prénom], Antoine. Vous faites du nettoyage [bureaux / chantier] sur [ville]. Je m’arrête 20 secondes : aujourd’hui vos devis, ils arrivent d’où ? »
+« [Prénom], Antoine. Vous avez des bureaux à [ville]. 15 secondes : le ménage, c’est qui qui le fait aujourd’hui ? »
 
 Silence.
 
-**Si « bouche à oreille / Google / rien »**
-« Je fais tourner des pubs locales. Les gens demandent un devis, ça vous tombe sur WhatsApp : nom, tel, ville, surface. 15 dossiers en 30 jours. 1 800 €, pub comprise. Moins de 15, je continue sans vous re-facturer. Vous rappelez encore des devis en ce moment, oui ou non ? »
+**Offre**
+« Forfait 4 passages par mois, 590 €, jusqu’à 120 m². Vous payez le premier mois maintenant, on démarre dans 7 jours. C’est vous qui décidez ça, oui ? »
 
-**Qualif (4 questions)**
-1. Vous prenez encore des bureaux ou du fin de chantier sur [zone] ce mois-ci ?
-2. Un devis signé, ça vous fait combien en moyenne ?
-3. C’est vous qui rappelez dans la journée ?
-4. Si une demande arrive ce soir à 18h30, vous décrochez ?
-
-Next immédiat si : panier moyen < 250 €, personne pour rappeler, ils veulent « de la notoriété », ils refusent de payer avant.
+**Qualif**
+1. Surface des bureaux, à la louche ? (si > 120 : « je ne prends pas, je vous laisse » — next propre)
+2. Combien de passages vous voulez par mois aujourd’hui ? (si « tous les jours » : next)
+3. Vous payez déjà quelqu’un, et ça se passe comment ?
+4. Virement aujourd’hui, on bloque le créneau la semaine prochaine ?
 
 **Close**
-« Je vous envoie le RIB. Dès que c’est reçu, 20 minutes de brief, la campagne part aujourd’hui. Virement ou lien ? »
+« Je vous envoie le RIB. Dès que c’est reçu, vous avez le créneau et le nom de l’intervenant. 590 €, premier mois. »
 
 Tu te tais.
 
@@ -33,65 +31,46 @@ Tu te tais.
 
 | Il dit | Tu réponds |
 |---|---|
-| Envoyez un mail | « Oui. Avant : vos devis arrivent d’où, là, cette semaine ? » |
-| C’est cher | « 15 dossiers. Un contrat bureaux c’est [son panier]. Un seul signé paie le pack. » |
-| Qualifiez-les / prenez les RDV | « Je livre le dossier complet. Le devis, c’est votre métier. Si vous voulez un commercial, ce n’est pas moi. » |
-| J’ai déjà une agence / des ads | « Combien de demandes **complètes** la semaine dernière, chiffre réel ? » |
-| Garantissez-moi des clients signés | « Je garantis 15 dossiers complets. La signature dépend de votre devis et de votre délai de rappel. » |
-| Montrez-moi des pubs | « Je vous montre le formulaire et une ligne de Sheet. La pub part le jour du virement, sur votre ville. » |
-| On n’a pas le budget | « OK. » Next. |
-| 2e devis / appel d’offres d’abord | « Le pack est le devis : 15 dossiers, 1 800 €, pub dedans. Vous dites oui ou non aujourd’hui. » |
+| Envoyez un devis détaillé | « Le devis c’est le forfait : 590 €, 4 passages, 120 m² max. Je n’ai pas de grille à 12 lignes. » |
+| C’est cher | « 148 € la visite, produits et vacations comprises. Recruter vous coûte plus, et vous managez. » |
+| On veut du chantier / des vitres / le soir tous les jours | « Je ne fais que ce forfait. » Next. |
+| Venez voir les locaux | « Photos WhatsApp des 4 zones, 2 minutes. Je ne me déplace pas pour un devis. » |
+| On paie à 30 jours | « Mois 1 maintenant, ensuite à date fixe avant le 1er du mois. Sinon je ne démarre pas. » |
+| Et si c’est mal fait | « 4 photos à chaque passage. 1 visite non conforme : on la refait ou on la déduit. » |
+| Vous venez vous-même ? | « Non. Un indépendant dédié, backup, je gère le contrat. » |
 
-Interdit : raconter ton TDAH, « je démarre donc je fais un prix », proposer des RDV, proposer de closer, baisser sous 1 400 €.
+Interdit : « je passe moi-même la première fois pour garantir ». C’est la porte de l’ancienne société.
 
-Exception prix : 1 400 € **uniquement** pour les 2 premiers si close < 10 % après 40 conversations. 15 demandes et 300 € ads (pas 400). Ensuite retour à 1 800 €.
+Exception prix : 490 € sur **3** premiers contrats si close < 20 % après 40 conversations. Surface et 4 passages inchangés. Puis 590 €.
 
 ## Mail
 
-Objet : `15 devis nettoyage — [ville] — 30 jours`
+Objet : `Bureaux [ville] — 4 passages / 590 €`
 
 ```
 [Prénom],
 
-15 demandes de devis nettoyage sur [ville], en 30 jours.
-Chaque dossier : nom, téléphone, ville, type, besoin.
-Vous les recevez sur WhatsApp.
+Forfait nettoyage de vos bureaux à [ville] :
+4 passages par mois, jusqu’à 120 m², 590 €.
+Premier mois payé maintenant, démarrage sous 7 jours.
 
-1 800 €, pub incluse, payé maintenant.
-Moins de 15 dossiers complets : je continue à ma charge jusqu’à 15.
+Si vos bureaux dépassent 120 m², ignorez ce mail, je ne prends pas.
 
-Répondez « OK » si vous rappelez encore des devis. J’appelle 10 minutes.
-Sinon ignorez.
+Sinon répondez « OK », j’appelle 8 minutes.
 
 Antoine
 [téléphone]
 ```
 
-Relance J+2 : 2 lignes au-dessus, même mail.
-« Une fois. Si le téléphone ne vous amène plus assez de devis, 10 minutes. »
+Relance J+2 : 2 lignes. Relance J+5 : appel.
 
-Relance J+5 : appel. Pas de 3e mail.
-
-## Preuve à envoyer (1 écran, pas un PDF de 12 pages)
-
-Après la 1re conversation sérieuse, SMS ou mail :
-
-1. Capture des 5 champs du formulaire
-2. Exemple de ligne Sheet (données fictives réalistes)
-3. La phrase de garantie
-
-Pas de mockup Figma. Pas de brand book.
-
-## Contrat oral / mail de confirmation (5 lignes)
-
-Dès le virement :
+## Mail de confirmation post-virement
 
 ```
-Pack 15 demandes de devis nettoyage — [zone]
-Prix 1800 € reçu le [date]
-Inclus : formulaire, 3 pubs, jusqu’à 400 € de pub, Sheet, WhatsApp
-Compte dans les 15 : nom + tel + ville + type + besoin, dans la zone
-Hors zone ou champs manquants : ne compte pas
-Si < 15 à J+30 : poursuite sans facture jusqu’à 15
-Vous rappelez sous 24h. Je ne fais pas les devis.
+Contrat forfait bureaux — 590 € / mois
+Surface déclarée ≤ 120 m² — [adresse]
+4 passages / mois — plage : [ex. mar-ven 18h-21h]
+Mois 1 reçu le [date] — 1er passage le [date ≥ J+7]
+Intervenant : indépendant, backup prévu
+Résiliation : préavis 30 jours, à date d’échéance
 ```

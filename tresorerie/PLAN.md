@@ -1,148 +1,132 @@
-# Trésorerie 90 jours — décision et exécution
+# Trésorerie 90 jours — tu possèdes la demande
 
-Objectif : **6 000 € nets en 45 jours** (après pub), buffer visé 9 000 € bruts.
-Chaque vente = 1 800 € encaissés dont **400 € lockés ads**. Net ≈ 1 400 €. **5 ventes** couvrent la cible.
+Objectif cash : **10 contrats × 590 € d’avance = 5 900 € encaissés en 45 jours**.
+Objectif réel : **le récurrent couvre le burn**. 10 clients × ~310 € de marge = ~3 100 €/mois avant pub. À burn 2 000 €, tu es au-dessus de l’eau **chaque mois**, pas une fois.
 
-Confiance : **haute** sur l’offre (tu as déjà fait tourner Facebook ads → demandes nettoyage). **Moyenne** sur le CPL à 25 € : ça change si tes 15 premières demandes coûtent > 40 €, tu allonges le délai, tu ne changes pas le SKU.
-
----
-
-## 1. Pourquoi l’offre précédente tombe
-
-Un RDV « qualifié » est une opinion. Le client et toi pouvez être en désaccord sur chaque ligne livrée. La production, c’est toi au téléphone. Le 6e client exige 6 fois ton temps. Ça ne clone pas.
-
-On vend un **objet comptable** produit par une **machine unique**.
+Confiance : **haute** sur l’acquisition (ads + close, déjà prouvé). **Basse** sur toi qui ne redescend pas sur site « juste une fois ». Si tu re-livres, le plan est mort : tu redeviens l’ops que tu as déjà cassée.
 
 ---
 
-## 2. La décision
+## 1. La décision
 
-SKU unique, vertical unique, 45 jours.
+Tu allumes la même machine Meta **pour ton offre**. Tu closes. Un indépendant exécute. Tu ne vends plus la demande à un autre nettoyeur : un client à 590 € × 12 mois vaut plus que 15 fiches à 1 800 €.
 
 | Paramètre | Valeur |
 |---|---|
-| Objet vendu | 15 demandes de devis **complètes** + la machine qui les produit |
-| Demande complète | nom, téléphone, ville, type (bureaux / fin de chantier / copro / autre), message ou surface |
-| Délai | 30 jours après encaissement |
-| Prix | 1 800 € TTC, 100 % à la commande |
-| Inclus | page + formulaire + 3 pubs Meta + jusqu’à 400 € de pub + Sheet + WhatsApp en temps réel |
-| Garantie | si < 15 demandes **complètes** à J+30, on continue sans refacturer jusqu’à 15. Pas de « qualifié ». Complet = les 5 champs remplis |
-| Canal de vente | cold call + mail. 80 appels / jour |
-| Production | Meta ads, recette unique (`MACHINE.md`) |
-| Cible | 5 clients payeurs |
+| SKU | Nettoyage de bureaux, 4 passages / mois, surface ≤ 120 m² |
+| Prix | 590 € TTC / mois, **mois 1 100 % avant le 1er passage** |
+| 1er passage | au plus tôt 7 jours après virement (float + placement sous-traitant) |
+| Au-dessus de 120 m² | refus. Pas de devis custom. |
+| Marge cible | 590 − 280 (sous-traitant) = 310 € / client / mois |
+| Pub | 15 €/jour **après** 2 contrats encaissés. Enveloppe 400 €. |
+| Tes heures | vente + ads + facture. 0 passage, 0 recrutement salarié. |
+| Zone | 1 agglo, 40 km. Clone la ville 2 **après** 10 contrats. |
 
-Le client reçoit un dossier qu’il peut ouvrir ce soir et appeler. Il voit la campagne dans un screenshot Ads Manager chaque semaine. Il possède l’export.
-
-Réplicable = même page, mêmes 3 angles, même formulaire, même budget quotidien. Client 2 = dupliquer la campagne, changer la ville. Client 5 = un VA peut cloner. Toi tu vends.
-
-Vertical **verrouillé** : entreprises de **nettoyage professionnel** (bureaux, fin de chantier, copropriété). Un seul marché, une seule créa. Ouvrir plomberie / BTP avant 5 ventes casse la recette.
-
-Un client par zone (département ou agglo). Deux clients sur la même ville = tu te mets en concurrence avec toi-même.
+Livrable palpable : le bureau est propre 4 fois par mois, checklist photo. Réplicable : même prix, même surface max, même script, même pub, même indépendant sur un planning qu’**il** possède.
 
 ---
 
-## 3. Cibles
+## 2. Pourquoi ça a foiré la première fois — et la règle qui change
 
-1. Sociétés de nettoyage 2–30 personnes, déjà en activité (elles savent traiter un devis).
-2. Indépendants nettoyage qui facturent déjà des bureaux / chantiers (panier > 250 €).
-3. Multi-services **uniquement** s’ils ont une ligne nettoyage identifiable.
+L’ads marchait. Le recrutement et l’ops ne marchaient pas. Donc :
 
-Exclusion : boîte sans téléphone de devis, franchise à standard unique, « je veux de la notoriété », « envoyez-moi des leads pas chers », entreprise qui n’a jamais signé un client sorti d’une demande de devis.
+- 0 salarié, 0 « équipe »
+- 2 indépendants (1 titulaire + 1 backup), forfait par site, `SOUS-TRAITANCE.md`
+- toi interdit de site, y compris le dimanche soir et le client en colère
+- 1 SKU. Fin de chantier, copro, particulier, vitres seules : refus pendant 45 jours
+- qualité = 4 photos WhatsApp par passage (avant/après, 2 angles). Pas toi qui y vas contrôler
 
-Zone d’appel : France entière. La machine est téléphonique. Commence par les villes que tu as déjà bossées en ads (tu as un historique de CPL).
+Si cette liste te paraît trop étroite, tu n’as pas un problème d’offre : tu es déjà en train de reconstruire la société précédente.
+
+---
+
+## 3. Maths (à cash zéro)
+
+```
+2 premiers contrats = 1 180 €   → 400 € ads + 780 € vie
+10 contrats en 45 j  = 5 900 € bruts mois 1
+coût sous-traitant   ≈ 70 € × 4 × nb clients actifs
+                     tu paies le passage J+2, pas à J-1
+```
+
+Le tas de 6 000 € est plus lent qu’en vendant des packs à d’autres boîtes. Le deal : tu possèdes le client. À 10 contrats, 3 mois de tréso = le récurrent, plus le float du mois d’avance.
+
+Si tu vises encore un tas one-shot sans récurrent : tu aurais dû rester sur le pack 1 800 €. Là on construit une boîte.
+
+Anciens clients de ta société de nettoyage : tu les appelles **heure 1**. Un retour à 590 € vaut 20 cold calls.
 
 ---
 
 ## 4. Séquence
 
-### Heure 0 — chiffrage (30 min)
+### Heure 0 (30 min)
 
-`CHIFFRAGE.md`. ARE, micro, toit. Plus : un compte pub Meta prêt (perso, 0 € aujourd’hui, la pub se charge **après** le 1er virement).
+`CHIFFRAGE.md`. Micro. Nom de marque en 1 mot + « bureaux » (tu le notes, tu n’ouvres pas Canva 4 h). Compte Meta existant.
 
-Les 400 € ads de chaque vente ne sont **pas** de la trésorerie perso. Compte ou enveloppe séparée le jour de l’encaissement.
+### Jour 1 — sous-traitance **avant** le 1er close
 
-### Jour 1 — machine + 40 appels
+Matin : 2 indépendants trouvés et d’accord sur 70 € / passage, `SOUS-TRAITANCE.md`. Sans ça, chaque vente est une dette d’ops. Tu ne vends pas.
 
-Matin (3 h) : monter **une fois** le squelette dans `MACHINE.md` (Formulaire Google + Sheet + notification mail/WhatsApp + 3 textes de pub + 3 visuels Canva moches acceptables). Campagne **éteinte**. Sans client payeur, 0 € de pub.
+Après-midi : anciens clients (liste réelle) puis 40 appels bureaux (`LISTE.md`). Script `KIT-COMMERCIAL.md`.
 
-Après-midi : 40 appels. Liste = `LISTE.md`. Script = `KIT-COMMERCIAL.md`.
+Machine ads **éteinte** : formulaire + 3 pubs montés le soir (`MACHINE.md`). Allumage après 1 180 €.
 
-### Jours 2 à 14
+### Jours 2–14
 
 | Heure | Action |
 |---|---|
-| 08:30–12:30 | Appels |
-| 13:30–16:30 | Appels jusqu’à 80 tentatives |
-| 16:30–17:30 | Mails non-joignables + relances |
-| 17:30–18:00 | Si client en livraison : 20 min machine (budget, 3 commentaires, 1 screenshot) |
-| 18:00–18:20 | `SUIVI.md` |
+| 08:30–12:30 | Appels (80 tentatives / jour, 6 j/7) |
+| 13:30–16:00 | Appels + relances mail |
+| 16:00–17:00 | Closes, RIB, brief 15 min, placement date J+7 |
+| 17:00–17:30 | WhatsApp sous-traitant : créneau + adresse + checklist |
+| 18:00 | `SUIVI.md` |
 
-Objectif J+14 : ≥ 800 tentatives, ≥ 80 conversations, ≥ 10 propositions, ≥ 2 × 1 800 € encaissés, **premières demandes réelles** sur au moins un compte.
+Objectif J+14 : ≥ 800 tentatives, ≥ 3 contrats payés, 1er passage **fait par l’indépendant**, 0 passage fait par toi.
 
-Dès le 1er virement : brief 20 min, campagne allumée **le jour même** à 15 €/jour.
+### Jours 15–45
 
-### Jours 15 à 45
+Pub à 15 €/jour. Tu closes les demandes le jour même (ton métier). Cible : 10 contrats payés, 2 indépendants qui tiennent le planning.
 
-Même rituel de vente. Max **3 machines actives** en parallèle. Le 4e et 5e client : file d’attente, démarrage quand un lot de 15 est clos ou à J+21 si le CPL est déjà sous 25 € (la machine tourne seule).
-
-À 3 600 € bruts : tu continues à vendre le même SKU. Interdit : nouvelle verticale, rebrand, site vitrine, recrutement.
+Max 12 clients sur 1 titulaire. Au-delà tu actives le backup comme 2e titulaire, tu ne « aides » pas le samedi.
 
 ---
 
-## 5. Livraison (ops volontairement pauvre)
-
-Périmètre fermé :
-
-- tu allumes et tu clones la recette
-- tu envoies chaque demande dans le Sheet + WhatsApp du gérant
-- tu envoies 1 screenshot Ads Manager le vendredi
-- tu coupes à 400 € même si on n’a pas 15 demandes : tu **allonges le temps**, tu n’injectes pas ta trésorerie
-
-Périmètre interdit : closer leurs devis, gérer leurs WhatsApp clients, réécrire leur offre, recréer leur site, « qualifier » au feeling, se déplacer.
-
-Si le gérant ne rappelle pas les demandes : tu as livré. Tu le notes. Tu ne compenses pas en devenant son commercial.
-
----
-
-## 6. Diagnostic J+14
+## 5. Diagnostic J+14
 
 | Ratio | Seuil | Si en dessous |
 |---|---|---|
-| Conversations / tentatives | ≥ 10 % | horaires / liste. 8h30–10h et 16h–18h |
-| Propositions / conv | ≥ 15 % | script. Coupe les mots, garde l’objet (15 dossiers + machine) |
-| Close / propositions | ≥ 20 % | risque perçu. Montre le formulaire + un exemple de ligne Sheet. Prix plancher 1 400 € pour **2** premiers clients max, 15 demandes inchangées |
-| CPL (si déjà en pub) | ≤ 30 € | change ville ou angle 2, **pas** le SKU |
+| Conversations / tentatives | ≥ 10 % | horaires, liste |
+| Propositions 590 € / conv | ≥ 20 % | tu racontes trop. SKU en une phrase |
+| Close / propositions | ≥ 25 % | mois 1 à 490 € **pour 3 clients max**, puis 590 |
+| Toi sur site | 0 | si ≥ 1 : arrêt des ventes 48 h, tu répares la sous-traitance. Le volume d’appels ne compense pas ça |
 
-Volume < 50 appels/jour : exécution. Pas de nouvelle offre.
+Volume < 50 appels/jour : exécution.
 
-Pivot autorisé après 80 conversations **et** close < 10 % : même objet, pack d’entrée **10 demandes / 1 200 € / 250 € ads**. Toujours des dossiers complets, toujours la machine.
+Si 0 close après 80 conversations : le 590 € est haut pour la ville. 490 €, 4 passages, ≤ 100 m². Pas de 2e métier.
 
-Pivot interdit : RDV, closer, coaching, sites, marque, recruter des agents d’entretien.
-
-Si CPL > 40 € sur 200 € dépensés : tu changes l’angle (voir `MACHINE.md`), tu gardes le formulaire.
+Pivot interdit 45 jours : revendre les demandes à d’autres nettoyeurs, ouvrir le chantier, recruter, refaire la marque.
 
 ---
 
-## 7. Affectation du cash (par vente)
+## 6. Cash
 
-```
-1 800 € reçus
-  → 400 € enveloppe ads (intouchable)
-  → 1 400 € compte vie / tréso 90 j
-```
+Chaque 590 € :
 
-Outils : 0–30 € (domaine mail optionnel). Canva gratuit, Google Form gratuit, Meta gratuit.
+1. 70 € × 4 à provisionner pour l’indépendant (enveloppe ops)
+2. Après 2 contrats : 400 € ads
+3. Le reste = compte vie
 
-Après 6 000 € **nets** sur le compte vie : alors seulement tu testes une 2e ville **à toi** (tu gardes la demande et tu la vends à un 2e nettoyeur hors zone exclusive). Pas avant.
+Tu ne paies pas l’indépendant avant le passage. Tu ne commences pas le contrat avant le virement.
 
 ---
 
-## 8. Succès
+## 7. Succès J+45
 
-J+45, les trois en même temps :
+Les quatre ensemble :
 
-- ≥ 6 000 € nets (après pub) sur le compte vie
-- ≥ 3 clients ont reçu 15 demandes **complètes** (ou campagne encore ouverte sur garantie, volume déjà ≥ 8)
-- la recette du 2e client a été un **duplicata**, pas une refonte
+- 10 contrats à 590 € **payés** mois 1
+- 0 intervention faite par toi
+- machine ads ON, CPL connu
+- planning dans les mains des indépendants, toi tu as le Sheet clients / paiements
 
-Un positionnement sans dossier dans un Sheet = échec.
+10 logos et 4 clients = échec. 10 clients et toi sur le scooter le soir = échec.

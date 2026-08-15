@@ -1,58 +1,43 @@
 # Suivi — 5 minutes / soir
 
-Sheet, mêmes colonnes. Pas d’autre outil avant 6 000 € nets.
+## Vente
 
-## Quotidien vente
-
-| Date | Tentatives | Conversations (>2 min) | Propositions | Closes | € bruts | Commentaire 1 phrase |
-|---|---|---|---|---|---|---|
-| J1 | | | | | | |
-| J2 | | | | | | |
-| J3 | | | | | | |
-| J4 | | | | | | |
-| J5 | | | | | | |
-| J6 | | | | | | |
-| J7 | | | | | | |
-| J8 | | | | | | |
-| J9 | | | | | | |
-| J10 | | | | | | |
-| J11 | | | | | | |
-| J12 | | | | | | |
-| J13 | | | | | | |
-| J14 | | | | | | |
-
-## Quotidien machine (dès le 1er client)
-
-| Date | Client | Dépensé ads € | Demandes du jour | Demandes cumul | CPL | Angle gagnant |
-|---|---|---|---|---|---|---|
-| | | | | | | |
-
-CPL = dépensé cumul / demandes **complètes** cumul (hors zone exclues).
-
-## Pipeline
-
-| Boîte | Ville | Tél | Statut | € | Demandes livrées | € ads | Motif perdu |
+| Date | Tentatives | Conversations | Dont anciens clients | Propositions 590 | Closes payés | € encaissés | Toi sur site (0/1) |
 |---|---|---|---|---|---|---|---|
+| J1 | | | | | | | |
+| J2 | | | | | | | |
+| … | | | | | | | |
+| J14 | | | | | | | |
 
-Statuts : `à appeler | convo | proposé | payé | machine ON | 15/15 | perdu`
+Toi sur site ≥ 1 : tu traites ça comme un incident, pas une anecdote. Voir `PLAN.md` §5.
 
-« Chaud » n’existe pas.
+## Contrats (1 ligne = 1 client)
 
-## Encaisse
+| Société | Ville | m² déclaré | € | Date virement | 1er passage | Indépendant | Résilié ? |
 
-| Jalon | € bruts cible | € ads max | € nets cible | Bruts réel | Nets réel |
-|---|---|---|---|---|---|
-| J+7 | 1 800 | 400 | 1 400 | | |
-| J+14 | 3 600 | 800 | 2 800 | | |
-| J+30 | 7 200 | 1 600 | 5 600 | | |
-| J+45 | 9 000 | 2 000 | 7 000 | | |
+## Machine (après allumage)
 
-J+7 à 0 € : échec seulement si tentatives < 250. J+14 à 0 € avec ≥ 800 tentatives : tu lis les 3 ratios vente, tu appliques le pack 1 200 € / 10 demandes si close < 10 %.
+| Date | Dépensé ads | Formulaires | Closes issus ads | CAC (ads/closes ads) | Angle |
 
-## Dimanche soir (10 min)
+## Sous-traitance
 
-1. Combien de jours à ≥ 80 tentatives sur 6 ?
-2. CPL réel vs 25 € — un angle à tuer ?
-3. Est-ce que j’ai personnalisé la recette (interdit) ?
+| Date | Passages dus | Photos reçues | Passages payés | Incidents | Backup utilisé |
 
-Une modification de script max par semaine. Zéro nouvelle verticale.
+## Jalon
+
+| Date | Contrats payés cible | Réel | € bruts cible | Réel |
+|---|---|---|---|---|
+| J+7 | 2 | | 1 180 | |
+| J+14 | 4 | | 2 360 | |
+| J+30 | 7 | | 4 130 | |
+| J+45 | 10 | | 5 900 | |
+
+J+7 à 0 contrat : échec si tentatives < 250 **ou** si 0 indépendant signé.
+
+## Dimanche 10 min
+
+1. Jours à ≥ 80 appels / 6 ?
+2. Nombre de fois où j’ai proposé autre chose que 590 / 4 passages / 120 m² ?
+3. Photos checklist : % reçu ?
+
+Une modification de script max par semaine. Zéro nouveau SKU.
