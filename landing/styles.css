@@ -70,7 +70,7 @@ h1 {
 .benefices li { margin: 0 0 10px; }
 
 form {
-  background: #fff;
+  background: #ffff99;
   border: 2px solid #0b3d4a;
   padding: 16px;
   margin: 0 0 28px;
@@ -109,15 +109,14 @@ button {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  color: #fff;
-  background: #0b3d4a;
+  color: #111;
+  background: #ffd814;
   border: 2px solid #0b3d4a;
   cursor: pointer;
 }
 
 button.combo {
-  color: #0b3d4a;
-  background: #fff;
+  background: #ff8f00;
 }
 
 .note {
@@ -135,7 +134,7 @@ button.combo {
 
 .thanks {
   border: 2px solid #0b3d4a;
-  background: #f4f7f6;
+  background: #ffff99;
   padding: 16px;
   margin: 0 0 28px;
 }
