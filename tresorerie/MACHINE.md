@@ -2,6 +2,8 @@
 
 Campagne **éteinte** jusqu’à 2 contrats (780 €). 400 € ads sortent de cet encaissement.
 
+Page de destination : [`landing/index.html`](../landing/index.html). Titre marqué **Nettoyage de vitres**. Formulaire : offre 1 `nettoyage de vitres` (390 €) · offre 2 `nettoyage de vitres plus ménage` (690 €). R+3 = refus côté page.
+
 ## Formulaire
 
 | Champ | Obligatoire |
