@@ -65,7 +65,7 @@ Anciens clients de ta société de nettoyage : tu les appelles **heure 1**. Un r
 
 ### Jour 1 — sous-traitance **avant** le 1er close
 
-Matin : 2 indépendants trouvés et d’accord sur 70 € / passage, `SOUS-TRAITANCE.md`. Sans ça, chaque vente est une dette d’ops. Tu ne vends pas.
+Matin : protocole `SOUS-TRAITANCE.md` — anciens d’abord, Maps, Pappers 8121Z, LBC. 15 appels, 2 oui à 70 € (80 € max), **matos à eux**. Sans aspirateur déjà en leur possession : next. Sans 2 signatures, tu ne vends pas.
 
 Après-midi : anciens clients (liste réelle) puis 40 appels bureaux (`LISTE.md`). Script `KIT-COMMERCIAL.md`.
 

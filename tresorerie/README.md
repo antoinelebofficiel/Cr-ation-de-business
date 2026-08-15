@@ -17,4 +17,6 @@ Cible 45 j : **10 contrats payés (5 900 €)** + récurrent qui vise à couvrir
 | [LISTE.md](LISTE.md) | Anciens clients + bureaux |
 | [SUIVI.md](SUIVI.md) | Contrats, CAC, 0 site perso |
 
-Interdit 45 jours : te mettre les gants, custom devis, fin de chantier, vendre tes demandes à un autre nettoyeur.
+Matériel : **indépendant** (aspirateur + produits, inclus dans les 70 €). Toi : 0 € d’équipement. Client : PQ / savon / sacs sur site.
+
+Interdit 45 jours : te mettre les gants, acheter l’aspirateur, custom devis, fin de chantier, vendre tes demandes à un autre nettoyeur.
