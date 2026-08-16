@@ -15,6 +15,7 @@ Ordre d’exécution :
 11. `cibles-commerces.csv` — 1 235 devantures, 1 008 indépendants avec téléphone
 12. `10-froid-csv.md` — script d’appel / porte sur la liste
 13. `hennebont-100-vitrines.md` + `.csv` — 100 devantures Hennebont, tournée à pied
-14. `hennebont-100-gerants.csv` — mêmes 100, avec prénom / gérant RCS (89 noms). Colonne `accroche` = « Bonjour Prénom, »
+14. `hennebont-100-gerants.csv` — 89 gérants RCS + colonne `accroche`
+15. `ads/` — 12 visuels Facebook (marque blanche + brandé)
 
 Lancement : campagne A 100 €/j + campagne B 40 €/j + 40 appels CSV + 20 portes, dès J1.
