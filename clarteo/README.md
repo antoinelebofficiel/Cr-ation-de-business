@@ -14,5 +14,6 @@ Ordre d’exécution :
 10. `09-politique-confidentialite.md` — URL obligatoire pour le formulaire
 11. `cibles-commerces.csv` — 1 235 devantures, 1 008 indépendants avec téléphone
 12. `10-froid-csv.md` — script d’appel / porte sur la liste
+13. `hennebont-100-vitrines.md` + `.csv` — 100 devantures Hennebont, tournée à pied
 
 Lancement : campagne A 100 €/j + campagne B 40 €/j + 40 appels CSV + 20 portes, dès J1.
