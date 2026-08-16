@@ -17,5 +17,6 @@ Ordre d’exécution :
 13. `hennebont-100-vitrines.md` + `.csv` — 100 devantures Hennebont, tournée à pied
 14. `hennebont-100-gerants.csv` — 89 gérants RCS + colonne `accroche`
 15. `ads/` — 12 visuels Facebook (marque blanche + brandé)
+16. `site/` — landing vitrines + landing ménage + politique (URL Instant Form)
 
 Lancement : campagne A 100 €/j + campagne B 40 €/j + 40 appels CSV + 20 portes, dès J1.
