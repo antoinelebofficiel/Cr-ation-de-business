@@ -2,32 +2,41 @@
 
 Landing vitrines + landing ménage. Statique, zéro build.
 
-## Fichiers
+`index.html` = Google / bouche-à-oreille. **Jamais une pub Meta.**
 
-| URL | Rôle |
+## Meta Ads — URL exactes
+
+Chaque pub a **la même phrase** en overlay et en H1 (`?a=`).
+
+### Machine A — vitrines
+| Pub | Destination |
 |---|---|
-| `index.html` | Choix des deux offres |
-| `vitres.html` | Machine A — pubs Facebook vitrines |
-| `menage.html` | Machine B — pubs ménage |
-| `politique.html` | URL à coller dans l’Instant Form Meta |
-| `mentions.html` | Mentions légales |
+| 2 secondes. Il est déjà parti. | `vitres.html?a=2s` |
+| Vitrines nickel. Dès 48 h. | `vitres.html?a=48h` |
+| Payez le passage. Pas un contrat. | `vitres.html?a=contrat` |
+| Votre pub, c’est la vitrine. | `vitres.html?a=pub` |
 
-## Avant mise en ligne
+### Machine B — ménage
+| Pub | Destination |
+|---|---|
+| 2 heures de week-end. Rendu. | `menage.html?a=samedi` |
+| Les vitres, on sait. | `menage.html?a=vitres` |
+| Un jour fixe. C’est fait. | `menage.html?a=jourfixe` |
 
-Ouvrir `js/config.js` :
+Pixel : `pixelId` dans `js/config.js`. Event `Lead` au submit + sur `merci.html`.
+
+## Deux campagnes, pas une
+
+1. **Instant Form** (volume, CPL bas) — même copy que la pub.
+2. **Landing** (leads plus chauds, retargeting, preuve) — URLs ci-dessus.
+
+On juge au **contrat signé**, pas au CPL.
+
+## Config
 
 ```js
 tel: "0612345678",
 telDisplay: "06 12 34 56 78",
 wa: "33612345678",
+pixelId: "123456789",
 ```
-
-Sans `wa`, le formulaire ouvre un e-mail vers `email`.
-
-## Déploiement (10 minutes)
-
-1. [Netlify Drop](https://app.netlify.com/drop) : glisser le dossier `site/`.
-2. Ou Cloudflare Pages / GitHub Pages (dossier `clarteo/site`).
-3. Coller l’URL `https://VOTRE-DOMAINE/politique.html` dans Meta Instant Form.
-
-Ads : trafic vitrines → `vitres.html` ; ménage → `menage.html`. Ne pas envoyer les deux avatars sur `index.html`.

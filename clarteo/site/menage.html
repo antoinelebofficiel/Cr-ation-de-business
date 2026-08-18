@@ -11,14 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="ad-lp" data-lead="menage">
   <header class="top">
     <div class="wrap top-inner">
-      <a class="logo" href="index.html">Clartéo<span>.</span></a>
-      <nav class="nav">
-        <a href="vitres.html">Vitrines</a>
-        <a href="menage.html" class="is-on">Ménage</a>
-      </nav>
+      <span class="logo">Clartéo<span>.</span></span>
       <a class="btn btn-sand btn-top" href="#form">Calez une vacation</a>
     </div>
   </header>
@@ -26,9 +22,10 @@
   <header class="hero" style="--hero:url('img/clarteo-site-menage-hero.jpg')">
     <div class="wrap hero-grid">
       <div>
-        <p class="kicker">Lorient et 40 km · particuliers &amp; bureaux</p>
-        <h1>Deux heures de votre week-end. Rendues.</h1>
-        <p class="lede">Première vacation sous 48 h. Vous voyez le niveau. Ensuite un jour fixe — ou on s’arrête là.</p>
+        <p class="echo" data-echo hidden></p>
+        <p class="kicker">Lorient et 40 km · maison</p>
+        <h1 data-h1>Deux heures de votre week-end. Rendues.</h1>
+        <p class="lede" data-lede>Première vacation sous 48 h. Vous voyez le niveau. Ensuite un jour fixe — ou on s’arrête là.</p>
         <ul class="pills">
           <li>Ménage</li>
           <li>Baies, vérandas, velux</li>
@@ -37,8 +34,7 @@
       </div>
       <div class="card" id="form">
         <h2>Demander un créneau</h2>
-        <p class="hint">On rappelle dans les 5 minutes.</p>
-        <div class="form-ok">Demande envoyée. Décrochez pour caler la vacation.</div>
+        <p class="hint">Prénom + téléphone. Rappel en 5 minutes.</p>
         <form data-lead="menage">
           <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
           <div class="grid-2">
@@ -48,7 +44,7 @@
             </div>
             <div>
               <label for="tel">Téléphone</label>
-              <input id="tel" name="tel" type="tel" required autocomplete="tel">
+              <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
             </div>
           </div>
           <label for="ville">Ville</label>
@@ -59,38 +55,18 @@
             <option>Hennebont</option><option>Larmor-Plage</option><option>Port-Louis</option>
             <option>Auray</option><option>Autre (56, moins de 40 km)</option>
           </select>
-          <label for="type">Type de lieu</label>
-          <select id="type" name="type" required>
-            <option>Appartement</option>
-            <option>Maison</option>
-            <option>Bureau</option>
-            <option>Commerce</option>
+          <label for="besoin">Besoin</label>
+          <select id="besoin" name="besoin">
+            <option>Ménage récurrent</option>
+            <option>Ménage ponctuel</option>
+            <option>Vitres seulement</option>
+            <option>Ménage + vitres</option>
           </select>
-          <div class="grid-2">
-            <div>
-              <label for="besoin">Besoin</label>
-              <select id="besoin" name="besoin">
-                <option>Ménage ponctuel</option>
-                <option>Récurrent</option>
-                <option>Vitres seulement</option>
-                <option>Ménage + vitres</option>
-              </select>
-            </div>
-            <div>
-              <label for="surface">Surface</label>
-              <select id="surface" name="surface">
-                <option>&lt; 50 m²</option>
-                <option>50–90 m²</option>
-                <option>90–130 m²</option>
-                <option>130 m² et +</option>
-              </select>
-            </div>
-          </div>
           <label style="display:flex;gap:8px;align-items:flex-start;margin:14px 0;font-weight:400;font-size:0.8rem;color:var(--mute)">
             <input type="checkbox" name="consent" required style="width:auto;margin-top:3px">
-            J’accepte d’être rappelé au sujet de cette demande.
+            Rappelez-moi au sujet de cette demande.
           </label>
-          <button class="btn btn-ink btn-full" type="submit">Demander la vacation</button>
+          <button class="btn btn-ink btn-full" type="submit">Oui, venez sous 48 h</button>
           <p class="form-err"></p>
         </form>
       </div>
@@ -156,9 +132,12 @@
   <footer>
     <div class="wrap foot">
       <div>Clartéo — ménage et vitres, bassin de Lorient.</div>
-      <div><a href="vitres.html">Vitrines commerces</a> · <a href="politique.html">Confidentialité</a> · <a href="mentions.html">Mentions</a></div>
+      <div><a href="politique.html">Confidentialité</a></div>
     </div>
   </footer>
+  <div class="sticky-cta">
+    <a class="btn btn-sand btn-full" href="#form">Oui, venez sous 48 h</a>
+  </div>
   <script src="js/config.js"></script>
   <script src="js/main.js"></script>
 </body>

@@ -11,15 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="ad-lp" data-lead="vitres">
   <header class="top">
     <div class="wrap top-inner">
-      <a class="logo" href="index.html">Clartéo<span>.</span></a>
-      <nav class="nav">
-        <a href="vitres.html" class="is-on">Vitrines</a>
-        <a href="menage.html">Ménage</a>
-        <a href="#tarifs">Tarifs</a>
-      </nav>
+      <span class="logo">Clartéo<span>.</span></span>
       <a class="btn btn-sand btn-top" href="#form">Créneau 48 h</a>
     </div>
   </header>
@@ -27,9 +22,10 @@
   <header class="hero" style="--hero:url('img/clarteo-site-vitres-hero.jpg')">
     <div class="wrap hero-grid">
       <div>
+        <p class="echo" data-echo hidden></p>
         <p class="kicker">Lorient et 40 km · commerces</p>
-        <h1>Une vitrine sale, le passant ne rentre pas.</h1>
-        <p class="lede">Première intervention sous 48 h, sans engagement. Vous voyez le résultat. Ensuite seulement, un jour fixe.</p>
+        <h1 data-h1>Une vitrine sale, le passant ne rentre pas.</h1>
+        <p class="lede" data-lede>Première intervention sous 48 h, sans engagement. Vous voyez le résultat. Ensuite seulement, un jour fixe.</p>
         <ul class="pills">
           <li>Rappel 5 min</li>
           <li>Passage 48 h</li>
@@ -38,10 +34,10 @@
       </div>
       <div class="card" id="form">
         <h2>Calez un passage</h2>
-        <p class="hint">40 secondes. On vous rappelle tout de suite.</p>
-        <div class="form-ok">Demande envoyée. Décrochez : on cale le créneau sous 48 h.</div>
+        <p class="hint">Prénom + téléphone. On rappelle dans les 5 minutes.</p>
         <form data-lead="vitres">
           <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="type" value="Commerce">
           <div class="grid-2">
             <div>
               <label for="prenom">Prénom</label>
@@ -49,10 +45,10 @@
             </div>
             <div>
               <label for="tel">Téléphone</label>
-              <input id="tel" name="tel" type="tel" required autocomplete="tel">
+              <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
             </div>
           </div>
-          <label for="ville">Ville du local</label>
+          <label for="ville">Ville du commerce</label>
           <select id="ville" name="ville" required>
             <option value="">Choisir</option>
             <option>Lorient</option><option>Lanester</option><option>Ploemeur</option>
@@ -60,37 +56,18 @@
             <option>Hennebont</option><option>Larmor-Plage</option><option>Port-Louis</option>
             <option>Auray</option><option>Autre (56, moins de 40 km)</option>
           </select>
-          <label for="type">Vous êtes</label>
-          <select id="type" name="type" required>
-            <option value="">Choisir</option>
-            <option>Commerce / magasin / resto / café</option>
-            <option>Bureau / local pro</option>
-            <option>Particulier (vitres maison)</option>
+          <label for="baies">Nombre de baies (optionnel)</label>
+          <select id="baies" name="baies">
+            <option value="">Je ne sais pas</option>
+            <option>1 à 3</option>
+            <option>4 à 8</option>
+            <option>9 ou plus / hauteur</option>
           </select>
-          <div class="grid-2">
-            <div>
-              <label for="baies">Nombre de baies</label>
-              <select id="baies" name="baies">
-                <option>1 à 3</option>
-                <option>4 à 8</option>
-                <option>9 ou plus / enseigne / hauteur</option>
-              </select>
-            </div>
-            <div>
-              <label for="situation">Aujourd’hui</label>
-              <select id="situation" name="situation">
-                <option>Personne ne s’en occupe</option>
-                <option>Prestataire irrégulier</option>
-                <option>Je compare</option>
-                <option>C’est urgent</option>
-              </select>
-            </div>
-          </div>
           <label style="display:flex;gap:8px;align-items:flex-start;margin:14px 0;font-weight:400;font-size:0.8rem;color:var(--mute)">
             <input type="checkbox" name="consent" required style="width:auto;margin-top:3px">
-            J’accepte d’être rappelé au sujet de cette demande.
+            Rappelez-moi au sujet de cette demande.
           </label>
-          <button class="btn btn-ink btn-full" type="submit">Demander le créneau</button>
+          <button class="btn btn-ink btn-full" type="submit">Oui, passez sous 48 h</button>
           <p class="form-err"></p>
         </form>
       </div>
@@ -171,15 +148,19 @@
       </details>
       <details>
         <summary>Vous faites aussi le ménage du local ?</summary>
-        <p>Sols, sanitaires, bureaux : après la vitrine, si vous le demandez. La pub et cette page restent vitrines.</p>
+        <p>Sols et sanitaires : après la vitrine, au téléphone. Cette page reste vitrines.</p>
       </details>
     </div>
   </section>
 
+  <div class="sticky-cta">
+    <a class="btn btn-sand btn-full" href="#form">Oui, passez sous 48 h</a>
+  </div>
+
   <footer>
     <div class="wrap foot">
       <div>Clartéo — vitrines, bassin de Lorient.</div>
-      <div><a href="menage.html">Ménage</a> · <a href="politique.html">Confidentialité</a> · <a href="mentions.html">Mentions</a></div>
+      <div><a href="politique.html">Confidentialité</a></div>
     </div>
   </footer>
   <script src="js/config.js"></script>

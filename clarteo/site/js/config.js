@@ -5,4 +5,5 @@ window.CLARTEO = {
   wa: "",
   email: "antoinebch.pro@gmail.com",
   responsable: "Antoine Bauché",
+  pixelId: "",
 };
