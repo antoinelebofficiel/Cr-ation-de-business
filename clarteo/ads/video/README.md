@@ -1,13 +1,11 @@
-# Reels Clartéo — pack conversion brandé
+# 3 Reels Clartéo — compris à 8 ans
 
-Format : **1080×1920**, 15 s, H.264. **Clartéo.** collé en barre navy dès la frame 0. Texte brûlé (mute). Pas de prix.
+15 s, 1080×1920. **Un mot à la fois**, gros, cuts secs. `Clartéo.` collé en haut. Pas de prix. Pas de jargon.
 
-| Fichier | Job | Phrase | Landing |
-|---|---|---|---|
-| `clarteo-reel-brand-perte.mp4` | Perte de client | 2 secondes. Il est déjà parti. | `vitres.html?a=2s` |
-| `clarteo-reel-brand-48h.mp4` | Vitesse | Vitrines nickel. Dès 48 h. | `vitres.html?a=48h` |
-| `clarteo-reel-brand-preuve.mp4` | Risque zéro | Payez le passage. Pas un contrat. | `vitres.html?a=contrat` |
+| Fichier | Histoire (enfant) | Landing |
+|---|---|---|
+| `clarteo-reel-brand-perte.mp4` | SALE → IL PART → 2 secondes → Clartéo lave ça → On vient en 2 jours | `vitres.html?a=2s` |
+| `clarteo-reel-brand-48h.mp4` | AUJOURD’HUI SALE → ON LAVE → PROPRE → En 2 jours → Clartéo | `vitres.html?a=48h` |
+| `clarteo-reel-brand-preuve.mp4` | AVANT → ON LAVE → APRÈS → Tu vois d’abord → Ensuite tu dis oui | `vitres.html?a=contrat` |
 
-Les 3 dans **le même ad set** que les photos. CTA **S’inscrire**. Copy = `site/machine.html` (ids `2s`, `48h`, `contrat`).
-
-Anciens fichiers `clarteo-reel-2-secondes.mp4` / `clarteo-reel-12-minutes.mp4` : réserve. Priorité = les 3 **brand-***.
+Même ad set. CTA S’inscrire. Copy Meta (plus long) = `machine.html`.
