@@ -32,8 +32,10 @@
   const pack = ((window.CLARTEO_ADS && window.CLARTEO_ADS.angles) || []).find((a) => a.id === angle);
   if (pack) {
     const h1 = document.querySelector("[data-h1]");
+    const lede = document.querySelector("[data-lede]");
     const letter = document.querySelector("[data-letter]");
     if (h1) h1.textContent = pack.h1;
+    if (lede) lede.textContent = pack.lede;
     if (letter) {
       letter.innerHTML = "";
       pack.primary.split(/\n\n+/).forEach((block) => {
