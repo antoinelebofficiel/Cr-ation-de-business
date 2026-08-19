@@ -32,6 +32,12 @@ Pixel : `pixelId` dans `js/config.js`. Event `Lead` au submit + sur `merci.html`
 
 On juge au **contrat signé**, pas au CPL.
 
+## Local
+
+`ouvrir.bat` (Windows) ou `python serveur.py` — IPv4 + IPv6, port **8000**.
+
+Dans Cursor : onglet **Ports** → Forward 8000, puis l’URL générée (pas Chrome hors Cursor sur `127.0.0.1`).
+
 ## Config
 
 ```js
