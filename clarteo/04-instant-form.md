@@ -13,7 +13,7 @@ La source à coller : `site/machine.html` onglet Instant Form.
 Nom interne : `Clartéo Vitrines 48h`
 Intro :
 > Vitrines de commerce — Lorient et 40 km.
-> On vous rappelle en 5 minutes. Première intervention 49 € (1–3 baies), sous 48 h, sans engagement.
+> On vous rappelle en 5 minutes. Première intervention sous 48 h, sans engagement.
 
 Écran 1 — questions custom (obligatoires) :
 

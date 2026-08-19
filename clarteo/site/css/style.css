@@ -203,6 +203,31 @@ h3 { font-family: var(--serif); font-size: 2rem; font-weight: 500; letter-spacin
 .price.feat { border-color: var(--navy); background: var(--navy); color: var(--white); }
 .price.feat p { color: color-mix(in srgb, #fff 75%, transparent); }
 
+.stars {
+  display: flex; align-items: center; gap: 10px;
+  margin: 0 0 18px; font-size: 0.88rem;
+}
+.stars b { color: var(--sand); letter-spacing: 0.12em; font-weight: 600; }
+.stars span { opacity: 0.8; font-size: 0.82rem; }
+.hero .stars { color: var(--white); }
+.hero .stars span { opacity: 0.78; }
+.avis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 28px; }
+.avis article {
+  background: var(--white);
+  padding: 20px 18px 18px;
+  border-top: 3px solid var(--sand);
+}
+.avis article p { margin: 0 0 14px; font-size: 0.92rem; color: var(--ink); }
+.avis article footer {
+  background: transparent;
+  color: var(--mute);
+  padding: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: block;
+}
+.avis .note { color: var(--sand); letter-spacing: 0.08em; font-size: 0.72rem; margin-bottom: 8px; }
+
 .zones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; padding: 0; list-style: none; }
 .zones li { background: var(--white); border: 1px solid var(--line); padding: 8px 12px; font-size: 0.88rem; }
 
@@ -225,7 +250,7 @@ footer a { color: var(--sand); }
 .legal h2 { font-family: var(--serif); font-size: 1.3rem; margin-top: 28px; }
 
 @media (max-width: 880px) {
-  .hero-grid, .split, .duo, .prices, .steps, .grid-2 { grid-template-columns: 1fr; }
+  .hero-grid, .split, .duo, .prices, .avis, .steps, .grid-2 { grid-template-columns: 1fr; }
   .hero-grid { grid-template-areas: "form" "copy"; padding: 28px 0 88px; }
   .hero-grid > div:first-child { grid-area: copy; }
   .hero-grid > .card { grid-area: form; }
