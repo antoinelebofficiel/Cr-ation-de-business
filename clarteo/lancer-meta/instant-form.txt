@@ -1,0 +1,50 @@
+INSTANT FORM A — coller dans Meta
+=================================
+
+Nom interne : Clartéo Vitrines 48h
+
+Intro
+-----
+Vitrines de commerce — Lorient et 40 km.
+On vous rappelle en 5 minutes. Première intervention sous 48 h, sans engagement.
+
+Questions (toutes obligatoires)
+-------------------------------
+1. Ville du local
+   Lorient
+   Lanester
+   Ploemeur
+   Guidel
+   Quéven
+   Caudan
+   Hennebont
+   Larmor-Plage
+   Port-Louis
+   Auray
+   Autre (56, < 40 km)
+
+2. Nombre de baies
+   1 à 3
+   4 à 8
+   9 ou plus / hauteur
+   Je ne sais pas
+
+3. Situation actuelle
+   Personne ne s’en occupe
+   Prestataire irrégulier
+   Je compare
+   Urgent (ouverture / contrôle)
+
+Écran Facebook : Prénom, Nom, Téléphone, E-mail
+Consentement rappel tél / WhatsApp : obligatoire
+
+Thank you
+---------
+Titre  : Décrochez. On appelle dans les 5 minutes.
+Texte  : Si vous ratez l’appel, rappelez le numéro qui s’affiche. On cale le passage sous 48 h.
+Bouton : Appeler maintenant
+
+Politique de confidentialité : URL de site/politique.html (obligatoire, sinon Meta bloque).
+
+NE PAS METTRE : « Vous êtes particulier / bureau / commerce ».
+Formulaire ménage : parké. Budget 0.

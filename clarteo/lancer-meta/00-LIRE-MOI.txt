@@ -1,0 +1,29 @@
+CLARTÉO — PACK META J1
+======================
+
+1 campagne. 1 ad set. 3 pubs. Budget 100 €/j. Rayon 40 km Lorient. 25–65 ans.
+
+Campagne : CLARTEO | Leads | Vitrines | TOF
+CTA partout : S’inscrire
+Destination : Instant Form A  +  landing (en parallèle)
+
+Interdit dans l’ad : ménage, particulier, samedi, appartement, bureaux, prix.
+
+Ordre d’upload
+--------------
+1. Instant Form  →  voir instant-form.txt
+2. Pub 1         →  dossier 1-video-vitesse/
+3. Pub 2         →  dossier 2-image-perte/
+4. Pub 3         →  dossier 3-image-preuve/
+
+Chaque dossier = le visuel + COPY.txt (coller tel quel).
+
+Landing (remplacer le domaine une fois le site en ligne)
+--------------------------------------------------------
+Pub 1  vitres.html?a=48h
+Pub 2  vitres.html?a=2s
+Pub 3  vitres.html?a=contrat
+
+KPI : € / contrat signé. Pas le CPL.
+
+Dès le 1er iPhone réel (Hennebont), tu remplaces les images.
