@@ -8,152 +8,105 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/lp.css">
 </head>
 <body class="ad">
-  <header class="nav">
-    <div class="wrap nav-in">
+  <div class="wrap">
+    <header class="nav">
       <span class="logo">Clartéo<i>.</i></span>
-      <span class="spacer"></span>
-      <a class="tel" data-tel-href data-tel-label href="tel:+33640097575">06 40 09 75 75</a>
-      <a class="btn btn-gold" href="#form">Passage en 2 jours</a>
-    </div>
-  </header>
+      <div class="nav-r">
+        <a class="tel" data-tel-href data-tel-label href="tel:+33640097575">06 40 09 75 75</a>
+        <a class="btn" href="#form">Passage en 2 jours</a>
+      </div>
+    </header>
+  </div>
 
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="copy">
+  <figure class="bleed">
+    <img src="img/lp-rue.jpg" alt="Devanture de commerce, rue mouillée">
+    <div class="on">
+      <div class="wrap">
         <h1 data-h1>Une vitrine sale, le passant ne rentre pas.</h1>
         <p class="lede" data-lede>On passe sous 48 h. Vous voyez. Ensuite vous dites oui.</p>
-        <ul class="metrics">
-          <li><b>5 min</b> rappel</li>
-          <li><b>48 h</b> passage</li>
-          <li><b>0</b> contrat avant</li>
-        </ul>
       </div>
+    </div>
+  </figure>
 
-      <div class="visual">
-        <div class="glass" aria-hidden="true">
-          <div class="dull"><span>Avant</span></div>
-          <div class="clear"><span>Après</span></div>
-        </div>
-        <div class="sill"></div>
-      </div>
-
-      <div class="panel" id="form">
-        <h2>On rappelle dans les 5 minutes</h2>
-        <p class="hint">Prénom, téléphone, ville.</p>
-        <form data-lead="vitres">
-          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
-          <div class="row2">
-            <div>
-              <label for="prenom">Prénom</label>
-              <input id="prenom" name="prenom" required autocomplete="given-name">
-            </div>
-            <div>
-              <label for="tel">Téléphone</label>
-              <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
-            </div>
+  <div class="wrap sheet">
+    <div class="say">
+      <p>Il a jugé en 2 secondes. Il est déjà à côté.</p>
+      <p>On rappelle dans les 5 minutes. On passe sous 48 h. Pas de contrat avant le travail. Le prix, au téléphone, en 3 lignes.</p>
+      <p>Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray — et 40 km autour.</p>
+    </div>
+    <div class="card" id="form">
+      <h2>On rappelle dans les 5 minutes.</h2>
+      <p class="hint">Prénom, téléphone, ville.</p>
+      <form data-lead="vitres">
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
+        <div class="row2">
+          <div>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" name="prenom" required autocomplete="given-name">
           </div>
-          <label for="ville">Ville du commerce</label>
-          <select id="ville" name="ville" required>
-            <option value="">Choisir</option>
-            <option>Lorient</option>
-            <option>Lanester</option>
-            <option>Ploemeur</option>
-            <option>Guidel</option>
-            <option>Quéven</option>
-            <option>Caudan</option>
-            <option>Hennebont</option>
-            <option>Larmor-Plage</option>
-            <option>Port-Louis</option>
-            <option>Auray</option>
-            <option>Autre (56, moins de 40 km)</option>
-          </select>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            Rappelez-moi pour cette demande.
-          </label>
-          <button class="btn btn-gold btn-full" type="submit">Oui, passez sous 48 h</button>
-          <a class="call" data-tel-href data-tel-label href="tel:+33640097575">06 40 09 75 75</a>
-          <p class="micro">Ou vous appelez. Le prix se dit au téléphone.</p>
-          <p class="err"></p>
-        </form>
-      </div>
+          <div>
+            <label for="tel">Téléphone</label>
+            <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
+          </div>
+        </div>
+        <label for="ville">Ville du commerce</label>
+        <select id="ville" name="ville" required>
+          <option value="">Choisir</option>
+          <option>Lorient</option>
+          <option>Lanester</option>
+          <option>Ploemeur</option>
+          <option>Guidel</option>
+          <option>Quéven</option>
+          <option>Caudan</option>
+          <option>Hennebont</option>
+          <option>Larmor-Plage</option>
+          <option>Port-Louis</option>
+          <option>Auray</option>
+          <option>Autre (56, moins de 40 km)</option>
+        </select>
+        <label class="consent">
+          <input type="checkbox" name="consent" required>
+          Rappelez-moi pour cette demande.
+        </label>
+        <button class="btn btn-full" type="submit">Oui, passez sous 48 h</button>
+        <a class="call" data-tel-href data-tel-label href="tel:+33640097575">06 40 09 75 75</a>
+        <p class="micro">Ou vous appelez.</p>
+        <p class="err"></p>
+      </form>
     </div>
-  </section>
+  </div>
 
-  <section class="band band-mist">
-    <div class="wrap">
-      <h3>Trois gestes. Pas un devis de quatre pages.</h3>
-      <div class="path">
-        <article>
-          <b>01</b>
-          <h4>Vous écrivez</h4>
-          <p>40 secondes. On a votre ville et votre numéro.</p>
-        </article>
-        <article>
-          <b>02</b>
-          <h4>On cale le jour</h4>
-          <p>Appel en 5 minutes. Créneau sous 48 h, sur la tournée.</p>
-        </article>
-        <article>
-          <b>03</b>
-          <h4>Vous voyez</h4>
-          <p>Photo après le passage. Un jour fixe — seulement si ça vous va.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+  <div class="wrap pair">
+    <figure>
+      <img src="img/lp-travail.jpg" alt="Raclette sur une vitrine">
+      <figcaption>On passe.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/lp-propre.jpg" alt="Vitrine nette, intérieur visible">
+      <figcaption>Vous voyez. Ensuite vous dites oui.</figcaption>
+    </figure>
+  </div>
 
-  <section class="band">
-    <div class="wrap">
-      <h3>On tourne ici</h3>
-      <ul class="cities">
-        <li>Lorient</li>
-        <li>Lanester</li>
-        <li>Ploemeur</li>
-        <li>Guidel</li>
-        <li>Quéven</li>
-        <li>Caudan</li>
-        <li>Hennebont</li>
-        <li>Larmor-Plage</li>
-        <li>Port-Louis</li>
-        <li>Auray</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="band band-mist">
-    <div class="wrap faq">
-      <h3>Avant d’écrire</h3>
-      <details open>
-        <summary>Vous passez vraiment sous 48 h ?</summary>
-        <p>Oui. Sur la tournée du secteur. Auray lundi → souvent vendredi, toujours dans les 48 h de la tournée.</p>
-      </details>
+  <div class="wrap rest">
+    <p class="where">Rue du Port, Alsace-Lorraine, Place Foch, Leclerc — la tournée groupée par ville. Si Auray écrit lundi, c’est souvent vendredi. Toujours dans les 48 h.</p>
+    <div class="faq">
       <details>
         <summary>Je dois signer un contrat ?</summary>
         <p>Non. Premier passage sans engagement. Le jour fixe, après, photo en main.</p>
       </details>
       <details>
         <summary>C’est combien ?</summary>
-        <p>Au téléphone, en 3 lignes, selon les baies. Chaque devanture est différente.</p>
+        <p>Au téléphone, en 3 lignes, selon les baies.</p>
       </details>
     </div>
-  </section>
-
-  <section class="finale">
-    <div class="wrap">
-      <h3>Un passage. Vous jugez.</h3>
-      <p>Pas de contrat avant le travail.</p>
-      <a class="btn btn-gold" href="#form">Oui, passez sous 48 h</a>
-      <div><a class="tel" data-tel-href data-tel-label href="tel:+33640097575">06 40 09 75 75</a></div>
-    </div>
-  </section>
+  </div>
 
   <div class="sticky">
-    <a class="btn btn-gold btn-full" href="#form">Oui, passez sous 48 h</a>
+    <a class="btn btn-full" href="#form">Oui, passez sous 48 h</a>
   </div>
 
   <footer>

@@ -88,7 +88,7 @@
   height: 280px;
   background:
     linear-gradient(180deg, rgba(10,27,40,.15), rgba(10,27,40,.75)),
-    url("../img/clarteo-site-vitres-hero.jpg") center/cover no-repeat;
+    url("../img/lp-rue.jpg") center/cover no-repeat;
   display: grid;
   place-items: end start;
   padding: 16px;

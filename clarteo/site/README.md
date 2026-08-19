@@ -6,7 +6,7 @@ Statique. Zéro build.
 |---|---|
 | `index.html` | Google / bouche-à-oreille. **Jamais une pub Meta.** |
 | `vitres.html?a=` | Lettre (copy). |
-| `lp.html?a=` | Landing designer. Même offre, même `?a=`. A/B. |
+| `lp.html?a=` | Landing photos (éditoriale). A/B vs lettre. |
 | `politique.html` | URL obligatoire dans l’Instant Form Meta. |
 | `machine.html` | Outil interne. noindex. **Jamais une pub.** |
 
