@@ -23,7 +23,7 @@
 
 1. Gestionnaire de pubs → campagne `CLARTEO \| Leads \| Vitrines \| TOF`
 2. 1 ad set, 40 km Lorient, Instant Form A
-3. 6 photos J1 + 2 vidéos `video/clarteo-reel-2-secondes.mp4` et `video/clarteo-reel-12-minutes.mp4`
+3. 6 photos J1 + **3 Reels brandés** `video/clarteo-reel-brand-perte.mp4`, `brand-48h.mp4`, `brand-preuve.mp4`
 4. Chaque pub : **le visuel ci-dessus** + le texte principal de l’angle correspondant dans `02-ads-vitrines.md`
 5. CTA : S’inscrire
 
