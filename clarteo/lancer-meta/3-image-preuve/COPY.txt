@@ -6,7 +6,7 @@ Visuels :
   Stories  stories-1080x1920.jpg
 Landing : vitres.html?a=contrat
 CTA : S’inscrire
-Instant Form : Clartéo Vitrines 48h
+Instant Form : Clartéo Vitrines
 
 Overlay (déjà sur l’image, ne pas en rajouter)
 ----------------------------------------------
@@ -22,7 +22,7 @@ Donc on ne demande pas ça.
 
 Première intervention. Vous voyez la vitrine. Ensuite seulement, un jour fixe — si ça vous va.
 
-48 h. Lorient + 40 km.
+On cale le passage au téléphone. Lorient + 40 km.
 
 
 TITRES (5, dans cet ordre)
@@ -30,7 +30,7 @@ TITRES (5, dans cet ordre)
 Première vitrine sans engagement
 Vous voyez. Ensuite vous décidez.
 Pas de contrat avant le résultat
-Un passage pour juger — 48 h
+Un passage pour juger
 Un passage. Pas un piège.
 
 

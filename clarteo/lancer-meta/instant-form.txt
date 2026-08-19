@@ -1,12 +1,12 @@
 INSTANT FORM A — coller dans Meta
 =================================
 
-Nom interne : Clartéo Vitrines 48h
+Nom interne : Clartéo Vitrines
 
 Intro
 -----
 Vitrines de commerce — Lorient et 40 km.
-On vous rappelle en 5 minutes. Première intervention sous 48 h, sans engagement.
+On vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.
 
 Questions (toutes obligatoires)
 -------------------------------
@@ -41,7 +41,7 @@ Consentement rappel tél / WhatsApp : obligatoire
 Thank you
 ---------
 Titre  : Décrochez. On appelle dans les 5 minutes.
-Texte  : Si vous ratez l’appel, rappelez le numéro qui s’affiche. On cale le passage sous 48 h.
+Texte  : Si vous ratez l’appel, rappelez le numéro qui s’affiche. Au téléphone, on cale le premier passage.
 Bouton : Appeler maintenant
 
 Politique de confidentialité : URL de site/politique.html (obligatoire, sinon Meta bloque).
@@ -69,4 +69,4 @@ Message auto au lead (60 s)
 ---------------------------
 {prenom}, c’est Clartéo (vitrines autour de Lorient).
 On vous appelle dans la minute au {tel}.
-Décrochez — on cale le créneau sous 48h.
+Décrochez — on cale le premier passage au téléphone.

@@ -28,7 +28,7 @@ Quota : **40 appels / jour**. 40 × 6 = 240/semaine. La liste tient 4 semaines d
 
 ## Porte (8 secondes + carte)
 
-> Clartéo, vitrines. 49 € le premier, 48 h, pas de contrat. Je vous prends {créneau tournée} ?
+> Clartéo, vitrines. 49 € le premier, pas de contrat. Je vous prends {créneau tournée} ?
 
 Tu as déjà la photo de LEUR vitrine sur ton téléphone (tu l’as prise en arrivant). Tu la montres :
 

@@ -6,7 +6,7 @@ Visuels :
   Stories  stories-1080x1920.jpg
 Landing : vitres.html?a=2s
 CTA : S’inscrire
-Instant Form : Clartéo Vitrines 48h
+Instant Form : Clartéo Vitrines
 
 Overlay (déjà sur l’image, ne pas en rajouter)
 ----------------------------------------------
@@ -19,13 +19,13 @@ Une vitrine sale, le passant ne rentre pas.
 
 Il a jugé le commerce en 2 secondes. Il a choisi celui d’à côté.
 
-Clartéo, Lorient et 40 km. Première intervention sous 48 h, sans engagement. Le contrat, après — quand la vitrine parle.
+Clartéo, Lorient et 40 km. On rappelle en 5 minutes. On cale le premier passage. Sans engagement. Le contrat, après — quand la vitrine parle.
 
 
 TITRES (5, dans cet ordre)
 --------------------------
 Une vitrine sale fait fuir le client
-Première intervention sous 48 h
+On cale le premier passage au téléphone
 Lorient et 40 km — vitrines nickel
 Sans engagement. Résultat d’abord.
 Le passant juge en 2 secondes
@@ -33,4 +33,4 @@ Le passant juge en 2 secondes
 
 DESCRIPTION
 -----------
-Devis 3 lignes. Passage dès 48 h.
+Devis 3 lignes. Premier passage calé au téléphone.

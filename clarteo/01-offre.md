@@ -2,7 +2,7 @@
 
 ## Promesse unique (machine A)
 
-Vitrines de commerce impeccables sous 48 h, Lorient et 40 km. Première intervention sans engagement. Le contrat se signe après le résultat.
+Vitrines de commerce, Lorient et 40 km. On rappelle en 5 minutes. On cale le premier passage au téléphone. Première intervention sans engagement. Le contrat se signe après le résultat.
 
 ## Mécanisme
 

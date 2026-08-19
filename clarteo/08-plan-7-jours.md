@@ -19,7 +19,7 @@
 
 Phrase de porte (8 secondes) :
 
-> Bonjour, Clartéo, on lave les vitrines sur Lorient. Première intervention 49 € sous 48 h, sans contrat. Je vous prends un créneau {demain} ?
+> Bonjour, Clartéo, on lave les vitrines sur Lorient. Première intervention 49 €, sans contrat. Je vous prends un créneau {cette semaine} ?
 
 ## J1 — soir
 
@@ -47,6 +47,6 @@ Si < 8 leads commerces en 7 jours : reshoot créa locale + angle 1 et 10 en stor
 
 Tu coupes le budget seulement si :
 - tu ne rappelles plus en < 5 min, **ou**
-- l’agent ne tient plus la 48 h.
+- l’agent ne tient plus les créneaux promis au téléphone.
 
 Tu ne coupes pas parce que « c’est un peu cher le lead ». Tu augmentes les closes.

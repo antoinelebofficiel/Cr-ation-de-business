@@ -5,7 +5,7 @@ Ton : calme, rapide, sûr. Tu assumes le créneau. Tu ne pitches pas le contrat.
 Structure (Belfort, ligne droite) :
 1. Ouverture 4 secondes (tu contrôles le frame)
 2. Qualification 20 secondes
-3. Présentation 30 secondes (mécanisme 48 h)
+3. Présentation 30 secondes (on cale le premier passage)
 4. Close créneau
 5. Loop objections → retour au créneau
 6. Devis WhatsApp avant de raccrocher
@@ -34,9 +34,9 @@ Tu notes. Tu ne discutes pas le prix ici.
 
 ## Présentation + close créneau
 
-> On passe sous 48 h. Première intervention à {49/79} €, sans engagement. Vous voyez le résultat, ensuite on parle d’un jour fixe si ça vous va.
+> On cale le premier passage maintenant. Première intervention à {49/79} €, sans engagement. Vous voyez le résultat, ensuite on parle d’un jour fixe si ça vous va.
 >
-> Demain {heure} on est sur {Ville/tournée}. Je vous bloque {heure} — ça vous va ?
+> Cette semaine j’ai {jour} {heure} sur {Ville/tournée}. Je vous bloque — ça vous va ?
 
 Silence. Le premier qui parle perd.
 
@@ -70,7 +70,7 @@ Envoie pendant qu’il est au téléphone. Tu restes en ligne.
 
 ## Si « je rappellerai »
 
-> Les créneaux 48 h partent dans la tournée. Là j’ai {heure} à {Ville}. Je le laisse 10 minutes sur vous, vous me dites oui par WhatsApp. Ça vous va ?
+> Les créneaux de la tournée partent. Là j’ai {jour} {heure} à {Ville}. Je le laisse 10 minutes sur vous, vous me dites oui par WhatsApp. Ça vous va ?
 
 Tu ne mendies pas un rappel. Tu poses une expiration **réelle** (le créneau de tournée).
 

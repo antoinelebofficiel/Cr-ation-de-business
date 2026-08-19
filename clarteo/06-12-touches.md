@@ -49,7 +49,7 @@ Je vous glisse dans la tournée {jour} ?
 
 ```
 {Prenom} petit point vitrines {Ville} :
-1 je cale sous 48h
+1 je cale le premier passage
 2 vous rappelez plus tard
 3 on arrête
 (un chiffre suffit)
