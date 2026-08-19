@@ -48,3 +48,25 @@ Politique de confidentialité : URL de site/politique.html (obligatoire, sinon M
 
 NE PAS METTRE : « Vous êtes particulier / bureau / commerce ».
 Formulaire ménage : parké. Budget 0.
+
+Zapier / Make
+-------------
+Déclencheur : nouveau lead Instant Form A.
+
+Action 1 — WhatsApp vers TON numéro, < 30 secondes :
+
+CLARTEO LEAD VITRINES
+{prenom} {nom}
+{tel}
+{ville} | {baies} | {situation}
+Il y a {timestamp}
+RAPPELER MAINTENANT
+
+Action 2 — Google Sheet leads-clarteo.
+Action 3 — Si pas de statut « joint » dans 7 min : 2e ping LEAD NON TRAITÉ {prenom} {tel}.
+
+Message auto au lead (60 s)
+---------------------------
+{prenom}, c’est Clartéo (vitrines autour de Lorient).
+On vous appelle dans la minute au {tel}.
+Décrochez — on cale le créneau sous 48h.

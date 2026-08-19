@@ -1,6 +1,6 @@
 # 100 vitrines — Hennebont (56700)
 
-Tournée à pied, centre d’abord. Toutes avec téléphone. Tableur : `hennebont-100-vitrines.csv`.
+Tournée à pied, centre d’abord. Toutes avec téléphone. Tableur : `hennebont-100-gerants.csv`.
 
 Phrase de porte : *« Clartéo, vitrines. Premier passage 49 € sous 48 h, sans contrat. Je vous prends dans la tournée Hennebont ? »*
 

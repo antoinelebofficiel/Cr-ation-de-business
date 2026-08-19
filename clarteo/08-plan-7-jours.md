@@ -7,12 +7,12 @@
 3. WhatsApp Business + Zapier/Make (notif < 30 s).
 4. Google Sheet leads (colonnes : date, prénom, tel, ville, baies, situation, touche, statut, créneau, €).
 5. SIRET / micro ou société + RC pro. Si le SIRET tarde : tu vends quand même sous le nom, tu factures dès le numéro. Tu n’attends pas.
-6. Coller les 10 ads depuis `site/machine.html`.
+6. Uploader les 3 pubs depuis `lancer-meta/`.
 
 ## J1 — matin (avant 10 h)
 
 - Shooter 8 photos vitrines Lorient centre (rue du Port, Alsace-Lorraine, Leclerc). Une vraie raclette sur 1 vitre = créa avant/après.
-- Lancer campagne vitrines, 10 ads, **100 €/j**.
+- Lancer campagne vitrines, 3 pubs, **100 €/j**.
 - Campagne ménage : **non**.
 - 20 portes Lorient centre (liste CSV zone `Lorient-centre`).
 - 40 appels CSV.

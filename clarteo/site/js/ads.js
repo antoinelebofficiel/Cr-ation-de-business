@@ -4,7 +4,7 @@ window.CLARTEO_ADS = {
   upsell: "bureaux / sols / sanitaires — après le contrat vitrines",
   forbid: ["ménage", "samedi", "particulier", "week-end", "appartement"],
   landingFile: "vitres.html",
-  budget: "100 €/j minimum, 10 pubs DANS 1 ad set",
+  budget: "100 €/j minimum, 3 pubs DANS 1 ad set",
   cta: "S’inscrire",
   experts: {
     schwartz:
