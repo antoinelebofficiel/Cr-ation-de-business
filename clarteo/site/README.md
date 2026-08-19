@@ -11,6 +11,6 @@ Statique. Zéro build.
 
 Pack ads : `../lancer-meta/`.
 
-Pixel, tél, WhatsApp : `js/config.js`. Events : PageView, ViewContent, Lead.
+Pixel, tél `06 40 09 75 75`, WhatsApp : `js/config.js`. Events : PageView, ViewContent, Lead.
 
 Local : `ouvrir.bat` / `ouvrir.sh` — port **8000**.

@@ -152,6 +152,15 @@ input, select {
 }
 .consent input { width: auto; margin-top: 3px; }
 .micro { margin: 10px 0 0; font-size: 0.78rem; color: var(--mute); }
+.call {
+  display: block;
+  margin: 12px 0 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--navy);
+  letter-spacing: 0.02em;
+}
 .err { display: none; color: var(--bad); font-size: 0.85rem; margin-top: 8px; }
 .err.show { display: block; }
 

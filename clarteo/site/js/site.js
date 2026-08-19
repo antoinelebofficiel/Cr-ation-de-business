@@ -1,7 +1,10 @@
 (function () {
   const C = window.CLARTEO || {};
-  const tel = (C.tel || "").replace(/\s/g, "");
+  const telDigits = (C.tel || "").replace(/\D/g, "");
   const wa = (C.wa || "").replace(/\D/g, "");
+  const telHref = telDigits
+    ? "tel:+" + (telDigits.indexOf("33") === 0 ? telDigits : "33" + telDigits.replace(/^0/, ""))
+    : "";
   const params = new URLSearchParams(location.search);
   const angle = params.get("a") || "";
 
@@ -48,8 +51,8 @@
   }
 
   document.querySelectorAll("[data-tel-href]").forEach((el) => {
-    if (tel) {
-      el.href = "tel:" + tel;
+    if (telHref) {
+      el.href = telHref;
       if (C.telDisplay && el.hasAttribute("data-tel-label")) el.textContent = C.telDisplay;
     } else if (!el.getAttribute("href") || el.getAttribute("href") === "#") {
       el.href = "#form";
