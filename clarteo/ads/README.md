@@ -23,7 +23,7 @@
 
 1. Gestionnaire de pubs → campagne `CLARTEO \| Leads \| Vitrines \| TOF`
 2. 1 ad set, 40 km Lorient, Instant Form A
-3. 6 publicités J1 = les 4 marque blanche *lancer J1* + 2 brandés *lancer J1*
+3. 6 photos J1 + 2 vidéos `video/clarteo-reel-2-secondes.mp4` et `video/clarteo-reel-12-minutes.mp4`
 4. Chaque pub : **le visuel ci-dessus** + le texte principal de l’angle correspondant dans `02-ads-vitrines.md`
 5. CTA : S’inscrire
 

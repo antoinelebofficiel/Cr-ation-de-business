@@ -16,6 +16,8 @@ Ordre d’exécution :
 12. `cibles-commerces.csv` — 1 235 devantures
 13. `10-froid-csv.md`
 14. `hennebont-100-*.csv`
-17. `ads/video/` — 2 Reels 15 s (`2-secondes`, `12-minutes`)
+15. `ads/` — visuels photo
+16. `ads/video/` — 2 Reels 15 s (`2-secondes`, `12-minutes`)
+17. `site/` — landing vitrines + `machine.html` + politique
 
 Lancement : campagne vitrines 100 €/j + 40 appels CSV + 20 portes, dès J1. Outil Meta : `site/machine.html`.
