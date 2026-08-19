@@ -26,9 +26,9 @@ class DualStackServer(ThreadingHTTPServer):
 def main() -> None:
     handler = functools.partial(SimpleHTTPRequestHandler, directory=ROOT)
     httpd = DualStackServer(("::", PORT), handler)
-    print(f"Clartéo  http://127.0.0.1:{PORT}/")
-    print(f"         http://[::1]:{PORT}/")
-    print(f"Racine   {ROOT}")
+    print(f"Clartéo  http://127.0.0.1:{PORT}/", flush=True)
+    print(f"         http://[::1]:{PORT}/", flush=True)
+    print(f"Racine   {ROOT}", flush=True)
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
