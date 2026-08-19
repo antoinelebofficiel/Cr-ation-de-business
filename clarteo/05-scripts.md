@@ -113,9 +113,9 @@ Si hésitation :
 
 Upsell (une fois le oui contrat) :
 
-> Tant qu’on est là : sols entrée + sanitaires, +{X} €/mois. Je l’ajoute ou on reste vitrines pour le moment ?
+> Tant qu’on est là : sols entrée + sanitaires + bureaux, +{X} €/mois. Je l’ajoute ou on reste vitrines pour le moment ?
 
-Un upsell. Pas trois.
+Un upsell. Pas trois. Jamais dans la pub. Jamais avant le oui contrat vitrines.
 
 ---
 

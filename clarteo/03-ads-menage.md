@@ -1,4 +1,8 @@
-# 3 angles Facebook — machine B (ménage)
+# 3 angles Facebook — ménage (PARKÉ)
+
+**Ne pas lancer.** Budget 0. Le produit payant est vitrines. Bureaux = upsell post-contrat, pas une campagne.
+
+Le fichier reste comme archive si un jour on rouvre un avatar particulier — pas cette phase.
 
 Campagne séparée : `CLARTEO | Leads | Menage | TOF`
 Ad set : 40 km Lorient, 28–65 ans, broad

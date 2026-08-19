@@ -1,42 +1,44 @@
 # Site Clartéo
 
-Landing vitrines + landing ménage. Statique, zéro build.
+Landing vitrines = **seule destination Meta**. Statique, zéro build.
 
 `index.html` = Google / bouche-à-oreille. **Jamais une pub Meta.**
+`machine.html` = outil interne (noindex). **Jamais une pub Meta.**
+`menage.html` = parkée. Pas de budget.
+
+## Outil de conversion
+
+Ouvre `machine.html` : 10 angles coller-dans-Meta, Instant Form, script d’appel, upsell bureaux, règles kill/scale. Source unique : `js/ads.js`.
 
 ## Meta Ads — URL exactes
 
 Chaque pub a **la même phrase** en overlay et en H1 (`?a=`).
 
-### Machine A — vitrines
-| Pub | Destination |
+| Overlay | Destination |
 |---|---|
 | 2 secondes. Il est déjà parti. | `vitres.html?a=2s` |
 | Vitrines nickel. Dès 48 h. | `vitres.html?a=48h` |
 | Payez le passage. Pas un contrat. | `vitres.html?a=contrat` |
+| Vous tenez le commerce. On tient la vitrine. | `vitres.html?a=gerant` |
+| Il devait passer mardi. | `vitres.html?a=fantome` |
+| Lorient • Lanester • Ploemeur • Auray | `vitres.html?a=local` |
+| Même vitrine. 12 minutes. | `vitres.html?a=demo` |
 | Votre pub, c’est la vitrine. | `vitres.html?a=pub` |
+| D’abord le résultat. Ensuite le contrat. | `vitres.html?a=mecanisme` |
+| Qui passe cette semaine ? | `vitres.html?a=question` |
 
-### Machine B — ménage
-| Pub | Destination |
-|---|---|
-| 2 heures de week-end. Rendu. | `menage.html?a=samedi` |
-| Les vitres, on sait. | `menage.html?a=vitres` |
-| Un jour fixe. C’est fait. | `menage.html?a=jourfixe` |
+Pixel : `pixelId` dans `js/config.js`. Events : `PageView`, `ViewContent` (angle), `Lead` au submit + `merci.html`.
 
-Pixel : `pixelId` dans `js/config.js`. Event `Lead` au submit + sur `merci.html`.
+## Deux chemins, une offre
 
-## Deux campagnes, pas une
+1. **Instant Form** (volume) — mêmes phrases.
+2. **Landing** (qualité, retargeting) — URLs ci-dessus.
 
-1. **Instant Form** (volume, CPL bas) — même copy que la pub.
-2. **Landing** (leads plus chauds, retargeting, preuve) — URLs ci-dessus.
-
-On juge au **contrat signé**, pas au CPL.
+On juge au **contrat vitrines signé**, pas au CPL. Bureaux = upsell après preuve.
 
 ## Local
 
-`ouvrir.bat` (Windows) ou `python serveur.py` — IPv4 + IPv6, port **8000**.
-
-Dans Cursor : onglet **Ports** → Forward 8000, puis l’URL générée (pas Chrome hors Cursor sur `127.0.0.1`).
+`ouvrir.bat` ou `python serveur.py` — port **8000**.
 
 ## Config
 

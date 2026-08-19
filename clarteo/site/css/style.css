@@ -147,6 +147,20 @@ input, select, textarea {
 .form-ok.show { display: block; }
 .form-err { display: none; color: var(--danger); font-size: 0.85rem; margin-top: 8px; }
 .form-err.show { display: block; }
+.form-micro {
+  margin: 10px 0 0;
+  font-size: 0.75rem;
+  color: var(--mute);
+  line-height: 1.35;
+}
+.proof {
+  background: var(--navy-2);
+  color: color-mix(in srgb, #fff 82%, transparent);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  padding: 10px 0;
+}
+.ad-lp .proof { position: relative; z-index: 2; }
 
 /* Split home */
 .split { display: grid; grid-template-columns: 1fr 1fr; min-height: calc(100svh - 64px); }

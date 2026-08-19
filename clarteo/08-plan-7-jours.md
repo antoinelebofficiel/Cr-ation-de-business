@@ -3,16 +3,17 @@
 ## Avant J1 (aujourd’hui, ce soir)
 
 1. Page Facebook **Clartéo** + bouton WhatsApp.
-2. Compte Meta Ads, Instant Forms A et B, URL politique de confidentialité.
+2. Compte Meta Ads, Instant Form A seulement, URL politique de confidentialité.
 3. WhatsApp Business + Zapier/Make (notif < 30 s).
-4. Google Sheet leads (colonnes : date, machine, prénom, tel, ville, q1-q3, touche, statut, créneau, €).
+4. Google Sheet leads (colonnes : date, prénom, tel, ville, baies, situation, touche, statut, créneau, €).
 5. SIRET / micro ou société + RC pro. Si le SIRET tarde : tu vends quand même sous le nom, tu factures dès le numéro. Tu n’attends pas.
+6. Coller les 10 ads depuis `site/machine.html`.
 
 ## J1 — matin (avant 10 h)
 
 - Shooter 8 photos vitrines Lorient centre (rue du Port, Alsace-Lorraine, Leclerc). Une vraie raclette sur 1 vitre = créa avant/après.
-- Lancer campagne A, 10 ads, **100 €/j**.
-- Lancer campagne B, 3 ads, **40 €/j**.
+- Lancer campagne vitrines, 10 ads, **100 €/j**.
+- Campagne ménage : **non**.
 - 20 portes Lorient centre (liste CSV zone `Lorient-centre`).
 - 40 appels CSV.
 

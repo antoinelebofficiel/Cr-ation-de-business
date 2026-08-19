@@ -18,41 +18,24 @@
     window.fbq("track", "PageView");
   }
 
+  const adsPack = ((window.CLARTEO_ADS && window.CLARTEO_ADS.angles) || []).reduce((m, a) => {
+    m[a.id] = { echo: "Suite de la pub Meta", h1: a.h1, lede: a.lede };
+    return m;
+  }, {});
   const angles = {
-    vitres: {
-      "2s": {
-        echo: "Suite de la pub Meta",
-        h1: "2 secondes. Il est déjà parti.",
-        lede: "Une vitrine sale, le passant ne rentre pas. On passe sous 48 h. Sans engagement.",
-      },
-      "48h": {
-        echo: "Suite de la pub Meta",
-        h1: "Vitrines nickel. Dès 48 h.",
-        lede: "Vous remplissez. On rappelle dans les 5 minutes. On passe. Le contrat, après la preuve.",
-      },
-      "contrat": {
-        echo: "Suite de la pub Meta",
-        h1: "Payez le passage. Pas un contrat.",
-        lede: "Première intervention sans engagement. Vous voyez la vitrine. Ensuite vous décidez.",
-      },
-      "pub": {
-        echo: "Suite de la pub Meta",
-        h1: "Votre pub, c’est la vitrine.",
-        lede: "Enseigne, stock, Instagram — et une vitre terne. On remet la devanture au niveau du reste.",
-      },
-    },
+    vitres: adsPack,
     menage: {
-      "samedi": {
+      samedi: {
         echo: "Suite de la pub Meta",
         h1: "Deux heures de votre week-end. Rendues.",
         lede: "Première vacation sous 48 h. Si le niveau est là, on cale un jour fixe.",
       },
-      "vitres": {
+      vitres: {
         echo: "Suite de la pub Meta",
         h1: "Les vitres, on sait.",
         lede: "Baies, vérandas, velux. Le ménage suit si vous voulez un rythme.",
       },
-      "jourfixe": {
+      jourfixe: {
         echo: "Suite de la pub Meta",
         h1: "Un jour fixe. C’est fait.",
         lede: "Toutes les deux semaines. Vous rentrez, c’est fait. Première vacation pour juger.",
@@ -70,6 +53,13 @@
     if (h1) h1.textContent = pack.h1;
     if (lede) lede.textContent = pack.lede;
     document.title = pack.h1 + " — Clartéo";
+  }
+
+  if (window.fbq && page) {
+    window.fbq("track", "ViewContent", {
+      content_name: (page || "site") + (angle ? "-" + angle : ""),
+      content_category: "vitrines",
+    });
   }
 
   document.querySelectorAll("[data-tel-href]").forEach((el) => {

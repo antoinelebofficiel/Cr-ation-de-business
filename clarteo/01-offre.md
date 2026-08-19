@@ -24,7 +24,9 @@ Le devis physique est réservé aux façades complexes, hauteurs, copropriétés
 | Récurrent hebdo petit commerce | 89 €/mois |
 | Récurrent hebdo linéaire moyen | 129 €/mois |
 | Récurrent 2×/mois | 69 €/mois |
-| Upsell sols + sanitaires commerce | +60 à 150 €/mois |
+| Upsell sols + sanitaires + **bureaux** | +60 à 150 €/mois |
+
+L’upsell se dit après le contrat vitrines. Jamais dans la pub.
 
 On ne s’aligne pas sur le laveur à 25 € qui ne revient pas. La domination se joue sur la vitesse, la régularité, la présence. Le prix bas attire le client qui résilie.
 

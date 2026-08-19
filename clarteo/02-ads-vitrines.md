@@ -1,9 +1,15 @@
-# 10 angles Facebook — machine A (vitrines)
+# 10 angles Facebook — vitrines
+
+**Coller depuis** `site/machine.html` (source `site/js/ads.js`). Ce fichier est le brief opérateur.
 
 Campagne : `CLARTEO | Leads | Vitrines | TOF`
-Objectif : Formulaires instantanés
-Pixel : à brancher dès J1 (page vue + lead)
-CTA bouton : **S’inscrire** (Instant Form)
+Objectif : Instant Form + trafic landing en parallèle
+CTA : **S’inscrire**
+1 ad set, 10 pubs, **100 €/j**, rayon 40 km Lorient, 25–65, Advantage+.
+
+Interdit dans l’ad : ménage, particulier, samedi, appartement, bureaux.
+
+Landing = même overlay : `vitres.html?a=2s|48h|contrat|gerant|fantome|local|demo|pub|mecanisme|question`
 
 Ciblage ad set unique au lancement (on ne disperse pas le budget sur 10 ad sets) :
 - Localisation : Lorient, rayon **40 km**
