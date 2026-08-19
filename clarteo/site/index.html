@@ -3,47 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Clartéo — Vitrines de commerce, Lorient et 40 km</title>
-  <meta name="description" content="Clartéo : vitrines de commerce sous 48 h autour de Lorient. Première intervention sans engagement. Bureaux et sols après la preuve.">
+  <title>Clartéo — vitrines de commerce, Lorient et 40 km</title>
+  <meta name="description" content="On lave les vitrines des commerces autour de Lorient. Passage en 2 jours. Sans engagement.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  <header class="top">
-    <div class="wrap top-inner">
-      <a class="logo" href="index.html">Clartéo<span>.</span></a>
-      <nav class="nav">
+  <header class="bar">
+    <div class="wrap bar-in">
+      <a class="brand" href="index.html">Clartéo<i>.</i></a>
+      <nav>
         <a href="vitres.html">Vitrines</a>
+        <a href="politique.html">Confidentialité</a>
       </nav>
-      <a class="btn btn-sand btn-top" href="vitres.html#form">Demander un passage</a>
+      <a class="btn" href="vitres.html#form">Demander un passage</a>
     </div>
   </header>
 
-  <main class="split">
-    <a href="vitres.html" style="--bg:url('img/clarteo-site-vitres-hero.jpg')">
-      <p class="kicker">Commerces · 48 h</p>
-      <h2>Vitrines</h2>
-      <p>Première intervention sans engagement. Le contrat se signe après le résultat.</p>
-      <span class="btn btn-sand">Calez un passage</span>
-    </a>
-    <a href="vitres.html#avis" style="--bg:url('img/clarteo-site-menage-hero.jpg')">
-      <p class="kicker">Après la preuve</p>
-      <h2>Bureaux</h2>
-      <p>Sols, sanitaires, locaux. Un upsell, pas une pub. D’abord la vitrine.</p>
-      <span class="btn btn-glass">Vitrines d’abord</span>
-    </a>
-  </main>
+  <section class="home-hero" style="--hero:url('img/clarteo-site-vitres-hero.jpg')">
+    <div class="wrap">
+      <p class="kicker">Lorient · Lanester · Ploemeur · Hennebont · Auray</p>
+      <h1>On lave les vitrines des commerces.</h1>
+      <p class="lede">Passage en 2 jours. Vous voyez d’abord. Ensuite vous dites oui.</p>
+      <a class="btn" href="vitres.html#form">Calez un passage</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Comment ça se passe</h2>
+      <p class="muted">Un formulaire. Un appel. Un passage. Pas un contrat de 12 mois pour commencer.</p>
+      <div class="steps">
+        <article><h3>Vous écrivez</h3><p>Prénom, téléphone, ville. 40 secondes.</p></article>
+        <article><h3>On rappelle</h3><p>Dans les 5 minutes. On cale le jour.</p></article>
+        <article><h3>Devis WhatsApp</h3><p>3 lignes. Vous répondez OK.</p></article>
+        <article><h3>On passe</h3><p>Sous 48 h. Photo avant / après.</p></article>
+        <article><h3>Vous voyez</h3><p>Un jour fixe, seulement si ça vous va.</p></article>
+      </div>
+      <p class="note">Après la vitrine, on peut prendre le local (sols, sanitaires). Dans cet ordre-là. Pas dans la pub.</p>
+    </div>
+  </section>
 
   <footer>
     <div class="wrap foot">
-      <div>Clartéo — Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.</div>
+      <div>Clartéo — bassin de Lorient, 40 km.</div>
       <div><a href="politique.html">Confidentialité</a> · <a href="mentions.html">Mentions</a></div>
     </div>
   </footer>
   <script src="js/config.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>

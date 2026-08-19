@@ -4,42 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vitrines de commerce sous 48 h — Clartéo Lorient</title>
-  <meta name="description" content="Laveur de vitrines Lorient et 40 km. Rappel 5 minutes, passage 48 h, sans engagement. Hennebont, Lanester, Ploemeur, Auray.">
+  <meta name="description" content="On lave les vitrines des commerces. Lorient et 40 km. Rappel 5 minutes, passage 48 h, sans engagement.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Sora:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
 </head>
-<body class="ad-lp" data-lead="vitres">
-  <header class="top">
-    <div class="wrap top-inner">
-      <span class="logo">Clartéo<span>.</span></span>
-      <a class="btn btn-sand btn-top" href="#form">Créneau 48 h</a>
+<body class="ad">
+  <header class="bar">
+    <div class="wrap bar-in">
+      <span class="brand">Clartéo<i>.</i></span>
+      <a class="btn" href="#form">Passage en 2 jours</a>
     </div>
   </header>
 
-  <header class="hero" style="--hero:url('img/clarteo-site-vitres-hero.jpg')">
-    <div class="wrap hero-grid">
-      <div>
+  <div class="hero">
+    <div class="wrap hero-in">
+      <div class="copy">
         <p class="echo" data-echo hidden></p>
-        <p class="kicker">Lorient et 40 km · commerces</p>
-        <h1 data-h1>Une vitrine sale, le passant ne rentre pas.</h1>
-        <p class="lede" data-lede>Première intervention sous 48 h, sans engagement. Vous voyez le résultat. Ensuite seulement, un jour fixe.</p>
-        <p class="stars"><b>★★★★★</b> <span>Avis de commerces du bassin</span></p>
-        <ul class="pills">
+        <p class="kicker">Commerces · Lorient et 40 km</p>
+        <h1 data-h1>On lave les vitrines. En 2 jours.</h1>
+        <p class="lede" data-lede>Vous voyez d’abord. Ensuite vous dites oui. Pas de contrat avant le passage.</p>
+        <ul class="facts">
           <li>Rappel 5 min</li>
           <li>Passage 48 h</li>
-          <li>Pas de contrat avant la preuve</li>
+          <li>Sans engagement</li>
         </ul>
       </div>
       <div class="card" id="form">
         <h2>Calez un passage</h2>
-          <p class="hint">Prénom + téléphone. On rappelle dans les 5 minutes.</p>
-          <form data-lead="vitres">
+        <p class="hint">Prénom + téléphone. On rappelle dans les 5 minutes.</p>
+        <form data-lead="vitres">
           <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
-          <input type="hidden" name="type" value="Commerce">
-          <div class="grid-2">
+          <div class="row2">
             <div>
               <label for="prenom">Prénom</label>
               <input id="prenom" name="prenom" required autocomplete="given-name">
@@ -52,103 +50,71 @@
           <label for="ville">Ville du commerce</label>
           <select id="ville" name="ville" required>
             <option value="">Choisir</option>
-            <option>Lorient</option><option>Lanester</option><option>Ploemeur</option>
-            <option>Guidel</option><option>Quéven</option><option>Caudan</option>
-            <option>Hennebont</option><option>Larmor-Plage</option><option>Port-Louis</option>
-            <option>Auray</option><option>Autre (56, moins de 40 km)</option>
+            <option>Lorient</option>
+            <option>Lanester</option>
+            <option>Ploemeur</option>
+            <option>Guidel</option>
+            <option>Quéven</option>
+            <option>Caudan</option>
+            <option>Hennebont</option>
+            <option>Larmor-Plage</option>
+            <option>Port-Louis</option>
+            <option>Auray</option>
+            <option>Autre (56, moins de 40 km)</option>
           </select>
-          <label for="baies">Nombre de baies (optionnel)</label>
+          <label for="baies">Nombre de baies (si vous savez)</label>
           <select id="baies" name="baies">
             <option value="">Je ne sais pas</option>
             <option>1 à 3</option>
             <option>4 à 8</option>
             <option>9 ou plus / hauteur</option>
           </select>
-          <label style="display:flex;gap:8px;align-items:flex-start;margin:14px 0;font-weight:400;font-size:0.8rem;color:var(--mute)">
-            <input type="checkbox" name="consent" required style="width:auto;margin-top:3px">
-            Rappelez-moi au sujet de cette demande.
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            Rappelez-moi pour cette demande.
           </label>
-          <button class="btn btn-ink btn-full" type="submit">Oui, passez sous 48 h</button>
-          <p class="form-micro">Sans engagement. Le devis se dit au téléphone, en 3 lignes.</p>
-          <p class="form-err"></p>
+          <button class="btn btn-dark btn-full" type="submit">Oui, passez sous 48 h</button>
+          <p class="micro">Le prix se dit au téléphone. Pas ici.</p>
+          <p class="err"></p>
         </form>
       </div>
     </div>
-  </header>
-
-  <div class="proof">
-    <div class="wrap">1 235 devantures dans le rayon · Rue du Port · Alsace-Lorraine · Place Foch Hennebont · tournée groupée par ville</div>
   </div>
 
-  <section class="sec-paper">
+  <div class="strip">
+    <div class="wrap">Rue du Port · Alsace-Lorraine · Place Foch Hennebont · 1 235 devantures dans le rayon</div>
+  </div>
+
+  <section>
     <div class="wrap">
-      <h3>Cinq étapes. Zéro devis théâtre.</h3>
-      <p class="muted">Le rendez-vous, c’est le premier passage. Street View + 3 photos suffisent à chiffrer une devanture de magasin.</p>
+      <h2>Cinq étapes</h2>
+      <p class="muted">Le rendez-vous, c’est le premier passage.</p>
       <div class="steps">
-        <article><h4>Formulaire</h4><p>40 secondes. Ville, baies, téléphone.</p></article>
-        <article><h4>Appel 5 min</h4><p>On cale un créneau, pas un discours.</p></article>
-        <article><h4>Devis WhatsApp</h4><p>3 lignes. Vous répondez OK.</p></article>
-        <article><h4>Passage 48 h</h4><p>Photo avant / après envoyée.</p></article>
-        <article><h4>Jour fixe</h4><p>Contrat 1 page, préavis 30 jours — si le résultat vous va.</p></article>
+        <article><h3>Formulaire</h3><p>40 secondes.</p></article>
+        <article><h3>Appel</h3><p>On cale le jour. 5 minutes.</p></article>
+        <article><h3>WhatsApp</h3><p>Devis en 3 lignes. Vous dites OK.</p></article>
+        <article><h3>Passage</h3><p>Sous 48 h. Photo avant / après.</p></article>
+        <article><h3>Jour fixe</h3><p>Seulement si le résultat vous va.</p></article>
       </div>
     </div>
   </section>
 
   <section>
     <div class="wrap duo">
-      <img src="img/avant-apres.jpg" alt="Vitrine avant et après nettoyage">
+      <img src="img/avant-apres.jpg" alt="Vitrine avant et après lavage">
       <div>
-        <p class="kicker" style="color:var(--glass)">Preuve d’abord</p>
-        <h3>Payez le passage. Pas un contrat.</h3>
-        <p class="muted">Personne n’a envie de signer 12 mois avec un prestataire qu’il n’a jamais vu travailler. Donc on ne demande pas ça. Un passage. Vous jugez. Le rythme, après.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="sec-paper" id="avis">
-    <div class="wrap">
-      <h3>Ce que disent les gérants</h3>
-      <p class="muted">Commerces du bassin. Première intervention, puis un jour fixe — ou rien.</p>
-      <div class="avis">
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« Le passant ne rentrait plus. Ils sont passés le lendemain. La vitrine a l’air ouverte, même le lundi matin. »</p>
-          <footer>Karine · boutique · Lorient</footer>
-        </article>
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« Mon laveur fantôme depuis trois semaines. Clartéo a calé un créneau au téléphone, sans me vendre un contrat de 12 mois. »</p>
-          <footer>Mehdi · café · Lanester</footer>
-        </article>
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« J’ai dit oui après la photo avant/après. Maintenant c’est un mardi, c’est fait, je n’y pense plus. »</p>
-          <footer>Soizic · salon · Ploemeur</footer>
-        </article>
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« Place Foch, tout le monde voit la devanture. Ils ont pris les recoins d’enseigne. On a gardé le jour fixe. »</p>
-          <footer>Erwan · boulangerie · Hennebont</footer>
-        </article>
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« Rappel dans les cinq minutes, passage dans la tournée. Zéro théâtre, zéro devis de quatre pages. »</p>
-          <footer>Nadège · agence · Auray</footer>
-        </article>
-        <article>
-          <div class="note">★★★★★</div>
-          <p>« On a testé une fois. Les vitres, nickel. Les sols du local, on a ajouté après. Dans cet ordre-là. »</p>
-          <footer>Yann · magasin · Guidel</footer>
-        </article>
+        <p class="kicker" style="color:var(--gold)">Vous voyez d’abord</p>
+        <h2>Pas de contrat avant le travail.</h2>
+        <p class="muted">Personne n’a envie de signer 12 mois avec un gars qu’il n’a jamais vu travailler. Donc on ne demande pas ça.</p>
       </div>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h3>On tourne ici</h3>
-      <p class="muted">40 km autour de Lorient. Les pubs couvrent le disque. Les tournées groupent les rues : Rue du Port, Alsace-Lorraine, Leclerc, Place Foch, Joffre.</p>
-      <ul class="zones">
+      <h2>On tourne ici</h2>
+      <p class="muted">40 km autour de Lorient. Les pubs couvrent tout. Les tournées groupent les rues.</p>
+      <ul class="cities">
         <li>Lorient</li><li>Lanester</li><li>Ploemeur</li><li>Guidel</li>
         <li>Quéven</li><li>Caudan</li><li>Hennebont</li><li>Larmor-Plage</li>
         <li>Port-Louis</li><li>Auray</li>
@@ -156,30 +122,30 @@
     </div>
   </section>
 
-  <section class="sec-paper faq">
+  <section class="faq">
     <div class="wrap">
-      <h3>Questions de gérants</h3>
+      <h2>Questions</h2>
       <details open>
         <summary>Vous passez vraiment sous 48 h ?</summary>
-        <p>Oui, sur les tournées du secteur. Si Auray écrit lundi, le créneau est souvent vendredi — toujours dans les 48 h ouvrées de la tournée. On ne vend pas un délai qu’on ne tient pas.</p>
+        <p>Oui, sur la tournée du secteur. Si Auray écrit lundi, le créneau est souvent vendredi — toujours dans les 48 h de la tournée. On ne vend pas un délai qu’on ne tient pas.</p>
       </details>
       <details>
-        <summary>Je dois signer un contrat tout de suite ?</summary>
-        <p>Non. Première intervention sans engagement. Le jour fixe se propose après, photo en main.</p>
+        <summary>Je dois signer tout de suite ?</summary>
+        <p>Non. Premier passage sans engagement. Le jour fixe, après, photo en main.</p>
       </details>
       <details>
         <summary>C’est combien ?</summary>
-        <p>On le dit au téléphone, en 3 lignes, selon le nombre de baies et la hauteur. Pas de grille à copier : chaque devanture est différente. Première intervention sans engagement.</p>
+        <p>On le dit au téléphone, en 3 lignes, selon les baies et la hauteur. Chaque devanture est différente.</p>
       </details>
       <details>
-        <summary>Vous faites aussi les bureaux / le local ?</summary>
-        <p>Sols, sanitaires, bureaux : oui, en plus. Après la vitrine, une fois que vous avez vu le travail. Cette page, et la pub, restent vitrines.</p>
+        <summary>Vous faites aussi le local ?</summary>
+        <p>Sols, sanitaires, bureaux : oui, après. Une fois que vous avez vu la vitrine. Cette page reste vitrines.</p>
       </details>
     </div>
   </section>
 
-  <div class="sticky-cta">
-    <a class="btn btn-sand btn-full" href="#form">Oui, passez sous 48 h</a>
+  <div class="sticky">
+    <a class="btn btn-full" href="#form">Oui, passez sous 48 h</a>
   </div>
 
   <footer>
@@ -190,6 +156,6 @@
   </footer>
   <script src="js/config.js"></script>
   <script src="js/ads.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/site.js"></script>
 </body>
 </html>

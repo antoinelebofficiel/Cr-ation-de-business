@@ -1,12 +1,16 @@
 # Site Clartéo
 
-Landing ads = `vitres.html?a=48h|2s|contrat`. Statique, zéro build.
+Statique. Zéro build.
 
-`index.html` = Google / bouche-à-oreille. **Jamais une pub Meta.**
-`machine.html` = outil interne (noindex). **Jamais une pub Meta.**
+| Fichier | Rôle |
+|---|---|
+| `index.html` | Google / bouche-à-oreille. **Jamais une pub Meta.** |
+| `vitres.html?a=48h\|2s\|contrat` | **Seule destination ads.** Message match via `js/ads.js`. |
+| `politique.html` | URL obligatoire dans l’Instant Form Meta. |
+| `machine.html` | Outil interne. noindex. **Jamais une pub.** |
 
-Pack Meta : `../lancer-meta/`.
+Pack ads : `../lancer-meta/`.
 
-Pixel : `pixelId` dans `js/config.js`. Events : `PageView`, `ViewContent` (angle), `Lead` au submit + `merci.html`.
+Pixel, tél, WhatsApp : `js/config.js`. Events : PageView, ViewContent, Lead.
 
-Local : `ouvrir.bat` ou `python serveur.py` — port **8000**.
+Local : `ouvrir.bat` / `ouvrir.sh` — port **8000**.
