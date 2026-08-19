@@ -19,13 +19,13 @@
     </div>
   </header>
 
-  <div class="hero">
+  <div class="hero photo" style="--hero:url('img/clarteo-site-vitres-hero.jpg')">
     <div class="wrap hero-in">
       <div class="copy">
         <p class="echo" data-echo hidden></p>
         <p class="kicker">Commerces · Lorient et 40 km</p>
         <h1 data-h1>On lave les vitrines. En 2 jours.</h1>
-        <p class="lede" data-lede>Vous voyez d’abord. Ensuite vous dites oui. Pas de contrat avant le passage.</p>
+        <p class="lede" data-lede>Vous voyez d’abord. Ensuite vous dites oui.</p>
         <ul class="facts">
           <li>Rappel 5 min</li>
           <li>Passage 48 h</li>
@@ -33,8 +33,8 @@
         </ul>
       </div>
       <div class="card" id="form">
-        <h2>Calez un passage</h2>
-        <p class="hint">Prénom + téléphone. On rappelle dans les 5 minutes.</p>
+        <h2>On passe sous 48 h</h2>
+        <p class="hint">Prénom et téléphone. On rappelle dans les 5 minutes.</p>
         <form data-lead="vitres">
           <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
           <div class="row2">
@@ -62,58 +62,31 @@
             <option>Auray</option>
             <option>Autre (56, moins de 40 km)</option>
           </select>
-          <label for="baies">Nombre de baies (si vous savez)</label>
-          <select id="baies" name="baies">
-            <option value="">Je ne sais pas</option>
-            <option>1 à 3</option>
-            <option>4 à 8</option>
-            <option>9 ou plus / hauteur</option>
-          </select>
           <label class="consent">
             <input type="checkbox" name="consent" required>
             Rappelez-moi pour cette demande.
           </label>
           <button class="btn btn-dark btn-full" type="submit">Oui, passez sous 48 h</button>
-          <p class="micro">Le prix se dit au téléphone. Pas ici.</p>
+          <p class="micro">Le prix se dit au téléphone.</p>
           <p class="err"></p>
         </form>
       </div>
     </div>
   </div>
 
-  <div class="strip">
-    <div class="wrap">Rue du Port · Alsace-Lorraine · Place Foch Hennebont · 1 235 devantures dans le rayon</div>
-  </div>
-
-  <section>
+  <section class="see">
     <div class="wrap">
-      <h2>Cinq étapes</h2>
-      <p class="muted">Le rendez-vous, c’est le premier passage.</p>
-      <div class="steps">
-        <article><h3>Formulaire</h3><p>40 secondes.</p></article>
-        <article><h3>Appel</h3><p>On cale le jour. 5 minutes.</p></article>
-        <article><h3>WhatsApp</h3><p>Devis en 3 lignes. Vous dites OK.</p></article>
-        <article><h3>Passage</h3><p>Sous 48 h. Photo avant / après.</p></article>
-        <article><h3>Jour fixe</h3><p>Seulement si le résultat vous va.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap duo">
-      <img src="img/avant-apres.jpg" alt="Vitrine avant et après lavage">
-      <div>
-        <p class="kicker" style="color:var(--gold)">Vous voyez d’abord</p>
-        <h2>Pas de contrat avant le travail.</h2>
-        <p class="muted">Personne n’a envie de signer 12 mois avec un gars qu’il n’a jamais vu travailler. Donc on ne demande pas ça.</p>
-      </div>
+      <p class="kicker" style="color:var(--gold)">Ce que vous voulez voir</p>
+      <h2>Même vitrine. Après, on voit le magasin.</h2>
+      <p class="muted">Un passage. Vous jugez. Le contrat, seulement si ça vous va.</p>
+      <img class="shot" src="img/avant-apres.jpg" alt="Vitrine avant et après lavage">
+      <p class="line">Vous écrivez → on rappelle en 5 minutes → on passe en 2 jours.</p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2>On tourne ici</h2>
-      <p class="muted">40 km autour de Lorient. Les pubs couvrent tout. Les tournées groupent les rues.</p>
+      <h2>On est déjà sur votre tournée</h2>
       <ul class="cities">
         <li>Lorient</li><li>Lanester</li><li>Ploemeur</li><li>Guidel</li>
         <li>Quéven</li><li>Caudan</li><li>Hennebont</li><li>Larmor-Plage</li>
@@ -124,22 +97,18 @@
 
   <section class="faq">
     <div class="wrap">
-      <h2>Questions</h2>
+      <h2>Trois questions</h2>
       <details open>
         <summary>Vous passez vraiment sous 48 h ?</summary>
-        <p>Oui, sur la tournée du secteur. Si Auray écrit lundi, le créneau est souvent vendredi — toujours dans les 48 h de la tournée. On ne vend pas un délai qu’on ne tient pas.</p>
+        <p>Oui. Sur la tournée du secteur. Si Auray écrit lundi, c’est souvent vendredi — toujours dans les 48 h de la tournée.</p>
       </details>
       <details>
-        <summary>Je dois signer tout de suite ?</summary>
+        <summary>Je dois signer un contrat ?</summary>
         <p>Non. Premier passage sans engagement. Le jour fixe, après, photo en main.</p>
       </details>
       <details>
         <summary>C’est combien ?</summary>
-        <p>On le dit au téléphone, en 3 lignes, selon les baies et la hauteur. Chaque devanture est différente.</p>
-      </details>
-      <details>
-        <summary>Vous faites aussi le local ?</summary>
-        <p>Sols, sanitaires, bureaux : oui, après. Une fois que vous avez vu la vitrine. Cette page reste vitrines.</p>
+        <p>On le dit au téléphone, en 3 lignes, selon les baies. Chaque devanture est différente.</p>
       </details>
     </div>
   </section>
