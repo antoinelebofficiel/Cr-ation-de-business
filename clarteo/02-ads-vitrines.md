@@ -26,6 +26,8 @@ Créa obligatoire (à shooter demain matin, iPhone, vertical 4:5 et 9:16) :
 4. Plan pied : passant qui ne rentre pas, vitrine terne.
 5. Carte mentale : « Lorient • Lanester • Ploemeur • Hennebont • Auray ».
 
+**2 pubs vidéo** (15 s, 9:16) dans `ads/video/` : `clarteo-reel-2-secondes.mp4` et `clarteo-reel-12-minutes.mp4`. Même ad set que les photos.
+
 Texte overlay max 20 % de l’image. Une phrase. Gros.
 
 ---

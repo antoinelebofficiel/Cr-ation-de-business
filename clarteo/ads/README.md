@@ -2,7 +2,7 @@
 
 12 visuels JPEG, 1024×1536 (feed + stories). Dossier : `clarteo/ads/`.
 
-**Règle de lancement :** 6 pubs dans **un seul** ad set. Facebook tue les perdantes. Marque blanche souvent gagne en TOF (ça ressemble à une photo locale, pas à une agence). Brandé pour la mémorisation et le retargeting.
+**Règle de lancement :** 6 photos + **2 vidéos** dans **un seul** ad set. Facebook tue les perdantes.
 
 | Fichier | Type | Overlay | Angle (`02-ads-vitrines.md`) | Placement |
 |---|---|---|---|---|
