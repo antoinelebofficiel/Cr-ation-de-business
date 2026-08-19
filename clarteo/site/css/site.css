@@ -243,6 +243,54 @@ h2 { margin: 0 0 8px; font-size: 1.55rem; letter-spacing: -0.02em; }
   font-size: 0.95rem;
 }
 
+.letter {
+  background: #f4efe6;
+  color: #141414;
+}
+.letter .stage {
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 340px);
+  gap: 48px;
+  align-items: start;
+  padding: 40px 0 96px;
+}
+.letter .copy h1 {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 4.2vw, 2.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 28px;
+  max-width: 16ch;
+}
+.letter .body p {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin: 0 0 1.1em;
+  max-width: 38rem;
+}
+.letter .ps {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 2em 0 0;
+  max-width: 38rem;
+}
+.letter .card {
+  position: sticky;
+  top: 72px;
+  border: 2px solid var(--navy);
+  box-shadow: none;
+  background: #fff;
+}
+.letter .card h2 {
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 6px;
+}
+
 .legal { padding: 56px 0 80px; max-width: 720px; }
 .legal h1 { font-size: 2rem; }
 .legal h2 { font-size: 1.15rem; margin-top: 28px; }
@@ -284,6 +332,9 @@ footer a { color: var(--gold); }
   .steps { grid-template-columns: 1fr 1fr; }
   .duo img { height: 240px; }
   .shot { height: 240px; }
+  .letter .stage { grid-template-columns: 1fr; padding: 24px 0 96px; }
+  .letter .card { position: static; }
+  .letter .copy h1 { font-size: 1.85rem; max-width: none; }
   .bar nav { display: none; }
   .ad .sticky { display: block; }
 }
