@@ -20,9 +20,9 @@ Chaque dossier = le visuel + COPY.txt (coller tel quel).
 
 Landing (remplacer le domaine une fois le site en ligne)
 --------------------------------------------------------
-Pub 1  vitres.html?a=48h
-Pub 2  vitres.html?a=2s
-Pub 3  vitres.html?a=contrat
+Pub 1  lp.html?a=48h
+Pub 2  lp.html?a=2s
+Pub 3  lp.html?a=contrat
 
 KPI : € / contrat signé. Pas le CPL.
 

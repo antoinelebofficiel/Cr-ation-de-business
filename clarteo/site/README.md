@@ -5,8 +5,8 @@ Statique. Zéro build.
 | Fichier | Rôle |
 |---|---|
 | `index.html` | Google / bouche-à-oreille. **Jamais une pub Meta.** |
-| `vitres.html?a=` | Lettre (copy). |
-| `lp.html?a=` | Landing photos (éditoriale). A/B vs lettre. |
+| `lp.html?a=` | Landing photos. **Destination des pubs Meta.** |
+| `vitres.html?a=` | Lettre (A/B copy, pas la pub J1). |
 | `politique.html` | URL obligatoire dans l’Instant Form Meta. |
 | `machine.html` | Outil interne. noindex. **Jamais une pub.** |
 

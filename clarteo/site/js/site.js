@@ -34,6 +34,7 @@
     const h1 = document.querySelector("[data-h1]");
     const lede = document.querySelector("[data-lede]");
     const letter = document.querySelector("[data-letter]");
+    const say = document.querySelector("[data-say]");
     if (h1) h1.textContent = pack.h1;
     if (lede) lede.textContent = pack.lede;
     if (letter) {
@@ -42,6 +43,14 @@
         const p = document.createElement("p");
         p.textContent = block.trim();
         letter.appendChild(p);
+      });
+    }
+    if (say && pack.say && pack.say.length) {
+      say.innerHTML = "";
+      pack.say.forEach((block) => {
+        const p = document.createElement("p");
+        p.textContent = block;
+        say.appendChild(p);
       });
     }
     document.title = pack.h1 + " — Clartéo";

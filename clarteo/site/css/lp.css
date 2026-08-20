@@ -58,6 +58,8 @@ img { max-width: 100%; display: block; }
   color: var(--white);
 }
 .btn-full { width: 100%; }
+.card .btn-full { margin-top: 16px; }
+.nav-cta { white-space: nowrap; font-size: 0.88rem; padding: 11px 14px; }
 
 .bleed {
   position: relative;
@@ -67,7 +69,7 @@ img { max-width: 100%; display: block; }
   width: 100%;
   height: min(78vh, 720px);
   object-fit: cover;
-  object-position: center 60%;
+  object-position: 28% 60%;
 }
 .bleed .on {
   position: absolute;
@@ -83,7 +85,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.12;
   letter-spacing: -0.03em;
   margin: 0 0 10px;
-  max-width: 16ch;
+  max-width: 22ch;
 }
 .bleed .lede {
   margin: 0;
@@ -145,6 +147,13 @@ input, select {
   text-decoration: none;
 }
 .micro { margin: 8px 0 0; font-size: 0.8rem; color: var(--mute); text-align: center; }
+.legal { margin: 12px 0 0; font-size: 0.8rem; color: var(--mute); text-align: center; }
+.ps {
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  max-width: 40rem;
+  margin: 28px 0 0;
+}
 .err { display: none; color: var(--bad); font-size: 0.85rem; margin-top: 8px; }
 .err.show { display: block; }
 
@@ -195,9 +204,10 @@ footer a { color: var(--ink); }
 
 @media (max-width: 860px) {
   .sheet, .pair, .row2 { grid-template-columns: 1fr; }
-  .bleed img { height: 58vh; }
+  .bleed img { height: 58vh; object-position: 20% 55%; }
   .pair img { height: 240px; }
-  .nav .tel { display: none; }
+  .nav-cta { display: none; }
   .sticky { display: block; }
-  .sheet { padding-bottom: 88px; }
+  .sheet { padding-bottom: 28px; }
+  .rest { padding-bottom: 96px; }
 }

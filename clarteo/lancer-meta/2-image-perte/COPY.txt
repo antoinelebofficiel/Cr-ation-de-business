@@ -4,7 +4,7 @@ PUB 2 — IMAGE PERTE
 Visuels :
   Feed     feed-1080x1350.jpg
   Stories  stories-1080x1920.jpg
-Landing : vitres.html?a=2s
+Landing : lp.html?a=2s
 CTA : S’inscrire
 Instant Form : Clartéo Vitrines
 

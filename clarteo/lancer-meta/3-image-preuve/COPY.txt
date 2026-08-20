@@ -4,7 +4,7 @@ PUB 3 — IMAGE PREUVE
 Visuels :
   Feed     feed-1080x1350.jpg
   Stories  stories-1080x1920.jpg
-Landing : vitres.html?a=contrat
+Landing : lp.html?a=contrat
 CTA : S’inscrire
 Instant Form : Clartéo Vitrines
 

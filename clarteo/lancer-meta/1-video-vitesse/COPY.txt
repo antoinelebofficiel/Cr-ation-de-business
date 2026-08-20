@@ -3,7 +3,7 @@ PUB 1 — VIDÉO VITESSE
 
 Visuel : crea-1080x1920.mp4
 Placement : Reels / Stories (Advantage+)
-Landing : vitres.html?a=48h
+Landing : lp.html?a=48h
 CTA : S’inscrire
 Instant Form : Clartéo Vitrines
 
