@@ -41,7 +41,9 @@
     <div class="card" id="form">
       <h2 id="form-name">Comment me joindre maintenant ?</h2>
       <p class="hint">Prénom, téléphone, ville.</p>
-      <form data-lead="vitres" name="joindre" aria-labelledby="form-name">
+      <form data-lead="vitres" name="joindre" method="POST" data-netlify="true" data-netlify-honeypot="website" aria-labelledby="form-name">
+        <input type="hidden" name="form-name" value="joindre">
+        <input type="hidden" name="angle" id="lead-angle" value="">
         <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
         <div class="row2">
           <div>

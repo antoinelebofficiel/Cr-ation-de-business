@@ -111,16 +111,40 @@
     const btn = form.querySelector('button[type="submit"]');
     if (btn) btn.disabled = true;
 
-    fetch("/api/lead", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        prenom: data.prenom,
-        tel: data.tel,
-        ville: data.ville,
-        angle: angle || "",
-      }),
-    })
+    const payload = {
+      prenom: data.prenom,
+      tel: data.tel,
+      ville: data.ville,
+      angle: angle || "",
+    };
+    const angleInput = document.getElementById("lead-angle");
+    if (angleInput) angleInput.value = payload.angle;
+
+    const postVercel = () =>
+      fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+    const postNetlify = () => {
+      const body = new URLSearchParams();
+      body.set("form-name", "joindre");
+      body.set("prenom", payload.prenom);
+      body.set("tel", payload.tel);
+      body.set("ville", payload.ville);
+      body.set("angle", payload.angle);
+      return fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString(),
+      });
+    };
+
+    const onNetlify = /\.netlify\.app$/.test(location.hostname);
+    const send = onNetlify ? postNetlify() : postVercel().then((r) => (r.ok ? r : postNetlify()));
+
+    send
       .then((r) => {
         if (!r.ok) throw new Error("lead");
         if (window.fbq) window.fbq("track", "Lead");
