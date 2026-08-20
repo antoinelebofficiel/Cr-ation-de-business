@@ -1,14 +1,14 @@
-/* Source unique — machine Meta VITRINES. Bureau = upsell après preuve. Jamais en pub. */
+/* Source unique. Machine Meta VITRINES. Bureau = upsell après preuve. Jamais en pub. */
 window.CLARTEO_ADS = {
   product: "vitrines",
-  upsell: "bureaux / sols / sanitaires — après le contrat vitrines",
+  upsell: "bureaux / sols / sanitaires, après le contrat vitrines",
   forbid: ["ménage", "samedi", "particulier", "week-end", "appartement"],
   landingFile: "lp.html",
   budget: "100 €/j minimum, 3 pubs DANS 1 ad set",
   cta: "S’inscrire",
   experts: {
     schwartz:
-      "Conscience : problem-aware (la vitre est terne) à solution-aware (un laveur existe). Sophistication stade 2–3 : « on lave les vitres » est mort. L’ad doit porter un MÉCANISME (rappel 5 min + créneau au téléphone + preuve avant contrat) ou une PERTE (2 secondes). Inaware = trop cher en TOF Meta.",
+      "AIDA sur la landing. Attention = promesse visible (vitrine lisible). Interest = villes + rappel 5 min + créneau à l’appel. Desire = preuve (photos, sans engagement). Action = un bouton, un numéro. PAS (plaie + sel) allonge la rumination. Inaware = trop cher en TOF Meta.",
     halbert:
       "La foule affamée = gérant dont la devanture est sale CETTE SEMAINE, ou dont le laveur a disparu. L’offre EST le produit : on cale le premier passage au rappel, sans engagement. Le prix se dit au téléphone. Spécificité (rues, villes, minutes) > branding. A-pile : la première ligne doit le concerner LUI.",
     wiebe:
@@ -17,7 +17,7 @@ window.CLARTEO_ADS = {
   formA: {
     name: "Clartéo Vitrines",
     intro:
-      "Vitrines de commerce — Lorient et 40 km.\nOn vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.",
+      "Vitrines de commerce. Lorient et 40 km.\nOn vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.",
     questions: [
       {
         q: "Ville du local",
@@ -39,7 +39,7 @@ window.CLARTEO_ADS = {
       },
       {
         q: "Nombre de baies",
-        why: "Calibre le devis au téléphone. Option « je ne sais pas » autorisée — mieux qu’un abandon.",
+        why: "Calibre le devis au téléphone. Option « je ne sais pas » autorisée, mieux qu’un abandon.",
         required: true,
         options: ["1 à 3", "4 à 8", "9 ou plus / hauteur", "Je ne sais pas"],
       },
@@ -55,7 +55,7 @@ window.CLARTEO_ADS = {
         ],
       },
     ],
-    cut: "« Vous êtes : particulier / bureau / commerce » — question de routing ménage. Elle achète des leads hors offre et allonge la distance. Bureau = même pub vitrines, upsell plus tard.",
+    cut: "« Vous êtes : particulier / bureau / commerce » : question de routing ménage. Elle achète des leads hors offre et allonge la distance. Bureau = même pub vitrines, upsell plus tard.",
     thankTitle: "Décrochez. On appelle dans les 5 minutes.",
     thankBody:
       "Si vous ratez l’appel, rappelez le numéro qui s’affiche. Au téléphone, on cale le premier passage.",
@@ -67,21 +67,21 @@ window.CLARTEO_ADS = {
       name: "Perte de client",
       overlay: "2 secondes. Il est déjà parti.",
       primary:
-        "Une vitrine sale, le passant ne rentre pas.\n\nIl a jugé le commerce en 2 secondes. Il a choisi celui d’à côté.\n\nClartéo, Lorient et 40 km. On rappelle en 5 minutes. On cale le premier passage. Sans engagement. Le contrat, après — quand la vitrine parle.",
+        "Vitrines nettes. Le passant voit le magasin.\n\nClartéo, Lorient et 40 km. On rappelle en 5 minutes. On cale le premier passage. Sans engagement. Le contrat, après, quand la vitrine parle.",
       titles: [
         "Une vitrine sale fait fuir le client",
         "On cale le premier passage au téléphone",
-        "Lorient et 40 km — vitrines nickel",
+        "Lorient et 40 km. Vitrines nickel",
         "Sans engagement. Résultat d’abord.",
         "Le passant juge en 2 secondes",
       ],
       description: "Devis 3 lignes. Premier passage calé au téléphone.",
       h1: "2 secondes. Il est déjà parti.",
-      lede: "Une vitrine sale, le passant ne rentre pas. On cale le premier passage au téléphone. Sans engagement.",
+      lede: "On cale un premier passage au téléphone. Sans engagement. Vous voyez d’abord.",
       say: [
-        "Il a jugé le commerce en 2 secondes. Il a choisi celui d’à côté.",
-        "Un passage. Pas de contrat avant. Vous voyez la vitrine. Ensuite vous dites oui — ou non.",
-        "Lorient et 40 km. Le jour, on le cale au téléphone.",
+        "On lave les vitrines des commerces. Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.",
+        "Vous laissez votre numéro. Antoine rappelle dans les 5 minutes. On cale le jour à l’appel.",
+        "Premier passage sans engagement. Vous voyez la vitrine. Ensuite vous décidez.",
       ],
       crea: "Plan pied : passant qui ne rentre pas, vitrine terne, rue réelle Lorient.",
       schwartz: { score: 9, note: "Problem-aware + perte. Stade 3 : la conséqence (client parti) bat le claim « vitres propres »." },
@@ -95,19 +95,19 @@ window.CLARTEO_ADS = {
       primary:
         "Le laveur « la semaine prochaine » vous a déjà fait perdre une semaine de devanture.\n\nClartéo : formulaire, rappel en 5 minutes, on cale le premier passage au téléphone. Sans engagement.\n\nLorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.",
       titles: [
-        "Programmez un passage cette semaine",
+        "Oui, rappelez-moi",
         "Rappel en 5 minutes",
         "Stop aux « on verra la semaine pro »",
-        "Première intervention — Lorient",
+        "Première intervention. Lorient",
         "Créneau calé au téléphone",
       ],
       description: "Formulaire 40 secondes. On s’occupe du reste.",
       h1: "Premier passage. Cette semaine.",
       lede: "Vous remplissez. On rappelle dans les 5 minutes. On cale le premier passage. Le contrat, après la preuve.",
       say: [
-        "Le « on verra la semaine prochaine » vous a déjà coûté une semaine de devanture.",
-        "Vous laissez votre numéro. Antoine rappelle dans les 5 minutes. On cale le premier passage.",
-        "Sans engagement. Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.",
+        "On lave les vitrines des commerces autour de Lorient. Formulaire, rappel 5 minutes, créneau à l’appel.",
+        "Premier passage sans engagement. Vous voyez. Ensuite vous décidez.",
+        "Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.",
       ],
       crea: "Toi ou l’agent de dos, raclette, reflet net. Overlay gros.",
       schwartz: { score: 8, note: "Solution-aware. Le mécanisme = créneau réel au téléphone, pas « qualité » (claim saturé)." },
@@ -119,7 +119,7 @@ window.CLARTEO_ADS = {
       name: "Sans engagement",
       overlay: "Payez le passage. Pas un contrat.",
       primary:
-        "Personne n’a envie de signer 12 mois avec un prestataire qu’il n’a jamais vu travailler.\n\nDonc on ne demande pas ça.\n\nPremière intervention. Vous voyez la vitrine. Ensuite seulement, un jour fixe — si ça vous va.\n\nOn cale le passage au téléphone. Lorient + 40 km.",
+        "Personne n’a envie de signer 12 mois avec un prestataire qu’il n’a jamais vu travailler.\n\nDonc on ne demande pas ça.\n\nPremière intervention. Vous voyez la vitrine. Ensuite seulement, un jour fixe, si ça vous va.\n\nOn cale le passage au téléphone. Lorient et 40 km.",
       titles: [
         "Première vitrine sans engagement",
         "Vous voyez. Ensuite vous décidez.",
@@ -131,9 +131,9 @@ window.CLARTEO_ADS = {
       h1: "Payez le passage. Pas un contrat.",
       lede: "Première intervention sans engagement. Vous voyez la vitrine. Ensuite vous décidez.",
       say: [
-        "Personne ne signe 12 mois avec un laveur qu’il n’a jamais vu travailler.",
-        "Un passage. Vous voyez. Ensuite un jour fixe — si ça vous va.",
-        "On cale le créneau au téléphone. Lorient et 40 km.",
+        "Un passage pour juger. Vous voyez la vitrine. Ensuite un jour fixe, si ça vous va.",
+        "On cale le créneau au téléphone. Sans engagement.",
+        "Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.",
       ],
       crea: "Avant/après réel. Pas de stock.",
       schwartz: { score: 9, note: "Sophistication stade 3 : mécanisme unique (preuve avant contrat) contre un marché de devis." },
@@ -157,8 +157,8 @@ window.CLARTEO_ADS = {
       h1: "Vous tenez le commerce. On tient la vitrine.",
       lede: "La vitrine passe en dernier. C’est ce que le client voit en premier. On cale le passage. Sans engagement.",
       say: [
-        "Livraisons, personnel, clients : la vitrine passe en dernier. C’est la première chose qu’on voit.",
-        "On l’enlève de la liste. Un passage, sans engagement. Le jour fixe, après, si le résultat est là.",
+        "Livraisons, personnel, clients : on tient la vitrine pour que vous teniez le commerce.",
+        "Un passage, sans engagement. Le jour fixe, après, si le résultat est là.",
         "Lorient et 40 km. On cale le jour au téléphone.",
       ],
       crea: "Gérant dans le flux (caisse, carton) + vitrine en fond, pas un sourire stock.",
@@ -176,16 +176,16 @@ window.CLARTEO_ADS = {
         "Votre laveur ne vient plus ?",
         "On prend le relais cette semaine",
         "Régulier. Point.",
-        "Relève de prestataire — vitrines",
+        "Relève de prestataire. Vitrines",
         "Assez des passages « peut-être »",
       ],
       description: "Formulaire → rappel 5 min → créneau au téléphone.",
       h1: "Il devait passer mardi.",
       lede: "S’il est irrégulier ou a disparu, on prend le relais. On cale le passage au téléphone. Vous comparez.",
       say: [
-        "Il devait passer mardi. Il a prévenu mercredi. La vitrine n’a pas attendu.",
-        "On prend le relais une fois. Vous comparez. Sans engagement.",
-        "Le jour, on le cale au téléphone. Lorient et 40 km.",
+        "Si votre laveur est irrégulier ou a disparu, on prend le relais. Un passage. Vous comparez.",
+        "Sans engagement. On cale le jour au téléphone.",
+        "Lorient et 40 km.",
       ],
       crea: "Vitrine sale un mardi matin, rue réelle. Pas de visage de « concurrent ».",
       schwartz: { score: 8, note: "Most-aware du concurrent. Displacement, pas éducation." },
@@ -199,7 +199,7 @@ window.CLARTEO_ADS = {
       primary:
         "Clartéo lave les vitrines des commerces autour de Lorient.\n\nRue du Port, Alsace-Lorraine, Leclerc, Lanester centre, Place Foch Hennebont, Ploemeur, Guidel, Quéven, Larmor, Port-Louis, Auray.\n\nFormulaire 40 secondes. On vous appelle.",
       titles: [
-        "Laveur de vitrines — bassin de Lorient",
+        "Laveur de vitrines. Bassin de Lorient",
         "Déjà sur le secteur 56",
         "De Lorient à Auray, on passe",
         "Vos vitrines, notre tournée",
@@ -210,8 +210,8 @@ window.CLARTEO_ADS = {
       lede: "Pas une usine parisienne. Une tournée ici. On cale le passage au téléphone.",
       say: [
         "Rue du Port, Alsace-Lorraine, Leclerc, Place Foch, Ploemeur, Guidel, Quéven, Auray.",
-        "Pas une enseigne nationale. Une tournée ici.",
-        "Vous laissez votre numéro. On cale le passage au téléphone.",
+        "Une tournée ici. Vous laissez votre numéro. On cale le passage au téléphone.",
+        "Premier passage sans engagement.",
       ],
       crea: "Carte mentale des villes OU storefronts réels enchaînés, 4 secondes.",
       schwartz: { score: 7, note: "Most-aware local. Sans mécanisme ça reste une enseigne. Les rues sauvent l’ad." },
@@ -225,7 +225,7 @@ window.CLARTEO_ADS = {
       primary:
         "Gauche : ce que le client voit aujourd’hui.\nDroite : ce qu’il devrait voir.\n\nClartéo. Eau, raclette, angles, recoins d’enseigne. Sans engagement.\n\nFormulaire. Rappel 5 minutes. On cale le créneau.",
       titles: [
-        "Avant / après — vitrine commerce",
+        "Avant / après. Vitrine commerce",
         "12 minutes. Devanture neuve.",
         "Le client voit ça en premier",
         "Preuve par l’image",
@@ -235,7 +235,7 @@ window.CLARTEO_ADS = {
       h1: "Même vitrine. 12 minutes.",
       lede: "Gauche : aujourd’hui. Droite : après la raclette. On cale le premier passage au téléphone.",
       say: [
-        "Gauche : ce que le client voit aujourd’hui. Droite : ce qu’il devrait voir.",
+        "Même vitrine. Après la raclette, le magasin se lit depuis la rue.",
         "Eau, raclette, angles, recoins d’enseigne. Un passage, sans engagement.",
         "On cale le jour au téléphone.",
       ],
@@ -259,11 +259,11 @@ window.CLARTEO_ADS = {
       ],
       description: "Première intervention sans engagement.",
       h1: "Votre pub, c’est la vitrine.",
-      lede: "Enseigne, stock, Instagram — et une vitre terne. On remet la devanture au niveau du reste.",
+      lede: "Enseigne, stock, Instagram, et une vitre terne. On remet la devanture au niveau du reste.",
       say: [
-        "Vous payez l’enseigne, le stock, Instagram. Et la vitre est terne.",
-        "Le passant n’entre pas dans un commerce qui a l’air fermé. On remet la devanture au niveau du reste.",
-        "Un passage. On cale le jour au téléphone. Lorient et 40 km.",
+        "L’enseigne, le stock, Instagram : la vitrine doit être au même niveau.",
+        "On remet la devanture nette. Un passage. On cale le jour au téléphone.",
+        "Lorient et 40 km. Sans engagement.",
       ],
       crea: "Enseigne allumée + vitre terne, même cadre. Agitation visuelle.",
       schwartz: { score: 8, note: "Agitation d’un investissement déjà fait (perte). Problem-aware fort." },
@@ -275,7 +275,7 @@ window.CLARTEO_ADS = {
       name: "Preuve puis contrat",
       overlay: "D’abord le résultat. Ensuite le contrat.",
       primary:
-        "Le modèle Clartéo :\n\n1. Vous demandez un passage.\n2. On vous rappelle en 5 minutes.\n3. Au téléphone, on cale le premier passage.\n4. Vous voyez la vitrine.\n5. Vous signez un jour fixe — ou pas.\n\nOn gagne le contrat sur le travail. Lorient + 40 km.",
+        "Le modèle Clartéo :\n\n1. Vous demandez un passage.\n2. On vous rappelle en 5 minutes.\n3. Au téléphone, on cale le premier passage.\n4. Vous voyez la vitrine.\n5. Vous signez un jour fixe, ou pas.\n\nOn gagne le contrat sur le travail. Lorient et 40 km.",
       titles: [
         "Le contrat se gagne sur la vitrine",
         "5 min. Créneau. Résultat.",
@@ -285,10 +285,10 @@ window.CLARTEO_ADS = {
       ],
       description: "Formulaire instantané → appel immédiat.",
       h1: "D’abord le résultat. Ensuite le contrat.",
-      lede: "5 minutes. On cale le passage. Vous voyez. Vous signez un jour fixe — ou pas.",
+      lede: "5 minutes. On cale le passage. Vous voyez. Vous signez un jour fixe, ou pas.",
       say: [
         "Vous demandez. On rappelle en 5 minutes. On cale le premier passage.",
-        "Vous voyez la vitrine. Ensuite un jour fixe — ou pas.",
+        "Vous voyez la vitrine. Ensuite un jour fixe, ou pas.",
         "On gagne le contrat sur le travail. Lorient et 40 km.",
       ],
       crea: "5 étapes en overlay simple, ou raclette réelle + texte mécanisme.",
@@ -301,11 +301,11 @@ window.CLARTEO_ADS = {
       name: "Pattern interrupt",
       overlay: "Qui passe cette semaine ?",
       primary:
-        "Question honnête : qui s’occupe de vos vitrines cette semaine ?\n\nSi la réponse est « personne », « j’attends », ou « le gars doit rappeler » — Clartéo cale un premier passage. Au téléphone. Dans les 5 minutes.\n\nCommerces uniquement. Lorient et 40 km.",
+        "Question honnête : qui s’occupe de vos vitrines cette semaine ?\n\nSi la réponse est « personne », « j’attends », ou « le gars doit rappeler » : Clartéo cale un premier passage. Au téléphone. Dans les 5 minutes.\n\nCommerces uniquement. Lorient et 40 km.",
       titles: [
         "Qui fait vos vitrines cette semaine ?",
         "Personne ? On cale un passage.",
-        "Créneau vitrine — bassin Lorient",
+        "Créneau vitrine. Bassin Lorient",
         "Une question, un passage",
         "Vos vitrines, c’est pour quand ?",
       ],
@@ -313,9 +313,9 @@ window.CLARTEO_ADS = {
       h1: "Qui passe cette semaine ?",
       lede: "Personne, j’attends, il doit rappeler : on cale un premier passage au téléphone. Commerces uniquement.",
       say: [
-        "Qui s’occupe de vos vitrines cette semaine ?",
-        "Si c’est personne, j’attends, ou il doit rappeler : on cale un premier passage. Au téléphone.",
-        "Commerces uniquement. Lorient et 40 km.",
+        "On lave les vitrines des commerces autour de Lorient. Cette semaine, on cale un premier passage.",
+        "Rappel en 5 minutes. Le jour, à l’appel. Sans engagement.",
+        "Commerces uniquement.",
       ],
       crea: "Texte gros sur vitrine réelle. Le visage n’ajoute rien.",
       schwartz: { score: 8, note: "Interrupt + qualification dans l’ad (commerces uniquement). Problem-aware." },

@@ -53,7 +53,7 @@
         say.appendChild(p);
       });
     }
-    document.title = pack.h1 + " — Clartéo";
+    document.title = pack.h1 + ". Clartéo";
   }
 
   if (window.fbq && document.body.classList.contains("ad")) {
@@ -103,7 +103,7 @@
     }
 
     const lines = [
-      "Demande Clartéo — vitrines commerce",
+      "Demande Clartéo. Vitrines commerce",
       angle ? "Angle pub : " + angle : "",
       "Prénom : " + data.prenom,
       "Tél : " + data.tel,
@@ -122,7 +122,7 @@
     if (wa) {
       window.open("https://wa.me/" + wa + "?text=" + encodeURIComponent(body), "_blank");
     } else {
-      const subject = encodeURIComponent("Lead Clartéo — " + data.prenom);
+      const subject = encodeURIComponent("Lead Clartéo. " + data.prenom);
       window.open("mailto:" + C.email + "?subject=" + subject + "&body=" + encodeURIComponent(body), "_self");
     }
 

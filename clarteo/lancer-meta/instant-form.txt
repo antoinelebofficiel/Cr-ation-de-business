@@ -5,7 +5,7 @@ Nom interne : Clartéo Vitrines
 
 Intro
 -----
-Vitrines de commerce — Lorient et 40 km.
+Vitrines de commerce. Lorient et 40 km.
 On vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.
 
 Questions (toutes obligatoires)
@@ -69,4 +69,4 @@ Message auto au lead (60 s)
 ---------------------------
 {prenom}, c’est Clartéo (vitrines autour de Lorient).
 On vous appelle dans la minute au {tel}.
-Décrochez — on cale le premier passage au téléphone.
+Décrochez. On cale le premier passage au téléphone.

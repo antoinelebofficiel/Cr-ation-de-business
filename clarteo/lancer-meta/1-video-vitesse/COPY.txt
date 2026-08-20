@@ -26,10 +26,10 @@ Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray.
 
 TITRES (5, dans cet ordre)
 --------------------------
-Programmez un passage cette semaine
+Oui, rappelez-moi
 Rappel en 5 minutes
 Stop aux « on verra la semaine pro »
-Première intervention — Lorient
+Première intervention. Lorient
 Créneau calé au téléphone
 
 
