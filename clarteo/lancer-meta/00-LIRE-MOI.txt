@@ -15,7 +15,7 @@ Ordre d’upload
 2. Pub 1         →  1-video-vitesse/   (MP4 + COPY.txt)
 3. Pub 2         →  2-image-perte/     (JPG feed + stories + COPY.txt)
 4. Pub 3         →  3-image-preuve/    (JPG feed + stories + COPY.txt)
-5. Post page     →  post-facebook-1/   (organique, aujourd’hui)
+5. Page Facebook →  post-facebook-1/   (bannière + 1er post, photos différentes du site)
 
 Coller le COPY.txt tel quel. Ne pas rajouter d’overlay (déjà dans le visuel).
 

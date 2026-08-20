@@ -1,18 +1,24 @@
-PREMIER POST FACEBOOK — PAGE CLARTÉO
-====================================
+FACEBOOK — 2 VISUELS DISTINCTS
+==============================
 
-Où : Page Facebook Clartéo. Publication (pas une pub).
-Quand : aujourd’hui, avant de lancer les ads.
-Visuel : feed-1080x1350.jpg
-Stories (optionnel, même jour) : stories-1080x1920.jpg
-Lien (1er commentaire, pas dans le texte) : https://clarteo.netlify.app/
+Le site garde lp-rue.jpg (la boulangerie depuis la rue).
+Ne pas réutiliser cette photo ici.
 
-Ne pas booster ce post. Les 3 pubs sont dans lancer-meta/ 1-2-3.
-Ne pas mettre le numéro. Ne pas mettre de prix. Pas de hashtag.
+1. BANNIÈRE (couverture page)
+   Fichier : banniere-1640x924.jpg
+   Photo   : vitrine boutique, intérieur visible (lp-propre)
+   Facebook → Paramètres de la page → Photo de couverture
+   Logo en bas à droite (le profil mange le bas gauche).
+
+2. PREMIER POST
+   Fichier : feed-1080x1350.jpg
+   Photo   : raclette sur la vitre (lp-travail)
+   Publication photo + texte ci-dessous.
+   1er commentaire : https://clarteo.netlify.app/
 
 
-TEXTE (coller tel quel)
------------------------
+TEXTE DU POST (coller)
+----------------------
 On lave les vitrines des commerces. Lorient et 40 km.
 
 Le passant juge en 2 secondes. S’il ne lit pas le magasin, il va à côté.
@@ -25,19 +31,3 @@ On s’accorde sur un premier passage, sans engagement.
 Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray, et 40 km à la ronde.
 
 Clartéo.
-
-
-1ER COMMENTAIRE (tu le postes toi, juste après)
-----------------------------------------------
-Le formulaire : https://clarteo.netlify.app/
-
-
-PUBLICATION
------------
-1. Photo : feed-1080x1350.jpg (pas de recadrage, pas d’overlay en plus).
-2. Colle le texte.
-3. Publie.
-4. Tout de suite : le commentaire avec le lien.
-5. Stories : stories-1080x1920.jpg, lien vers le site si le sticker lien est dispo.
-
-Ça marche si : le post est en ligne, le lien du commentaire ouvre la landing, le formulaire envoie vers « Restez à l’affût ».
