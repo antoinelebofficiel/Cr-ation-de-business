@@ -87,7 +87,7 @@ body.ad .nav,
   width: 100%;
   height: min(78vh, 720px);
   object-fit: cover;
-  object-position: 62% 38%;
+  object-position: 28% 60%;
 }
 .bleed .on {
   position: absolute;
@@ -265,7 +265,7 @@ footer a { color: var(--ink); }
 
 @media (max-width: 860px) {
   .sheet, .pair, .row2 { grid-template-columns: 1fr; }
-  .bleed img { height: 58vh; object-position: 62% 35%; }
+  .bleed img { height: 58vh; object-position: 20% 55%; }
   .pair img { height: 240px; }
   .sticky { display: block; }
   .stack { padding-bottom: 28px; }
