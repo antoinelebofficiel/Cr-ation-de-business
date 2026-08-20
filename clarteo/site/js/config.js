@@ -6,4 +6,6 @@ window.CLARTEO = {
   email: "antoinebch.pro@gmail.com",
   responsable: "Antoine Bauché",
   pixelId: "",
+  /* Coller l’URL webhook Make. Vide = wa.me seulement. */
+  notifyUrl: "",
 };

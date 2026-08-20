@@ -1,0 +1,10 @@
+{
+  "buildCommand": "",
+  "outputDirectory": "clarteo/site",
+  "redirects": [
+    { "source": "/lp.html", "destination": "/", "permanent": true },
+    { "source": "/lp", "destination": "/", "permanent": true },
+    { "source": "/vitres.html", "destination": "/", "permanent": true },
+    { "source": "/mentions.html", "destination": "/politique.html", "permanent": true }
+  ]
+}

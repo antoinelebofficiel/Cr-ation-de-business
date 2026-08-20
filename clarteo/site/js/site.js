@@ -119,13 +119,29 @@
 
     if (window.fbq) window.fbq("track", "Lead");
 
-    if (wa) {
-      window.open("https://wa.me/" + wa + "?text=" + encodeURIComponent(body), "_blank");
-    } else {
-      const subject = encodeURIComponent("Lead Clartéo. " + data.prenom);
-      window.open("mailto:" + C.email + "?subject=" + subject + "&body=" + encodeURIComponent(body), "_self");
-    }
+    const goMerci = () => {
+      location.href = "merci.html";
+    };
 
-    location.href = "merci.html";
+    const ping = C.notifyUrl
+      ? fetch(C.notifyUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            source: "landing",
+            angle: angle || "",
+            prenom: data.prenom,
+            tel: data.tel,
+            ville: data.ville || "",
+          }),
+        }).catch(() => {})
+      : Promise.resolve();
+
+    ping.finally(() => {
+      if (wa) {
+        window.open("https://wa.me/" + wa + "?text=" + encodeURIComponent(body), "_blank");
+      }
+      goMerci();
+    });
   });
 })();
