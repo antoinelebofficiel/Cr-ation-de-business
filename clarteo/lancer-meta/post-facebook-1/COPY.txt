@@ -1,0 +1,43 @@
+PREMIER POST FACEBOOK — PAGE CLARTÉO
+====================================
+
+Où : Page Facebook Clartéo. Publication (pas une pub).
+Quand : aujourd’hui, avant de lancer les ads.
+Visuel : feed-1080x1350.jpg
+Stories (optionnel, même jour) : stories-1080x1920.jpg
+Lien (1er commentaire, pas dans le texte) : https://clarteo.netlify.app/
+
+Ne pas booster ce post. Les 3 pubs sont dans lancer-meta/ 1-2-3.
+Ne pas mettre le numéro. Ne pas mettre de prix. Pas de hashtag.
+
+
+TEXTE (coller tel quel)
+-----------------------
+On lave les vitrines des commerces. Lorient et 40 km.
+
+Le passant juge en 2 secondes. S’il ne lit pas le magasin, il va à côté.
+
+Vous laissez votre prénom, votre téléphone, votre ville.
+On vous rappelle maintenant (moins de 5 minutes).
+On définit un tarif au téléphone.
+On s’accorde sur un premier passage, sans engagement.
+
+Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray, et 40 km à la ronde.
+
+Clartéo.
+
+
+1ER COMMENTAIRE (tu le postes toi, juste après)
+----------------------------------------------
+Le formulaire : https://clarteo.netlify.app/
+
+
+PUBLICATION
+-----------
+1. Photo : feed-1080x1350.jpg (pas de recadrage, pas d’overlay en plus).
+2. Colle le texte.
+3. Publie.
+4. Tout de suite : le commentaire avec le lien.
+5. Stories : stories-1080x1920.jpg, lien vers le site si le sticker lien est dispo.
+
+Ça marche si : le post est en ligne, le lien du commentaire ouvre la landing, le formulaire envoie vers « Restez à l’affût ».
