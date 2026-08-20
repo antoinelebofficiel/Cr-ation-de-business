@@ -147,9 +147,11 @@ body.ad .nav,
   font-family: var(--serif);
   font-size: 1.2rem;
   line-height: 1.4;
-  margin: 0 0 14px;
+  margin: 0 0 24px;
   align-items: baseline;
 }
+.steps li:last-child { margin-bottom: 0; }
+.steps strong { font-weight: 600; }
 .steps li::before {
   content: counter(step) ".";
   font-weight: 600;

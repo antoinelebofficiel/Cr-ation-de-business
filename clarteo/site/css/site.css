@@ -308,9 +308,11 @@ h2 { margin: 0 0 8px; font-size: 1.55rem; letter-spacing: -0.02em; }
   font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
   font-size: 1.2rem;
   line-height: 1.45;
-  margin: 0 0 14px;
+  margin: 0 0 24px;
   align-items: baseline;
 }
+.letter .steps li:last-child { margin-bottom: 0; }
+.letter .steps strong { font-weight: 700; }
 .letter .steps li::before {
   content: counter(step) ".";
   font-weight: 700;
