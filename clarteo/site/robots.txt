@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /machine.html
 Disallow: /merci.html

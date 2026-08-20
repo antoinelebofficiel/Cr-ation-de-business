@@ -11,23 +11,20 @@ Interdit dans l’ad : ménage, particulier, samedi, appartement, bureaux, prix.
 
 Ordre d’upload
 --------------
-1. Instant Form  →  voir instant-form.txt
-2. Pub 1         →  dossier 1-video-vitesse/
-3. Pub 2         →  dossier 2-image-perte/
-4. Pub 3         →  dossier 3-image-preuve/
-5. Native 15 s   →  dossier native-15s/  (3 vidéos, MÊME ad set)
+1. Instant Form  →  instant-form.txt
+2. Pub 1         →  1-video-vitesse/   (MP4 + COPY.txt)
+3. Pub 2         →  2-image-perte/     (JPG feed + stories + COPY.txt)
+4. Pub 3         →  3-image-preuve/    (JPG feed + stories + COPY.txt)
 
-Chaque dossier = le visuel + COPY.txt (coller tel quel).
+Coller le COPY.txt tel quel. Ne pas rajouter d’overlay (déjà dans le visuel).
 
-Landing (remplacer le domaine une fois le site en ligne)
---------------------------------------------------------
-Pub 1  lp.html?a=48h
-Pub 2  lp.html?a=2s
-Pub 3  lp.html?a=contrat
-N1     lp.html?a=nat1
-N2     lp.html?a=nat2
-N3     lp.html?a=nat3
+Landing + politique (en ligne)
+------------------------------
+Politique Instant Form :
+  https://clarteo.netlify.app/politique.html
+
+Pub 1  https://clarteo.netlify.app/lp.html?a=48h
+Pub 2  https://clarteo.netlify.app/lp.html?a=2s
+Pub 3  https://clarteo.netlify.app/lp.html?a=contrat
 
 KPI : € / contrat signé. Pas le CPL.
-
-Dès le 1er iPhone réel (Hennebont), tu remplaces les images.

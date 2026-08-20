@@ -1,7 +1,7 @@
 # Clartéo — pack acquisition
 
 1. `lancer-meta/` — **coller dans Meta** (3 pubs + copy + Instant Form)
-2. `site/` — landing `vitres.html` + `machine.html` + `politique.html`
+2. `site/` — `lp.html` (pubs) + `index.html` (organique) + `politique.html`
 3. `00-10X.md` — KPI, doctrine
 4. `01-offre.md` — prix, tournées
 5. `05-scripts.md` — appel, close, upsell bureaux

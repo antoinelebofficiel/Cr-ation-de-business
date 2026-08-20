@@ -2,8 +2,5 @@
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
 
-/machine.html
-  X-Robots-Tag: noindex, nofollow
-
 /merci.html
   X-Robots-Tag: noindex, nofollow

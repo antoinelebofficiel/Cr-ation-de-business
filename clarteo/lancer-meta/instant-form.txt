@@ -44,7 +44,8 @@ Titre  : Décrochez. On vous rappelle maintenant.
 Texte  : Si vous ratez l’appel, rappelez le numéro qui s’affiche. Au téléphone, on cale le premier passage.
 Bouton : Appeler maintenant
 
-Politique de confidentialité : URL de site/politique.html (obligatoire, sinon Meta bloque).
+Politique de confidentialité : https://clarteo.netlify.app/politique.html
+(obligatoire, sinon Meta bloque).
 
 NE PAS METTRE : « Vous êtes particulier / bureau / commerce ».
 Formulaire ménage : parké. Budget 0.
