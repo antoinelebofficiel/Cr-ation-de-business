@@ -23,8 +23,8 @@ Landing + politique (en ligne)
 Politique Instant Form :
   https://clarteo.netlify.app/politique.html
 
-Pub 1  https://clarteo.netlify.app/lp.html?a=48h
-Pub 2  https://clarteo.netlify.app/lp.html?a=2s
-Pub 3  https://clarteo.netlify.app/lp.html?a=contrat
+Pub 1  https://clarteo.netlify.app/?a=48h
+Pub 2  https://clarteo.netlify.app/?a=2s
+Pub 3  https://clarteo.netlify.app/?a=contrat
 
 KPI : € / contrat signé. Pas le CPL.
