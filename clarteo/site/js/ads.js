@@ -8,7 +8,7 @@ window.CLARTEO_ADS = {
   cta: "S’inscrire",
   experts: {
     schwartz:
-      "AIDA sur la landing. Attention = promesse visible (vitrine lisible). Interest = villes + rappel 5 min + créneau à l’appel. Desire = preuve (photos, sans engagement). Action = un bouton, un numéro. PAS (plaie + sel) allonge la rumination. Inaware = trop cher en TOF Meta.",
+      "AIDA sur la landing. Attention = promesse visible (vitrine lisible). Interest = villes + 4 étapes. Desire = preuve (photos, sans engagement). Action = le formulaire. PAS (plaie + sel) allonge la rumination. Inaware = trop cher en TOF Meta.",
     halbert:
       "La foule affamée = gérant dont la devanture est sale CETTE SEMAINE, ou dont le laveur a disparu. L’offre EST le produit : on cale le premier passage au rappel, sans engagement. Le prix se dit au téléphone. Spécificité (rues, villes, minutes) > branding. A-pile : la première ligne doit le concerner LUI.",
     wiebe:

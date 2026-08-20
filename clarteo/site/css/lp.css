@@ -35,6 +35,7 @@ img { max-width: 100%; display: block; }
   gap: 16px;
   padding: 18px 0;
 }
+body.ad .nav { justify-content: center; }
 .logo {
   font-family: var(--serif);
   font-size: 1.35rem;
@@ -114,6 +115,43 @@ img { max-width: 100%; display: block; }
   align-items: start;
   padding: 40px 0 56px;
 }
+.stack { padding: 40px 0 56px; }
+.cities {
+  font-family: var(--serif);
+  font-size: 1.28rem;
+  line-height: 1.55;
+  margin: 0 0 32px;
+  max-width: 40rem;
+}
+.cities u {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--gold);
+}
+.steps {
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+  max-width: 40rem;
+}
+.steps li {
+  counter-increment: step;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 10px;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0 0 14px;
+  align-items: baseline;
+}
+.steps li::before {
+  content: counter(step) ".";
+  font-weight: 600;
+  color: var(--gold);
+}
+.stack .card { max-width: 440px; }
 .sheet .say p {
   font-family: var(--serif);
   font-size: 1.2rem;
@@ -219,8 +257,7 @@ footer a { color: var(--ink); }
   .sheet, .pair, .row2 { grid-template-columns: 1fr; }
   .bleed img { height: 58vh; object-position: 20% 55%; }
   .pair img { height: 240px; }
-  .nav-cta { display: none; }
   .sticky { display: block; }
-  .sheet { padding-bottom: 28px; }
+  .stack { padding-bottom: 28px; }
   .rest { padding-bottom: 96px; }
 }

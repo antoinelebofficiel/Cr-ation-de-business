@@ -48,6 +48,7 @@ button, input, select { font: inherit; }
   min-height: 56px;
   gap: 16px;
 }
+.letter .bar-in { justify-content: center; }
 .brand {
   font-weight: 700;
   font-size: 1.15rem;
@@ -276,6 +277,41 @@ h2 { margin: 0 0 8px; font-size: 1.55rem; letter-spacing: -0.02em; }
   letter-spacing: -0.02em;
   margin: 0 0 28px;
   max-width: 16ch;
+}
+.letter .cities {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin: 0 0 28px;
+  max-width: 38rem;
+}
+.letter .cities u {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--gold);
+}
+.letter .steps {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+  max-width: 38rem;
+}
+.letter .steps li {
+  counter-increment: step;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 10px;
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.45;
+  margin: 0 0 14px;
+  align-items: baseline;
+}
+.letter .steps li::before {
+  content: counter(step) ".";
+  font-weight: 700;
+  color: var(--gold);
 }
 .letter .body p {
   font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
