@@ -1,0 +1,43 @@
+CLARTÉO — PACK BRANDING
+======================
+
+Couleurs
+--------
+Encre     #1a1814    texte, fond sombre
+Papier    #f3efe8    cartes, fond chaud
+Blanc     #fbfaf7    fond page
+Or        #9a7b45    point du logo, numéros, soulignés
+Vert CTA  #24543a    boutons
+Mute      #5c5852    légendes
+Ligne     #ddd6cb    filets
+
+Polices
+-------
+Titres / logo  Source Serif 4  (remplaçable Georgia)
+Texte          Source Sans 3   (remplaçable system-ui)
+Boutons        Source Sans 3 Bold
+
+Logo
+----
+Mot « Clartéo » + point or à droite.
+logo/logo-horizontal-clair.png   fond papier
+logo/logo-horizontal-sombre.png  fond encre (sur photo)
+logo/logo-carre-sombre.png       avatar Facebook / WhatsApp
+logo/picto-sombre.png            favicon, app
+logo/favicon.svg                 onglet navigateur
+
+Ne pas déformer. Ne pas recolorier l’or. Ne pas ajouter de slogan dans le fichier logo.
+
+Photos
+------
+photos/ = originaux landing (iPhone). À remplacer dès le 1er chantier réel.
+
+Bannières
+---------
+facebook-cover, linkedin-cover, partage (lien), feed, stories, WhatsApp status, email.
+
+Pubs Meta déjà live : dossier pubs-meta/ (ne pas rajouter d’overlay).
+
+Interdit
+--------
+Ménage, particulier, bureaux, prix, hashtags, numéro dans le visuel.
