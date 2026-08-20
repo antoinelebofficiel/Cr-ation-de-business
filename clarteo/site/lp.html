@@ -13,7 +13,7 @@
 </head>
 <body class="ad">
   <div class="wrap">
-    <header class="nav">
+    <header class="nav nav-center">
       <span class="logo">Clartéo<i>.</i></span>
     </header>
   </div>
@@ -39,9 +39,9 @@
     </ol>
 
     <div class="card" id="form">
-      <h2>On vous rappelle maintenant <span class="hint-inline">(moins de cinq minutes)</span>.</h2>
-      <p class="hint">Prénom, contact, ville.</p>
-      <form data-lead="vitres">
+      <h2 id="form-name">Comment pouvons-nous vous joindre maintenant ?</h2>
+      <p class="hint">Prénom, téléphone, ville.</p>
+      <form data-lead="vitres" name="joindre" aria-labelledby="form-name">
         <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
         <div class="row2">
           <div>
@@ -49,7 +49,7 @@
             <input id="prenom" name="prenom" required autocomplete="given-name">
           </div>
           <div>
-            <label for="tel">Contact</label>
+            <label for="tel">Téléphone</label>
             <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
           </div>
         </div>
@@ -69,7 +69,6 @@
           <option>Autre (56, moins de 40 km)</option>
         </select>
         <button class="btn btn-full" type="submit">Oui, rappelez-moi maintenant</button>
-        <p class="legal">Ce numéro sert à ce rappel. Rien d’autre.</p>
         <p class="err"></p>
       </form>
     </div>

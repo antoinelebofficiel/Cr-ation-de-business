@@ -35,7 +35,11 @@ img { max-width: 100%; display: block; }
   gap: 16px;
   padding: 18px 0;
 }
-body.ad .nav { justify-content: center; }
+body.ad .nav,
+.nav-center {
+  justify-content: center;
+  text-align: center;
+}
 .logo {
   font-family: var(--serif);
   font-size: 1.35rem;
@@ -67,7 +71,7 @@ body.ad .nav { justify-content: center; }
 .btn-l { font-size: 1.02rem; }
 .btn-s { font-size: 0.76rem; font-weight: 600; opacity: 0.86; }
 .btn-full { width: 100%; }
-.card .btn-full { margin-top: 16px; }
+.card .btn-full { margin-top: 32px; }
 .nav-cta {
   flex-direction: row;
   white-space: nowrap;

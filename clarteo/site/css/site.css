@@ -48,7 +48,10 @@ button, input, select { font: inherit; }
   min-height: 56px;
   gap: 16px;
 }
-.letter .bar-in { justify-content: center; }
+.letter .bar-in {
+  justify-content: center;
+  text-align: center;
+}
 .brand {
   font-weight: 700;
   font-size: 1.15rem;
@@ -88,7 +91,7 @@ button, input, select { font: inherit; }
 }
 .btn-dark { background: #24543a; color: #f7f4ee; }
 .btn-full { width: 100%; }
-.card .btn-full { margin-top: 16px; }
+.card .btn-full { margin-top: 32px; }
 .ad .bar nav { display: none; }
 
 .hero {
