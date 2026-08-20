@@ -28,4 +28,11 @@ Pub 1  https://clarteo.netlify.app/?a=48h
 Pub 2  https://clarteo.netlify.app/?a=2s
 Pub 3  https://clarteo.netlify.app/?a=contrat
 
+Pixel Meta
+----------
+Le pixel est dans le site (`js/config.js`), pas dans Netlify.
+Coller l’ID (chiffres seulement) dans `pixelId`. Redeploy.
+Domaine à déclarer dans Events Manager : clarteo.netlify.app
+Ne pas coller le snippet Meta dans Netlify (injection coupée + double comptage).
+
 KPI : € / contrat signé. Pas le CPL.

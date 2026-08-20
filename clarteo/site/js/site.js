@@ -7,27 +7,6 @@
   const params = new URLSearchParams(location.search);
   const angle = params.get("a") || "";
 
-  if (C.pixelId) {
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = "2.0";
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-    window.fbq("init", C.pixelId);
-    window.fbq("track", "PageView");
-  }
-
   const pack = ((window.CLARTEO_ADS && window.CLARTEO_ADS.angles) || []).find((a) => a.id === angle);
   if (pack) {
     const h1 = document.querySelector("[data-h1]");
@@ -55,7 +34,8 @@
     document.title = pack.h1 + ". Clartéo";
   }
 
-  if (window.fbq && document.body.classList.contains("ad")) {
+  const page = (location.pathname.split("/").pop() || "index.html").replace(/\/$/, "") || "index.html";
+  if (window.fbq && (page === "index.html" || page === "")) {
     window.fbq("track", "ViewContent", {
       content_name: "vitrines" + (angle ? "-" + angle : ""),
       content_category: "vitrines",
@@ -78,10 +58,6 @@
   document.querySelectorAll("[data-responsable]").forEach((el) => {
     el.textContent = C.responsable;
   });
-
-  if (location.pathname.indexOf("merci") !== -1 && window.fbq) {
-    window.fbq("track", "Lead");
-  }
 
   const form = document.querySelector("form[data-lead]");
   if (!form) return;
