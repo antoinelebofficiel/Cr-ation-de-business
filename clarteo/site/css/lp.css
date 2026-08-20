@@ -96,6 +96,15 @@ body.ad .nav,
   background: linear-gradient(transparent, rgba(20,18,14,.82));
   color: #f6f2ea;
 }
+.bleed .schema {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: min(300px, 46vw);
+  height: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 10px rgba(0,0,0,.55));
+}
 .bleed h1 {
   font-family: var(--serif);
   font-weight: 600;
@@ -266,6 +275,7 @@ footer a { color: var(--ink); }
 @media (max-width: 860px) {
   .sheet, .pair, .row2 { grid-template-columns: 1fr; }
   .bleed img { height: 58vh; object-position: 20% 55%; }
+  .bleed .schema { width: min(168px, 40vw); top: 10px; right: 10px; }
   .pair img { height: 240px; }
   .sticky { display: block; }
   .stack { padding-bottom: 28px; }
