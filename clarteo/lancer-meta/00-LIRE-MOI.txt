@@ -30,8 +30,7 @@ Pub 3  https://clarteo.netlify.app/?a=contrat
 
 Pixel Meta
 ----------
-Le pixel est dans le site (`js/config.js`), pas dans Netlify.
-Coller l’ID (chiffres seulement) dans `pixelId`. Redeploy.
+ID 427497203419189 — déjà dans `js/config.js` (head).
 Domaine à déclarer dans Events Manager : clarteo.netlify.app
 Ne pas coller le snippet Meta dans Netlify (injection coupée + double comptage).
 
