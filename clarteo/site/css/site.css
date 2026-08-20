@@ -340,6 +340,11 @@ h2 { margin: 0 0 8px; font-size: 1.55rem; letter-spacing: -0.02em; }
   font-weight: 800;
   margin: 0 0 6px;
 }
+.letter .hint-inline {
+  font-weight: 400;
+  font-size: 0.78em;
+  color: var(--mute);
+}
 
 .legal { padding: 56px 0 80px; max-width: 720px; }
 .legal h1 { font-size: 2rem; }

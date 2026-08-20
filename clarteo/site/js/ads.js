@@ -17,7 +17,7 @@ window.CLARTEO_ADS = {
   formA: {
     name: "Clartéo Vitrines",
     intro:
-      "Vitrines de commerce. Lorient et 40 km.\nOn vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.",
+      "Vitrines de commerce. Lorient et 40 km.\nOn vous rappelle maintenant (moins de cinq minutes). Au téléphone, on cale le premier passage. Sans engagement.",
     questions: [
       {
         q: "Ville du local",
@@ -56,7 +56,7 @@ window.CLARTEO_ADS = {
       },
     ],
     cut: "« Vous êtes : particulier / bureau / commerce » : question de routing ménage. Elle achète des leads hors offre et allonge la distance. Bureau = même pub vitrines, upsell plus tard.",
-    thankTitle: "Décrochez. On appelle dans les 5 minutes.",
+    thankTitle: "Décrochez. On vous rappelle maintenant.",
     thankBody:
       "Si vous ratez l’appel, rappelez le numéro qui s’affiche. Au téléphone, on cale le premier passage.",
     thankCta: "Appeler maintenant",

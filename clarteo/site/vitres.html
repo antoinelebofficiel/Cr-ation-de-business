@@ -23,8 +23,8 @@
       <h1 data-h1>Vitrines nettes. Le passant voit le magasin.</h1>
       <p class="cities">On passe à <u>Lorient</u>, <u>Lanester</u>, <u>Ploemeur</u>, <u>Guidel</u>, <u>Quéven</u>, <u>Hennebont</u>, <u>Auray</u>.</p>
       <ol class="steps">
-        <li>Vous laissez votre prénom, votre téléphone et votre ville.</li>
-        <li>On vous rappelle en 5 minutes et on cale le jour ensemble.</li>
+        <li>Vous laissez votre prénom, votre contact et votre ville.</li>
+        <li>On vous rappelle maintenant (moins de cinq minutes) et on cale le jour ensemble.</li>
         <li>Premier passage sans engagement.</li>
         <li>Le prix se dit au téléphone, avant de venir. Vous voyez. Ensuite vous dites oui, ou non.</li>
       </ol>
@@ -32,8 +32,8 @@
     </article>
 
     <aside class="card" id="form">
-      <h2>On vous rappelle dans les 5 minutes.</h2>
-      <p class="hint">Prénom, téléphone, ville.</p>
+      <h2>On vous rappelle maintenant <span class="hint-inline">(moins de cinq minutes)</span>.</h2>
+      <p class="hint">Prénom, contact, ville.</p>
       <form data-lead="vitres">
         <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
         <div class="row2">
@@ -42,7 +42,7 @@
             <input id="prenom" name="prenom" required autocomplete="given-name">
           </div>
           <div>
-            <label for="tel">Téléphone</label>
+            <label for="tel">Contact</label>
             <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
           </div>
         </div>
@@ -62,7 +62,7 @@
           <option>Autre (56, moins de 40 km)</option>
         </select>
         <button class="btn btn-dark btn-full" type="submit">
-          <span class="btn-l">Oui, rappelez-moi</span>
+          <span class="btn-l">Oui, rappelez-moi maintenant</span>
           <span class="btn-s">Sans engagement</span>
         </button>
         <p class="micro">Ce numéro sert à ce rappel. Rien d’autre.</p>
@@ -73,7 +73,7 @@
 
   <div class="sticky">
     <a class="btn btn-full" href="#form">
-      <span class="btn-l">Oui, rappelez-moi</span>
+      <span class="btn-l">Oui, rappelez-moi maintenant</span>
       <span class="btn-s">Sans engagement</span>
     </a>
   </div>

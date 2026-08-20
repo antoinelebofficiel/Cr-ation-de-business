@@ -6,7 +6,7 @@ Nom interne : Clartéo Vitrines
 Intro
 -----
 Vitrines de commerce. Lorient et 40 km.
-On vous rappelle en 5 minutes. Au téléphone, on cale le premier passage. Sans engagement.
+On vous rappelle maintenant (moins de cinq minutes). Au téléphone, on cale le premier passage. Sans engagement.
 
 Questions (toutes obligatoires)
 -------------------------------
@@ -40,7 +40,7 @@ Consentement rappel tél / WhatsApp : obligatoire
 
 Thank you
 ---------
-Titre  : Décrochez. On appelle dans les 5 minutes.
+Titre  : Décrochez. On vous rappelle maintenant.
 Texte  : Si vous ratez l’appel, rappelez le numéro qui s’affiche. Au téléphone, on cale le premier passage.
 Bouton : Appeler maintenant
 
