@@ -1,7 +1,6 @@
 (function () {
   const C = window.CLARTEO || {};
   const telDigits = (C.tel || "").replace(/\D/g, "");
-  const wa = (C.wa || "").replace(/\D/g, "");
   const telHref = telDigits
     ? "tel:+" + (telDigits.indexOf("33") === 0 ? telDigits : "33" + telDigits.replace(/^0/, ""))
     : "";
@@ -101,47 +100,38 @@
       }
       return;
     }
-
-    const lines = [
-      "Demande Clartéo. Vitrines commerce",
-      angle ? "Angle pub : " + angle : "",
-      "Prénom : " + data.prenom,
-      "Tél : " + data.tel,
-      data.ville ? "Ville : " + data.ville : "",
-      data.baies ? "Baies : " + data.baies : "",
-      data.consent ? "Consentement : oui" : "",
-    ].filter(Boolean);
-    const body = lines.join("\n");
-
-    try {
-      localStorage.setItem("clarteo_lead", JSON.stringify({ prenom: data.prenom, tel: data.tel }));
-    } catch (x) {}
-
-    if (window.fbq) window.fbq("track", "Lead");
-
-    const goMerci = () => {
-      location.href = "merci.html";
-    };
-
-    const ping = C.notifyUrl
-      ? fetch(C.notifyUrl, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            source: "landing",
-            angle: angle || "",
-            prenom: data.prenom,
-            tel: data.tel,
-            ville: data.ville || "",
-          }),
-        }).catch(() => {})
-      : Promise.resolve();
-
-    ping.finally(() => {
-      if (wa) {
-        window.open("https://wa.me/" + wa + "?text=" + encodeURIComponent(body), "_blank");
+    if (!data.ville) {
+      if (err) {
+        err.textContent = "Il faut la ville du commerce.";
+        err.classList.add("show");
       }
-      goMerci();
-    });
+      return;
+    }
+
+    const btn = form.querySelector('button[type="submit"]');
+    if (btn) btn.disabled = true;
+
+    fetch("/api/lead", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        prenom: data.prenom,
+        tel: data.tel,
+        ville: data.ville,
+        angle: angle || "",
+      }),
+    })
+      .then((r) => {
+        if (!r.ok) throw new Error("lead");
+        if (window.fbq) window.fbq("track", "Lead");
+        location.href = "merci.html";
+      })
+      .catch(() => {
+        if (btn) btn.disabled = false;
+        if (err) {
+          err.textContent = "Ça n’est pas parti. Réessayez.";
+          err.classList.add("show");
+        }
+      });
   });
 })();
