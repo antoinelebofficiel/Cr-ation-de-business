@@ -188,6 +188,7 @@ input, select {
   font-family: var(--serif);
   font-size: 0.98rem;
   padding-top: 8px;
+  text-align: center;
 }
 
 .faq details { border-top: 1px solid var(--line); padding: 12px 0; }
