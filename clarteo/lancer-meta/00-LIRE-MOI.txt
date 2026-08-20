@@ -30,7 +30,7 @@ Pub 3  https://clarteo.netlify.app/?a=contrat
 
 Pixel Meta
 ----------
-ID 427497203419189 — déjà dans `js/config.js` (head).
+ID 1003569026063926 — déjà dans `js/config.js` (head). Un seul pixel.
 Domaine à déclarer dans Events Manager : clarteo.netlify.app
 Ne pas coller le snippet Meta dans Netlify (injection coupée + double comptage).
 
