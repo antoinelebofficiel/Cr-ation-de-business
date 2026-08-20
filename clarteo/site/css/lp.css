@@ -9,7 +9,7 @@
   --serif: "Source Serif 4", Georgia, serif;
   --sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
   --max: 680px;
-  --pad: 16px;
+  --pad: 24px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -23,7 +23,7 @@ body {
   color: var(--ink);
   background: var(--white);
   font-size: 17px;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 a { color: inherit; }
 button, input, select { font: inherit; }
@@ -34,16 +34,16 @@ figure { margin: 0; }
   width: 100%;
   max-width: var(--max);
   margin-inline: auto;
-  padding-inline: max(var(--pad), env(safe-area-inset-left));
+  padding-inline: max(var(--pad), env(safe-area-inset-left), env(safe-area-inset-right));
 }
 
 .nav {
-  padding: 12px 0;
+  padding: 14px 0;
   text-align: center;
 }
 .logo {
   font-family: var(--serif);
-  font-size: 1.28rem;
+  font-size: 1.3rem;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: -0.03em;
@@ -58,17 +58,17 @@ figure { margin: 0; }
   cursor: pointer;
   text-decoration: none;
   font-weight: 700;
-  padding: 14px 16px;
+  padding: 14px 18px;
   border-radius: 5px;
   background: #24543a;
   color: #f7f4ee;
   box-shadow: 0 1px 0 rgba(255,255,255,.14) inset, 0 1px 2px rgba(26,24,20,.18);
-  line-height: 1.2;
+  line-height: 1.25;
   text-align: center;
 }
 .btn:hover { background: #1c4330; }
 .btn-full { width: 100%; }
-.card .btn-full { margin-top: 22px; }
+.card .btn-full { margin-top: 24px; }
 
 .bleed {
   position: relative;
@@ -87,38 +87,39 @@ figure { margin: 0; }
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 80px 0 22px;
+  padding: 80px 0 24px;
   background: linear-gradient(transparent, rgba(20,18,14,.86));
   color: #f6f2ea;
 }
 .bleed h1 {
   font-family: var(--serif);
   font-weight: 600;
-  font-size: clamp(1.55rem, 6.4vw, 2.5rem);
-  line-height: 1.18;
+  font-size: clamp(1.5rem, 6vw, 2.4rem);
+  line-height: 1.22;
   letter-spacing: -0.03em;
-  margin: 0 0 8px;
+  margin: 0 0 10px;
 }
 .bleed .lede {
   margin: 0;
   opacity: 0.92;
-  font-size: 1rem;
+  font-size: 1.02rem;
+  line-height: 1.45;
 }
 
-.stack { padding: 24px 0 32px; }
+.stack { padding: 28px 0 36px; }
 .cities {
   font-family: var(--serif);
   font-size: 1.08rem;
-  line-height: 1.5;
-  margin: 0 0 24px;
+  line-height: 1.55;
+  margin: 0 0 28px;
 }
 .cities u {
   text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
   text-decoration-color: var(--gold);
 }
 .steps {
-  margin: 0 0 28px;
+  margin: 0 0 32px;
   padding: 0;
   list-style: none;
   counter-reset: step;
@@ -126,12 +127,12 @@ figure { margin: 0; }
 .steps li {
   counter-increment: step;
   display: grid;
-  grid-template-columns: 1.4rem 1fr;
-  gap: 6px;
+  grid-template-columns: 1.5rem 1fr;
+  gap: 8px;
   font-family: var(--serif);
   font-size: 1.08rem;
-  line-height: 1.4;
-  margin: 0 0 16px;
+  line-height: 1.5;
+  margin: 0 0 18px;
   align-items: baseline;
 }
 .steps li:last-child { margin-bottom: 0; }
@@ -144,21 +145,21 @@ figure { margin: 0; }
 
 .card {
   background: var(--paper);
-  padding: 18px var(--pad);
-  border: 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  margin: 0 calc(-1 * var(--pad)) 28px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  margin: 0 0 32px;
 }
 .card h2 {
   font-family: var(--serif);
   font-size: 1.18rem;
   font-weight: 600;
   margin: 0 0 6px;
+  line-height: 1.3;
 }
 .hint { margin: 0 0 12px; color: var(--mute); font-size: 0.9rem; }
 .row2 { display: grid; grid-template-columns: 1fr; gap: 0; }
-label { display: block; font-size: 0.78rem; font-weight: 700; margin: 10px 0 4px; }
+label { display: block; font-size: 0.78rem; font-weight: 700; margin: 12px 0 5px; }
 input, select {
   width: 100%;
   max-width: 100%;
@@ -173,42 +174,44 @@ input, select {
 
 .pair {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 0 0 28px;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 0 0 32px;
 }
 .pair img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 5px;
 }
 .pair figcaption {
   font-family: var(--serif);
-  font-size: 0.95rem;
-  padding-top: 6px;
+  font-size: 0.98rem;
+  padding-top: 8px;
 }
 
-.faq details { border-top: 1px solid var(--line); padding: 10px 0; }
+.faq details { border-top: 1px solid var(--line); padding: 12px 0; }
 .faq details:last-child { border-bottom: 1px solid var(--line); }
 .faq summary { cursor: pointer; font-weight: 700; }
 .faq p { margin: 8px 0 0; color: var(--mute); font-size: 0.95rem; }
 
 .ps {
   font-family: var(--serif);
-  font-size: 1.05rem;
-  margin: 22px 0 0;
+  font-size: 1.08rem;
+  line-height: 1.45;
+  margin: 24px 0 0;
 }
 
 footer {
   border-top: 1px solid var(--line);
-  padding: 18px 0 24px;
+  padding: 20px 0 24px;
   font-size: 0.84rem;
   color: var(--mute);
 }
 .foot {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 footer a { color: var(--ink); }
@@ -237,19 +240,19 @@ footer a { color: var(--ink); }
   right: 0;
   bottom: 0;
   z-index: 40;
-  padding: 10px max(var(--pad), env(safe-area-inset-left)) calc(12px + env(safe-area-inset-bottom));
+  padding: 12px max(var(--pad), env(safe-area-inset-left)) calc(14px + env(safe-area-inset-bottom));
   background: var(--white);
   border-top: 1px solid var(--line);
 }
-body.ad footer { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
+body.ad footer { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
 
 @media (min-width: 641px) {
-  :root { --pad: 24px; }
-  body { font-size: 18px; line-height: 1.5; }
-  .nav { padding: 16px 0; }
+  :root { --pad: 28px; }
+  body { font-size: 18px; }
+  .nav { padding: 18px 0; }
   .logo { font-size: 1.35rem; }
   .sticky { display: none; }
-  body.ad footer { padding-bottom: 24px; }
+  body.ad footer { padding-bottom: 28px; }
   .bleed img {
     height: min(72vh, 680px);
     max-height: 680px;
@@ -263,17 +266,13 @@ body.ad footer { padding-bottom: calc(88px + env(safe-area-inset-bottom)); }
   .steps li {
     font-size: 1.18rem;
     margin-bottom: 22px;
-    grid-template-columns: 1.6rem 1fr;
-    gap: 8px;
   }
-  .card {
-    margin-left: 0;
-    margin-right: 0;
+  .card { padding: 24px; margin-bottom: 40px; }
+  .row2 { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .pair {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
     margin-bottom: 40px;
-    padding: 22px;
-    border: 1px solid var(--line);
   }
-  .row2 { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .pair { gap: 12px; margin-bottom: 40px; }
   .card .btn-full { margin-top: 28px; }
 }
