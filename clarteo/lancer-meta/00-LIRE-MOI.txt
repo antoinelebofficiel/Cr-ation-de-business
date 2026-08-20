@@ -15,6 +15,7 @@ Ordre d’upload
 2. Pub 1         →  dossier 1-video-vitesse/
 3. Pub 2         →  dossier 2-image-perte/
 4. Pub 3         →  dossier 3-image-preuve/
+5. Native 15 s   →  dossier native-15s/  (3 vidéos, MÊME ad set)
 
 Chaque dossier = le visuel + COPY.txt (coller tel quel).
 
@@ -23,6 +24,9 @@ Landing (remplacer le domaine une fois le site en ligne)
 Pub 1  lp.html?a=48h
 Pub 2  lp.html?a=2s
 Pub 3  lp.html?a=contrat
+N1     lp.html?a=nat1
+N2     lp.html?a=nat2
+N3     lp.html?a=nat3
 
 KPI : € / contrat signé. Pas le CPL.
 
