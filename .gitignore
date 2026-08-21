@@ -1,0 +1,8 @@
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
+clarteo/branding/logo/*.png
+clarteo/branding/bannieres/
+clarteo/branding/photos/
+clarteo/branding/pubs-meta/

@@ -1,0 +1,137 @@
+(function () {
+  const C = window.CLARTEO || {};
+  const telDigits = (C.tel || "").replace(/\D/g, "");
+  const telHref = telDigits
+    ? "tel:+" + (telDigits.indexOf("33") === 0 ? telDigits : "33" + telDigits.replace(/^0/, ""))
+    : "";
+  const params = new URLSearchParams(location.search);
+  const angle = params.get("a") || "";
+
+  const pack = ((window.CLARTEO_ADS && window.CLARTEO_ADS.angles) || []).find((a) => a.id === angle);
+  if (pack) {
+    const h1 = document.querySelector("[data-h1]");
+    const lede = document.querySelector("[data-lede]");
+    const letter = document.querySelector("[data-letter]");
+    const say = document.querySelector("[data-say]");
+    if (h1) h1.textContent = pack.h1;
+    if (lede) lede.textContent = pack.lede;
+    if (letter) {
+      letter.innerHTML = "";
+      pack.primary.split(/\n\n+/).forEach((block) => {
+        const p = document.createElement("p");
+        p.textContent = block.trim();
+        letter.appendChild(p);
+      });
+    }
+    if (say && pack.say && pack.say.length) {
+      say.innerHTML = "";
+      pack.say.forEach((block) => {
+        const p = document.createElement("p");
+        p.textContent = block;
+        say.appendChild(p);
+      });
+    }
+    document.title = pack.h1 + ". Clartéo";
+  }
+
+  const page = (location.pathname.split("/").pop() || "index.html").replace(/\/$/, "") || "index.html";
+  if (window.fbq && (page === "index.html" || page === "")) {
+    window.fbq("track", "ViewContent", {
+      content_name: "vitrines" + (angle ? "-" + angle : ""),
+      content_category: "vitrines",
+    });
+  }
+
+  document.querySelectorAll("[data-tel-href]").forEach((el) => {
+    if (telHref) {
+      el.href = telHref;
+      if (C.telDisplay && el.hasAttribute("data-tel-label")) el.textContent = C.telDisplay;
+    } else if (!el.getAttribute("href") || el.getAttribute("href") === "#") {
+      el.href = "#form";
+    }
+  });
+
+  document.querySelectorAll("[data-email]").forEach((el) => {
+    el.textContent = C.email;
+    if (el.tagName === "A") el.href = "mailto:" + C.email;
+  });
+  document.querySelectorAll("[data-responsable]").forEach((el) => {
+    el.textContent = C.responsable;
+  });
+
+  const form = document.querySelector("form[data-lead]");
+  if (!form) return;
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const err = form.querySelector(".err");
+    err?.classList.remove("show");
+    if (form.querySelector(".hp")?.value) return;
+
+    const data = Object.fromEntries(new FormData(form).entries());
+    if (!data.prenom || !data.tel) {
+      if (err) {
+        err.textContent = "Il faut le prénom et le téléphone.";
+        err.classList.add("show");
+      }
+      return;
+    }
+    if (!data.ville) {
+      if (err) {
+        err.textContent = "Il faut la ville du commerce.";
+        err.classList.add("show");
+      }
+      return;
+    }
+
+    const btn = form.querySelector('button[type="submit"]');
+    if (btn) btn.disabled = true;
+
+    const payload = {
+      prenom: data.prenom,
+      tel: data.tel,
+      ville: data.ville,
+      angle: angle || "",
+    };
+    const angleInput = document.getElementById("lead-angle");
+    if (angleInput) angleInput.value = payload.angle;
+
+    const postVercel = () =>
+      fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+    const postNetlify = () => {
+      const body = new URLSearchParams();
+      body.set("form-name", "joindre");
+      body.set("prenom", payload.prenom);
+      body.set("tel", payload.tel);
+      body.set("ville", payload.ville);
+      body.set("angle", payload.angle);
+      return fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString(),
+      });
+    };
+
+    const onNetlify = /\.netlify\.app$/.test(location.hostname);
+    const send = onNetlify ? postNetlify() : postVercel().then((r) => (r.ok ? r : postNetlify()));
+
+    send
+      .then((r) => {
+        if (!r.ok) throw new Error("lead");
+        if (window.fbq) window.fbq("track", "Lead");
+        location.href = "merci.html";
+      })
+      .catch(() => {
+        if (btn) btn.disabled = false;
+        if (err) {
+          err.textContent = "Ça n’est pas parti. Réessayez.";
+          err.classList.add("show");
+        }
+      });
+  });
+})();

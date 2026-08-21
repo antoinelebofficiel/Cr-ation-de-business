@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/merci.html
+  X-Robots-Tag: noindex, nofollow

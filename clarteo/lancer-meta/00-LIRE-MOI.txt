@@ -1,0 +1,37 @@
+CLARTÉO — PACK META J1
+======================
+
+1 campagne. 1 ad set. 3 pubs. Budget 100 €/j. Rayon 40 km Lorient. 25–65 ans.
+
+Campagne : CLARTEO | Leads | Vitrines | TOF
+CTA partout : S’inscrire
+Destination : Instant Form A  +  landing (en parallèle)
+
+Interdit dans l’ad : ménage, particulier, samedi, appartement, bureaux, prix.
+
+Ordre d’upload
+--------------
+1. Instant Form  →  instant-form.txt
+2. Pub 1         →  1-video-vitesse/   (MP4 + COPY.txt)
+3. Pub 2         →  2-image-perte/     (JPG feed + stories + COPY.txt)
+4. Pub 3         →  3-image-preuve/    (JPG feed + stories + COPY.txt)
+5. Page Facebook →  post-facebook-1/   (bannière photo + 1er post typo, pas les photos du site)
+
+Coller le COPY.txt tel quel. Ne pas rajouter d’overlay (déjà dans le visuel).
+
+Landing + politique (en ligne)
+------------------------------
+Politique Instant Form :
+  https://clarteo.netlify.app/politique.html
+
+Pub 1  https://clarteo.netlify.app/?a=48h
+Pub 2  https://clarteo.netlify.app/?a=2s
+Pub 3  https://clarteo.netlify.app/?a=contrat
+
+Pixel Meta
+----------
+ID 427497203419189 — déjà dans `js/config.js` (head). Un seul pixel.
+Domaine à déclarer dans Events Manager : clarteo.netlify.app
+Ne pas coller le snippet Meta dans Netlify (injection coupée + double comptage).
+
+KPI : € / contrat signé. Pas le CPL.

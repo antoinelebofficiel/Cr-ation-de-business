@@ -1,0 +1,8 @@
+[build]
+  publish = "clarteo/site"
+
+[build.processing]
+  skip_processing = true
+
+[build.environment]
+  NODE_VERSION = "20"
