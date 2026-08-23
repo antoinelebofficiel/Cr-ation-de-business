@@ -35,6 +35,7 @@ et {nom, SIRET commerce, adresse d’intervention} (« le Client »).
 5. **Assurance.** RC pro transmise sur demande.
 6. **Photos.** Le Client autorise les photos avant/après anonymisées (enseigne floutable sur demande) à des fins de preuve et de communication.
 7. **Upsell.** Toute prestation hors vitrines fait l’objet d’un avenant (sols, sanitaires, bureaux).
+8. **Cession.** Le Client accepte par avance la cession de ce contrat à un successeur du Prestataire (vente de tournée, apport, cession de fonds). Information écrite 15 jours avant. Prix, jour, fréquence inchangés. Sans cet accord anticipé, la tournée ne se revend pas.
 
 Fait à {Ville}, le {date}.
 Signature Client + Prestataire.
@@ -44,6 +45,7 @@ Version WhatsApp courte si le papier bloque :
 ```
 Je signe le contrat Clartéo vitrines
 {commerce}, {jour fixe}, {prix} €/mois, préavis 30 j.
+Cession possible à un successeur, mêmes conditions.
 Nom + date
 ```
 

@@ -1,0 +1,31 @@
+tournee_id,jour,zone,ilot,cibles,km,contrats,mrr,vendable,prix_cession
+T01,Mer,Ploemeur,2 Rue Saint-Bieuzy / 22 Pl. de l'Église,12,0.09,0,0,non,0
+T02,Lun,Lorient-centre,7 Rue Léo le Bourgo / 11 Rue Léo le Bourgo,12,0.1,0,0,non,0
+T03,Jeu,Hennebont,7 Rue Trottier / 14 Pl. Maréchal Foch,15,0.16,0,0,non,0
+T04,Mer,Larmor-Plage,1 Place Notre Dame / 2 Place Notre Dame,12,0.13,0,0,non,0
+T05,Lun,Lorient-centre,6 Av. du Faouédic / 7 Bd du Général Leclerc,12,0.15,0,0,non,0
+T06,Jeu,Queven,19 Rue Jean Jaurès / 22 Rue Jean Jaurès,12,0.15,0,0,non,0
+T07,Ven,Auray,Place Notre Dame / 58 Pl. de la République,12,0.16,0,0,non,0
+T08,Mer,Guidel,1 Rue du Puits / 5 Pl. Jaffré,12,0.17,0,0,non,0
+T09,Jeu,Hennebont,8 Rue du Puits Ferré / 21 Rue Trottier,12,0.18,0,0,non,0
+T10,Mer,Ploemeur,11 Rue de Larmor / 11 Rue Saint-Bieuzy,12,0.19,0,0,non,0
+T11,Ven,Auray,68 Pl. de la République 72 / 3 Rue Philippe Vannier,12,0.23,0,0,non,0
+T12,Ven,Auray,1 Rue du Père Éternel / 7 Pl. de la République,12,0.24,0,0,non,0
+T13,Mer,Ploemeur,25 Pl. de l'Église / 9 Rue Sainte-Anne,12,0.24,0,0,non,0
+T14,Ven,Auray,1 Rue du Château / 7 Rue du Lait,12,0.26,0,0,non,0
+T15,Ven,Plouay,5 Pl. de la Mairie / 7 Pl. de la Mairie,12,0.27,0,0,non,0
+T16,Jeu,Hennebont,5bis Av. de la Libération / 33 Rue Trottier,12,0.28,0,0,non,0
+T17,Mar,Lanester,Centre Cial Leclerc / 13 B Rue François Mauriac,12,0.28,0,0,non,0
+T18,Mer,Larmor-Plage,24 Avenue Charles de Gaulle / 5 Av. de la Plage,12,0.34,0,0,non,0
+T19,Lun,Lorient-Merville,1 Rue Beauvais / 8 Cr de Chazelles,12,0.45,0,0,non,0
+T20,Lun,Lorient-centre,7 Rue du Port / 1 Pl. Aristide Briand,12,0.48,0,0,non,0
+T21,Lun,Lorient-centre,5 Rue du Couëdic / 4 Rue Joseph Rollo,12,0.53,0,0,non,0
+T22,Jeu,Queven,Rond Point de Runio / ROND POINT BEG RUNIO,12,0.53,0,0,non,0
+T23,Mer,Guidel,10 Pl. de Polignac / 6 Rue Capitaine Quillien,12,0.54,0,0,non,0
+T24,Lun,Lorient-centre,4 Av. Anatole France / 11 Rue Auguste Nayel,12,0.56,0,0,non,0
+T25,Ven,Auray,1 Rue Lionel Huette / 10 Rue Jean Marie Barre,12,0.58,0,0,non,0
+T26,Mar,Caudan,5 Rue de la Libération / 16 All. des Acacias,12,0.6,0,0,non,0
+T27,Mar,Lanester,102 Rue Marcel Sembat / 31 Av. Georges Guieysse,12,0.65,0,0,non,0
+T28,Ven,Auray,27 Rue Jean Marie Barre / 22 Rue Jean Marie Barre,15,0.84,0,0,non,0
+T29,Mar,Caudan,Chez Orthopédie LAGARRIGUE / 94 Rue Henri Ducassou,12,0.72,0,0,non,0
+T30,Lun,Lorient-Merville,45 Rue Paul Guieysse / 63 Rue Paul Guieysse,12,0.72,0,0,non,0

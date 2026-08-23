@@ -45,3 +45,5 @@ Si le gérant n’est pas satisfait du premier passage : on revient sous 24 h ou
 - Ven : Auray / overflow
 
 Les pubs couvrent tout le disque. Le calendrier impose la tournée. Un lead Auray le lundi = créneau vendredi (tu le cadres : « on est sur Auray vendredi, je vous bloque 9h15 »).
+
+Les 30 îlots à remplir (et à revendre plus tard) : `mecanisme/carnet.csv`. Lecture : `mecanisme/00-LIRE.txt`.
