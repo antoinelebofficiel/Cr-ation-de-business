@@ -3,6 +3,7 @@
 Les pubs créent de la demande. La liste **crée** le marché. 1 008 indépendants avec téléphone dans `cibles-commerces.csv`. C’est 10× plus de volume que d’attendre Facebook.
 
 Filtrer : `chaine = non` + `tel` non vide. Trier par zone du jour (voir tournées dans `01-offre.md`).
+Ordre opérationnel : l’îlot du jour dans `mecanisme/carnet.csv` (T01 le jour 1, T02 le jour 2). Hors îlot = hors tournée.
 
 Ignorer les sièges nationaux, banques régie, grandes enseignes déjà taguées `chaine = oui`. Un concessionnaire ou un salon de coiffure indépendant = cible prioritaire (vitrines + passage fréquent).
 
