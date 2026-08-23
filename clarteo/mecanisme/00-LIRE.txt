@@ -49,20 +49,36 @@ Ven  Auray / Port-Louis / Plouay
 Un lead hors jour = créneau du jour de sa zone. Pas de virée.
 
 
-30 JOURS — 30 ÎLOTS
--------------------
-carnet.csv : 360 cibles déjà coupées (12 par tournée, les plus denses).
-Tu traites T01 le jour 1, T02 le jour 2. Ordre = densité. Ne recoupe pas.
+CRÉER UNE TOURNÉE — BLITZ 72 H
+------------------------------
+Une tournée n’est pas une liste. Elle est créée le matin où 4 vitres
+du même îlot sont lavées (ou calées) à 40 min d’intervalle.
 
-Journée : 20 portes sur l’îlot du jour + 40 appels de l’îlot de demain.
-Close : « Je suis sur {îlot} {jour} à {heure}. 49 €, sans engagement. Oui ou non ? »
-Après le passage : contrat jour fixe, même tournée, SEPA.
+Tu n’ouvres PAS T02 tant que T01 n’a pas 4 stops. Parallèle = 0 tournée.
+
+python3 mecanisme/blitz.py          → prochaine tournée à basculer
+python3 mecanisme/blitz.py T01      → forcer l’îlot
+python3 mecanisme/blitz.py Mer      → îlot du mercredi encore vide
+
+J0  8h30–11h  portes dans l’ordre de aujourdhui.csv (boulangère / pharmacie
+              / salon d’abord, banque en dernier). Photo de LEUR vitre.
+              Close : « Je passe {jour} matin ici. 49 €, sans engagement. {heure} ? »
+              Stop dès 4 OUI. Tu n’ajoutes pas un 13e commerce.
+J0  14h–17h   appels = uniquement les fermés / NRP de CETTE liste.
+J1  8h30      tu laves les OUI sur la place. Van visible.
+              Entre deux baies : « je suis en face, 20 min, 49 € ».
+J1  soir      « Je signe » + jour fixe + SEPA. statut → premier / contrat.
+J2            s’il manque un stop : même place. Jamais un autre îlot.
+
+Le 4e oui vient des voisins qui voient les 3 premières vitres. C’est pour ça
+que tu laves J1 sur place au lieu de tout caler « la semaine prochaine ».
 
 
 FICHIERS
 --------
 carnet.csv      le carnet (cible → contrat). C’est l’actif.
 tournees.csv    1 ligne par tournée : stops, MRR, vendable, prix
+blitz.py        liste du jour pour basculer UNE tournée (→ aujourdhui.csv)
 couper.py       régénère les 30 îlots (interdit dès qu’un statut bouge, sauf --force)
 valoriser.py    lit le carnet, sort le prix de chaque tournée
 
