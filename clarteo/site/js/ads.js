@@ -322,5 +322,31 @@ window.CLARTEO_ADS = {
       halbert: { score: 8, note: "Question = A-pile. Disqualifie le particulier sans question de form." },
       wiebe: { score: 9, note: "Si la réponse interne est « personne », l’acte suit. Meilleure direction du set." },
     },
+    {
+      id: "3v",
+      name: "3 vitrines Lorient centre",
+      overlay: "3 vitrines. Lorient centre.",
+      primary:
+        "On complète la tournée Lorient centre.\n\nIl nous reste 3 vitrines à glisser dans le passage. On est déjà sur place.\n\nFormulaire. On rappelle en 5 minutes. On cale le créneau. Sans engagement.",
+      titles: [
+        "3 vitrines. Lorient centre",
+        "On est déjà sur place",
+        "On glisse le vôtre dans la tournée",
+        "Lorient centre. 3 passages",
+        "Compléter la tournée",
+      ],
+      description: "Déjà sur place. Sans engagement.",
+      h1: "3 vitrines. Lorient centre.",
+      lede: "On complète la tournée. On est déjà sur place. Premier passage sans engagement.",
+      say: [
+        "Il reste 3 passages à glisser dans la tournée Lorient centre.",
+        "On est déjà sur place. On cale le créneau au téléphone. Sans engagement.",
+        "Vous laissez votre numéro. On rappelle en 5 minutes.",
+      ],
+      crea: "Carte typo. Pas de photo site. Pin 8 km Lorient + Instant Form.",
+      schwartz: { score: 8, note: "Most-aware local + rareté réelle (3 stops). Faux si la pub tourne 3 semaines." },
+      halbert: { score: 9, note: "Spécificité maximale : une place, un jour, 3 places. A-pile gérant centre." },
+      wiebe: { score: 9, note: "L’acte = prendre le trou dans une tournée déjà là. Distance minimale." },
+    },
   ],
 };

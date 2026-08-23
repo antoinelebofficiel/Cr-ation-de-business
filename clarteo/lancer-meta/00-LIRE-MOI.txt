@@ -15,7 +15,8 @@ Ordre d’upload
 2. Pub 1         →  1-video-vitesse/   (MP4 + COPY.txt)
 3. Pub 2         →  2-image-perte/     (JPG feed + stories + COPY.txt)
 4. Pub 3         →  3-image-preuve/    (JPG feed + stories + COPY.txt)
-5. Page Facebook →  post-facebook-1/   (bannière photo + 1er post typo, pas les photos du site)
+5. Pub 4 (îlot)  →  4-ilot-lorient/    (Leads + Instant Form, pin 8 km Lorient, 3–5 j)
+6. Page Facebook →  post-facebook-1/   (bannière photo + 1er post typo, pas les photos du site)
 
 Coller le COPY.txt tel quel. Ne pas rajouter d’overlay (déjà dans le visuel).
 
@@ -27,6 +28,7 @@ Politique Instant Form :
 Pub 1  https://clarteo.netlify.app/?a=48h
 Pub 2  https://clarteo.netlify.app/?a=2s
 Pub 3  https://clarteo.netlify.app/?a=contrat
+Pub 4  https://clarteo.netlify.app/?a=3v
 
 Pixel Meta
 ----------
