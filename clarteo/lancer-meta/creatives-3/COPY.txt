@@ -23,7 +23,7 @@ Fil + Stories. Pas Audience Network.
 2. DÉJÀ SUR PLACE
    2-travail-1080x1350.jpg
    2-travail-1080x1920.jpg
-   Photo : raclette, aucun texte sur l’image.
+   Photo : vitrine nette, plein cadre, aucun texte.
 
    On est déjà sur Lorient centre.
 
@@ -37,7 +37,7 @@ Fil + Stories. Pas Audience Network.
 3. 3 VITRES
    3-tournee-1080x1350.jpg
    3-tournee-1080x1920.jpg
-   Carte typo. Overlay déjà dans l’image.
+   Affiche encre. Overlay déjà dans l’image.
 
    On complète la tournée Lorient centre.
 
