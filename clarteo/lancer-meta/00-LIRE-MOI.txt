@@ -17,6 +17,7 @@ Ordre d’upload
 4. Pub 3         →  3-image-preuve/    (JPG feed + stories + COPY.txt)
 5. Pub 4 (îlot)  →  4-ilot-lorient/    (Leads + Instant Form, pin 8 km Lorient, 3–5 j)
 6. Page Facebook →  post-facebook-1/   (bannière photo + 1er post typo, pas les photos du site)
+7. Avant/après   →  avant-apres/       (3 photos, sans texte)
 
 Coller le COPY.txt tel quel. Ne pas rajouter d’overlay (déjà dans le visuel).
 
