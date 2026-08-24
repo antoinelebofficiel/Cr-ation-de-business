@@ -14,4 +14,4 @@
 12. `hennebont-100-vitrines.md` — ordre des rues
 13. `mecanisme/` — 30 tournées, carnet, cession 10× MRR
 
-Lancement : `lancer-meta/00-LIRE-MOI.txt`. 1 ad set, 3 pubs, 100 €/j. Destination : `https://clarteo.netlify.app/?a=`
+Lancement : `lancer-meta/00-LIRE-MOI.txt`. 1 ad set, 3 pubs, Instant Form. Pin Lorient 8 km.
