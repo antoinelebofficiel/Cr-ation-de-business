@@ -325,9 +325,9 @@ window.CLARTEO_ADS = {
     {
       id: "3v",
       name: "3 vitrines Lorient centre",
-      overlay: "3 vitrines. Lorient centre.",
+      overlay: "Nous recherchons 3 vitrines. Lorient centre.",
       primary:
-        "On complète la tournée Lorient centre.\n\nIl nous reste 3 vitrines à glisser dans le passage. On est déjà sur place.\n\nFormulaire. On rappelle en 5 minutes. On cale le créneau. Sans engagement.",
+        "Nous recherchons 3 vitrines sur Lorient centre.\n\nC’est pour compléter la tournée. On est déjà sur place.\n\nFormulaire. On rappelle en 5 minutes. On cale le créneau. Sans engagement.",
       titles: [
         "3 vitrines. Lorient centre",
         "On est déjà sur place",
