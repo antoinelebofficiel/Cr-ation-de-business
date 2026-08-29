@@ -1,0 +1,13 @@
+ordre_blitz,tournee_id,heure_proposee,commerce,tel,adresse,statut,rang,action
+1,T01,08:30,Drean Pascal,02 97 86 28 48,"20 Pl. de l'Église, 56270 Ploemeur, France",cible,1,PORTE puis appel si fermé
+2,T01,09:10,Pharmacie de l'Eglise,02 97 86 32 49,"19 Pl. de l'Église, 56270 Ploemeur, France",cible,1,PORTE puis appel si fermé
+3,T01,09:50,Art et Création,02 97 85 20 66,"24 Pl. de l'Église, 56270 Ploemeur, France",cible,1,PORTE puis appel si fermé
+4,T01,10:30,Elo les Délices,06 10 84 43 67,"24 Pl. de l'Église, 56270 Ploemeur, France",cible,1,PORTE puis appel si fermé
+5,T01,11:10,Little Italie,02 97 86 14 14,"4-2 Rue de Larmor, 56270 Ploemeur, France",cible,2,PORTE puis appel si fermé
+6,T01,11:50,Joaillerie Elor,02 90 61 66 60,"2 Rue Saint-Bieuzy, 56270 Ploemeur, France",cible,3,PORTE puis appel si fermé
+7,T01,11:50,Bizoù Caillou,02 97 35 43 21,"22 Pl. de l'Église, 56270 Ploemeur, France",cible,3,PORTE puis appel si fermé
+8,T01,11:50,les passagers du vent,02 97 85 29 45,"22 Pl. de l'Église, 56270 Ploemeur, France",cible,3,PORTE puis appel si fermé
+9,T01,11:50,Agence Immo,02 97 86 69 69,"22 Pl. de l'Église, 56270 Ploemeur, France",cible,5,PORTE puis appel si fermé
+10,T01,11:50,Ruseff & Latruffe Immobilier,02 97 86 69 69,"22 Pl. de l'Église, 56270 Ploemeur, France",cible,5,PORTE puis appel si fermé
+11,T01,11:50,Crédit Maritime Grand Ouest,02 72 96 06 90,"21 Place de l''Eglise, 56270 Ploemeur, France",cible,5,PORTE puis appel si fermé
+12,T01,11:50,Julie HAVET - VAULTIER IMMOBILIER - Frais d'agence fixes & réduits !,06 07 43 97 20,"Pl. de l'Église, 56270 Ploemeur, France",cible,5,PORTE puis appel si fermé

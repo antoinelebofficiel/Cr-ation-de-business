@@ -1,0 +1,104 @@
+CLARTÉO — MÉCANISME CESSIBLE
+============================
+
+Ce que tu construis : 30 tournées. Chaque tournée remplie se revend.
+Ce que tu ne construis pas : un job (toi dans le camion, clients dans ta tête).
+
+
+L’UNITÉ QUI SE VEND
+-------------------
+Une tournée = un jour + un îlot + les contrats SEPA de cet îlot.
+
+L’acheteur reçoit le carnet (qui, où, quand, combien, accès).
+Il n’achète pas la marque Clartéo, ni les pubs, ni les autres jours.
+Toi tu gardes le disque. Tu peux vendre T04 (Hennebont jeudi) et garder Lorient.
+
+
+RÈGLE POUR QUE ÇA SE REVENDE
+----------------------------
+1. Jour fixe. Jamais « on s’appelle ».
+2. SEPA / virement le même jour chaque mois. Cash de la main = invendable.
+3. Contrat signé (papier ou WhatsApp « Je signe ») avec clause 8 (cession).
+4. Fiche à jour dans carnet.csv le soir du passage. Tête = 0 valeur.
+5. Densité : 4 stops minimum sur le même matin, sinon ce n’est pas une tournée.
+
+
+CESSION — UNE TOURNÉE EST VENDABLE QUAND
+----------------------------------------
+- ≥ 6 contrats actifs
+- ≥ 3 mois d’ancienneté médiane
+- SEPA ≥ 80 %
+- churn < 15 % sur 90 jours
+- MRR tournée ≥ 500 €
+
+Prix : 10 × MRR de la tournée.
+Bande 8× (churn, cash, trous) à 12× (SEPA plein, 8 stops, < 1 km).
+
+Exemple : jeudi Hennebont, 8 contrats × 89 € = 712 €/mois → 7 120 €.
+30 tournées à 700 € MRR = 21 000 € MRR → ~210 000 € de carnet.
+
+
+CALENDRIER (NE PAS Y TOUCHER)
+-----------------------------
+Lun  Lorient
+Mar  Lanester / Caudan
+Mer  Ploemeur / Larmor / Guidel
+Jeu  Quéven / Hennebont / Inzinzac
+Ven  Auray / Port-Louis / Plouay
+
+Un lead hors jour = créneau du jour de sa zone. Pas de virée.
+
+
+CRÉER UNE TOURNÉE — BLITZ 72 H
+------------------------------
+Une tournée n’est pas une liste. Elle est créée le matin où 4 vitres
+du même îlot sont lavées (ou calées) à 40 min d’intervalle.
+
+Tu n’ouvres PAS T02 tant que T01 n’a pas 4 stops. Parallèle = 0 tournée.
+
+python3 mecanisme/blitz.py          → prochaine tournée à basculer
+python3 mecanisme/blitz.py T01      → forcer l’îlot
+python3 mecanisme/blitz.py Mer      → îlot du mercredi encore vide
+
+J0  8h30–11h  portes dans l’ordre de aujourdhui.csv (boulangère / pharmacie
+              / salon d’abord, banque en dernier). Photo de LEUR vitre.
+              Close : « Je passe {jour} matin ici. 49 €, sans engagement. {heure} ? »
+              Stop dès 4 OUI. Tu n’ajoutes pas un 13e commerce.
+J0  14h–17h   appels = uniquement les fermés / NRP de CETTE liste.
+J1  8h30      tu laves les OUI sur la place. Van visible.
+              Entre deux baies : « je suis en face, 20 min, 49 € ».
+J1  soir      « Je signe » + jour fixe + SEPA. statut → premier / contrat.
+J2            s’il manque un stop : même place. Jamais un autre îlot.
+
+Le 4e oui vient des voisins qui voient les 3 premières vitres. C’est pour ça
+que tu laves J1 sur place au lieu de tout caler « la semaine prochaine ».
+
+
+FICHIERS
+--------
+carnet.csv      le carnet (cible → contrat). C’est l’actif.
+tournees.csv    1 ligne par tournée : stops, MRR, vendable, prix
+blitz.py        liste du jour pour basculer UNE tournée (→ aujourdhui.csv)
+couper.py       régénère les 30 îlots (interdit dès qu’un statut bouge, sauf --force)
+valoriser.py    lit le carnet, sort le prix de chaque tournée
+
+Colonnes statut dans carnet.csv :
+  cible | premier | contrat | perdu
+
+
+CE QUE L’ACHETEUR REÇOIT (DOSSIER DE CESSION)
+---------------------------------------------
+- carnet de la tournée (contrats, accès, heures, photos)
+- copies des « Je signe » / PDF
+- 15 jours de double passage (toi + lui)
+- clause 8 déjà acceptée par le client
+
+Tu envoies un WhatsApp 15 j avant :
+« {Prenom}, même passage, même jour, {Prénom acheteur} reprend la tournée.
+Rien ne change pour vous. »
+
+
+INTERDIT
+--------
+Vendre une liste de prospects. Vendre sans SEPA. Vendre Clartéo (marque)
+avec une seule tournée. Promettre 48 h partout. Sortir du disque 40 km.

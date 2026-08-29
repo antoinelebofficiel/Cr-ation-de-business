@@ -1,0 +1,68 @@
+CLARTÉO — SEMAINE FROID + ÉQUIPES
+=================================
+
+Toi = 100 % vente + recrutement. L’AE = 100 % exécution.
+Tu ne laves plus dès qu’un AE a fait 2 lundis avec toi.
+Les pubs restent vitrines. Le ménage de locaux se vend au téléphone et à la porte, pas en Meta.
+
+
+ZONE DU JOUR (ne pas mélanger)
+------------------------------
+Lun  Lorient centre / Keroman / Merville
+Mar  Lanester / Caudan
+Mer  Ploemeur / Larmor / Guidel
+Jeu  Quéven / Hennebont / Inzinzac
+Ven  Auray / Port-Louis / Plouay
+Sam  commerces OUVERTS du même disque (Lorient + 1 ville). Pas de bureaux.
+
+
+QUOTAS (Lun–Ven)
+----------------
+Portes îlot          25
+Appels CSV îlot      60  (NRP = retouche +12 min, +17 h)
+Leads pubs           tous < 5 min (tu coupes le bloc en cours)
+Contacts AE          10 (jusqu’à 2 AE signés, ensuite 3/j d’entretien)
+
+Sam : 20 portes + 8 essais / entretiens AE. 0 appel bureau.
+
+
+JOURNÉE TYPE LUN–VEN
+--------------------
+07:30  blitz.py + 12 fiches de l’îlot (carnet.csv). Photo Street View.
+08:00  leads de la nuit. WhatsApp + appel.
+08:30–12:00  PORTES sur l’îlot. Vitrine d’abord. Locaux ensuite, même gérant.
+12:00–12:40  manger. 1er passage de NRP.
+13:00–16:20  APPELS. Même ville, même jour de tournée. Jamais Auray le lundi.
+16:20–17:20  RECRUTEMENT AE (voir recrutement.txt).
+17:20–18:30  12 touches + carnet + pipeline-ae.csv + WhatsApp devis.
+
+Samedi
+09:00–13:00  portes commerces ouverts (boulangère, salon, resto, tabac).
+14:00–16:30  essai terrain AE (2 vitres avec toi) ou 2e vague portes.
+16:30        carnet. Pas d’appels bureaux.
+
+
+CE QUE TU VENDS À CHAQUE CONTACT
+--------------------------------
+1. Le trou de tournée vitrines (49/79 €, jour du secteur, sans engagement).
+2. Si oui, ou si « j’ai déjà un laveur » : les locaux, même jour.
+   Entrée + sanitaires + pièces du fond. +60 à 150 €/mois.
+
+Tu n’ouvres JAMAIS par le ménage sur un commerce. La vitre ouvre. Le local suit.
+Exception : pas de vitrine (bureau étage, cabinet). Là tu ouvres locaux.
+
+
+PREUVE QUE LA SEMAINE EST TENUE
+-------------------------------
+Soir : portes / appels / créneaux vitrines / avenants locaux / AE joints.
+Lun soir : ≥ 4 créneaux sur Lorient = T tournée ouverte.
+Sam soir : ≥ 1 AE a lavé 2 vitres avec toi, ou 10 AE rappelés.
+
+
+FICHIERS
+--------
+equipe/recrutement.txt     comment tu staffes
+equipe/pipeline-ae.csv     les candidats
+equipe/contrat-ae.txt      1 page, il facture
+mecanisme/blitz.py         îlot du jour
+mecanisme/carnet.csv       l’actif

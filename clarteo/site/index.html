@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vitrines de commerce. Clartéo</title>
+  <meta name="description" content="On lave les vitrines des commerces. Lorient et 40 km. On vous rappelle maintenant. On cale le premier passage au téléphone. Sans engagement.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/lp.css">
+  <script src="js/config.js"></script>
+</head>
+<body class="ad">
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=427497203419189&ev=PageView&noscript=1" alt=""></noscript>
+  <header class="nav">
+    <div class="wrap">
+      <span class="logo">Clartéo<i>.</i></span>
+    </div>
+  </header>
+
+  <figure class="bleed">
+    <img src="img/lp-rue.jpg" alt="Devanture de commerce, intérieur visible depuis la rue">
+    <div class="on">
+      <div class="wrap">
+        <h1 data-h1>Vitrines nettes. Le passant voit le magasin.</h1>
+        <p class="lede" data-lede>On lave les vitrines des commerces. 40 km autour de Lorient.</p>
+      </div>
+    </div>
+  </figure>
+
+  <main class="wrap stack">
+    <p class="cities">On passe à <u>Lorient</u>, <u>Lanester</u>, <u>Ploemeur</u>, <u>Guidel</u>, <u>Quéven</u>, <u>Hennebont</u>, <u>Auray</u>, et 40 km à la ronde.</p>
+
+    <ol class="steps">
+      <li><span>Vous laissez votre prénom, votre contact et votre ville.</span></li>
+      <li><span>On vous <strong>rappelle maintenant</strong> (moins de 5 minutes).</span></li>
+      <li><span>On définit un <strong>tarif directement</strong>.</span></li>
+      <li><span>On s'accorde sur le <strong>premier passage (sans engagement)</strong>.</span></li>
+    </ol>
+
+    <div class="card" id="form">
+      <h2 id="form-name">Comment me joindre maintenant ?</h2>
+      <p class="hint">Prénom, téléphone, ville.</p>
+      <form data-lead="vitres" name="joindre" method="POST" data-netlify="true" data-netlify-honeypot="website" aria-labelledby="form-name">
+        <input type="hidden" name="form-name" value="joindre">
+        <input type="hidden" name="angle" id="lead-angle" value="">
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off">
+        <div class="row2">
+          <div>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" name="prenom" required autocomplete="given-name">
+          </div>
+          <div>
+            <label for="tel">Téléphone</label>
+            <input id="tel" name="tel" type="tel" required autocomplete="tel" inputmode="tel">
+          </div>
+        </div>
+        <label for="ville">Ville du commerce</label>
+        <select id="ville" name="ville" required>
+          <option value="">Choisir</option>
+          <option>Lorient</option>
+          <option>Lanester</option>
+          <option>Ploemeur</option>
+          <option>Guidel</option>
+          <option>Quéven</option>
+          <option>Caudan</option>
+          <option>Hennebont</option>
+          <option>Larmor-Plage</option>
+          <option>Port-Louis</option>
+          <option>Auray</option>
+          <option>Autre (56, moins de 40 km)</option>
+        </select>
+        <button class="btn btn-full" type="submit">Oui, rappelez-moi maintenant</button>
+        <p class="err"></p>
+      </form>
+    </div>
+
+    <div class="pair">
+      <figure>
+        <img src="img/lp-travail.jpg" alt="Raclette sur une vitrine">
+        <figcaption>Le travail. Eau, raclette, angles.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/lp-propre.jpg" alt="Vitrine nette, intérieur visible">
+        <figcaption>Le magasin se lit depuis la rue.</figcaption>
+      </figure>
+    </div>
+
+    <div class="faq">
+      <details>
+        <summary>Je dois signer un contrat ?</summary>
+        <p>Non. Premier passage sans engagement. Le jour fixe, après, photo en main.</p>
+      </details>
+      <details>
+        <summary>Vous passez quand ?</summary>
+        <p>Cette semaine. On cale le jour au téléphone, selon la tournée de votre ville.</p>
+      </details>
+      <details>
+        <summary>C’est combien ?</summary>
+        <p>Selon les baies. Trois lignes, au téléphone, avant de venir.</p>
+      </details>
+      <details>
+        <summary>J’ai déjà un laveur ?</summary>
+        <p>Un passage. Vous comparez. S’il est régulier et nickel, vous le gardez.</p>
+      </details>
+    </div>
+    <p class="ps">P.S. Vous voyez le résultat. Ensuite vous dites oui, ou non.</p>
+  </main>
+
+  <div class="sticky">
+    <a class="btn btn-full" href="#form">Oui, rappelez-moi maintenant</a>
+  </div>
+
+  <footer>
+    <div class="wrap foot">
+      <div>Clartéo. Vitrines, 40 km autour de Lorient.</div>
+      <div><a href="politique.html">Confidentialité</a></div>
+    </div>
+  </footer>
+  <script src="js/ads.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

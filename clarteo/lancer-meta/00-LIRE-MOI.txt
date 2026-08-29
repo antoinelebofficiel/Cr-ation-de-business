@@ -1,0 +1,23 @@
+CLARTÉO — PACK META
+===================
+
+1 campagne. 1 ad set. 3 pubs. Même message.
+Objectif Leads. Instant Form. CTA S’inscrire.
+Pin Lorient 8 km. 30–60 ans. Fil + Stories.
+
+Ordre
+-----
+1. Instant Form  →  instant-form.txt
+2. Pub 1         →  1-affiche/
+3. Pub 2         →  2-boutique/
+4. Pub 3         →  3-rue/
+5. Page Facebook →  post-facebook-1/
+
+Copy des 3 pubs : COPY.txt (coller tel quel).
+Overlay déjà sur l’image.
+
+Politique : https://clarteo.netlify.app/politique.html
+Landing  : https://clarteo.netlify.app/?a=3v
+
+Pixel 427497203419189 dans js/config.js (redeploy Netlify).
+KPI : € / contrat signé.

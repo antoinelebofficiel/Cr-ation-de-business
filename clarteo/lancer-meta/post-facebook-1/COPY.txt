@@ -1,0 +1,35 @@
+FACEBOOK — 2 VISUELS DISTINCTS
+==============================
+
+Le site garde lp-rue.jpg (la boulangerie depuis la rue).
+Ne pas réutiliser cette photo ici.
+lp-travail.jpg (raclette) : site seulement. Pas le 1er post.
+
+1. BANNIÈRE (couverture page)
+   Fichier : banniere-1640x924.jpg
+   Photo   : vitrine boutique, intérieur visible (lp-propre)
+   Facebook → Paramètres de la page → Photo de couverture
+   Logo en bas à droite (le profil mange le bas gauche).
+
+2. PREMIER POST
+   Fichier : feed-1080x1350.jpg
+   Visuel  : carte typo, fond papier. Pas de photo.
+   Publication image + texte ci-dessous.
+   1er commentaire : https://clarteo.netlify.app/
+   Ne pas booster ce post. Les ads restent le pack 1-2-3.
+
+
+TEXTE DU POST (coller)
+----------------------
+On lave les vitrines des commerces. Lorient et 40 km.
+
+Le passant juge en 2 secondes. S’il ne lit pas le magasin, il va à côté.
+
+Vous laissez votre prénom, votre téléphone, votre ville.
+On vous rappelle maintenant (moins de 5 minutes).
+On définit un tarif au téléphone.
+On s’accorde sur un premier passage, sans engagement.
+
+Lorient, Lanester, Ploemeur, Guidel, Quéven, Hennebont, Auray, et 40 km à la ronde.
+
+Clartéo.
