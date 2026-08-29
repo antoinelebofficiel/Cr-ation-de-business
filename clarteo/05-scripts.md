@@ -91,11 +91,17 @@ Dès « OK » : tu envoies l’heure d’arrivée ± 45 min le matin même.
 
 ---
 
-## Machine B (ménage) — ouverture
+## Froid — vitrines puis locaux (même appel)
 
-> {Prenom}, Clartéo, vous avez demandé un créneau ménage / vitres à {Ville}. C’est bien {appart/maison} ?
+Après le close vitrines, ou s’il a déjà un laveur :
 
-Close : vacation 2 h découverte (prix à figer : 28–32 €/h ou forfait 59–89 € selon surface). Même mécanique : première, puis récurrent.
+> Tant qu’on est dans la rue {jour} : entrée, sanitaires, pièces du fond. +{60/90/120} €/mois, même passage. Je l’ajoute ?
+
+Si pas de vitrine (bureau, cabinet) :
+
+> {Commerce} bonjour, Clartéo — on tient les locaux des commerces sur {Ville}. On passe déjà {jour}. Première, vous voyez, ensuite un jour fixe. Je vous glisse {heure} ?
+
+Pas de particulier. Pas de « ménage » en pub. Forfait mois, même tournée.
 
 ---
 

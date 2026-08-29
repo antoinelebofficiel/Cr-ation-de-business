@@ -23,7 +23,8 @@ Si « envoyez un mail » :
 
 Noter dans le Sheet : NRP / refus / rappel / OK créneau.
 
-Quota : **40 appels / jour**. 40 × 6 = 240/semaine. La liste tient 4 semaines d’appels. Ensuite on recommence les NRP.
+Quota Lun–Ven : **60 appels + 25 portes**. Sam : **20 portes**, 0 appel bureau.
+Semaine : `equipe/00-SEMAINE.txt`. Recrutement AE : `equipe/recrutement.txt`.
 
 ---
 
@@ -37,4 +38,4 @@ Tu as déjà la photo de LEUR vitrine sur ton téléphone (tu l’as prise en ar
 
 C’est le close visuel. Tu ne discutes pas.
 
-20 portes / jour. Centre d’abord (densité). Zones commerciales (Géant Lanester, etc.) : les indépendants en périphérie des galeries, pas les enseignes nationales.
+25 portes Lun–Ven, 20 le samedi. Centre d’abord. Zones commerciales : indépendants en périphérie des galeries, pas les enseignes. Après le oui vitrine : locaux, même jour.

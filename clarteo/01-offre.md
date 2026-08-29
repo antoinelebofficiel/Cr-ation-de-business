@@ -43,6 +43,7 @@ Si le gérant n’est pas satisfait du premier passage : on revient sous 24 h ou
 - Mer : Ploemeur / Larmor / Guidel
 - Jeu : Quéven / Hennebont / Inzinzac
 - Ven : Auray / overflow
+- Sam : commerces ouverts seulement (pas de bureaux)
 
 Les pubs couvrent tout le disque. Le calendrier impose la tournée. Un lead Auray le lundi = créneau vendredi (tu le cadres : « on est sur Auray vendredi, je vous bloque 9h15 »).
 

@@ -13,5 +13,6 @@
 11. `hennebont-100-gerants.csv` — tournée (Excel : `hennebont-100-gerants-excel.csv`)
 12. `hennebont-100-vitrines.md` — ordre des rues
 13. `mecanisme/` — 30 tournées, carnet, cession 10× MRR
+14. `equipe/` — semaine Lun–Sam, recrutement AE, contrat prestation
 
 Lancement : `lancer-meta/00-LIRE-MOI.txt`. 1 ad set, 3 pubs, Instant Form. Pin Lorient 8 km.
