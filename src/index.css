@@ -1,0 +1,404 @@
+:root {
+  --bg: #090807;
+  --bg-2: #12110f;
+  --bg-3: #1a1814;
+  --paper: #ebe4d4;
+  --paper-dim: #c9c0ad;
+  --muted: #8d8576;
+  --line: #2c2923;
+  --gold: #d4a24c;
+  --gold-2: #f0d08a;
+  --ink: #090807;
+  --danger: #c4482a;
+  --ok: #7ea36a;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'Geist', 'Segoe UI', sans-serif;
+  --max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+body::before {
+  content: '';
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrap {
+  width: min(var(--max), calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-family: var(--serif);
+  letter-spacing: 0.18em;
+  font-size: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  color: var(--paper-dim);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+  padding: 13px 22px;
+  background: var(--gold);
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background: var(--gold-2);
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.hero {
+  padding: 88px 0 72px;
+  border-bottom: 1px solid var(--line);
+}
+
+.kicker {
+  color: var(--gold);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 92px);
+  margin: 0 0 28px;
+  max-width: 16ch;
+}
+
+h2 {
+  font-size: clamp(32px, 5vw, 56px);
+  margin: 0 0 20px;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+.lead {
+  max-width: 42rem;
+  color: var(--paper-dim);
+  font-size: 19px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  margin-top: 64px;
+}
+
+.stat {
+  background: var(--bg);
+  padding: 22px 18px;
+}
+
+.stat b {
+  display: block;
+  font-family: var(--serif);
+  font-size: 32px;
+  color: var(--gold-2);
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.section {
+  padding: 88px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  padding: 28px 24px;
+}
+
+.card .price {
+  font-family: var(--serif);
+  font-size: 42px;
+  margin: 16px 0 8px;
+}
+
+.card ul {
+  padding-left: 18px;
+  color: var(--paper-dim);
+}
+
+.card li + li {
+  margin-top: 8px;
+}
+
+.card.featured {
+  border-color: var(--gold);
+  background: var(--bg-3);
+}
+
+.steps {
+  display: grid;
+  gap: 16px;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 18px;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.step em {
+  font-family: var(--serif);
+  font-style: normal;
+  font-size: 28px;
+  color: var(--gold);
+}
+
+.faq details {
+  border-top: 1px solid var(--line);
+  padding: 16px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq p {
+  color: var(--paper-dim);
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+  max-width: 640px;
+}
+
+.form label {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.form input,
+.form select,
+.form textarea {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  color: var(--paper);
+  padding: 12px 14px;
+}
+
+.form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
+.footer {
+  padding: 36px 0 80px;
+  color: var(--muted);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.sticky-cta {
+  display: none;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.table th {
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid var(--gold);
+  color: var(--gold-2);
+  padding: 3px 8px;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.script {
+  background: var(--bg-2);
+  border-left: 3px solid var(--gold);
+  padding: 18px 20px;
+  color: var(--paper-dim);
+  white-space: pre-wrap;
+}
+
+.warn {
+  background: #1c120e;
+  border: 1px solid #5a2d1f;
+  padding: 18px 20px;
+}
+
+.okbox {
+  background: #10150e;
+  border: 1px solid #314628;
+  padding: 18px 20px;
+}
+
+@media (max-width: 860px) {
+  .stats,
+  .grid-2,
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links a:not(.btn) {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 56px;
+  }
+
+  .sticky-cta {
+    display: block;
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    z-index: 30;
+  }
+
+  .sticky-cta .btn {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
