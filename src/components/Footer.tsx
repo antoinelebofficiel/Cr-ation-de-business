@@ -7,7 +7,11 @@ export function Footer() {
       <div>
         <a href="mailto:antoinebch.pro@gmail.com">antoinebch.pro@gmail.com</a>
         {' · '}
-        <Link href="/systeme">Cockpit interne</Link>
+        <Link href="/plan">Plan</Link>
+        {' · '}
+        <Link href="/demain">Demain</Link>
+        {' · '}
+        <Link href="/systeme">Cockpit</Link>
       </div>
     </footer>
   )

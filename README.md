@@ -10,7 +10,11 @@ Agence-média : on filme le quotidien des fondateurs, on livre 12 clips de 30–
 | Saison | 8 500 €/mois + setup | 1 jour, 12 clips, 1 YouTube |
 | Empire | 14 500 €/mois + setup | 2 jours, 20 clips, 2 YouTube, 3 000 € d’ads |
 
-Cible 90 jours : **161 000 €** à 8 clients max. Détail et scripts : `/systeme`.
+Cible 90 jours : **170 500 €** à 8 clients max.
+
+- Business plan : `/plan`
+- To-do de demain (9 sept. 2026) : `/demain`
+- Scripts et scoreboard : `/systeme`
 
 ## Stack
 

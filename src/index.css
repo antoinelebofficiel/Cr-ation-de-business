@@ -145,7 +145,7 @@ h1 {
 
 h2 {
   font-size: clamp(32px, 5vw, 56px);
-  margin: 0 0 20px;
+  margin: 56px 0 20px;
 }
 
 h3 {
@@ -373,12 +373,19 @@ h3 {
 @media (max-width: 860px) {
   .stats,
   .grid-2,
-  .card-grid {
+  .card-grid,
+  .kpi {
     grid-template-columns: 1fr;
   }
 
-  .nav-links a:not(.btn) {
-    display: none;
+  .todo li {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .nav-links {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .hero {
@@ -400,5 +407,64 @@ h3 {
 
   .footer {
     flex-direction: column;
+  }
+}
+
+.todo {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+}
+
+.todo li {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.todo time {
+  font-family: var(--serif);
+  color: var(--gold);
+  font-size: 18px;
+}
+
+.todo strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.kpi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  margin: 28px 0;
+}
+
+.kpi div {
+  background: var(--bg);
+  padding: 18px;
+}
+
+@media print {
+  .nav,
+  .footer,
+  .sticky-cta,
+  body::before {
+    display: none !important;
+  }
+
+  body,
+  .card,
+  .stat,
+  .kpi div {
+    background: #fff;
+    color: #111;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

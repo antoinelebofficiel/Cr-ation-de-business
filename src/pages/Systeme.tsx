@@ -1,5 +1,6 @@
 import { Footer } from '../components/Footer'
 import { Nav } from '../components/Nav'
+import { Link } from '../lib/router'
 
 export default function Systeme() {
   return (
@@ -12,6 +13,14 @@ export default function Systeme() {
           L’agence existe maintenant : marque, offre, site, qualification, scripts,
           maths. Zéro euro encaissé. La suite se joue uniquement sur la vente et la
           capacité de production. Tu vends. D’autres filment et montent.
+        </p>
+        <p className="hero-actions">
+          <Link href="/plan" className="btn">
+            Business plan
+          </Link>
+          <Link href="/demain" className="btn ghost">
+            To-do de demain
+          </Link>
         </p>
 
         <div className="warn" style={{ marginTop: 32 }}>

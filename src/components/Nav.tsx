@@ -9,7 +9,8 @@ export function Nav({ cta = '/appliquer' }: { cta?: string }) {
         </Link>
         <div className="nav-links">
           <a href="/#offre">Offre</a>
-          <a href="/#methode">Méthode</a>
+          <Link href="/plan">Plan</Link>
+          <Link href="/demain">Demain</Link>
           <Link href="/systeme">Système</Link>
           <Link href={cta} className="btn">
             Candidater
