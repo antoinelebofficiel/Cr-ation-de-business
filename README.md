@@ -4,12 +4,12 @@ Agence-média : on filme le quotidien des fondateurs, on livre 12 clips de 30–
 
 ## Offre
 
-| Offre | Prix | Contenu |
+| Offre | Prix | Qui filme |
 | --- | --- | --- |
-| Moteur | 3 900 €/mois + 1 500 € setup | 24 clips, 8 LinkedIn, 1 YouTube |
-| Moteur + Ads | 6 400 €/mois | Moteur + 2 500 € d’ads |
+| Usine | 3 400 €/mois + 990 € | Le client, protocole 40 plans |
+| Terrain | 4 900 €/mois + 990 € | 1 cadreur, 4 clients / ville / semaine |
 
-Cible 90 jours : **134 100 €** à 14 clients. Acquisition industrialisée : `/acquisition`.
+1 humain (toi). Pas de monteur. Machine : `/machine`. Acquisition : `/acquisition`.
 
 ## Stack
 

@@ -36,7 +36,7 @@ Mots-clés exclus : freelance, coach, influenceur`}</div>
 
         <h2>3. Séquence Instantly — 5 mails, 12 jours, 200/jour</h2>
         <div className="script">{`J0 — Objet : 24 clips pour {{company}}
-{{firstName}}, j’ai vu {{angle}}. Votre vente repose sur le visage du dirigeant. On filme une journée, vous sortez 24 clips de 45s + une YouTube en 14 jours. 3 900 €/mois, 90 jours. 12 min : {{calendar}}
+{{firstName}}, j’ai vu {{angle}}. Votre vente repose sur le visage du dirigeant. Vous filmez une journée (protocole 40 plans), l’usine sort 24 clips + une YouTube en 14 jours. 3 400 €/mois, 90 jours. 12 min : {{calendar}}
 Antoine · PREUVE
 
 J2 — Objet : Re
@@ -89,10 +89,10 @@ Je sors {{company}} de la liste. Répondez « plus tard » si vous voulez rester
         </p>
 
         <h2>5. Script d’appel — 20 secondes</h2>
-        <div className="script">{`[Prénom], Antoine, PREUVE. Vous avez ouvert le mail sur les 24 clips. On filme une journée, 3 900 €/mois. 12 minutes jeudi 9h ou vendredi 18h ?`}</div>
+        <div className="script">{`[Prénom], Antoine, PREUVE. Vous avez ouvert le mail. Vous filmez, on usine 24 clips. 3 400 €/mois. Jeudi 9h ou vendredi 18h ?`}</div>
 
         <h2>6. Close — une phrase</h2>
-        <div className="script">{`90 jours. 1 500 € aujourd’hui, 3 900 € du premier mois à la signature. 24 clips en 14 jours après le tournage, sinon mois offert. Je bloque le cadreur.`}</div>
+        <div className="script">{`90 jours. 990 € aujourd’hui, 3 400 € du premier mois. Protocole 40 plans, 24 clips en 14 jours, sinon mois offert. Je vous ouvre le Drive.`}</div>
 
         <h2>7. Volumes qui tiennent 150 k€</h2>
         <table className="table">

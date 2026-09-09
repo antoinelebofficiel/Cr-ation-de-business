@@ -11,9 +11,8 @@ export default function Home() {
         <p className="kicker">Média · Clips · YouTube</p>
         <h1>On filme votre journée. Le marché apprend votre nom.</h1>
         <p className="lead">
-          PREUVE produit le quotidien des fondateurs : 24 clips de 30 à 45 secondes, une
-          vidéo YouTube, une présence dans le média <em>Une journée avec</em>. 3 900 €
-          par mois. Un jour de tournage, un calendrier de 30 jours.
+          Vous filmez votre journée avec un protocole de 40 plans. L’usine sort 24
+          clips et une YouTube. 3 400 €/mois. Un humain côté PREUVE : le closer.
         </p>
         <div className="hero-actions">
           <Link href="/appliquer" className="btn">
@@ -37,8 +36,8 @@ export default function Home() {
             <span>Portrait YouTube par tournage</span>
           </div>
           <div className="stat">
-            <b>12</b>
-            <span>Clients max en parallèle</span>
+            <b>1</b>
+            <span>Humain côté PREUVE</span>
           </div>
         </div>
       </header>
@@ -51,9 +50,8 @@ export default function Home() {
           </div>
           <div>
             <p>
-              Un cadreur passe une journée dans votre entreprise. On capte le terrain, les
-              décisions, l’équipe, le produit, le rythme. On en tire 24 clips pour Instagram,
-              TikTok, LinkedIn, une pièce YouTube, et un épisode du média PREUVE.
+              Vous filmez votre journée avec un protocole. L’usine en tire 24 clips pour
+              Instagram, TikTok, LinkedIn, une pièce YouTube, et un épisode du média PREUVE.
             </p>
             <p className="muted">
               L’option Ads met 2 500 € derrière les 2 meilleurs clips. Le contenu ouvre
@@ -91,20 +89,20 @@ export default function Home() {
             <div className="step">
               <em>01</em>
               <div>
-                <h3>Brief de 40 minutes</h3>
+                <h3>Protocole 40 plans</h3>
                 <p className="muted">
-                  Offre, client idéal, objections, preuves à filmer. On écrit les 12 angles
-                  avant d’allumer la caméra.
+                  Loom de 9 minutes. Vous filmez votre journée, iPhone + cravate. Les
+                  40 plans sont écrits avant que vous appuyiez sur rec.
                 </p>
               </div>
             </div>
             <div className="step">
               <em>02</em>
               <div>
-                <h3>Tournage d’une journée</h3>
+                <h3>Dépôt des rushes</h3>
                 <p className="muted">
-                  7h–18h sur site. Caméra-épaule, son cravate, lumière naturelle. Vous
-                  travaillez. On documente.
+                  Un dossier Drive s’ouvre à la signature. Vous déposez. L’usine
+                  transcrit et coupe.
                 </p>
               </div>
             </div>
@@ -113,18 +111,18 @@ export default function Home() {
               <div>
                 <h3>24 clips + 1 YouTube en 14 jours</h3>
                 <p className="muted">
-                  5 templates de montage, sous-titres, hook en 1,2 seconde. Huit coupes
-                  LinkedIn en plus. Le YouTube tient 8 à 12 minutes.
+                  5 templates, sous-titres, hook 1,2 s. QA humaine 45 minutes. Huit
+                  coupes LinkedIn.
                 </p>
               </div>
             </div>
             <div className="step">
               <em>04</em>
               <div>
-                <h3>Publication et, si Empire, ads</h3>
+                <h3>Publication automatique</h3>
                 <p className="muted">
-                  Calendrier fourni. Sur Empire, 3 000 € d’ads sur le clip le plus fort.
-                  Objectif : messages privés et prises de rendez-vous.
+                  24 slots sur vos comptes, 4 extraits sur le média PREUVE. Ads en
+                  option.
                 </p>
               </div>
             </div>
@@ -135,45 +133,44 @@ export default function Home() {
       <section className="section" id="offre">
         <div className="wrap">
           <p className="kicker">Offre</p>
-          <h2>Une offre. Tu la vends telle quelle.</h2>
-          <p className="muted">1 500 € de setup. 90 jours. 24 clips, pas 12.</p>
+          <h2>Usine par défaut. Terrain seulement groupé.</h2>
+          <p className="muted">990 € de setup. 90 jours. Vous filmez, ou 4 dates la même semaine.</p>
           <div className="card-grid" style={{ marginTop: 32 }}>
             <article className="card featured">
-              <span className="tag">Offre unique</span>
-              <h3>Moteur</h3>
-              <div className="price">3 900 €</div>
+              <span className="tag">Défaut · 0 cadreur</span>
+              <h3>Usine</h3>
+              <div className="price">3 400 €</div>
               <p className="muted">/ mois</p>
               <ul>
-                <li>1 journée de tournage</li>
-                <li>24 clips 30–45s</li>
-                <li>8 coupes LinkedIn</li>
-                <li>1 YouTube 8–12 min</li>
-                <li>Calendrier 30 jours + épisode média</li>
+                <li>Vous filmez, protocole 40 plans</li>
+                <li>24 clips 30–45s + 8 LinkedIn</li>
+                <li>1 YouTube</li>
+                <li>Publication auto + média PREUVE</li>
               </ul>
             </article>
             <article className="card">
-              <span className="tag">Option dès le 2ᵉ mois</span>
-              <h3>Moteur + Ads</h3>
-              <div className="price">6 400 €</div>
+              <span className="tag">4 clients / ville / semaine</span>
+              <h3>Terrain</h3>
+              <div className="price">4 900 €</div>
               <p className="muted">/ mois</p>
               <ul>
-                <li>Tout le Moteur</li>
-                <li>2 500 € d’ads sur les 2 meilleurs clips</li>
-                <li>Revue hebdo des DM et RDV</li>
+                <li>1 cadreur, journée groupée</li>
+                <li>Même usine derrière</li>
+                <li>Interdit pour un client isolé</li>
               </ul>
             </article>
             <article className="card">
-              <span className="tag">Ce que tu refuses</span>
+              <span className="tag">Refus</span>
               <h3>Hors cadre</h3>
               <div className="price" style={{ fontSize: 28 }}>
                 Non
               </div>
               <p className="muted">pas négociable</p>
               <ul>
-                <li>CA estimé &lt; 400 k€</li>
-                <li>« 3 Reels à 800 € »</li>
+                <li>CA &lt; 400 k€</li>
+                <li>Refus du protocole</li>
                 <li>Mois sans engagement</li>
-                <li>Tu filmes toi-même</li>
+                <li>Monteur dédié</li>
               </ul>
             </article>
           </div>

@@ -8,9 +8,9 @@ export default function Plan() {
       <Nav />
       <main className="wrap section">
         <p className="kicker">Business plan · PREUVE · 90 jours</p>
-        <h1>Vendre 12 à 14 Moteurs à 3 900 €. 24 clips. Robot d’emails. Toi au téléphone.</h1>
+        <h1>1 humain. Le client filme. Le logiciel coupe. Instantly amène les RDV.</h1>
         <p className="lead">
-          Une offre, une séquence, une liste d’appels. Détail acquisition :{' '}
+          Système : <Link href="/machine">/machine</Link>. Acquisition :{' '}
           <Link href="/acquisition">/acquisition</Link>.
         </p>
         <p>
@@ -21,8 +21,8 @@ export default function Plan() {
 
         <div className="kpi">
           <div>
-            <b>134 100 €</b>
-            <span className="muted"> CA cible J1–J90</span>
+            <b>140 k€</b>
+            <span className="muted"> CA Usine J1–J90</span>
           </div>
           <div>
             <b>55–65 %</b>
@@ -46,16 +46,16 @@ export default function Plan() {
           </thead>
           <tbody>
             <tr>
-              <td>Moteur</td>
-              <td>3 900 €/mois + 1 500 € setup</td>
-              <td>La seule offre que tu vends</td>
-              <td>1 jour, 24 clips, 8 LinkedIn, 1 YouTube</td>
+              <td>Usine</td>
+              <td>3 400 €/mois + 990 € setup</td>
+              <td>Défaut. Le client filme.</td>
+              <td>24 clips, 8 LinkedIn, 1 YouTube</td>
             </tr>
             <tr>
-              <td>Moteur + Ads</td>
-              <td>6 400 €/mois</td>
-              <td>Option après le 1er mois</td>
-              <td>Moteur + 2 500 € d’ads</td>
+              <td>Terrain</td>
+              <td>4 900 €/mois + 990 €</td>
+              <td>4 clients, même ville, même semaine</td>
+              <td>1 cadreur forfait, puis la même usine</td>
             </tr>
           </tbody>
         </table>
@@ -73,12 +73,11 @@ export default function Plan() {
           Refus : CA &lt; 400 k€, refus caméra, « 3 Reels », illégal.
         </p>
 
-        <h2>3. Pourquoi 3 900 € × 24 clips</h2>
+        <h2>3. Pourquoi Usine à 3 400 €</h2>
         <p>
-          6 500 € pour 12 clips = 541 €/clip, unsellable sans reel. 3 900 € pour 24
-          clips = 162 €/clip. Un jour de rushs donne 30–40 moments ; 24 clips tiennent
-          avec 5 templates. Un client qui signe un contrat à 3 000 € a déjà payé le
-          mois.
+          Le client fournit la matière. Ton coût variable ≈ 0. 3 400 € pour 24 clips =
+          142 €/clip côté lui, ~3 300 € de marge côté toi après outils. Recruter un
+          monteur détruit le modèle.
         </p>
 
         <h2>4. Acquisition — robot + appels chauds</h2>
@@ -90,14 +89,13 @@ export default function Plan() {
 
         <h2>5. Production</h2>
         <p>
-          Cadreur 500 €/jour. Monteur au forfait 2 000 €/mois pour 24 clips (5
-          templates), pas 250 €/clip. Un monteur tient 3 clients. Toi jamais derrière
-          la caméra. Stop vente si un clip a plus de 5 jours de retard.
+          Zéro monteur. Templates + IA + 45 min de QA. Cadreur uniquement en Terrain
+          groupé (500 € / 4 clients = 125 €). Détail : /machine.
         </p>
         <div className="okbox">
-          Coût Moteur : 500 + ~700 de montage = 1 200 € → marge ~2 700 € + setup.
+          Coût Usine : ~20 € d’outils alloués. Marge ≈ 3 300 €.
           <br />
-          Kill : payer au clip. Kill : descendre sous 3 900 €.
+          Kill : recruter. Kill : Terrain pour 1 client isolé.
         </div>
 
         <h2>6. Prévisionnel 90 jours</h2>
@@ -148,8 +146,7 @@ export default function Plan() {
           </tbody>
         </table>
         <p className="muted">
-          200 k€ = 4 clients en Moteur + Ads (6 400 €) sur M2–M3, ou 16 Moteurs. 3 900 €
-          ne bouge pas avant 5 cas filmés.
+          200 k€ = 18 Usine + 6 Terrain groupés, toujours sans salariat.
         </p>
 
         <h2>7. Structure légale et cash</h2>

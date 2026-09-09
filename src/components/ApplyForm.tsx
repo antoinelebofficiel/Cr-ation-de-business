@@ -11,7 +11,7 @@ const empty = {
   ville: '',
   telephone: '',
   email: '',
-  offre: 'Moteur',
+  offre: 'Usine',
   pourquoi: '',
   'bot-field': '',
 }
@@ -88,8 +88,8 @@ export function ApplyForm() {
         <label>
           Offre
           <select name="offre" value={data.offre} onChange={set('offre')}>
-            <option>Moteur</option>
-            <option>Moteur + Ads</option>
+            <option>Usine</option>
+            <option>Terrain</option>
           </select>
         </label>
       </div>

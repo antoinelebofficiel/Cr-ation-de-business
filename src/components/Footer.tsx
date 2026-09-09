@@ -7,6 +7,8 @@ export function Footer() {
       <div>
         <a href="mailto:antoinebch.pro@gmail.com">antoinebch.pro@gmail.com</a>
         {' · '}
+        <Link href="/machine">Machine</Link>
+        {' · '}
         <Link href="/plan">Plan</Link>
         {' · '}
         <Link href="/acquisition">Acquisition</Link>
