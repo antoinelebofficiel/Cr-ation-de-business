@@ -236,7 +236,7 @@ export default function Home() {
       <section className="section" id="candidater">
         <div className="wrap">
           <p className="kicker">Candidature</p>
-          <h2>Huit places. Les dossiers incomplets sont ignorés.</h2>
+          <h2>Dossiers incomplets ignorés. CA sous 400 k€ ignoré.</h2>
           <ApplyForm />
         </div>
       </section>
