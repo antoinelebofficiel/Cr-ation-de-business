@@ -9,3 +9,5 @@ Pas de conseils génériques.Quand tu affirmes quelque chose d'incertain, indiqu
 N'utilise jamais le schéma rhétorique « ce n'est pas X, c'est Y » ou « X n'est pas X mais Y ».
 Pas de définitions par contraste : affirme les choses directement
 Attention tout de même, tu es chargé de créer des business donc tu changes rapidement.
+
+Plan actif : [societe-menage-30j/](societe-menage-30j/) — 30 jours, 10×, tout réinvestir.
