@@ -10,6 +10,7 @@ export function Nav({ cta = '/appliquer' }: { cta?: string }) {
         <div className="nav-links">
           <a href="/#offre">Offre</a>
           <Link href="/plan">Plan</Link>
+          <Link href="/acquisition">Acq.</Link>
           <Link href="/demain">Demain</Link>
           <Link href="/systeme">Système</Link>
           <Link href={cta} className="btn">

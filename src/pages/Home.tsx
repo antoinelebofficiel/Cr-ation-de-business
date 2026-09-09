@@ -11,14 +11,13 @@ export default function Home() {
         <p className="kicker">Média · Clips · YouTube</p>
         <h1>On filme votre journée. Le marché apprend votre nom.</h1>
         <p className="lead">
-          PREUVE produit le quotidien des fondateurs : 12 clips de 30 à 45 secondes, une
-          vidéo YouTube, une présence dans le média <em>Une journée avec</em>. Vous payez
-          pour devenir la référence visible de votre métier, avec des assets prêts à
-          publier et à sponsoriser.
+          PREUVE produit le quotidien des fondateurs : 24 clips de 30 à 45 secondes, une
+          vidéo YouTube, une présence dans le média <em>Une journée avec</em>. 3 900 €
+          par mois. Un jour de tournage, un calendrier de 30 jours.
         </p>
         <div className="hero-actions">
           <Link href="/appliquer" className="btn">
-            Prendre une des 8 places
+            Demander une date
           </Link>
           <a href="#offre" className="btn ghost">
             Voir les tarifs
@@ -30,7 +29,7 @@ export default function Home() {
             <span>Format qui arrête le scroll</span>
           </div>
           <div className="stat">
-            <b>12</b>
+            <b>24</b>
             <span>Clips livrés chaque mois</span>
           </div>
           <div className="stat">
@@ -38,8 +37,8 @@ export default function Home() {
             <span>Portrait YouTube par tournage</span>
           </div>
           <div className="stat">
-            <b>8</b>
-            <span>Fondateurs par trimestre</span>
+            <b>12</b>
+            <span>Clients max en parallèle</span>
           </div>
         </div>
       </header>
@@ -53,12 +52,12 @@ export default function Home() {
           <div>
             <p>
               Un cadreur passe une journée dans votre entreprise. On capte le terrain, les
-              décisions, l’équipe, le produit, le rythme. On en tire des clips pour Instagram,
+              décisions, l’équipe, le produit, le rythme. On en tire 24 clips pour Instagram,
               TikTok, LinkedIn, une pièce YouTube, et un épisode du média PREUVE.
             </p>
             <p className="muted">
-              L’offre Empire ajoute la distribution payante sur les 2 meilleurs clips. Le
-              contenu sert à ouvrir des conversations commerciales, pas à “faire joli”.
+              L’option Ads met 2 500 € derrière les 2 meilleurs clips. Le contenu ouvre
+              des conversations commerciales.
             </p>
           </div>
         </div>
@@ -112,10 +111,10 @@ export default function Home() {
             <div className="step">
               <em>03</em>
               <div>
-                <h3>12 clips + 1 YouTube en 14 jours</h3>
+                <h3>24 clips + 1 YouTube en 14 jours</h3>
                 <p className="muted">
-                  Montage vertical, sous-titres, hook en 1,2 seconde, CTA managérial. Le
-                  YouTube tient 8 à 12 minutes.
+                  5 templates de montage, sous-titres, hook en 1,2 seconde. Huit coupes
+                  LinkedIn en plus. Le YouTube tient 8 à 12 minutes.
                 </p>
               </div>
             </div>
@@ -136,46 +135,45 @@ export default function Home() {
       <section className="section" id="offre">
         <div className="wrap">
           <p className="kicker">Offre</p>
-          <h2>Un prix qui force le sérieux. Trois portes d’entrée.</h2>
-          <p className="muted">Frais de mise en route : 2 500 €. Engagement 90 jours.</p>
+          <h2>Une offre. Tu la vends telle quelle.</h2>
+          <p className="muted">1 500 € de setup. 90 jours. 24 clips, pas 12.</p>
           <div className="card-grid" style={{ marginTop: 32 }}>
-            <article className="card">
-              <span className="tag">3 premiers fondateurs</span>
-              <h3>Pilote</h3>
-              <div className="price">6 500 €</div>
-              <p className="muted">/ mois · 90 jours</p>
-              <ul>
-                <li>1 journée de tournage / mois</li>
-                <li>12 clips 30–45s</li>
-                <li>1 YouTube 8–12 min</li>
-                <li>Épisode dans le média</li>
-                <li>Vous acceptez d’être la Saison 1</li>
-              </ul>
-            </article>
             <article className="card featured">
-              <span className="tag">Offre standard</span>
-              <h3>Saison</h3>
-              <div className="price">8 500 €</div>
+              <span className="tag">Offre unique</span>
+              <h3>Moteur</h3>
+              <div className="price">3 900 €</div>
               <p className="muted">/ mois</p>
               <ul>
-                <li>1 journée de tournage / mois</li>
-                <li>12 clips + versions LinkedIn</li>
-                <li>1 YouTube</li>
-                <li>Direction des angles</li>
-                <li>Calendrier de publication 30 jours</li>
+                <li>1 journée de tournage</li>
+                <li>24 clips 30–45s</li>
+                <li>8 coupes LinkedIn</li>
+                <li>1 YouTube 8–12 min</li>
+                <li>Calendrier 30 jours + épisode média</li>
               </ul>
             </article>
             <article className="card">
-              <span className="tag">Résultat commercial</span>
-              <h3>Empire</h3>
-              <div className="price">14 500 €</div>
+              <span className="tag">Option dès le 2ᵉ mois</span>
+              <h3>Moteur + Ads</h3>
+              <div className="price">6 400 €</div>
               <p className="muted">/ mois</p>
               <ul>
-                <li>2 journées de tournage</li>
-                <li>20 clips + 2 YouTube</li>
-                <li>Cutdowns ads</li>
-                <li>3 000 € d’ads inclus</li>
-                <li>Revue hebdo des conversations générées</li>
+                <li>Tout le Moteur</li>
+                <li>2 500 € d’ads sur les 2 meilleurs clips</li>
+                <li>Revue hebdo des DM et RDV</li>
+              </ul>
+            </article>
+            <article className="card">
+              <span className="tag">Ce que tu refuses</span>
+              <h3>Hors cadre</h3>
+              <div className="price" style={{ fontSize: 28 }}>
+                Non
+              </div>
+              <p className="muted">pas négociable</p>
+              <ul>
+                <li>CA estimé &lt; 400 k€</li>
+                <li>« 3 Reels à 800 € »</li>
+                <li>Mois sans engagement</li>
+                <li>Tu filmes toi-même</li>
               </ul>
             </article>
           </div>
@@ -186,7 +184,7 @@ export default function Home() {
         <div className="wrap grid-2">
           <div>
             <p className="kicker">Pour qui</p>
-            <h2>Fondateurs à 200 k€ et plus, qui vendent de la confiance.</h2>
+            <h2>Fondateurs à 400 k€ et plus, qui vendent de la confiance.</h2>
             <p>
               BTP, industrie, cabinets, formation, SaaS B2B, cliniques, agences qui
               facturent cher. Le visage du dirigeant doit peser dans la décision d’achat.
@@ -195,7 +193,7 @@ export default function Home() {
           <div>
             <p className="kicker">Refusés</p>
             <ul>
-              <li>CA sous 200 k€ : le ticket casse votre trésorerie</li>
+              <li>CA sous 400 k€ : le ticket casse votre trésorerie</li>
               <li>Refus d’être à l’image</li>
               <li>Demande de “juste 3 Reels à 800 €”</li>
               <li>Produit illégal ou flou</li>
@@ -211,8 +209,8 @@ export default function Home() {
           <details>
             <summary>Vous garantissez les vues ?</summary>
             <p>
-              Non. On garantit 12 pièces publiables en 14 jours après tournage, un
-              YouTube, et sur Empire une mise en ads de 3 000 €. Les vues dépendent de
+              Non.               On garantit 24 clips publiables en 14 jours après tournage, un
+              YouTube, et sur Moteur + Ads une mise en ads de 2 500 €. Les vues dépendent de
               l’offre et de l’audience. Les rendez-vous se mesurent dans vos messages.
             </p>
           </details>
@@ -228,7 +226,7 @@ export default function Home() {
             <summary>Et si le rendu est mauvais ?</summary>
             <p>
               Une vague de retakes gratuite si un clip est inutilisable (son mort, visage
-              flou, angle raté). Si les 12 clips ne partent pas en 14 jours, le mois
+              flou, angle raté). Si les 24 clips ne partent pas en 14 jours, le mois
               suivant est offert.
             </p>
           </details>

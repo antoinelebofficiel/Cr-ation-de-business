@@ -1,4 +1,5 @@
 import { usePath } from './lib/path'
+import Acquisition from './pages/Acquisition'
 import Appliquer from './pages/Appliquer'
 import Demain from './pages/Demain'
 import Home from './pages/Home'
@@ -14,5 +15,6 @@ export default function App() {
   if (path === '/systeme') return <Systeme />
   if (path === '/plan') return <Plan />
   if (path === '/demain') return <Demain />
+  if (path === '/acquisition') return <Acquisition />
   return <Home />
 }

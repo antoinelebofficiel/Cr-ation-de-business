@@ -8,11 +8,12 @@ export default function Demain() {
       <Nav />
       <main className="wrap section">
         <p className="kicker">Mercredi 9 septembre 2026 · J1</p>
-        <h1>To-do de demain. 12 heures. 0 création. 100 % pipeline + crews.</h1>
+        <h1>Demain tu allumes le robot. Tu n’écris pas 30 mails à la main.</h1>
         <p className="lead">
-          Fin de journée réussie = 120 lignes dans le tableur, 40 appels faits, 30
-          mails partis, 3 cadreurs + 3 monteurs contactés, clé Google révoquée, 8 RDV
-          ou relances datées. Si tu “prépares le branding”, la journée est ratée.
+          Fin de journée = Sales Nav + Instantly + Dropcontact payés, 300 leads dans
+          la séquence, 200 mails partent tout seuls, 40 appels sur les premiers
+          téléphones, 6 Malt envoyés. Détail machine :{' '}
+          <Link href="/acquisition">/acquisition</Link>.
         </p>
         <p>
           <Link href="/plan" className="btn ghost">
@@ -30,9 +31,9 @@ export default function Demain() {
           <li>
             <time>08:00</time>
             <div>
-              <strong>Tableur “Pipeline PREUVE”</strong>
-              Colonnes : Nom, Société, Métier, Ville, Téléphone, Email, Angle 1 ligne,
-              Canal, Statut (à appeler / vu / RDV / signé / mort), Relance.
+              <strong>Payer la stack</strong>
+              LinkedIn Sales Navigator, Instantly, Dropcontact. Calendly avec 8
+              créneaux de 12 min. ~200 €/mois. Sans ça tu restes artisan.
             </div>
           </li>
           <li>
@@ -116,10 +117,9 @@ export default function Demain() {
           <li>
             <time>13:30</time>
             <div>
-              <strong>20 mails sur les appelés + 10 nouveaux</strong>
-              Objet : <em>12 preuves filmées pour [Société]</em>. Corps : 1 détail
-              précis + offre + 8 places + 6 500 € / 90 j + lien calendrier. Personnalisation
-              = 2 phrases, pas une roman.
+              <strong>Contrôle Instantly</strong>
+              200 mails doivent déjà être partis ou en file. Tu n’écris rien. Tu
+              appelles ceux qui ont ouvert. Séquence : /acquisition.
             </div>
           </li>
         </ul>

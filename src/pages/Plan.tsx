@@ -8,11 +8,10 @@ export default function Plan() {
       <Nav />
       <main className="wrap section">
         <p className="kicker">Business plan · PREUVE · 90 jours</p>
-        <h1>Vendre 8 places de média-fondateur. Encaisser 161 k€. Livrer sans que tu tournes.</h1>
+        <h1>Vendre 12 à 14 Moteurs à 3 900 €. 24 clips. Robot d’emails. Toi au téléphone.</h1>
         <p className="lead">
-          PREUVE filme une journée d’un fondateur, livre 12 clips de 30–45 secondes, une
-          YouTube, et un épisode du média <em>Une journée avec</em>. Toi : vente et
-          close. Freelances : caméra et montage. Plafond : 8 clients.
+          Une offre, une séquence, une liste d’appels. Détail acquisition :{' '}
+          <Link href="/acquisition">/acquisition</Link>.
         </p>
         <p>
           <Link href="/demain" className="btn">
@@ -22,7 +21,7 @@ export default function Plan() {
 
         <div className="kpi">
           <div>
-            <b>170 500 €</b>
+            <b>134 100 €</b>
             <span className="muted"> CA cible J1–J90</span>
           </div>
           <div>
@@ -30,7 +29,7 @@ export default function Plan() {
             <span className="muted"> marge brute visée</span>
           </div>
           <div>
-            <b>1 close / sem.</b>
+            <b>1–2 closes / sem.</b>
             <span className="muted"> rythme minimum</span>
           </div>
         </div>
@@ -47,104 +46,58 @@ export default function Plan() {
           </thead>
           <tbody>
             <tr>
-              <td>Pilote</td>
-              <td>6 500 €/mois × 90 j + 2 500 € setup</td>
-              <td>3 premiers seulement</td>
-              <td>1 jour, 12 clips, 1 YouTube, Saison 1 du média</td>
+              <td>Moteur</td>
+              <td>3 900 €/mois + 1 500 € setup</td>
+              <td>La seule offre que tu vends</td>
+              <td>1 jour, 24 clips, 8 LinkedIn, 1 YouTube</td>
             </tr>
             <tr>
-              <td>Saison</td>
-              <td>8 500 €/mois + setup</td>
-              <td>Standard dès le 4ᵉ</td>
-              <td>Idem + versions LinkedIn + calendrier 30 j</td>
-            </tr>
-            <tr>
-              <td>Empire</td>
-              <td>14 500 €/mois + setup</td>
-              <td>Fondateur qui veut des RDV mesurés</td>
-              <td>2 jours, 20 clips, 2 YouTube, 3 000 € d’ads</td>
+              <td>Moteur + Ads</td>
+              <td>6 400 €/mois</td>
+              <td>Option après le 1er mois</td>
+              <td>Moteur + 2 500 € d’ads</td>
             </tr>
           </tbody>
         </table>
         <p>
-          Engagement 90 jours. Acompte setup le jour de la signature. Premier mois
-          prélevé à la signature. Garantie : 12 clips publiables 14 jours après le
-          tournage, sinon mois suivant offert.
+          Engagement 90 jours. 1 500 € le jour J. Premier mois à la signature. 24
+          clips en 14 jours après tournage, sinon mois suivant offert.
         </p>
 
         <h2>2. Client</h2>
         <p>
-          Fondateur, France, CA déclaré ou estimé ≥ 200 k€, offre vendue à la
-          confiance : BTP, industrie, formation, cabinet, clinique, SaaS B2B, agence
-          chère. Le visage du dirigeant pèse dans le deal.
+          Fondateur France, CA estimé ≥ 400 k€ : BTP, industrie, formation, cabinet,
+          clinique, SaaS B2B, agence chère.
         </p>
         <p className="muted">
-          Refus automatique : CA &lt; 200 k€, refus d’être à l’image, demande de 3
-          Reels à 800 €, activité illégale.
+          Refus : CA &lt; 400 k€, refus caméra, « 3 Reels », illégal.
         </p>
 
-        <h2>3. Pourquoi le prix tient</h2>
+        <h2>3. Pourquoi 3 900 € × 24 clips</h2>
         <p>
-          Un client à 8 500 €/mois qui signe un seul contrat de 4 000 € grâce aux
-          clips a déjà payé le trimestre. Tu vends des conversations commerciales
-          filmées, avec un calendrier, plus une place rare dans un média (8 / trimestre).
-        </p>
-        <p>
-          Ton avantage : cold call + cold email + ads Facebook déjà prouvés sur le
-          nettoyage. Les videastes n’ont pas la distribution. Empire emballe les ads
-          dans le contrat.
+          6 500 € pour 12 clips = 541 €/clip, unsellable sans reel. 3 900 € pour 24
+          clips = 162 €/clip. Un jour de rushs donne 30–40 moments ; 24 clips tiennent
+          avec 5 templates. Un client qui signe un contrat à 3 000 € a déjà payé le
+          mois.
         </p>
 
-        <h2>4. Acquisition — 80 conversations / semaine</h2>
-        <table className="table">
-          <thead>
-            <tr>
-              <th>Canal</th>
-              <th>Volume</th>
-              <th>Job</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Cold call</td>
-              <td>40 / jour</td>
-              <td>Prendre le RDV de 12 minutes</td>
-            </tr>
-            <tr>
-              <td>Cold email perso</td>
-              <td>30 / jour</td>
-              <td>Même angle, preuve + rareté</td>
-            </tr>
-            <tr>
-              <td>LinkedIn / site</td>
-              <td>10 inbound / sem. dès J21</td>
-              <td>Relance sous 1 heure</td>
-            </tr>
-            <tr>
-              <td>Ads (après 1er cas filmé)</td>
-              <td>30 €/jour</td>
-              <td>Extraits du client 1 vers fondateurs similaires</td>
-            </tr>
-          </tbody>
-        </table>
+        <h2>4. Acquisition — robot + appels chauds</h2>
         <p>
-          Entonnoir à tenir : 200 touches → 12 conversations → 8 RDV/sem → 1 close/sem
-          × 8 semaines = 8 contrats. Taux de close visé sur RDV : 12–15 %. Si tu es
-          sous 8 %, tu changes l’angle, pas le prix.
+          Processus entier sur <Link href="/acquisition">/acquisition</Link> : Sales
+          Nav → Dropcontact → Instantly 200 mails/jour → tu appelles ouvertures et
+          clics. 300 nouveaux lundi. 60 appels/jour. 8 RDV/semaine. 1–2 closes.
         </p>
 
         <h2>5. Production</h2>
         <p>
-          3 binômes cadreur + monteur freelance. Cadreur 500 €/jour. Monteur 250 €/clip,
-          livré en 48 h. Toi jamais derrière la caméra. Stop vente si un clip a plus de
-          5 jours de retard.
+          Cadreur 500 €/jour. Monteur au forfait 2 000 €/mois pour 24 clips (5
+          templates), pas 250 €/clip. Un monteur tient 3 clients. Toi jamais derrière
+          la caméra. Stop vente si un clip a plus de 5 jours de retard.
         </p>
         <div className="okbox">
-          Coût Saison : 500 + 12 × 250 = 3 500 € → marge ~5 000 €.
+          Coût Moteur : 500 + ~700 de montage = 1 200 € → marge ~2 700 € + setup.
           <br />
-          Coût Empire : 1 000 + 5 000 + 3 000 ads = 9 000 € → marge ~5 500 €.
-          <br />
-          Kill : toute offre qui descend sous 4 000 € de marge brute.
+          Kill : payer au clip. Kill : descendre sous 3 900 €.
         </div>
 
         <h2>6. Prévisionnel 90 jours</h2>
@@ -162,51 +115,50 @@ export default function Plan() {
           <tbody>
             <tr>
               <td>1</td>
-              <td>3</td>
-              <td>2 Pilote + 1 Saison + 3 setups</td>
-              <td>29 000 €</td>
-              <td>~10 500 €</td>
-              <td>~18 500 €</td>
+              <td>5</td>
+              <td>5 Moteurs + 5 setups</td>
+              <td>27 000 €</td>
+              <td>~6 000 €</td>
+              <td>~21 000 €</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>6</td>
-              <td>+3 Saison + 1 Empire + 3 setups</td>
-              <td>60 500 €</td>
-              <td>~23 500 €</td>
-              <td>~37 000 €</td>
+              <td>10</td>
+              <td>10 Moteurs + 5 setups</td>
+              <td>46 500 €</td>
+              <td>~12 000 €</td>
+              <td>~34 500 €</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>8</td>
-              <td>2 Pilote + 4 Saison + 2 Empire + 2 setups</td>
-              <td>81 000 €</td>
-              <td>~32 000 €</td>
-              <td>~49 000 €</td>
+              <td>14</td>
+              <td>14 Moteurs + 4 setups</td>
+              <td>60 600 €</td>
+              <td>~17 000 €</td>
+              <td>~43 600 €</td>
             </tr>
             <tr>
               <td>Total</td>
-              <td>8 max</td>
+              <td>14 max</td>
               <td></td>
-              <td>170 500 €</td>
-              <td>~66 000 €</td>
-              <td>~104 500 €</td>
+              <td>134 100 €</td>
+              <td>~35 000 €</td>
+              <td>~99 000 €</td>
             </tr>
           </tbody>
         </table>
         <p className="muted">
-          200 k€ = +2 Empire au trimestre, ou Saison à 10 500 € dès le mois 2 après 3
-          cas filmés. Confiance 70 % si 80 conversations/sem et 3 crews au jour 10. 20 %
-          si tu filmes toi-même ou si tu casses le prix.
+          200 k€ = 4 clients en Moteur + Ads (6 400 €) sur M2–M3, ou 16 Moteurs. 3 900 €
+          ne bouge pas avant 5 cas filmés.
         </p>
 
         <h2>7. Structure légale et cash</h2>
         <ul>
           <li>Facture au nom de ta structure actuelle dès le 1er setup.</li>
-          <li>Acompte 2 500 € avant de bloquer un cadreur.</li>
+          <li>Acompte 1 500 € avant de bloquer un cadreur.</li>
           <li>Pas de tournage sans solde du 1er mois encaissé.</li>
           <li>Freelances payés après livraison validée, pas avant.</li>
-          <li>Compte ads séparé, budget Empire refacturé au réel.</li>
+          <li>Compte ads séparé, budget Ads refacturé au réel.</li>
         </ul>
 
         <h2>8. Risques et seuils d’arrêt</h2>
@@ -227,7 +179,7 @@ export default function Plan() {
             <tr>
               <td>0 close à J21</td>
               <td>0 acompte</td>
-              <td>Pilote à 6 500 € uniquement, 40 appels/jour, pas de baisse</td>
+              <td>Vérifier Instantly + 60 appels/jour sur les chauds, pas de baisse</td>
             </tr>
             <tr>
               <td>Retard montage</td>
@@ -254,8 +206,8 @@ export default function Plan() {
             <div>
               <h3>Demain — machine allumée</h3>
               <p className="muted">
-                120 noms, 40 appels, 30 mails, 3 Malt cadreurs, 3 Malt monteurs, clé
-                Google révoquée. Détail heure par heure sur <Link href="/demain">/demain</Link>.
+                Stack payée, 300 leads dans Instantly, 40 appels, 6 Malt. Détail :{' '}
+                <Link href="/demain">/demain</Link>.
               </p>
             </div>
           </div>
@@ -263,14 +215,14 @@ export default function Plan() {
             <em>J10</em>
             <div>
               <h3>1er acompte</h3>
-              <p className="muted">Setup 2 500 € + 1er mois. Date de tournage posée. Crew briefé.</p>
+              <p className="muted">Setup 1 500 € + 1er mois. Date de tournage posée. Crew briefé.</p>
             </div>
           </div>
           <div className="step">
             <em>J21</em>
             <div>
-              <h3>3 Pilotes signés</h3>
-              <p className="muted">3 dates. Liste crews validée (test 200 € déjà fait).</p>
+              <h3>5 Moteurs signés</h3>
+              <p className="muted">5 dates. Liste crews validée (test 200 € déjà fait).</p>
             </div>
           </div>
           <div className="step">

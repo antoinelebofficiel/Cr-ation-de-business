@@ -9,6 +9,8 @@ export function Footer() {
         {' · '}
         <Link href="/plan">Plan</Link>
         {' · '}
+        <Link href="/acquisition">Acquisition</Link>
+        {' · '}
         <Link href="/demain">Demain</Link>
         {' · '}
         <Link href="/systeme">Cockpit</Link>

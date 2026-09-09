@@ -6,15 +6,10 @@ Agence-média : on filme le quotidien des fondateurs, on livre 12 clips de 30–
 
 | Offre | Prix | Contenu |
 | --- | --- | --- |
-| Pilote | 6 500 €/mois × 90j + 2 500 € setup | 3 premiers fondateurs, Saison 1 |
-| Saison | 8 500 €/mois + setup | 1 jour, 12 clips, 1 YouTube |
-| Empire | 14 500 €/mois + setup | 2 jours, 20 clips, 2 YouTube, 3 000 € d’ads |
+| Moteur | 3 900 €/mois + 1 500 € setup | 24 clips, 8 LinkedIn, 1 YouTube |
+| Moteur + Ads | 6 400 €/mois | Moteur + 2 500 € d’ads |
 
-Cible 90 jours : **170 500 €** à 8 clients max.
-
-- Business plan : `/plan`
-- To-do de demain (9 sept. 2026) : `/demain`
-- Scripts et scoreboard : `/systeme`
+Cible 90 jours : **134 100 €** à 14 clients. Acquisition industrialisée : `/acquisition`.
 
 ## Stack
 

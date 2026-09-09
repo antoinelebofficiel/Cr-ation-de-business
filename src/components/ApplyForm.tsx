@@ -11,7 +11,7 @@ const empty = {
   ville: '',
   telephone: '',
   email: '',
-  offre: 'Saison',
+  offre: 'Moteur',
   pourquoi: '',
   'bot-field': '',
 }
@@ -79,8 +79,8 @@ export function ApplyForm() {
           CA annuel
           <select required name="ca" value={data.ca} onChange={set('ca')}>
             <option value="">Choisir</option>
-            <option value="<200k">Moins de 200 k€ — trop tôt</option>
-            <option value="200-500k">200–500 k€</option>
+            <option value="<400k">Moins de 400 k€ — trop tôt</option>
+            <option value="400-800k">400–800 k€</option>
             <option value="500k-2m">500 k€–2 M€</option>
             <option value="2m+">Plus de 2 M€</option>
           </select>
@@ -88,9 +88,8 @@ export function ApplyForm() {
         <label>
           Offre
           <select name="offre" value={data.offre} onChange={set('offre')}>
-            <option>Pilote</option>
-            <option>Saison</option>
-            <option>Empire</option>
+            <option>Moteur</option>
+            <option>Moteur + Ads</option>
           </select>
         </label>
       </div>
